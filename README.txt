@@ -13,5 +13,4 @@ TO INSTALL:
 
 Changelog:
 
-Fixed an issue with Mechjeb and KER 
-Included new Scatterer
+Reverted to last stable Scatterer (ocean flicker is back)
