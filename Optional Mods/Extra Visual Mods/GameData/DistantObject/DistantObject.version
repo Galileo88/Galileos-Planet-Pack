@@ -1,0 +1,21 @@
+{
+  "NAME": "DistantObjectEnhancement",
+  "URL": "https://raw.githubusercontent.com/MOARdV/DistantObject/master/GameData/DistantObject/DistantObject.version",
+  "DOWNLOAD": "https://github.com/MOARdV/DistantObject/releases",
+  "VERSION": {
+    "MAJOR": 1,
+    "MINOR": 8,
+    "PATCH": 1
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 2,
+    "PATCH": 0
+  },
+  "KSP_VERSION_MIN":
+  {
+  	"MAJOR": 1,
+  	"MINOR": 2,
+	"PATCH": 0
+  },
+}
