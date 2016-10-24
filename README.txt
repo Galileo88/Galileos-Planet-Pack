@@ -13,4 +13,24 @@ TO INSTALL:
 
 Changelog:
 
-Reverted to last stable Scatterer (ocean flicker is back)
+v0.8
+
+* Update to 1.2
+
+* Mac and Linux compatibility version
+
+* Renamed Sun to Ciro....again.
+
+* SVE cfgs are now more performance friendly
+
+* Planet descriptions are complete
+
+
+**Known Issues**
+ 
+* Clouds do not show up in main menu very often. Just a small bug with Kopernicus.. not a big deal. Nothing is broken.
+
+* Scatterer does not show in main menu or in tracking station. Again, nothing is broken.
+
+
+
