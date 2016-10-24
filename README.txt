@@ -32,5 +32,9 @@ v0.8
 
 * Scatterer does not show in main menu or in tracking station. Again, nothing is broken.
 
+* Mac and Linux Version uses quite a bit of ram (about 3gbs). its either this, or have pinstripey planets and not be able to use this planet pack.. sorry.
+
+* Running game in dx11 causes terrain textures to be striped.
+
 
 
