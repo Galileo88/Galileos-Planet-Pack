@@ -13,17 +13,13 @@ TO INSTALL:
 
 Changelog:
 
-v0.8
+**V0.9**
 
-* Update to 1.2
+* Flipped KSC Around 180 degrees
 
-* Mac and Linux compatibility version
+* Converted Tellumo to a Laythe template so it wont have KerbNet stations.
 
-* Renamed Sun to Ciro....again.
-
-* SVE cfgs are now more performance friendly
-
-* Planet descriptions are complete
+* Turned off Scatterer's Ocean Shaders to allow for better performance. If you want to turn them on, you can do so in the main menu scatterer options.
 
 
 **Known Issues**
