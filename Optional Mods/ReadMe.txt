@@ -28,6 +28,7 @@ Apache License
 Copyright (c) 2014, André Kolster (Nereid)
  All rights reserved.
 
-"TextureReplacer" 
+"Texture Replacer" 
 (MIT license / Copyright © 2013-2015 Davorin Ucakar, Ryan Bray)
 http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2411-17112015
+
