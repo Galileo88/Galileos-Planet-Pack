@@ -11,6 +11,14 @@ TO INSTALL:
 
 **If you choose not to use Scatterer, install the contents of the Alternate Ciro cfg file. otherwise your sun will look terrible.**
 
+	[/Notes to consider when updatng changelog]
+
+* Added an array of custom flags for planets, planet regions, factions and grand tour.
+
+* Resource biases. The mining experience has at least two new twists.
+
+	[/]
+
 Changelog:
 
 **V0.9**
