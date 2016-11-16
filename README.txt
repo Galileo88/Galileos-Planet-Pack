@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 Galileo's Planet Pack v1.0
 
-This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
-CC BY-NC-ND 
 
 TO INSTALL:
 
@@ -88,8 +85,3 @@ Changelog:
 
 * Mac and Linux Version uses quite a bit of ram (about 3gbs). its either this, or have pinstripey planets and not be able to use this planet pack.. sorry.
 
-* Running game in dx11 causes terrain textures to be pinstriped.
-
-
-
->>>>>>> origin/master
