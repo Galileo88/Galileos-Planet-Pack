@@ -20,13 +20,15 @@ Changelog:
 
 * Better performance 
 
-* Added an asteroid belt between Gael and Tellumo.
+* Added an asteroid belt between Gael and Tellumo
 
-* Fixed Iota's performance issues.
+* Fixed Iota's performance issues
 
-* Added an array of custom flags for planets, planet regions, factions and grand tour.
+* Custom Kerbal heads and suits
 
-* Resource biases. The mining experience has at least two new twists.
+* Added an array of custom flags for planets, planet regions, factions and grand tour
+
+* Resource biases. The mining experience has at least two new twists
 
 * Included dV map (currently in an alpha state)
 
