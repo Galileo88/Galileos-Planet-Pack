@@ -1,4 +1,4 @@
-This is a Pre-release. Expect to find things wrong and maybe a few bugs. 
+Galileo's Planet Pack v1.0
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
@@ -7,38 +7,40 @@ TO INSTALL:
 
 1. Download the latest Kopernicus.
 2. Drop the contents of GameData Folder into your GameData folder
-3. Install any of the optional mods
+3. Install any of the optional mods that are included.
 
 **If you choose not to use Scatterer, install the contents of the Alternate Ciro cfg file. otherwise your sun will look terrible.**
 
-	[/Notes to consider when updatng changelog]
+
+Changelog:
+
+**V1.0**
+
+* Better normal maps for higher detail
+
+* Better performance 
+
+* Added an asteroid belt between Gael and Tellumo.
+
+* Fixed Iota's performance issues.
 
 * Added an array of custom flags for planets, planet regions, factions and grand tour.
 
 * Resource biases. The mining experience has at least two new twists.
 
-	[/]
+* Included dV map (currently in an alpha state)
 
-Changelog:
-
-**V0.9**
-
-* Flipped KSC Around 180 degrees
-
-* Converted Tellumo to a Laythe template so it wont have KerbNet stations.
-
-* Turned off Scatterer's Ocean Shaders to allow for better performance. If you want to turn them on, you can do so in the main menu scatterer options.
 
 
 **Known Issues**
  
-* Clouds do not show up in main menu very often. Just a small bug with Kopernicus.. not a big deal. Nothing is broken.
+* Clouds do not show up in main menu. Just a small bug with Kopernicus.. not a big deal. Nothing is broken.
 
-* Scatterer does not show in main menu or in tracking station. Again, nothing is broken.
+* Scatterer does not show in main menu or in tracking station. Again, normal. Nothing is broken.
 
 * Mac and Linux Version uses quite a bit of ram (about 3gbs). its either this, or have pinstripey planets and not be able to use this planet pack.. sorry.
 
-* Running game in dx11 causes terrain textures to be striped.
+* Running game in dx11 causes terrain textures to be pinstriped.
 
 
 
