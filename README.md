@@ -14,6 +14,10 @@ TO INSTALL:
 
 Changelog:
 
+**v1.0.1**
+
+* Adjusted the PQS and land scatter for each celestial body for better performance
+
 **V1.0**
 
 * Better normal maps for higher detail
