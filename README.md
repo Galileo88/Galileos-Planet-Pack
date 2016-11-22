@@ -38,11 +38,13 @@ Changelog:
 
 **Known Issues**
  
-* Clouds do not show up in main menu. Just a small bug with Kopernicus.. not a big deal. Nothing is broken.
+* Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
 * Scatterer does not show in main menu or in tracking station. Again, normal. Nothing is broken.
 
-* Mac and Linux Version uses quite a bit of ram (about 3gbs). its either this, or have pinstripey planets and not be able to use this planet pack.. sorry.
+* Floodlights only show up on launch pad, not in KSC scene
+
+* Mac and Linux Version uses quite a bit of ram (about 3gbs). Its either this, or have pinstripey planets and not be able to use this planet pack. Sorry.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
 
