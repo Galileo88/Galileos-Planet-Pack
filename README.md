@@ -14,27 +14,25 @@ TO INSTALL:
 
 Changelog:
 
-**v1.0.1**
+**v1.1.0**
 
-* Adjusted the PQS and land scatter for each celestial body for better performance
+* Fined tuned some scatterer settings
 
-**V1.0**
+* Completely new Hadrian
 
-* Better normal maps for higher detail
+* Changed heightmaps for Gratian and Niven to reflect the colormap more precisely 
 
-* Better performance 
+* Changed atmoshperes on Augustus, Tarsiss and Hadrian
 
-* Added an asteroid belt between Gael and Tellumo
+* Removed Lakes from Niven and Augustus
 
-* Fixed Iota's performance issues
+* Added added lakes to Tarsiss
 
-* Custom Kerbal heads and suits
+* Added an Ocean to Hadrian
 
-* Added an array of custom flags for planets, planet regions, factions and grand tour
+* Added Research Bodies supports
 
-* Resource biases. The mining experience has at least two new twists
-
-* Included dV map (currently in an alpha state)
+* Added Kerbal Konstructs, KSC++ support
 
 
 
@@ -47,3 +45,39 @@ Changelog:
 * Mac and Linux Version uses quite a bit of ram (about 3gbs). its either this, or have pinstripey planets and not be able to use this planet pack.. sorry.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
+
+
+
+
+**These mods are distributed by their own license terms, included in each mod's folder**
+
+"Scatterer" by blackrack (GPLv3 / Copyright © 2015 Ghassen Lahmar)
+http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering-v002182-24122015
+
+"Distant Object Enhancement bis"
+Creative Commons Attribution 4.0 International
+http://creativecommons.org/licenses/by/4.0/
+http://forum.kerbalspaceprogram.com/index.php?/topic/89214-105-distant-object-enhancement-bis-v164-21-november-2015/
+
+"PlanetShine"
+Apache License
+ Version 2.0, January 2004
+
+"Final Frontier"
+Copyright (c) 2014, André Kolster (Nereid)
+ All rights reserved.
+
+"Texture Replacer" 
+(MIT license / Copyright © 2013-2015 Davorin Ucakar, Ryan Bray)
+http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2411-17112015
+
+"Kerbal Konstructs Plugin"
+The MIT License (MIT)
+
+"KSCFloodlight"
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
+"KSC++"
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+
