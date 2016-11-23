@@ -14,7 +14,7 @@ TO INSTALL:
 
 Changelog:
 
-**v1.1.0**
+**v1.1.0 Coming Soon**
 
 * Fined tuned some scatterer settings
 
@@ -42,8 +42,6 @@ Changelog:
 
 * Scatterer does not show in main menu or in tracking station. Again, normal. Nothing is broken.
 
-* Floodlights only show up on launch pad, not in KSC scene
-
 * Mac and Linux Version uses quite a bit of ram (about 3gbs). Its either this, or have pinstripey planets and not be able to use this planet pack. Sorry.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
@@ -53,7 +51,7 @@ Changelog:
 
 **These mods are distributed by their own license terms, included in each mod's folder**
 
-"Scatterer" by blackrack (GPLv3 / Copyright © 2015 Ghassen Lahmar)
+"Scatterer" by blackrack (GPLv3 / Copyright Â© 2015 Ghassen Lahmar)
 http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering-v002182-24122015
 
 "Distant Object Enhancement bis"
@@ -66,11 +64,11 @@ Apache License
  Version 2.0, January 2004
 
 "Final Frontier"
-Copyright (c) 2014, André Kolster (Nereid)
+Copyright (c) 2014, AndrÃ© Kolster (Nereid)
  All rights reserved.
 
 "Texture Replacer" 
-(MIT license / Copyright © 2013-2015 Davorin Ucakar, Ryan Bray)
+(MIT license / Copyright Â© 2013-2015 Davorin Ucakar, Ryan Bray)
 http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2411-17112015
 
 "Kerbal Konstructs Plugin"
