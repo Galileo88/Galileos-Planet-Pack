@@ -18,9 +18,11 @@ Changelog:
 
 * Fined tuned some scatterer settings
 
+* adjust heightmap and ground scatter render altitude
+
 * Completely new Hadrian
 
-* Changed heightmaps for Gratian and Niven to reflect the colormap more precisely 
+* Changed heightmaps for Gratian and Niven to reflect the surface more precisely 
 
 * Changed atmoshperes on Augustus, Tarsiss and Hadrian
 
