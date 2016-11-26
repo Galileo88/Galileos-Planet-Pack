@@ -14,7 +14,7 @@ TO INSTALL:
 
 Changelog:
 
-**v1.0.2 Coming Soon**
+**v1.0.2**
 
 * Fined tuned some scatterer settings
 
