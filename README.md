@@ -18,7 +18,7 @@ Changelog:
 
 * Fined tuned some scatterer settings
 
-* adjust heightmap and ground scatter render altitude
+* adjust heightmap and ground texture render altitude
 
 * Completely new Hadrian
 
