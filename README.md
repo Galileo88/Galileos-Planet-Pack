@@ -14,7 +14,7 @@ TO INSTALL:
 
 Changelog:
 
-**v1.1.0 Coming Soon**
+**v1.0.2 Coming Soon**
 
 * Fined tuned some scatterer settings
 
@@ -30,7 +30,9 @@ Changelog:
 
 * Added an Ocean to Hadrian
 
-* Added Research Bodies supports
+* Added RemoteTech support
+
+* Added Research Bodies support
 
 * Added Kerbal Konstructs, KSC++ support
 
@@ -45,6 +47,8 @@ Changelog:
 * Mac and Linux Version uses quite a bit of ram (about 3gbs). Its either this, or have pinstripey planets and not be able to use this planet pack. Sorry.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
+
+* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. Its stock bug made more noticeable by Kopernicus
 
 
 
