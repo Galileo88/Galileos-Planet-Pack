@@ -15,6 +15,8 @@ TO INSTALL:
 
 5. If you use SVE, EVE,and SVT delete them completely then reinstall from this download. SVE and EVE for GPP are custom-tailored and should not be mixed. SVT features are built-in.
 
+6. If you don't use Scatterer, merge the GameData folder inside Alternate Ciro cfg folder.
+
 
 Changelog:
 
