@@ -5,9 +5,13 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Download the latest Kopernicus.
-2. Drop the contents of GameData Folder into your GameData folder
-3. Install any of the optional mods that are included.
+1. Download and install the latest Kopernicus. All planet mods require it. Do not attempt to add this to stock system. Any campaign/any save using the stock planet system will break.
+
+2. Drop the contents of GameData folder in this package into your install's GameData folder.
+
+3. Install any of the optional mods that are included. If there is something here for a mod that you use, let it overwrite everything.
+
+4. SVE and EVE for this mod are custom-made and are incompatible with SVE, EVE and SVT for stock planets. Do not attempt to mix them. Delete your current install of them then install SVE and EVE from this download.
 
 **If you choose not to use Scatterer, install the contents of the Alternate Ciro cfg file. otherwise your sun will look terrible.**
 
