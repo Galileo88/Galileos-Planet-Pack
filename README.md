@@ -5,9 +5,9 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a new install of KSP or backup and remove your saves. Any existing campaign that uses the stock planets will be broken.
+1. Create a new install of KSP and run once without mods. Then you may install GPP and other mods. Otherwise backup and remove your saves. Any existing campaign that uses the stock planets will be broken.
 
-2. Install the latest version of Kopernicus. All planet mods and planet packs require it.
+2. Install the latest version of Kopernicus. Its version must always match the KSP version or it will not work. Do not readily accept KSP game updates as between new KSP release and Kopernicus catch-up you may find things on Gael suddenly bound to a stock planet other than Kerbin.
 
 3. Install GPP like anything else. Do it manually. Due to this mod's level of complexity there will be no CKAN support.
 
