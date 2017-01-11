@@ -1,4 +1,4 @@
-# Galileos-Planet-Pack
+﻿# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
@@ -14,8 +14,6 @@ TO INSTALL:
 4. In GPP's Optional Mods folder see if there's something for another mod that you use. If there is, copy the GameData folder from inside each one and allow it to overwrite everything. The affected mod needs to already be installed. Kerbal Konstructs with KSC++ is patched and included whole.
 
 5. If you use SVE, EVE,and SVT delete them completely then reinstall from this download. SVE and EVE for GPP are custom-tailored and should not be mixed. SVT features are built-in.
-
-6. If you don't use Scatterer, merge the GameData folder inside Alternate Ciro cfg folder.
 
 
 Changelog:
