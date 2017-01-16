@@ -54,7 +54,7 @@ Changelog:
   
   * KSC isle topology changed.
   
-  * KSC Switcher support with 7 alternate locations including an equatorial one.
+  * KSC Switcher support with 6 alternate locations including an equatorial one.
 
 * Fixed RemoteTech support. Gael now has 7 ground stations and is properly ID'd by deployed satellites.
 
