@@ -34,6 +34,8 @@ Changelog:
 
 * Changed the following worlds signficiantly: Iota, Tellumo, Gratian, Geminus, Otho, Hephaestus, Jannah, Gauss, Loki, Nero, Muse, Argo (and fixed all pole pinching).
 
+  * Also retextured Ciro and added biomes.
+
 * Niven atmosphere pressure raised slightly, height raised to 65km.
 
 * Added SFX: IVA under pressure, splashdown, quieter launch clamps.
@@ -62,13 +64,13 @@ Changelog:
 
 * Waypoint Manager icons for every body.
 
-* Buffed some Karbonite engines.
+* Buffed karbonite ocean harvester slightly and all Karbonite air-breathing engines except the radial turbojet. It's clearly described as super-slow and goes untouched.
 
 * Decal Sticker support:
 
   * Apply your choice GPP flag as a decal with options for extending like a banner and spanning a cross-section of a craft.
   
-* Added resource configs for Kerbalism. Other resource biases also applied.
+* Added resource configs for Kerbalism. Other resource biases and optimizations also applied.
 
 
 **v1.0.2**
