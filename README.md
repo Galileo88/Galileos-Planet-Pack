@@ -37,7 +37,7 @@ Changelog:
 
   * Also retextured Ciro and added biomes.
 
-* Niven atmosphere pressure raised slightly, height raised to 75km.
+* Niven atmosphere pressure raised slightly, height raised to 65km.
 
 * Added SFX: IVA under pressure, splashdown, quieter launch clamps.
 
