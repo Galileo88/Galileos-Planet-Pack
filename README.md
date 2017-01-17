@@ -5,7 +5,7 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a new install of KSP and run once without mods. Then you may install GPP and other mods. Otherwise backup and remove your saves. Any existing campaign that uses the stock planets will be broken.
+1. Create a new install of KSP and run once without mods. Then you may install GPP and other mods. Otherwise backup and remove your saves. Any existing career that uses the stock planets will be broken.
 
 2. Install the latest version of Kopernicus. Its version must always match the KSP version or it will not work. Do not readily accept KSP game updates as between new KSP release and Kopernicus catch-up you may find things on Gael suddenly bound to a stock planet other than Kerbin.
 
@@ -26,9 +26,10 @@ Changelog:
 
 * Improved scatter objects for Gael and Tellumo.
 
-* Other scatterer features [*]
+* Improves Scatterer effects for nearly all atmospheric bodies.
 
-* SVE/EVE updates [*]
+* Improved EVE: Better particles for snow on Tellumo and Gael. All gas giants have have moving cloud bands with simulated tilt. 
+  *Snow on Gael is no longer on the poles. It is now scattered just below the north polar region and above the south polar region.
 
 * Sigma Dimensions: 3.2x, 6.4x, 10x.
 
@@ -56,13 +57,13 @@ Changelog:
   
   * KSC isle topology changed.
   
-  * KSC Switcher support with 6 alternate locations including an equatorial one.
+  * KSC Switcher support with 6 alternate locations including an equatorial one, like stock.
 
 * Fixed RemoteTech support. Gael now has 7 ground stations and is properly ID'd by deployed satellites.
 
 * Thalia and Icarus improvements. Improved so much that you'll need to bring radiators.
 
-* Waypoint Manager icons for every body.
+* Waypoint Manager icons for every celestial body.
 
 * Buffed karbonite ocean harvester slightly and all Karbonite air-breathing engines except the radial turbojet. It's clearly described as super-slow and goes untouched.
 
@@ -71,32 +72,6 @@ Changelog:
   * Apply your choice GPP flag as a decal with options for extending like a banner and spanning a cross-section of a craft.
   
 * Added resource configs for Kerbalism. Other resource biases and optimizations also applied.
-
-
-**v1.0.2**
-
-* Fined tuned some scatterer settings
-
-* adjust heightmap and ground texture render altitude
-
-* Completely new Hadrian
-
-* Changed heightmaps for Gratian and Niven to reflect the surface more precisely 
-
-* Changed atmoshperes on Augustus, Tarsiss and Hadrian
-
-* Removed Lakes from Niven and Augustus
-
-* Added added lakes to Tarsiss
-
-* Added an Ocean to Hadrian
-
-* Added RemoteTech support
-
-* Added Research Bodies support
-
-* Added Kerbal Konstructs, KSC++ support
-
 
 
 **Known Issues**
@@ -110,6 +85,8 @@ Changelog:
 * Running game in dx11 causes terrain textures to be pinstriped.
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. Its stock bug made more noticeable by Kopernicus
+
+* Sigma Dimensions does not play nice with KSCSwitcher AND KSC++. I recommend you remove KSC++ when using Sigma Dimensions
 
 
 
