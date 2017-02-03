@@ -7,16 +7,37 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once without mods. Then you may install GPP and other mods. Otherwise backup and remove your saves. Any existing career that uses the stock planets will be broken.
 
-2. Install the latest version of Kopernicus. Its version must always match the KSP version or it will not work. Do not readily accept KSP game updates as between new KSP release and Kopernicus catch-up you may find things on Gael suddenly bound to a stock planet other than Kerbin.
+2. Install the latest version of Kopernicus. Its version must always match the KSP version or it will not work. Do not readily accept KSP game updates as between new KSP release and Kopernicus catch-up you may find things on Gael suddenly bound to a stock planet other than Kerbin. Install Community Resource Pack as well. GPP is very heavily resource-focused and without this, stock Ore scans may malfunction and reflect Null Refs.
 
 3. Install GPP like anything else. Do it manually. Due to this mod's level of complexity there will be no CKAN support.
 
-4. In GPP's Optional Mods folder see if there's something for another mod that you use. If there is, copy the GameData folder from inside each one and allow it to overwrite everything. The affected mod needs to already be installed. Kerbal Konstructs with KSC++ is patched and included whole.
+4. In GPP's Optional Mods folder see if there's something for another mod that you use. If there is, copy the GameData folder from inside each one and allow it to overwrite everything. The affected mod needs to already be installed. Kerbal Konstructs with KSC++ is patched and included whole. If you use Scatterer, reinstall it from among GPP's Optional Mods. It's configured differently.
 
 5. If you use SVE, EVE,and SVT delete them completely then reinstall from this download. SVE and EVE for GPP are custom-tailored and should not be mixed. SVT features are built-in.
 
 
 Changelog:
+
+**v1.x**
+* Added Sigma Binary: ...We're not telling you where. ;) 
+
+* Enabled MechJeb to acknowledge KSC default location.
+
+* Far-reaching body updates:
+
+  * Simplified biome distributions on the noisier of biome maps.
+  
+  * Optimized color textures to lose excess file size but keep all quality.
+  
+  * Optimized Nero color and biomes to match ring tilt.
+  
+  * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
+  
+* Strategia updates.
+
+* Added gentle slope to KSC Island shores.
+
+* Updated Texture Replacer.
 
 **v1.1**
 
