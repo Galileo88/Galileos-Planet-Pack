@@ -35,7 +35,13 @@ Changelog:
   
 * Strategia updates.
 
-* Added gentle slope to KSC Island shores.
+* Full Kerbalism support.
+
+* Gael updates:
+
+  * Added gentle slope to KSC Island shores.
+  
+  * Changed Initial Rotation to put sunrise at 01:30 UTC.
 
 * Updated Texture Replacer.
 
