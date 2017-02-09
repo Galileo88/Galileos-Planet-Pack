@@ -19,9 +19,11 @@ TO INSTALL:
 Changelog:
 
 **v1.x**
-* Added Sigma Binary: We're not telling you where. ;) 
+* Added Sigma Binary support. 
 
 * Enabled MechJeb to acknowledge KSC default location.
+
+* (Pending) KSPedia!
 
 * Far-reaching body updates:
 
@@ -35,13 +37,19 @@ Changelog:
   
   * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
   
+  * (Pending) Added anomalies to some worlds.
+  
+  * (Pending) Improved texure details even more on some worlds.
+  
 * Strategia updates.
 
-* Full Kerbalism support.
+* (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
+
+* (Pending) Full Kerbalism support.
 
 * Gael updates:
 
-  * Lowered KSC island height and made shoreline friendly to enter/exit the ocean. Updated KSC++ accordingly.
+  * Lowered KSC island height and made shoreline friendly to enter/exit the ocean. Updated KSC++ and island biomes accordingly.
   
   * Changed Initial Rotation to put sunrise at 01:30 UTC.
 
