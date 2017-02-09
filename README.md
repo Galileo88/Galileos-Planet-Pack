@@ -19,7 +19,7 @@ TO INSTALL:
 Changelog:
 
 **v1.x**
-* Added Sigma Binary: ...We're not telling you where. ;) 
+* Added Sigma Binary: We're not telling you where. ;) 
 
 * Enabled MechJeb to acknowledge KSC default location.
 
@@ -31,6 +31,8 @@ Changelog:
   
   * Optimized Nero color and biomes to match ring tilt.
   
+  * Added slight tilt to Otho and Gauss.
+  
   * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
   
 * Strategia updates.
@@ -39,7 +41,7 @@ Changelog:
 
 * Gael updates:
 
-  * Added gentle slope to KSC Island shores.
+  * Lowered KSC island height and made shoreline friendly to enter/exit the ocean. Updated KSC++ accordingly.
   
   * Changed Initial Rotation to put sunrise at 01:30 UTC.
 
