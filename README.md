@@ -35,11 +35,13 @@ Changelog:
   
   * Added slight tilt to Otho and Gauss.
   
+  * Raised Lili's SOI to 30km to un-break Lili Orbital Survey contracts.
+  
   * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
   
-  * (Pending) Added anomalies to some worlds.
+  * Added anomalies and more PQSMod tweaks to some worlds. This includes terrain jitter and performance drain, especially at Tellumo.
   
-  * (Pending) Improved texure details even more on some worlds.
+  * Improved texure details even more on some worlds.
   
 * Strategia updates.
 
