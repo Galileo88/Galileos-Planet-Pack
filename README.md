@@ -43,6 +43,10 @@ Changelog:
   
   * Improved texure details even more on some worlds.
   
+  * Added Grannus with full visual mod support and changed Flight Globals to order it properly.
+
+* Added career saver and RemoteTech patches as accomodation for Grannus will break existing game saves.
+  
 * Strategia updates.
 
 * (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
