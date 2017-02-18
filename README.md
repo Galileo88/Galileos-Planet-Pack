@@ -19,7 +19,6 @@ TO INSTALL:
 Changelog:
 
 **v1.x**
-* Added Sigma Binary support. 
 
 * Enabled MechJeb to acknowledge KSC default location.
 
