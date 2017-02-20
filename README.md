@@ -42,9 +42,9 @@ Changelog:
   
   * Improved texure details even more on some worlds.
   
-  * Added Grannus with full visual mod support and changed Flight Globals to order it properly.
+  * Added Grannus with hefty feature set and changed Flight Globals to order it properly.
 
-* Added career saver and RemoteTech patches as accomodation for Grannus will break existing game saves.
+* Added "Career Saver" and RemoteTech patches as accomodation for Grannus will break existing game saves.
   
 * Strategia updates.
 
@@ -59,6 +59,8 @@ Changelog:
   * Changed Initial Rotation to put sunrise at 01:30 UTC.
 
 * Updated Texture Replacer.
+
+* Custom loading screen!
 
 **v1.1**
 
