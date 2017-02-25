@@ -34,7 +34,7 @@ Changelog:
   
   * Added slight tilt to Otho and Gauss.
   
-  * Raised Lili's SOI to 30km to un-break Lili Orbital Survey contracts.
+  * Raised Lili's SOI to 40km to un-break Lili Orbital Survey contracts.
   
   * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
   
@@ -42,25 +42,31 @@ Changelog:
   
   * Improved texure details even more on some worlds.
   
-  * Added Grannus with hefty feature set and changed Flight Globals to order it properly.
+  * Changed Flight Globals to enable certain provisions and prevent a related issue.
 
-* Added "Career Saver" and RemoteTech patches as accomodation for Grannus will break existing game saves.
+* Added "Career Saver" and RemoteTech patches as Flight Globals change will cause other issues (specifically: break existing game saves).
   
 * Strategia updates.
 
+* (Pending) Update deltaV map.
+
 * (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
 
-* (Pending) Full Kerbalism support.
+* Full Kerbalism support.
 
 * Gael updates:
 
   * Lowered KSC island height and made shoreline friendly to enter/exit the ocean. Updated KSC++ and island biomes accordingly.
   
   * Changed Initial Rotation to put sunrise at 01:30 UTC.
+  
+  * Tuned Semi-major Axis so years are exactly 426.0 days long.
 
 * Updated Texture Replacer.
 
 * Custom loading screen!
+
+* Added more secrets to discover.
 
 **v1.1**
 
