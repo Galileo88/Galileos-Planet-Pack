@@ -22,11 +22,13 @@ Changelog:
 
 * Enabled MechJeb to acknowledge KSC default location.
 
-* (Pending) KSPedia!
+* (Pending) KSPedia! ...Waiting on screenshots for every planet and moon.
 
 * Far-reaching body updates:
 
   * Simplified biome distributions on the noisier of biome maps.
+  
+  * (Pending) Add biomes to Icarus.
   
   * Optimized color textures to lose excess file size but keep all quality.
   
@@ -48,7 +50,7 @@ Changelog:
   
 * Strategia updates.
 
-* (Pending) Update deltaV map.
+* Update deltaV map.
 
 * (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
 
@@ -61,68 +63,14 @@ Changelog:
   * Changed Initial Rotation to put sunrise at 01:30 UTC.
   
   * Tuned Semi-major Axis so years are exactly 426.0 days long.
+  
+  * (Pending) Renamed the Kerbin World-Firsts agency.
 
 * Updated Texture Replacer.
 
 * Custom loading screen!
 
-* Added more secrets to discover.
-
-**v1.1**
-
-* Revised all biome map colors to resemble planets' surfaces/easy on the eyes.
-
-* Strategia compatibility.
-
-* Improved scatter objects for Gael and Tellumo.
-
-* Improves Scatterer effects for nearly all atmospheric bodies.
-
-* Improved EVE: Better particles for snow on Tellumo and Gael. All gas giants have have moving cloud bands with simulated tilt. 
-  *Snow on Gael is no longer on the poles. It is now scattered just below the north polar region and above the south polar region.
-
-* Sigma Dimensions: 3.2x, 6.4x, 10x.
-
-* Changed the following worlds signficiantly: Iota, Tellumo, Gratian, Geminus, Otho, Hephaestus, Jannah, Gauss, Loki, Nero, Muse, Argo (and fixed all pole pinching).
-
-  * Also retextured Ciro and added biomes.
-
-* Niven atmosphere pressure raised slightly, height raised to 65km.
-
-* Added SFX: IVA under pressure, splashdown, quieter launch clamps.
-
-* Gael updates
-
-  * Iota now has different biomes and flat areas but they won't be obvious to the naked eye.
-  
-  * Ceti now has science definitions.
-  
-  * Gael has a new Reefs biome with custom science, and discreet shores biomes to help identify the three supercontinents.
-  
-* Fixed default sun intensity. Brightness patches no longer needed.
-
-* KSC now oriented Eastward (but is still off-equator)
-
-  * KSC++ features aligned to fit.
-  
-  * KSC isle topology changed.
-  
-  * KSC Switcher support with 6 alternate locations including an equatorial one, like stock.
-
-* Fixed RemoteTech support. Gael now has 7 ground stations and is properly ID'd by deployed satellites.
-
-* Thalia and Icarus improvements. Improved so much that you'll need to bring radiators.
-
-* Waypoint Manager icons for every celestial body.
-
-* Buffed karbonite ocean harvester slightly and all Karbonite air-breathing engines except the radial turbojet. It's clearly described as super-slow and goes untouched.
-
-* Decal Sticker support:
-
-  * Apply your choice GPP flag as a decal with options for extending like a banner and spanning a cross-section of a craft.
-  
-* Added resource configs for Kerbalism. Other resource biases and optimizations also applied.
-
+* Added misc bells and whistles.
 
 **Known Issues**
  
