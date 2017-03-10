@@ -30,6 +30,8 @@ Changelog:
   
   * (Pending) Add biomes to Icarus.
   
+  * (Pending) Fix for Hox atmosphere problem.
+  
   * Optimized color textures to lose excess file size but keep all quality.
   
   * Optimized Nero color and biomes to match ring tilt.
@@ -51,6 +53,8 @@ Changelog:
 * Strategia updates.
 
 * Update deltaV map.
+
+* Removed IVA sounds due to unforseen complication.
 
 * (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
 
