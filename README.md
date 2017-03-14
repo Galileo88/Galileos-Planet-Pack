@@ -69,6 +69,8 @@ Changelog:
   * Tuned Semi-major Axis so years are exactly 426.0 days long.
   
   * (Pending) Renamed the Kerbin World-Firsts agency.
+  
+  * (Pending) Rework Gael biome map for 8K.
 
 * Updated Texture Replacer.
 
