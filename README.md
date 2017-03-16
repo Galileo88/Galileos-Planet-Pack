@@ -68,9 +68,9 @@ Changelog:
   
   * Tuned Semi-major Axis so years are exactly 426.0 days long.
   
-  * (Pending) Renamed the Kerbin World-Firsts agency.
+  * Renamed the Kerbin World-Firsts agency.
   
-  * (Pending) Minor adjustments to terrain and biome map.
+  * Minor adjustments to terrain and biome map.
 
 * Updated Texture Replacer.
 
