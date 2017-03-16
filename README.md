@@ -70,7 +70,7 @@ Changelog:
   
   * (Pending) Renamed the Kerbin World-Firsts agency.
   
-  * (Pending) Rework Gael biome map for 8K.
+  * (Pending) Minor adjustments to terrain and biome map.
 
 * Updated Texture Replacer.
 
