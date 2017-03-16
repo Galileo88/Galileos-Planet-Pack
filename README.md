@@ -22,7 +22,7 @@ Changelog:
 
 * Enabled MechJeb to acknowledge KSC default location.
 
-* (Pending) KSPedia! ...Waiting on screenshots for every planet and moon.
+* KSPedia implementation - With information on all major bodies!
 
 * Far-reaching body updates:
 
