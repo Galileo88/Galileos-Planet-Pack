@@ -34,6 +34,12 @@ Changelog:
   
   * Optimized color textures to lose excess file size but keep all quality.
   
+  * Visual updates to Niven!
+  
+  * Merged Gael and Tellumo cloud layers to consolidate textures.
+  
+  * Implemented EVE eclipses. Vacuum bodies now receive shadows (when Scatterer is not installed).
+  
   * Optimized Nero color and biomes to match ring tilt.
   
   * Added slight tilt to Otho and Gauss.
@@ -52,11 +58,17 @@ Changelog:
   
 * Strategia updates.
 
-* Update deltaV map.
+* Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure confusion status.
+  
+  * Removed Medium SVE/GPPVE option to shave download size. The difference between Medium and High was minimal too.
 
-* Removed IVA sounds due to unforseen complication.
+* Reduced the following into MM patches, simplifying things overall and saving on download size:
 
-* (Pending) Support for new Scatterer with epic terminators and Kopernicus ring shader.
+  * Distant Object Enhancement; Final Frontier; Planetshine; Waypoint Manager; Sunflare toggle for whether Scatterer is present or not.
+  
+* Updated deltaV map.
+
+* Disabled IVA sounds due to unforseen complication.
 
 * Full Kerbalism support.
 
@@ -68,15 +80,15 @@ Changelog:
   
   * Tuned Semi-major Axis so years are exactly 426.0 days long.
   
-  * Renamed the Kerbin World-Firsts agency.
+  * Renamed the Kerbin World-Firsts Society to Gaelean Historians Collective.
   
-  * Minor adjustments to terrain and biome map.
+  * Minor adjustments to terrain and biome maps.
 
 * Updated Texture Replacer.
 
 * Custom loading screen!
 
-* Added misc bells and whistles.
+* Various other new bells and whistles.
 
 **Known Issues**
  
