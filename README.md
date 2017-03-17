@@ -5,21 +5,25 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a new install of KSP and run once without mods. Then you may install GPP and other mods. Otherwise backup and remove your saves. Any existing career that uses the stock planets will be broken.
+1. Create a new install of KSP and run once with zero mods. Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
 
-2. Install the latest version of Kopernicus. Its version must always match the KSP version or it will not work. Do not readily accept KSP game updates as between new KSP release and Kopernicus catch-up you may find things on Gael suddenly bound to a stock planet other than Kerbin. Install Community Resource Pack as well. GPP is very heavily resource-focused and without this, stock Ore scans may malfunction and reflect Null Refs.
+2. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
-3. Install GPP like anything else. Do it manually. Due to this mod's level of complexity there will be no CKAN support.
-
-4. In GPP's Optional Mods folder see if there's something for another mod that you use. If there is, copy the GameData folder from inside each one and allow it to overwrite everything. The affected mod needs to already be installed. Kerbal Konstructs with KSC++ is patched and included whole. If you use Scatterer, reinstall it from among GPP's Optional Mods. It's configured differently.
-
-5. If you use SVE, EVE,and SVT delete them completely then reinstall from this download. SVE and EVE for GPP are custom-tailored and should not be mixed. SVT features are built-in.
+3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
 
 
 Changelog:
 
 **v1.x**
 
+* Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure confusion status.
+  
+  * Removed Medium SVE/GPPVE option to shave download size. The difference between Medium and High was minimal too.
+
+* Reduced the following into MM patches, simplifying things overall and saving on download size:
+
+  * Distant Object Enhancement; Final Frontier; Planetshine; Waypoint Manager; Sunflare toggle for whether Scatterer is present or not.
+  
 * Enabled MechJeb to acknowledge KSC default location.
 
 * KSPedia implementation - With information on all major bodies!
@@ -58,14 +62,6 @@ Changelog:
   
 * Strategia updates.
 
-* Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure confusion status.
-  
-  * Removed Medium SVE/GPPVE option to shave download size. The difference between Medium and High was minimal too.
-
-* Reduced the following into MM patches, simplifying things overall and saving on download size:
-
-  * Distant Object Enhancement; Final Frontier; Planetshine; Waypoint Manager; Sunflare toggle for whether Scatterer is present or not.
-  
 * Updated deltaV map.
 
 * Disabled IVA sounds due to unforseen complication.
