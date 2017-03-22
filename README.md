@@ -9,7 +9,7 @@ TO INSTALL:
 
 2. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
-3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
+3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
 
 
 Changelog:
@@ -28,13 +28,11 @@ Changelog:
 
 * KSPedia implementation - With information on all major bodies!
 
+* (Pending) Address decal switcher issue.
+
 * Far-reaching body updates:
 
   * Simplified biome distributions on the noisier of biome maps.
-  
-  * (Pending) Add biomes to Icarus.
-  
-  * (Pending) Fix for Hox atmosphere problem.
   
   * Optimized color textures to lose excess file size but keep all quality.
   
@@ -84,7 +82,7 @@ Changelog:
 
 * Custom loading screen!
 
-* Various other new bells and whistles.
+* Other little new bells and whistles.
 
 **Known Issues**
  
