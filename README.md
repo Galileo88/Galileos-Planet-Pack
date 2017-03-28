@@ -11,10 +11,9 @@ TO INSTALL:
 
 3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
 
-
 Changelog:
 
-**v1.x**
+**v1.2.0**
 
 * Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure confusion status.
   
@@ -101,19 +100,10 @@ Changelog:
 
 
 
-**These mods are distributed by their own license terms, included in each mod's folder**
+**These mods and/or assets are distributed by their own license terms, included in each mod's folder**
 
 "Scatterer" by blackrack (GPLv3 / Copyright © 2015 Ghassen Lahmar)
 http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering-v002182-24122015
-
-"Distant Object Enhancement bis"
-Creative Commons Attribution 4.0 International
-http://creativecommons.org/licenses/by/4.0/
-http://forum.kerbalspaceprogram.com/index.php?/topic/89214-105-distant-object-enhancement-bis-v164-21-november-2015/
-
-"PlanetShine"
-Apache License
- Version 2.0, January 2004
 
 "Final Frontier"
 Copyright (c) 2014, André Kolster (Nereid)
@@ -131,5 +121,3 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public L
 
 "KSC++"
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-
-
