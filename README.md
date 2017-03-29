@@ -11,9 +11,8 @@ TO INSTALL:
 
 3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
 
-Changelog:
-
-**v1.2.0**
+# Changelog:
+## v1.2.0
 
 * Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure chronic Stock Visual Confusion.
   
@@ -83,7 +82,7 @@ Changelog:
 
 * Other new bells and whistles. Some very small... Some very big.
 
-**Known Issues**
+## Known Issues
  
 * Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
@@ -99,7 +98,7 @@ Changelog:
 
 * Any Decal Stickers parts with stock flags set in them revert to GPP flags on launch or on reload within the SPH/VAB.
 
-
+## Bundle Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
 
