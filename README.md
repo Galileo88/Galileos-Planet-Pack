@@ -15,11 +15,11 @@ Changelog:
 
 **v1.2.0**
 
-* Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure confusion status.
+* Support Scatterer v0.03 and renamed bundled SVE to GPPVE to cure chronic Stock Visual Confusion.
   
-  * Removed Medium SVE/GPPVE option to shave download size. The difference between Medium and High was minimal too.
+  * Removed Medium SVE/GPPVE option to save on download size. The difference between Medium and High was minimal in-game.
 
-* Reduced the following into MM patches, simplifying things overall and saving on download size:
+* Reduced the following into MM patches, simplifying things overall and saving more on download size:
 
   * Distant Object Enhancement; Final Frontier; Planetshine; Waypoint Manager; Sunflare toggle for whether Scatterer is present or not.
   
@@ -27,7 +27,7 @@ Changelog:
 
 * KSPedia implementation - With information on all major bodies!
 
-* (Pending) Address decal switcher issue.
+* Catered for new 'big' sticker in Decal Stickers mod.
 
 * Far-reaching body updates:
 
@@ -49,7 +49,7 @@ Changelog:
   
   * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
   
-  * Added anomalies and more PQSMod tweaks to some worlds. This includes terrain jitter and performance drain, especially at Tellumo.
+  * Added anomalies and more PQSMod tweaks to some worlds. This includes fixes for terrain jitter and performance drain, especially at Tellumo.
   
   * Improved texure details even more on some worlds.
   
@@ -81,7 +81,7 @@ Changelog:
 
 * Custom loading screen!
 
-* Other little new bells and whistles.
+* Other new bells and whistles. Some very small... Some very big.
 
 **Known Issues**
  
@@ -97,6 +97,7 @@ Changelog:
 
 * Sigma Dimensions does not play nice with KSCSwitcher AND KSC++. I recommend you remove KSC++ when using Sigma Dimensions
 
+* Any Decal Stickers parts with stock flags set in them revert to GPP flags on launch or on reload within the SPH/VAB.
 
 
 
