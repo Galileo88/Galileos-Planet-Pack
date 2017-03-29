@@ -7,7 +7,7 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once with zero mods. 
 
-2. Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
+2.Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
 
 3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
@@ -114,6 +114,10 @@ TO INSTALL:
 ## Bundle Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
+
+"Environmental Visual Enhancemments" by rbray89
+The MIT License (MIT)/Copyright (c) 2013 Ryan Bray
+http://forum.kerbalspaceprogram.com/index.php?/topic/149733-122-environmentalvisualenhancements-12-2/
 
 "Scatterer" by blackrack (GPLv3 / Copyright © 2015 Ghassen Lahmar)
 http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering-v002182-24122015
