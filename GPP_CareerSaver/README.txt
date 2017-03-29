@@ -1,0 +1,1 @@
+If you are invested in your current career, use this patch to continue without a hitch. Failure to use this patch will break your save!
