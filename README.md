@@ -5,16 +5,29 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a new install of KSP and run once with zero mods. Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
+1. Create a new install of KSP and run once with zero mods. 
 
-2. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
+2.Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
 
-3. Use CKAN if that's your cup of tea and install Final Frontier and the visual mods except Scatterer and SVE. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++.
+3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
+
+4. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++, Final Frontier.
+
+**Recommended mods with support for GPP**
+* Distant Objects Enhancemnts 
+* PlanetShine
+* Kerbalism
+* Strategia
+* RemoteTech
+* Mechjeb
+* Research Bodies
+* Waypoint Manager
+* Decal Stickers
 
 # Changelog:
 ## v1.2.0
 
-* Support Scatterer v0.0300 and renamed bundled SVE to GPPVE to cure chronic Stock Visual Confusion.
+* Support for Scatterer v0.0300 and renamed bundled SVE to GPPVE to cure chronic Stock Visual Confusion.
   
   * Removed Medium SVE/GPPVE option to save on download size. The difference between Medium and High was minimal in-game.
 
