@@ -11,4 +11,4 @@ KNOWN ISSUES:
 * Sigma Dimensions, when used with KSC Switcher and KSC++, causes some issues.
 Switching to a new launchsite and returning to the default KSC site later, causes KSC++ statics to be clipping into the ground. It's not game breaking but it is ugly. I reccommend removing KSC++ when using Sigma Dimensions.
 
-ENJOY you resized GPP!
+ENJOY your resized GPP!
