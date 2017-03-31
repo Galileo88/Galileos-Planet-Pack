@@ -30,7 +30,73 @@ TO INSTALL:
 # Changelog:
 ## v1.2.0
 
+* Support for Scatterer v0.0300 and renamed bundled SVE to GPPVE to cure chronic Stock Visual Confusion.
+  
+  * Removed Medium SVE/GPPVE option to save on download size. The difference between Medium and High was minimal in-game.
 
+* Reduced the following into MM patches, simplifying things overall and saving more on download size:
+
+  * Distant Object Enhancement; Strategia; Planetshine; Waypoint Manager; Sunflare toggle for whether Scatterer is present or not.
+  
+* Enabled MechJeb to acknowledge KSC default location.
+
+* KSPedia implementation - With information on all major bodies!
+
+* Catered for new 'big' sticker in Decal Stickers mod.
+
+* Far-reaching body updates:
+
+  * Simplified biome distributions on the noisier of biome maps.
+  
+  * Optimized color textures to lose excess file size but keep all quality.
+
+  * Adjusted Scaled Space to PQS render height for much smoother transitions.
+  
+  * Visual updates to Niven!
+  
+  * Merged Gael and Tellumo cloud layers to consolidate textures.
+  
+  * Implemented EVE eclipses. ALL bodies recieve eclipses, with and without Scatterer.
+  
+  * Optimized Nero color and biomes to match ring tilt.
+  
+  * Added slight tilt to Otho and Gauss.
+  
+  * Raised Lili's SOI to 40km to un-break Lili Orbital Survey contracts.
+  
+  * Optimized terrain elevations so KER and the like can honestly tell where sea level is.
+  
+  * Added anomalies to all bodies, and more PQSMod tweaks to some worlds. This includes fixes for terrain jitter and performance drain, especially at Tellumo.
+  
+  * Improved texure details even more on some worlds.
+  
+  * Changed Flight Globals to enable certain provisions and prevent a related issue.
+
+* Added "Career Saver" as the Flight Globals change will cause other issues (specifically: break existing game saves).
+  
+* Strategia updates.
+
+* Updated deltaV map.
+
+* Full Kerbalism support.
+
+* Gael updates:
+
+  * Lowered KSC island height and made shoreline friendly to enter/exit the ocean. Updated KSC++ and island biomes accordingly.
+  
+  * Changed Initial Rotation to put sunrise at 01:30 UTC.
+  
+  * Tuned Semi-major Axis so years are exactly 426.0 days long.
+  
+  * Renamed the Kerbin World-Firsts Society to Gaelean Historians Collective.
+  
+  * Minor adjustments to terrain and biome maps.
+
+* Updated Texture Replacer.
+
+* Custom loading screen!
+
+* Other new bells and whistles. Some very small... Some very big.
 
 ## Known Issues
  
