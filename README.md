@@ -11,11 +11,12 @@ TO INSTALL:
 
 3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
-4. Install any of the remaining bundled mods if they suit you: KSC Switcher, Kerbal Konstructs with KSC++, Final Frontier or TextureReplacer.
+4. Install any of the remaining bundled mods if they suit you: KSC Switcher, Kerbal Konstructs with KSC++ or Final Frontier.
 
 **Recommended mods with support for GPP**
-* Environmental Visual Enhancements - min-version: 1.2-2*
-* Scatterer - min-version: 0.0300*
+* Environmental Visual Enhancements - min-version: 1.2-2
+* Scatterer - min-version: 0.0300
+* TextureReplacer
 * Distant Objects Enhancemnts 
 * PlanetShine
 * Kerbalism
@@ -54,10 +55,6 @@ TO INSTALL:
 "Final Frontier"
 Copyright (c) 2014, André Kolster (Nereid)
  All rights reserved.
-
-"Texture Replacer" 
-(MIT license / Copyright © 2013-2015 Davorin Ucakar, Ryan Bray)
-http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2411-17112015
 
 "Kerbal Konstructs Plugin"
 The MIT License (MIT)
