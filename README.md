@@ -47,6 +47,8 @@ TO INSTALL:
 
 * Time warp limits adjusted for quicker timewarps in lower orbits.
 
+* Added Kopernicus ring shader support
+
 
 ## Known Issues
  
