@@ -13,19 +13,41 @@ TO INSTALL:
 
 4. Install any of the remaining bundled mods if they suit you: KSC Switcher, Kerbal Konstructs with KSC++ or Final Frontier.
 
-**Recommended mods with support for GPP**
+## Konfigurating EVE
+
+If you need to get clouds and ring shaders working in your install, GPPVE has been reduced to MM toggles and the GPP_Clouds directory
+
+1. Install GPP_Clouds\ (High or Low res depending on your PC's performance) from the Optional Mods folder in the download and into GameData\GPP\
+ 
+2. Install EVE from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
+ 
+3. To get Kopernicus fancy ring shaders to work on all ringed planets download [this interim update](https://mega.nz/#!vUowhKgB!PAIeK8M1KlBOXhcBNglxGTq6MzSiqFxF27fAXYOD8_w) to Kopernicus.dll and install it in GameData\Kopernicus\Plugins\ (click Yes if asked to overwrite).
+
+## Re-scattering the Scatterer
+
+Galileo has found the means to reduce the Scatterer bundles into MM toggles and package all the GPP-specific media within GPP itself, removing the need to modify the contents of GameData\scatterer directly. The various Scatter_* nodes in GPP's scatterer files all now contain an author field enabling filtration and targeting of planet lists and planet configs by author.
+
+If you need to change the sunflare for either or both stars in GPP, you must now look into the following places for your operation:
+
+1. GPP\GPP_Scatterer\Sunflares\ to change the images
+ 
+2. GPP\GPP_Configs\GPP_Scatterer.cfg for the Scatterer_sunflare{} nodes where the custom sunflare images are tuned.
+
+**Recommended mods with support for or by GPP**
 * Environmental Visual Enhancements - min-version: 1.2-2
 * Scatterer - min-version: 0.0300
 * TextureReplacer
-* Distant Objects Enhancemnts 
+* Distant Object Enhancements 
 * PlanetShine
+* JX2 Large Antenna
 * Kerbalism
 * Strategia
 * RemoteTech
-* Mechjeb
+* MechJeb
 * Research Bodies
 * Waypoint Manager
 * Decal Stickers
+* USI Constellation
 
 
 # Changelog:
