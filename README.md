@@ -51,7 +51,7 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 
 # Changelog:
-## v1.2.3
+## v1.2.2
 
 * Fixed strange effect on gas giants caused by scatterer **FOR REAL THIS TIME!**
 
