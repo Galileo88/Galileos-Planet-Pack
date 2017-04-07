@@ -21,7 +21,7 @@ If you need to get clouds and ring shaders working in your install, GPPVE has be
  
 2. Install EVE from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
  
-3. To get Kopernicus fancy ring shaders to work on all ringed planets download [this interim update](https://mega.nz/#!vUowhKgB!PAIeK8M1KlBOXhcBNglxGTq6MzSiqFxF27fAXYOD8_w) to Kopernicus.dll and install it in GameData\Kopernicus\Plugins\ (click Yes if asked to overwrite).
+3. To get Kopernicus' fancy ring shaders to work on all ringed planets download [this interim update](https://mega.nz/#!vUowhKgB!PAIeK8M1KlBOXhcBNglxGTq6MzSiqFxF27fAXYOD8_w) to Kopernicus.dll and install it in GameData\Kopernicus\Plugins\ (click Yes if asked to overwrite).
 
 ## Re-scattering the Scatterer
 
@@ -34,42 +34,34 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 2. GPP\GPP_Configs\GPP_Scatterer.cfg for the Scatterer_sunflare{} nodes where the custom sunflare images are tuned.
 
 **Recommended mods with support for or by GPP**
-* Environmental Visual Enhancements - min-version: 1.2-2
-* Scatterer - min-version: 0.0300
-* TextureReplacer
-* Distant Object Enhancements 
-* PlanetShine
-* JX2 Large Antenna
-* Kerbalism
-* Strategia
-* RemoteTech
-* MechJeb
-* Research Bodies
-* Waypoint Manager
-* Decal Stickers
-* USI Constellation
+  * Environmental Visual Enhancements - min-version: 1.2-2
+  * Scatterer - min-version: 0.0300
+  * TextureReplacer
+  * Distant Object Enhancements 
+  * PlanetShine
+  * JX2 Large Antenna
+  * Kerbalism
+  * Strategia
+  * RemoteTech
+  * MechJeb
+  * Research Bodies
+  * Waypoint Manager
+  * Decal Stickers
+  * USI Constellation
 
 
 # Changelog:
-## v1.2.1
+## v1.2.3
 
-* Directory has changed
-  
-  * Scatterer is now a Module Manager config
-  
-  * EVE (GPP_Clouds) is now a module Manager config
+* Fixed strange effect on gas giants caused by scatterer **FOR REAL THIS TIME!**
 
-* Refactored CommNet Antenna Power and DSN Power patches when using a scaled system to pull scale factor directly Sigma Dimensions 'Rescale' key.
+* Gael has properly colored desert area
 
-* Fixed strange effect on gas giants caused by scatterer
+* Fixed duplicate flag issue in main menu
 
-* Made clouds a little brighter and more opaque 
+* Added to rescale cfgs code that should increase the resolution of the cloud layers in scaled systems
 
-* Strategia config no longer deletes stock strategies
-
-* Time warp limits adjusted for quicker timewarps in lower orbits.
-
-* Added Kopernicus ring shader support
+* Added to rescale code that multiplies the antenna power values by a factor of the rescale value
 
 
 ## Known Issues
