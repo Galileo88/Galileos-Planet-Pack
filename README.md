@@ -51,6 +51,20 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 
 # Changelog:
+## v1.2.3
+
+* Separated all base textures into one directory and a separate download to ease the downloads of further releases.
+
+* Added even more detail to all terrain. Can 4K get any better?
+
+* Changed Grannus' luminosity to match Ciro (sacrifices realism) to fix the general solar panel problems.
+
+* Fixed the Agency collision with Clever Sats mod.
+
+* Fixed the Asteroids problem. They will spawn now.
+
+* Enabled Scatterer sunflares to scale with Sigma Dimensions.
+
 ## v1.2.2
 
 * Fixed strange effect on gas giants caused by scatterer **FOR REAL THIS TIME!**
