@@ -7,7 +7,7 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once with zero mods. 
 
-2. Install [Kopernicus] (https://github.com/Kopernicus/Kopernicus/releases/tag/release-1.2.2-5), ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
+2. Install [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/tag/release-1.2.2-5), ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
 
 3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
@@ -67,9 +67,11 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
   * Added authorship detection to asteroids as with Scatterer.
 
-* Enabled Scatterer sunflares to scale with Sigma Dimensions.
+* More directory updates to help make the GPP install cleaner and more modular.
 
-* More directory updates to make the GPP install clean and modular. Separated planet textures into its own download (GPP_Textures\) and sifted all celestial configs into GPP_Planets\.
+  * Separated planet textures into its own download (GPP_Textures\ ). Will make game load a little slower but will work on Mac & Linux.
+  
+  * Sifted all celestial configs into GPP_Planets\ .
 
 * Gave Thalia a chill pill. She now burns half as much.
 
@@ -77,9 +79,9 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 * Sigma Dimensions:
 
-  * 2.5x, 3.2x, 6.4x, 10x (real scale), and now 10.6257x (absolute real-scale)
+  * 2.5x, 3.2x, 6.4x, 10x (real scale), and now 10.6257x (absolute real-scale).
   
-  * Now affects sunflares
+  * Now affects sunflares.
   
   * Now ensures Gael always has integer numbers of days, integer days in a year.
 
