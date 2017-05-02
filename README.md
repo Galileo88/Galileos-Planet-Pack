@@ -7,7 +7,7 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once with zero mods. 
 
-2. Install Kopernicus, ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
+2. Install [Kopernicus] (https://github.com/Kopernicus/Kopernicus/releases/tag/release-1.2.2-5), ModularFlightIntegrator (part of Kopernicus) and ModuleManager.dll within GameData\ and run KSP again. No planet mod works without these. They are also not included in this package. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken.
 
 3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
@@ -19,9 +19,11 @@ If you need to get clouds and ring shaders working in your install, GPPVE has be
 
 1. Install GPP_Clouds\ (High or Low res depending on your PC's performance) from the Optional Mods folder in the download and into GameData\GPP\
  
-2. Install EVE from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
+2. Install EVE (AnyCPU-EVE-Release) from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
+
+## Planet Rings
  
-3. To get Kopernicus' fancy ring shaders to work on all ringed planets download [this interim update](https://mega.nz/#!vUowhKgB!PAIeK8M1KlBOXhcBNglxGTq6MzSiqFxF27fAXYOD8_w) to Kopernicus.dll and install it in GameData\Kopernicus\Plugins\ (click Yes if asked to overwrite).
+To get Kopernicus' fancy ring shaders to work on all ringed planets download [this interim update](https://mega.nz/#!vUowhKgB!PAIeK8M1KlBOXhcBNglxGTq6MzSiqFxF27fAXYOD8_w) to a Kopernicus dll file and install it in GameData\Kopernicus\Plugins\ (click Yes if asked to overwrite).
 
 ## Re-scattering the Scatterer
 
@@ -63,19 +65,23 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 * Fixed the Asteroids problem. They will spawn now.
 
+  * Added authorship detection to asteroids as with Scatterer.
+
 * Enabled Scatterer sunflares to scale with Sigma Dimensions.
 
-## v1.2.2
+* More directory updates to make the GPP install clean and modular. Separated planet textures into its own download (GPP_Textures\) and sifted all celestial configs into GPP_Planets\.
 
-* Fixed strange effect on gas giants caused by scatterer **FOR REAL THIS TIME!**
+* Gave Thalia a chill pill. She now burns half as much.
 
-* Gael has properly colored desert area
+* Updated resources to possibly be less likely to disappear in certain Hard Mode games.
 
-* Fixed duplicate flag issue in main menu
+* Sigma Dimensions:
 
-* Added to rescale cfgs code that should increase the resolution of the cloud layers in scaled systems
-
-* Added to rescale code that multiplies the antenna power values by a factor of the rescale value
+  * 2.5x, 3.2x, 6.4x, 10x (real scale), and now 10.6257x (absolute real-scale)
+  
+  * Now affects sunflares
+  
+  * Now ensures Gael always has integer numbers of days, integer days in a year.
 
 
 ## Known Issues
@@ -83,6 +89,8 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 * Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
 * Scatterer does not show in main menu. Again, normal. Nothing is broken.
+
+* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is boken.
 
 * Mac and Linux Version uses quite a bit of ram. Its either this, or have pinstripey planets and not be able to use this planet pack. Sorry.
 
