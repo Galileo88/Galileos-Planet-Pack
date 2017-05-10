@@ -17,9 +17,9 @@ TO INSTALL:
 
 If you need to get clouds and ring shaders working in your install, GPPVE has been reduced to MM toggles and the GPP_Clouds directory
 
-1. Install GPP_Clouds\ (High or Low res depending on your PC's performance) from the Optional Mods folder in the download and into GameData\GPP\
+1. Inside the GPP_Clouds folder are two folders. One is named High-res and the other is named Low-res. Inside of each is another GameData folder. Choose from inside the one you want and merge into the real GameData folder to install.
  
-2. Install EVE (AnyCPU-EVE-Release) from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
+2. Install EVE (the tiny download, not the large one with "Configs" in its name) from [its GitHub](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases).
 
 ## Planet Rings
  
