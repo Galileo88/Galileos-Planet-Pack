@@ -46,7 +46,7 @@ If you need to change the sunflare for either or both stars in GPP, you must now
   * Strategia
   * RemoteTech
   * MechJeb
-  * Research Bodies
+  * ResearchBodies
   * Waypoint Manager
   * Decal Stickers
   * USI Constellation
@@ -55,13 +55,15 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 # Changelog:
 ## v1.2.3
 
-* Separated all base textures into one directory and a separate download to ease the downloads of further releases.
-
 * Added even more detail to all terrain. Can 4K get any better?
+
+* Applied fixes and optimizations to Scatterer.
 
 * Changed Grannus' luminosity to match Ciro (sacrifices realism) to fix the general solar panel problems.
 
 * Fixed the Agency collision with Clever Sats mod.
+
+* Increased performance optimization for non-Scatterer users.
 
 * Fixed the Asteroids problem. They will spawn now.
 
@@ -69,17 +71,19 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 * More directory updates to help make the GPP install cleaner and more modular.
 
-  * Separated planet textures into its own download (GPP_Textures\ ). Will make game load a little slower but will work on Mac & Linux.
-  
+  * Separated all base textures into one directory (GPP_Textures\ ) and its own download to ease the downloads of further releases. Will make game load a little slower but will work on Mac & Linux. PNG-loaded downloads no longer required.
+
   * Sifted all celestial configs into GPP_Planets\ .
+  
+  * Altered the GPP_Scatterer\ directory a little. Split the sunflare configs into separate files beside the sunflare images.
 
-* Gave Thalia a chill pill. She now burns half as much.
+* Gave Thalia a chill pill. She now burns half as much in high orbit.
 
-* Updated resources to possibly be less likely to disappear in certain Hard Mode games.
+* Updated resources to hopefully fix the vanishing Ore problem.
 
 * Sigma Dimensions:
 
-  * 2.5x, 3.2x, 6.4x, 10x (real scale), and now 10.6257x (absolute real-scale).
+  * added 10.6257x.
   
   * Now affects sunflares.
   
