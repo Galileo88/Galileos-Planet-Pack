@@ -5,6 +5,6 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Drop the GPP_Textures into your GameData folder 
+1. Put the GPP_Textures folder inside of your GPP folder.
 
 
