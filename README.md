@@ -7,7 +7,7 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once with zero mods.
 
-2. Download and install GPP_Textures: https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Texures.zip
+2. Download and install GPP_Textures: https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
 
 3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
