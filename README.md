@@ -51,6 +51,7 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 * Kopernicus (W/Blackrack's ring fix) is included in the download to alleviate some confusion.
 
 * Added PQSMods to all bodies resulting in better terrain.. Can 4K get any better?
+  * Altitude info has not been updated in KSPedia pages.
 
 * Applied fixes and optimizations to Scatterer.
 
