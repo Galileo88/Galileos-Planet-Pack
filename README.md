@@ -7,7 +7,7 @@ TO INSTALL:
 
 1. Create a new install of KSP and run once with zero mods. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken. Planet textures are in a separate download now so be sure to get both GPP downloads.
 
-2. Planet textures are in a separate download now so be sure to get both GPP downloads. GPP_Textures are at https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
+2. Planet textures are in a separate download now so be sure to get both GPP downloads. They are respectively 300MB and 400MB large. Make sure to install both and ensure that KSP always launches in 64-bit. Your PC/Mac/Linux box should have no less than 8GB RAM. They are separate because the textures very rarely update, and it is a waste of time for Galileo to upload and you to download so much for frequent updates to usually only the configs. GPP_Textures are at https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
 
 3. Kopernicus and ModularFlightIntegrator (part of Kopernicus) are now included in this package, along with the modified dll to enable all planet rings to show, and on which our solution to the multi-star solar panel problem can function. Install everything.
 
