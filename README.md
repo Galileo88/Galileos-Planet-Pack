@@ -5,37 +5,29 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a new install of KSP and run once with zero mods. If, however, you're not creating a new install then backup and remove your saves. Any existing playthrough will be broken. Planet textures are in a separate download now so be sure to get both GPP downloads.
+1. Create a new install of KSP and run once with zero mods.
 
-2. Planet textures are in a separate download now so be sure to get both GPP downloads. They are respectively 300MB and 400MB large. Make sure to install both and ensure that KSP always launches in 64-bit. Your PC/Mac/Linux box should have no less than 8GB RAM. They are separate because the textures very rarely update, and it is a waste of time for Galileo to upload and you to download so much for frequent updates to usually only the configs. GPP_Textures are at https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
+2. Download and install GPP_Textures: https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
 
-3. Kopernicus and ModularFlightIntegrator (part of Kopernicus) are now included in this package, along with the modified dll to enable all planet rings to show, and on which our solution to the multi-star solar panel problem can function. Install everything.
+3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
 
-4. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
-
-5. Before you launch, if you are deep into a GPP v1.1 career then install [Download]\GPP_CareerSaver\ anywhere within GameData\ as the addition of a celestial body at v1.2.0 will break your saves. GPP v1.2.3 should not break any saves that were started in v1.2.x. But the terrain updates in v1.2.3 can destroy landed bases or ships in v1.2.2 or older.
-
-6. Install any of the remaining bundled mods if they suit you: KSC Switcher, Scatterer, TextureReplacer, Kerbal Konstructs with KSC++, Final Frontier.
+3. Install any of the remaining bundled mods if they suit you: KSC Switcher, Kerbal Konstructs with KSC++ or Final Frontier.
 
 ## Konfigurating EVE
 
-If you need to get clouds, aurorae and shadows working in your install, look in the [Download]\Optional Mods\GPP_Clouds\ directory.
+If you need to get clouds and ring shaders working in your install, install GPP_Clouds, located inside the optional mods folder. Follow the install instructions included in the folder.
 
-1. Inside the GPP_Clouds folder are two folders. One is named High-res and the other is named Low-res. Inside of each is another GameData folder. Choose from inside the one you want and merge into the real GameData folder to install.
+1. Choose either the High-res or Low-res clouds for the required performance for your system. Navigate inside that selected folder and copy the GameData folder into your KSP install.
  
-2. Install EVE (not the configs) Or, just use this link: https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2.2-1/EnvironmentalVisualEnhancements-1.2.2.1.zip
+2. Install EVE (not the configs) Or, just use this link: https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2.2-1/EnvironmentalVisualEnhancements-1.2.2.1.zip.
 
 ## Re-scattering the Scatterer
 
 Galileo has found the means to reduce the Scatterer bundles into MM toggles and package all the GPP-specific media within GPP itself, removing the need to modify the contents of GameData\scatterer directly. The various Scatter_* nodes in GPP's scatterer files all now contain an author field enabling filtration and targeting of planet lists and planet configs by author.
 
-Install Scatterer from SpaceDock: https://spacedock.info/mod/141/scatterer
-
 If you need to change the sunflare for either or both stars in GPP, you must now look into the following places for your operation:
 
-1. GPP\GPP_Scatterer\Sunflares\[Star]\ to change the images, and the Scatterer_sunflare{} node inside the respective config file beside them.
-
-2. If you have changed your sunflare sizes before, be aware that the configs are separate again and stored beside the sunflare images in step 1. There is no longer any scatterer cfg file in GPP\GPP_Configs\
+1. GPP\GPP_Scatterer\Sunflares\ to change the images and cfgs for either star.
  
  
 **Recommended mods with support for or by GPP**
@@ -61,7 +53,6 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 * Kopernicus (W/Blackrack's ring fix) is included in the download to alleviate some confusion.
 
 * Added PQSMods to all bodies resulting in better terrain.. Can 4K get any better?
-
   * Altitude info has not been updated in KSPedia pages to reflect these changes.
 
 * Applied fixes and optimizations to Scatterer.
@@ -94,7 +85,7 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 * Sigma Dimensions:
 
-  * added 10.625x.
+  * added 10.6257x.
   
   * Now affects sunflares.
   
