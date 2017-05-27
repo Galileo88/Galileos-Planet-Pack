@@ -1,0 +1,7 @@
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\bin\Debug\GPP.IVA.SOUNDS.dll
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\bin\Debug\GPP.IVA.SOUNDS.pdb
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\bin\Debug\Assembly-CSharp.dll
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\bin\Debug\UnityEngine.dll
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\obj\Debug\GPP.IVA.SOUNDS.dll
+c:\users\tavis\documents\visual studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\obj\Debug\GPP.IVA.SOUNDS.pdb
+C:\Users\Tavis\Documents\Visual Studio 2015\Projects\GPP.IVA.SOUNDS\GPP.IVA.SOUNDS\obj\Debug\GPP.IVA.SOUNDS.csprojResolveAssemblyReference.cache
