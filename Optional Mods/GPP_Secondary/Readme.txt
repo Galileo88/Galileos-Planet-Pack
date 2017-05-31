@@ -6,17 +6,12 @@ Other primary system mods no longer need to:
 * Remove KSC from Gael.
 * Re-add the stock planets. 
 
-The only required bit on your part is to insert the following in your mod and fill its fields. Everything is already set but is not optimized and should be just enough to prevent MM error alerts.
+The only required bit on your part is to insert the following in your mod and fill its fields. Ciro's SOI is 3E+12 (3 Terameters) by default so Grannus does not escape when it nears its apoapsis.
 
 @Kopernicus:NEEDS[GPP_Secondary]
 {
 	@Body[Ciro]
 	{
-		@Properties
-		{
-			@sphereOfInfluence = 
-			@hillSphere = 
-		}
 		@Orbit
 		{
 			@referenceBody = 
@@ -27,7 +22,6 @@ The only required bit on your part is to insert the following in your mod and fi
 			@argumentOfPeriapsis = 
 			@meanAnomalyAtEpoch = 
 			@epoch = 
-			@color = 
 		}
 	}
 }
