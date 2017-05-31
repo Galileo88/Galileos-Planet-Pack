@@ -1,4 +1,4 @@
-GPP_Secondary is a setup package designed to easily enable GPP to operate as a secondary system. It is not a complete package and requires you to add the final bits unique to your primary star system mod.
+GPP_Secondary is a mediator mod designed to easily and properly enable Galileo's Planet Pack to operate as a secondary system. It is technically a complete package but requires you to make just one small set of changes unique to your primary star system mod.
 
 Other primary system mods no longer need to:
 * Add a star and call it Ciro.
@@ -6,9 +6,9 @@ Other primary system mods no longer need to:
 * Remove KSC from Gael.
 * Re-add the stock planets. 
 
-The only required bit on your part is to insert this in your mod and fill its fields.
+The only required bit on your part is to insert the following in your mod and fill its fields. Everything is already set but is not optimized and should be just enough to prevent MM error alerts.
 
-@Kopernicus:NEEDS[GPP&GPP_Secondary]
+@Kopernicus:NEEDS[GPP_Secondary]
 {
 	@Body[Ciro]
 	{
@@ -17,17 +17,17 @@ The only required bit on your part is to insert this in your mod and fill its fi
 			@sphereOfInfluence = 
 			@hillSphere = 
 		}
-		%Orbit
+		@Orbit
 		{
-			%referenceBody = 
-			%inclination = 
-			%eccentricity = 
-			%semiMajorAxis = 
-			%longitudeOfAscendingNode = 
-			%argumentOfPeriapsis = 
-			%meanAnomalyAtEpoch = 
-			%epoch = 
-			%color = 
+			@referenceBody = 
+			@inclination = 
+			@eccentricity = 
+			@semiMajorAxis = 
+			@longitudeOfAscendingNode = 
+			@argumentOfPeriapsis = 
+			@meanAnomalyAtEpoch = 
+			@epoch = 
+			@color = 
 		}
 	}
 }
