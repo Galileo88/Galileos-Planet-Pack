@@ -8,7 +8,7 @@ Other primary system mods no longer need to:
 
 The only required bit on your part is to insert this in your mod and fill its fields.
 
-@Kopernicus:AFTER[GPP_Secondary]
+@Kopernicus:NEEDS[GPP&GPP_Secondary]
 {
 	@Body[Ciro]
 	{
