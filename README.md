@@ -96,9 +96,7 @@ TO INSTALL:
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. Its stock bug made more noticeable by Kopernicus
 
-* Sigma Dimensions does not play nice with KSCSwitcher AND KSC++. I recommend you remove KSC++ when using Sigma Dimensions
-
-* Kerbal Konstructs does not scale with Sigma Dimensions. Statics spread apart. A fix is coming.
+* Kerbal Konstructs/KSC++ do not scale with Sigma Dimensions. Statics spread apart. A fix is coming.
 
 * Any Decal Stickers parts with stock flags set in them revert to GPP flags on launch or on reload within the SPH/VAB.
 
