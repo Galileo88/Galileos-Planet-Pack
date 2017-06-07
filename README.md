@@ -28,11 +28,19 @@ TO INSTALL:
 
 ## Optional Mods
 
-1. Install the mods of your choice – Final Frontier, Kerbal Konstructs, KSC Switcher, Texture Replacer – by copying [GPP Download]\Optional Mods\GPP_[mod name]\ to [KSP]\GameData\.
+1. Install the mods of your choice – Final Frontier, KSC Switcher, Texture Replacer – by copying [GPP Download]\Optional Mods\GPP_[mod name]\ to [KSP]\GameData\.
+
+## KSC ++
  
-2. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to [KSP]\GameData\GPP\.
+1. For an extension to the Kerbal Space Center, (fuel tanks, roads, cars, trees, the whole shebang), go to [GPP Download]\Optional Mods\KSCPlusPlus\ and copy this folder to [KSP]\GameData\.
  
-3. To enable the visual effects in step 2, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
+2. To enable the improved KSC, the third-party mod [KK (Kerbal Konstructs)](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed.
+
+## Clouds, Aurorae and Shadows
+ 
+1. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to [KSP]\GameData\GPP\.
+ 
+2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
 ## Scatterer
 
