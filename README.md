@@ -5,7 +5,7 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
+1. Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
  
 2. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
  
