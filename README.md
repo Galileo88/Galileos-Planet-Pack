@@ -32,7 +32,7 @@ TO INSTALL:
 
 ## KSC ++
  
-1. For an extension to the Kerbal Space Center, (fuel tanks, roads, cars, trees, the whole shebang), go to [GPP Download]\Optional Mods\KSCPlusPlus\ and copy this folder to [KSP]\GameData\.
+1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), go to [GPP Download]\Optional Mods\KSCPlusPlus and copy this folder to [KSP]\GameData\.
  
 2. To enable the improved KSC, the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed.
 
