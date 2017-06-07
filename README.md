@@ -1,33 +1,52 @@
-﻿# Galileos-Planet-Pack
+# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
 
 TO INSTALL:
 
-1. Create a new install of KSP and run once with zero mods.
-
-2. Download and install GPP_Textures: https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.0/GPP_Textures.zip
-
-3. Install GPP and ensure that KSP always launches in 64-bit (KSP_x64.exe on Windows). Your PC should have no less than 8GB RAM.
-
-3. Install any of the remaining bundled mods if they suit you: KSC Switcher, Kerbal Konstructs with KSC++ or Final Frontier.
-
-## Konfigurating EVE
-
-If you need to get clouds and ring shaders working in your install, install GPP_Clouds, located inside the optional mods folder. Follow the install instructions included in the folder.
-
-1. Choose either the High-res or Low-res clouds for the required performance for your system. Navigate inside that selected folder and copy the GameData folder into your KSP install.
+Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
  
-2. Install EVE (not the configs) Or, just use this link: https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2.2-1/EnvironmentalVisualEnhancements-1.2.2.1.zip.
+2. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
+ 
+3. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
+   * Kopernicus\ 
+   * ModularFlightIntergrator\ 
+   * ModuleManager.2.8.0.dll
+ 
+4. Download Galileo’s Planet Pack 1.4.0.
+ 
+5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents. 
+ 
+6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0).
+ 
+7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
+ 
+8. If you want to preserve a career game from a previous GPP installation, install [GPP Download]\GPP_CareerSaver\ to [KSP]\GameData\.
 
-## Re-scattering the Scatterer
+9. Run once in this configuration before installing additional mods
 
-Galileo has found the means to reduce the Scatterer bundles into MM toggles and package all the GPP-specific media within GPP itself, removing the need to modify the contents of GameData\scatterer directly. The various Scatter_* nodes in GPP's scatterer files all now contain an author field enabling filtration and targeting of planet lists and planet configs by author.
+## Optional Mods
 
-If you need to change the sunflare for either or both stars in GPP, you must now look into the following places for your operation:
+1. Install the mods of your choice – Final Frontier, Kerbal Konstructs, KSC Switcher, Texture Replacer – by copying [GPP Download]\Optional Mods\GPP_[mod name]\ to [KSP]\GameData\.
+ 
+2. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to [KSP]\GameData\GPP\.
+ 
+3. To enable the visual effects in step 2, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
-1. GPP\GPP_Scatterer\Sunflares\ to change the images and cfgs for either star.
+## Scatterer
+
+1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer).
+ 
+2. If you want to change the sunflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Sunflares\[Star]\.
+
+## Scaled Versions
+
+1. In addition to the stock-sized version, GPP comes with the configs needed to play at five enlarged scales.  To use, just copy the .cfg file for your choice of scale from [GPP Download]\Optional Mods\Rescale!\ to anywhere within the [KSP]\GameData\ folder.
+ 
+2. To enable the use of the rescaled versions, it is necessary that you download and install the third-party mod [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases/).
+ 
+3. To modify the game clock and calendar to match the length of the Gael day and year, download and install the third-party mod [Kronometer](https://github.com/StollD/Kronometer/releases/).
  
  
 **Recommended mods with support for or by GPP**
@@ -48,48 +67,21 @@ If you need to change the sunflare for either or both stars in GPP, you must now
 
 
 # Changelog:
-## v1.2.3
+## v1.4.0
 
-* Kopernicus (W/Blackrack's ring fix) is included in the download to alleviate some confusion.
+* Overall compatibility with KSP 1.3 and Kopernicus v1.3.0-2. (This biggest horse in the stable)
 
-* Added PQSMods to all bodies resulting in better terrain.. Can 4K get any better?
-  * Altitude info has not been updated in KSPedia pages to reflect these changes.
+  * Bundled mods also made 1.3-compatible: KSC Switcher
 
-* Applied fixes and optimizations to Scatterer.
+* Added full support for Kronometer, successor of KopernicusTime
 
-* Luminosity (multi-star) issue has been fixed (Thanks to TheRagingIrishman)
+* Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
 
-* Fixed the Agency compatibility with Clever Sats mod.
+* Removed LoadingScreen (mod aborted by its author).
 
-* Increased performance optimization for non-Scatterer users.
+* Created GPP_Secondary for perfect compatibility with other star system mods or just to have Stock + GPP.
 
-* Clouds now have a subtle UV noise applied, removing harsh edges from cloud textures textures.
-
-* Fixed the Asteroids problem. They will spawn now.
-
-  * Added authorship detection to asteroids as with Scatterer.
-
-* More directory updates to help make the GPP install cleaner and more modular.
-
-  * Separated all base textures into one directory (GPP_Textures\ ) and its own download to ease the downloads of further releases. Initial load time of KSP will take a little longer (Not too long), however, Mac and Linux users can now use .dds textures and save some ram.
-
-  * Sifted all celestial configs into GPP_Planets\ .
-  
-  * Altered the GPP_Scatterer\ directory a little. Split the sunflare configs into separate files beside the sunflare images.
-
-* Gave Thalia a chill pill. She now burns half as much in high orbit.
-
-* Doubled Kerbals MaxTemp from 800 to 1600. Kerbals won't die as quickly on Icarus or Thalia.
-
-* Updated resources to hopefully fix the vanishing Ore problem.
-
-* Sigma Dimensions:
-
-  * added 10.6257x.
-  
-  * Now affects sunflares.
-  
-  * Now ensures Gael always has integer numbers of days, integer days in a year.
+* Repaired and restored custom science for Gael and its moons.
 
 
 ## Known Issues
