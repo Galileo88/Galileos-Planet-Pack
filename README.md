@@ -1,4 +1,4 @@
-# Galileos-Planet-Pack
+﻿# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
@@ -98,11 +98,11 @@ TO INSTALL:
 
 * Scatterer does not show in main menu. Again, normal. Nothing is broken.
 
-* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is boken.
+* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
 
-* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. Its stock bug made more noticeable by Kopernicus
+* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more noticeable by Kopernicus
 
 * Kerbal Konstructs/KSC++ do not scale with Sigma Dimensions. Statics spread apart. A fix is coming.
 
