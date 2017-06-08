@@ -115,10 +115,7 @@ TO INSTALL:
 "Final Frontier"
 Copyright (c) 2014, André Kolster (Nereid)
  All rights reserved.
-
-"Kerbal Konstructs Plugin"
-The MIT License (MIT)
-
+ 
 "KSCFloodlight"
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
