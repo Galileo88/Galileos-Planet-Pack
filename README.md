@@ -21,10 +21,8 @@ TO INSTALL:
 6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0).
  
 7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
- 
-8. If you want to preserve a career game from a previous GPP installation, install [GPP Download]\GPP_CareerSaver\ to [KSP]\GameData\.
 
-9. Run once in this configuration before installing additional mods
+8. Run once in this configuration before installing additional mods
 
 ## Optional Mods
 
