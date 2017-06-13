@@ -62,7 +62,7 @@ TO INSTALL:
   * Distant Object Enhancements 
   * PlanetShine
   * JX2 Large Antenna
-  * Kerbalism
+  * Kerbalism (Not updated to work with the latest Kopernicus)
   * Strategia
   * RemoteTech
   * MechJeb
@@ -82,12 +82,19 @@ TO INSTALL:
 * Added full support for Kronometer, successor of KopernicusTime
 
 * Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
+  
+  * Each time you ugrade the astronaut complex, the max temperature for a kerbal goes up by 400k, maxing at 1600K
 
 * Removed LoadingScreen (mod aborted by its author).
 
 * Created GPP_Secondary for perfect compatibility with other star system mods or just to have Stock + GPP.
 
 * Repaired and restored custom science for Gael and its moons.
+
+* Final Frontier now must be installed separately.
+
+* Scatterer v0.0300 is not updated for KSP 1.3. The ocean shaders have been disable to prevent the floating tile bug.
+
 
 
 ## Known Issues
@@ -109,10 +116,6 @@ TO INSTALL:
 ## Bundle Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
-
-"Final Frontier"
-Copyright (c) 2014, André Kolster (Nereid)
- All rights reserved.
  
 "KSCFloodlight"
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
