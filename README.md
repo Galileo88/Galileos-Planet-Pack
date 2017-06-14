@@ -77,17 +77,27 @@ TO INSTALL:
 
 * Overall compatibility with KSP 1.3 and Kopernicus v1.3.0-2. (This biggest horse in the stable)
 
-  * Bundled mods also made 1.3-compatible: KSC Switcher
+  * Lots of PQS and other terrain work.
+  
+  * Bundled mods also made 1.3-compatible: KSC Switcher.
+  
+  * Removed FinalFrontier itself but kept our ribbons for it.
 
-* Added full support for Kronometer, successor of KopernicusTime
+* Added full support for Kronometer, successor of KopernicusTime.
 
-* Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
+* KSC++ made non-optional due to huge positive reception.
   
   * Each time you ugrade the astronaut complex, the max temperature for a kerbal goes up by 400k, maxing at 1600K
 
 * Removed LoadingScreen (mod aborted by its author).
 
-* Created GPP_Secondary for perfect compatibility with other star system mods or just to have Stock + GPP.
+* Strategia updates.
+
+* Removed GPP_CareerSaver.
+
+* Created GPP_Secondary for perfect compatibility with other star system mods (such as Kerbol Star System or Galactic Neighborhood) or just to have Stock + GPP.
+
+* Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
 
 * Repaired and restored custom science for Gael and its moons.
 
