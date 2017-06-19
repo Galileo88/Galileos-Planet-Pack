@@ -3,6 +3,8 @@
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
 
+CASUAL PLAYERS: DO NOT DOWNLOAD FROM HERE. ONLY DOWNLOAD FROM THE [RELEASES PAGE](https://github.com/Galileo88/Galileos-Planet-Pack/releases). IF THE VERSION HERE IS HIGHER THEN IT'S NOT RELEASE-READY.
+
 TO INSTALL:
 
 1. Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
