@@ -1,9 +1,11 @@
-﻿# Galileos-Planet-Pack
+﻿CASUAL PLAYERS: DO NOT DOWNLOAD FROM HERE. ONLY DOWNLOAD FROM THE [RELEASES PAGE](https://github.com/Galileo88/Galileos-Planet-Pack/releases). THE DEV VERSION IS NOT RELEASE-READY AND WILL DO MORE HARM THAN GOOD TO YOUR PLAYTHROUGH.
+
+
+# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND 
 
-CASUAL PLAYERS: DO NOT DOWNLOAD FROM HERE. ONLY DOWNLOAD FROM THE [RELEASES PAGE](https://github.com/Galileo88/Galileos-Planet-Pack/releases). IF THE VERSION HERE IS HIGHER THEN IT'S NOT RELEASE-READY.
 
 TO INSTALL:
 
@@ -87,13 +89,17 @@ TO INSTALL:
 
 * Added full support for Kronometer, successor of KopernicusTime.
 
-* KSC++ made non-optional due to huge positive reception.
+* KSC++ is now built into the main GPP directory, and only requires an install of Kerbal Konstructs.
   
   * Each time you ugrade the astronaut complex, the max temperature for a kerbal goes up by 400k, maxing at 1600K
+
+* Kopernicus Expansion Footprint compatibility.
 
 * Removed LoadingScreen (mod aborted by its author).
 
 * Strategia updates.
+  
+  * More realistic strategies. No more "cheat" strategies that take the challenge out of GPP.
 
 * Removed GPP_CareerSaver.
 
