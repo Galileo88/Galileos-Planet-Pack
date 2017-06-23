@@ -10,6 +10,8 @@ Unfortunately, none of us are completly fluent in any langauge other than Englis
 
 Note: Even though you will appear to be editing the project's files, don't worry about making mistakes. Github will keep your changes separate from the main files until we have verified that they are OK to use. It is even possible for us to ask questions or request changes before your work is committed to the main files.
 
+If you have any problems with any of the steps, feel free to ask in the [GPP thread](http://forum.kerbalspaceprogram.com/index.php?/topic/152136-v123-galileos-planet-pack-official-release-ksp-122/)
+
 ### Creating or editing a translation
 
 1. Navigate to the [localization folder](https://github.com/Galileo88/Galileos-Planet-Pack/tree/master/GameData/GPP/GPP_localization)
