@@ -107,6 +107,7 @@ TO INSTALL:
 
 * Created GPP_Secondary (see Optional Mods\ folder) for perfect compatibility with other star system mods (such as Kerbol Star System or Galactic Neighborhood) or just to have Stock + GPP.
 
+  * Any other replacement primary system just needs to reposition Ciro.
   
 * Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
 
