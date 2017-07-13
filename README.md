@@ -97,7 +97,9 @@ TO INSTALL:
   
 * Kopernicus Expansion Footprint compatibility.
 
-* Removed LoadingScreen (mod aborted by its author).
+* Removed LoadingScreenManager (mod aborted by its author).
+  
+  * (WIP) Restore LoadingScreenManager.
 
 * Strategia updates.
   
@@ -119,6 +121,8 @@ TO INSTALL:
 
 * (WIP) Scatterer support for KSP 1.3. The ocean shaders have been disabled to prevent the floating tile bug.
 
+* (WIP) Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
+
 
 
 ## Known Issues
@@ -135,7 +139,7 @@ TO INSTALL:
 
 * Kerbal Konstructs/KSC++ do not scale with Sigma Dimensions. Statics spread apart. A fix is coming.
 
-* Any Decal Stickers parts with stock flags set in them revert to GPP flags on launch or on reload within the SPH/VAB.
+* Kerbalism does not support multiple stars. Solar panels will not work around Grannus. It is not up to us to fix that.
 
 ## Bundle Licenses
 
