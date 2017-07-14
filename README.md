@@ -107,9 +107,13 @@ TO INSTALL:
 
 * Removed GPP_CareerSaver.
 
-* Created GPP_Secondary (see Optional Mods\ folder) for perfect compatibility with other star system mods (such as Kerbol Star System or Galactic Neighborhood) or just to have Stock + GPP.
+* Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual mods not affected.
 
   * Any other replacement primary system just needs to reposition Ciro.
+  
+  * Kerbol Star System not fully supported.
+  
+  * Do not use with Galactic Neighborhood.
   
 * Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
 
@@ -117,11 +121,11 @@ TO INSTALL:
 
 * Repaired and restored custom science for Gael and its moons.
 
-* (WIP) Updated ResearchBodies support and added science for its sibling, Tarsier Space Technologies.
+* Updated ResearchBodies support and added science for its sibling, Tarsier Space Technologies.
 
 * (WIP) Scatterer support for KSP 1.3. The ocean shaders have been disabled to prevent the floating tile bug.
 
-* (WIP) Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
+* Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
 
 
 
