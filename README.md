@@ -16,13 +16,13 @@ TO INSTALL:
 3. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\ 
    * ModularFlightIntergrator\ 
-   * ModuleManager.2.8.0.dll
+   * ModuleManager.2.8.1.dll
  
 4. Download Galileo’s Planet Pack 1.4.0.
  
 5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents. 
  
-6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0).
+6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0). (This link needs to update on release)
  
 7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
@@ -46,7 +46,24 @@ TO INSTALL:
 
 1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer).
  
-2. If you want to change the sunflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Sunflares\[Star]\.
+2. If you want to change the sunflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Sunflares\ [Star]\.
+
+## GPP Secondary
+
+This new addon mod makes GPP into a distant non-primary system, allowing users to keep Kerbin and the stock planets, and set the Ciro system (GPP's main star) and Gael (not a Kerbin clone named Gael) as the mid-game or end-game. To be fully compatible with GPP one of the following must occur:
+
+1. If the other planet pack is large and also replaces the stock solar system it must include a patch to reposition Ciro.
+
+2. If the other planet pack only adds planets, the option exists to place itself around Grannus and be mindful of its asteroid field. [Ciro orbit] realistically is already well occupied by GPP's own planets.
+
+Kerbol Star System is not yet supported as it has a star reserved for GPP and this is not properly handled yet by us. Do not use GPP Secondary with Galactic Neighborhood.
+
+To install, just place GPP_Secondary\ into GameData\ so it looks like this:
+  * GPP\
+  * GPP_Secondary\
+  * Kopernicus\
+  * ModularFlightIntegrator\
+  * ModuleManager.2.8.1.dll
 
 ## Scaled Versions
 
@@ -105,7 +122,7 @@ TO INSTALL:
 
 * Removed GPP_CareerSaver.
 
-* Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual mods not affected.
+* Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual pack interoperability is not handled and not promised.
 
   * Any other replacement primary system just needs to reposition Ciro.
   
