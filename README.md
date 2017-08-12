@@ -73,11 +73,7 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 ## Scaled Versions
 
-1. In addition to the stock-sized version, GPP comes with the configs needed to play at five enlarged scales.  To use, just copy the .cfg file for your choice of scale from [GPP Download]\Optional Mods\Rescale!\ to anywhere within the [KSP]\GameData\ folder.
-
-2. To enable the use of the rescaled versions, it is necessary that you download and install the third-party mod [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases/).
-
-3. To modify the game clock and calendar to match the length of the Gael day and year, download and install the third-party mod [Kronometer](https://github.com/StollD/Kronometer/releases/).
+GPP's own configs for Sigma Dimensions have been discontinued and removed. To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
 
 **Recommended mods with support for or by GPP**
@@ -133,6 +129,8 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
   * More realistic strategies. No more "cheat" strategies that take the challenge out of GPP.
 
 * Removed GPP_CareerSaver.
+
+* Removed Rescale! folder. To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
 * Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual pack interoperability is not handled and not promised.
 
