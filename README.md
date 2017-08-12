@@ -1,4 +1,4 @@
-
+﻿
 # Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
@@ -79,7 +79,7 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 **Recommended mods with support for or by GPP**
   * Environmental Visual Enhancements - min-version: 1.2-2
   * Scatterer - min-version: 0.0320
-  * TextureReplacer
+  * TextureReplacer _GPP still uses the original TextureReplacer. Use RangeMachines verion_
   * Distant Object Enhancement
   * PlanetShine
   * JX2 Large Antenna
@@ -156,6 +156,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 
 ## Known Issues
+* Catullus does not have volumetric clouds due to a bug with scatterer causing them to turn black. They will return. 
+  * Gratian and Augustus no longer have dust storms due to the same issue as stated above
 
 * Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
