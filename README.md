@@ -20,7 +20,7 @@ TO INSTALL:
 
 5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0). (This link needs to update on release)
+6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/2.0.0).
 
 7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
