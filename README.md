@@ -56,7 +56,7 @@ This new addon mod makes GPP into a distant non-primary system, allowing users t
 
 2. If the other planet pack only adds planets, the option exists to place itself around Grannus and be mindful of its asteroid field. [Ciro orbit] realistically is already well occupied by GPP's own planets.
 
-Kerbol Star System is not yet supported as it has a star reserved for GPP and this is not properly handled yet by us. Do not use GPP Secondary with Galactic Neighborhood.
+Kerbol Star System is not fully supported as it is currently known to have a colliding GPP compatibility ptch. Do not use GPP Secondary with Galactic Neighborhood.
 
 To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP\
@@ -118,15 +118,15 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 * Added Localizaion support. Currently only English is available.
 
+* Added Kerbal Renamer. All newly created kerbals will carry the surname Gaelan instead of Kerman, and references to "Kerbal" have been changed to "Gaelean" wherever possible.
+
 * KSC++ is now built into the main GPP directory, and only requires an install of Kerbal Konstructs. With this, other features will also appear.
 
 * Kopernicus Expansion Footprint compatibility.
 
-* Added Kerbal Renamer. All newly created kerbals will carry the surname Gaelan instead of Kerman, and references to "Kerbal" have been changed to "Gaelean" wherever possible.
+* Updated LoadingScreenManager. New screenshots, new tips.
 
-* Removed LoadingScreenManager (mod aborted by its author).
-
-  * Restore LoadingScreenManager.
+* Updated default sunflares.
 
 * Strategia updates.
 
@@ -138,8 +138,6 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
   * Any other replacement primary system just needs to reposition Ciro.
 
-  * Kerbol Star System not fully supported.
-
   * Do not use with Galactic Neighborhood.
 
 * Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
@@ -148,9 +146,11 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 * Repaired and restored custom science for Gael and its moons.
 
-* Updated ResearchBodies support and added science for its sibling, Tarsier Space Technologies.
+* Updated ResearchBodies support and added science definitions for its sibling, Tarsier Space Technologies.
 
-* Scatterer support for KSP 1.3. The ocean shaders have been disabled to prevent the floating tile bug.
+* Scatterer support for KSP 1.3.
+  
+  * Disabled volumetric clouds on Catullus due to scatterer or EVE bug.
 
 * Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
 
