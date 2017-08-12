@@ -78,22 +78,23 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 **Recommended mods with support for or by GPP**
   * Environmental Visual Enhancements - min-version: 1.2-2
-  * Scatterer - min-version: 0.0300
+  * Scatterer - min-version: 0.0320
   * TextureReplacer
   * Distant Object Enhancement
   * PlanetShine
   * JX2 Large Antenna
-  * Kerbalism
   * Strategia
-  * RemoteTech
-  * MechJeb
-  * ResearchBodies
-  * Tarsier Space Technologies
-  * Waypoint Manager
-  * Decal Stickers
-  * USI Constellation
   * Near Future Technologies
   * Far Future Technologies
+  * USI Constellation
+  * MechJeb
+  * Airline Kuisine
+  * RemoteTech
+  * Kerbalism
+  * Tarsier Space Technologies
+  * ResearchBodies
+  * Waypoint Manager
+  * Decal Stickers
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
 
