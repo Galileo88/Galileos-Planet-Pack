@@ -84,17 +84,21 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
   * Environmental Visual Enhancements - min-version: 1.2-2
   * Scatterer - min-version: 0.0300
   * TextureReplacer
-  * Distant Object Enhancements
+  * Distant Object Enhancement
   * PlanetShine
   * JX2 Large Antenna
-  * Kerbalism (Not updated to work with the latest Kopernicus)
+  * Kerbalism
   * Strategia
   * RemoteTech
   * MechJeb
   * ResearchBodies
+  * Tarsier Space Technologies
   * Waypoint Manager
   * Decal Stickers
   * USI Constellation
+  * Near Future Technologies
+  * Far Future Technologies
+  * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
 
 # Changelog:
