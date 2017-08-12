@@ -65,6 +65,12 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * ModularFlightIntegrator\
   * ModuleManager.2.8.1.dll
 
+## Kerbal Renamer
+
+Kerbal Renamer is a new feature that renames all new and existing kerbals from "Kerman" to "Gaelan." It has a toggle (the first line) within GPP\GPP_Renamer\Renamer.cfg that can be set to keep Jebediah and company (the original 4) or to replace them with GPP's developers. It is best to change the setting before starting a save.
+
+To toggle, change the following setting *preserveOriginals = true* to *false.*
+
 ## Scaled Versions
 
 1. In addition to the stock-sized version, GPP comes with the configs needed to play at five enlarged scales.  To use, just copy the .cfg file for your choice of scale from [GPP Download]\Optional Mods\Rescale!\ to anywhere within the [KSP]\GameData\ folder.
@@ -112,9 +118,11 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 
 * Kopernicus Expansion Footprint compatibility.
 
+* Added Kerbal Renamer. All newly created kerbals will carry the surname Gaelan instead of Kerman, and references to "Kerbal" have been changed to "Gaelean" wherever possible.
+
 * Removed LoadingScreenManager (mod aborted by its author).
 
-  * (WIP) Restore LoadingScreenManager.
+  * Restore LoadingScreenManager.
 
 * Strategia updates.
 
@@ -138,7 +146,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 
 * Updated ResearchBodies support and added science for its sibling, Tarsier Space Technologies.
 
-* (WIP) Scatterer support for KSP 1.3. The ocean shaders have been disabled to prevent the floating tile bug.
+* Scatterer support for KSP 1.3. The ocean shaders have been disabled to prevent the floating tile bug.
 
 * Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
 
