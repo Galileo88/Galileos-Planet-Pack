@@ -149,7 +149,7 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 * Updated ResearchBodies support and added science definitions for its sibling, Tarsier Space Technologies.
 
 * Scatterer support for KSP 1.3.
-  
+
   * Disabled volumetric clouds on Catullus due to scatterer or EVE bug.
 
 * Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
@@ -172,7 +172,9 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 * Kerbalism does not support multiple stars. Solar panels will not work around Grannus. It is not up to us to fix that.
 
-## Bundle Licenses
+* All terrain scatter (scenery like trees and rocks) is not working due to a bug in Kopernicus. When the next version of Kopernicus is released, it will fix this issue.
+
+## Bundled Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
 
