@@ -1,5 +1,3 @@
-﻿CASUAL PLAYERS: DO NOT DOWNLOAD FROM HERE. ONLY DOWNLOAD FROM THE [RELEASES PAGE](https://github.com/Galileo88/Galileos-Planet-Pack/releases). THE DEV VERSION IS NOT RELEASE-READY AND WILL DO MORE HARM THAN GOOD TO YOUR PLAYTHROUGH.
-
 
 # Galileos-Planet-Pack
 
@@ -27,6 +25,8 @@ TO INSTALL:
 7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
 8. Run once in this configuration before installing additional mods
+
+## __All terrain scatter (scenery like trees and rocks) is not working due to a bug in Kopernicus. When the next version of Kopernicus is released, it will fix this issue.__
 
 ## Optional Mods
 
