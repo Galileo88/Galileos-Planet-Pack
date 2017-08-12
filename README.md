@@ -3,27 +3,27 @@
 
 # Galileos-Planet-Pack
 
-This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs 
-CC BY-NC-ND 
+This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
+CC BY-NC-ND
 
 
 TO INSTALL:
 
 1. Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
- 
+
 2. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
- 
+
 3. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
-   * Kopernicus\ 
-   * ModularFlightIntergrator\ 
+   * Kopernicus\
+   * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
- 
+
 4. Download Galileo’s Planet Pack 1.4.0.
- 
-5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents. 
- 
+
+5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
+
 6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/1.0). (This link needs to update on release)
- 
+
 7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
 8. Run once in this configuration before installing additional mods
@@ -33,19 +33,19 @@ TO INSTALL:
 1. Install the mods of your choice – Final Frontier, KSC Switcher, Texture Replacer – by copying [GPP Download]\Optional Mods\GPP_[mod name]\ to [KSP]\GameData\.
 
 ## KSC ++
- 
+
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed.
 
 ## Clouds, Aurorae and Shadows
- 
+
 1. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to [KSP]\GameData\GPP\.
- 
+
 2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
 ## Scatterer
 
 1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer).
- 
+
 2. If you want to change the sunflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Sunflares\ [Star]\.
 
 ## GPP Secondary
@@ -68,17 +68,17 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 ## Scaled Versions
 
 1. In addition to the stock-sized version, GPP comes with the configs needed to play at five enlarged scales.  To use, just copy the .cfg file for your choice of scale from [GPP Download]\Optional Mods\Rescale!\ to anywhere within the [KSP]\GameData\ folder.
- 
+
 2. To enable the use of the rescaled versions, it is necessary that you download and install the third-party mod [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases/).
- 
+
 3. To modify the game clock and calendar to match the length of the Gael day and year, download and install the third-party mod [Kronometer](https://github.com/StollD/Kronometer/releases/).
- 
- 
+
+
 **Recommended mods with support for or by GPP**
   * Environmental Visual Enhancements - min-version: 1.2-2
   * Scatterer - min-version: 0.0300
   * TextureReplacer
-  * Distant Object Enhancements 
+  * Distant Object Enhancements
   * PlanetShine
   * JX2 Large Antenna
   * Kerbalism (Not updated to work with the latest Kopernicus)
@@ -97,11 +97,11 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 * Overall compatibility with KSP 1.3 and Kopernicus v1.3.0-2+.
 
   * Lots of PQS and other terrain work.
-  
+
   * Updated EVE visuals too. Check the gas giants.
-  
+
   * Bundled mods also made 1.3-compatible: KSC Switcher.
-  
+
   * Removed FinalFrontier itself but kept our ribbons for it. Final Frontier now must be installed separately.
 
 * Added full support for Kronometer, successor of KopernicusTime.
@@ -109,15 +109,15 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 * Added Localizaion support. Currently only English is available.
 
 * KSC++ is now built into the main GPP directory, and only requires an install of Kerbal Konstructs. With this, other features will also appear.
-  
+
 * Kopernicus Expansion Footprint compatibility.
 
 * Removed LoadingScreenManager (mod aborted by its author).
-  
+
   * (WIP) Restore LoadingScreenManager.
 
 * Strategia updates.
-  
+
   * More realistic strategies. No more "cheat" strategies that take the challenge out of GPP.
 
 * Removed GPP_CareerSaver.
@@ -125,11 +125,11 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 * Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual pack interoperability is not handled and not promised.
 
   * Any other replacement primary system just needs to reposition Ciro.
-  
+
   * Kerbol Star System not fully supported.
-  
+
   * Do not use with Galactic Neighborhood.
-  
+
 * Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
 
   * Each time you ugrade the astronaut complex, the max temperature for a kerbal goes up by 400k, maxing at 1600K.
@@ -145,7 +145,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 
 
 ## Known Issues
- 
+
 * Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
 * Scatterer does not show in main menu. Again, normal. Nothing is broken.
@@ -163,9 +163,15 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
 ## Bundle Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
- 
+
 "KSCFloodlight"
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 "KSC++"
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+"SuitProgression"
+Attribution-NonCommercial-ShareAlike 3.0 International (CC BY-NC-SA 3.0)
+
+"GPP_Renamer"
+Simplified BSD License (BSD 2-clause)
