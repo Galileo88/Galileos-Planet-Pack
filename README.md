@@ -30,7 +30,13 @@ TO INSTALL:
 
 ## Optional Mods
 
-1. Install the mods of your choice – Final Frontier, KSC Switcher, Texture Replacer – by copying [GPP Download]\Optional Mods\GPP_[mod name]\ to [KSP]\GameData\.
+1. Install the optional mods of your choice by copying or merging [GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name] to [KSP]\GameData\.
+
+2. KSC Switcher and Loading Screen are the complete mod, no other action beyond step 1 is required.
+
+3. Final Frontier (https://spacedock.info/mod/580/Final%20Frontier) and Texture Replacer (https://github.com/RangeMachine/TextureReplacer/releases/) must be downloaded and installed separately, and merged with the GPP-specific elements.
+
+4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
 ## KSC ++
 
