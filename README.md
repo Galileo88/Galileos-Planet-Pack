@@ -7,24 +7,26 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Create a fresh install of KSP version 1.3.0.  Ensure that KSP always launches in 64-bit.  Run once with no mods installed.
+1. Begin with an installation of KSP version 1.3.0, running in 64-bit.
 
-2. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
+2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
+3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
+
+4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-4. Download Galileo’s Planet Pack 1.4.0.
+5. Download Galileo’s Planet Pack 1.4.0.
 
-5. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
+6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-6. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/2.0.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/2.0.0).
 
-7. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
+8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
-8. Run once in this configuration before installing additional mods
+9. This completes the basic installation.  If you want to, you can verify the installation by launching KSP.
 
 ## __All terrain scatter (scenery like trees and rocks) is not working due to a bug in Kopernicus. When the next version of Kopernicus is released, it will fix this issue.__
 
