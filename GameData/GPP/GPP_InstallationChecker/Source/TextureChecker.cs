@@ -37,7 +37,7 @@ namespace GPPTextureChecker
             if (installed && !installedCorrectly)
             {
 				errorTitle = "GPP_Texture Folder Not Installed Correctly";
-				errorMessage = "The GPP_Textures folder should be installed to ~/GameData/GPP/GPP_Textures. GPP will not work until the texture folder is installed properly";
+				errorMessage = "The GPP_Textures folder should be installed to ~/GameData/GPP/GPP_Textures. GPP will not work until the texture folder is installed properly.";
             }
 
             if (errorTitle != null)
