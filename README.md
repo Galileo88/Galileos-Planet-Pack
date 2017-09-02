@@ -107,65 +107,34 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 
 # Changelog:
-## v1.4.0
+## v1.5.0
 
-* Overall compatibility with KSP 1.3 and Kopernicus v1.3.0-2+.
+* The new sun curves (introduced in Kopernicus 1.3.0-5) have been added to Ciro and Grannus, curing the infinite multiple starlight problem.
 
-  * Lots of PQS and other terrain work.
+* Nero's precession has been removed. There's no more perciveable wobble in the planet.
 
-  * Updated EVE visuals too. Check the gas giants.
+  * Nero's four moons are all now inclined in concert with the rings. See updated dV map in the download. KSPedia has not been updated.
+  
+  * Nero has two new moonlets: Agrippina and Julia. This could be game-breaking.
 
-  * Bundled mods also made 1.3-compatible: KSC Switcher.
+* GPP now alerts the player if GPP_Textures is misplaced or missing.
 
-  * Removed FinalFrontier itself but kept our ribbons for it. Final Frontier now must be installed separately.
+* Preliminary support (Planet Challenge settings) for Station Science Continued.
 
-* Added full support for Kronometer, successor of KopernicusTime.
+* Planet texture updates.
 
-* Added Localizaion support. Currently only English is available.
+* GPP Secondary now handles visual packs. At minimum, SVE, GPP_Clouds, and sunflares for Stock + GPP work seamlessly.
 
-* Added Kerbal Renamer. All newly created kerbals will carry the surname Gaelan instead of Kerman, and references to "Kerbal" have been changed to "Gaelean" wherever possible.
+* Reduced settings in Strategia. (Needs clarification)
 
-* KSC++ is now built into the main GPP directory, and only requires an install of Kerbal Konstructs. With this, other features will also appear.
-
-* Kopernicus Expansion Footprint compatibility.
-
-* Updated LoadingScreenManager. New screenshots, new tips.
-
-* Updated default sunflares.
-
-* Strategia updates.
-
-  * More realistic strategies. No more "cheat" strategies that take the challenge out of GPP.
-
-* Removed GPP_CareerSaver.
-
-* Removed Rescale! folder. To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
-
-* Created GPP_Secondary (see Optional Mods\ folder) for seamless loading of GPP alongside Stock and/or other star system mods. Visual pack interoperability is not handled and not promised.
-
-  * Any other replacement primary system just needs to reposition Ciro.
-
-  * Do not use with Galactic Neighborhood.
-
-* Created "SuitProgression" upgradeable heat tolerance for EVA kerbals.
-
-  * Each time you ugrade the astronaut complex, the max temperature for a kerbal goes up by 400k, maxing at 1600K.
-
-* Repaired and restored custom science for Gael and its moons.
-
-* Updated ResearchBodies support and added science definitions for its sibling, Tarsier Space Technologies.
-
-* Scatterer support for KSP 1.3.
-
-  * Disabled volumetric clouds on Catullus due to scatterer or EVE bug.
-
-* Added patch to change LqdAmmonia distributions to Ammonia if Kerbalism is present.
+* (WIP) OPM_Galileo will populate Grannus SOI.
 
 
 
 ## Known Issues
-* Catullus does not have volumetric clouds due to a bug with scatterer causing them to turn black. They will return. 
-  * Gratian and Augustus no longer have dust storms due to the same issue as stated above
+* The following bodies no longer have volumetric clouds (including sand storms) due to a bug with scatterer causing them to turn black. They will return:
+
+  * Catullus, Gratian and Augustus.
 
 * Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
 
