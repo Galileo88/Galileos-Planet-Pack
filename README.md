@@ -129,6 +129,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 * (WIP) OPM_Galileo will populate Grannus SOI.
 
+* Added resource setup for Far Future Technologies.
+
 
 
 ## Known Issues
