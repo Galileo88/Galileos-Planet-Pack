@@ -31,12 +31,12 @@ namespace GPPTextureChecker
 
             if (!installed)
             {
-                errorTitle = "No GPP_Texture Folder Detected";
+                errorTitle = "No GPP_Textures Folder Detected";
                 errorMessage = "The GPP_Textures folder is missing. GPP will not load without it. Go to https://github.com/Galileo88/Galileos-Planet-Pack/releases and download the latest texture release.";
             }
             if (installed && !installedCorrectly)
             {
-				errorTitle = "GPP_Texture Folder Not Installed Correctly";
+				errorTitle = "GPP_Textures Folder Installed Incorrectly";
 				errorMessage = "The GPP_Textures folder should be installed to ~/GameData/GPP/GPP_Textures. GPP will not work until the texture folder is installed properly.";
             }
 
