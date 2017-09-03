@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="gpp" Name="gpp" CreatedTime="-8586971672644191758">
+  <Author>Poodmund</Author>
+  <Info>KSPedia entries for the Galileo's Planet Pack modification.</Info>
+  <Assets>
+    <Asset Name="Agrippina" Path="Assets/Prefabs/Agrippina.prefab" Type="GameObject" Url="Prefabs/Agrippina" AutoLoad="false" />
+    <Asset Name="Argo" Path="Assets/Prefabs/Argo.prefab" Type="GameObject" Url="Prefabs/Argo" AutoLoad="false" />
+    <Asset Name="Augustus" Path="Assets/Prefabs/Augustus.prefab" Type="GameObject" Url="Prefabs/Augustus" AutoLoad="false" />
+    <Asset Name="Catullus" Path="Assets/Prefabs/Catullus.prefab" Type="GameObject" Url="Prefabs/Catullus" AutoLoad="false" />
+    <Asset Name="Ceti" Path="Assets/Prefabs/Ceti.prefab" Type="GameObject" Url="Prefabs/Ceti" AutoLoad="false" />
+    <Asset Name="Challenges" Path="Assets/Prefabs/Challenges.prefab" Type="GameObject" Url="Prefabs/Challenges" AutoLoad="false" />
+    <Asset Name="Ciro" Path="Assets/Prefabs/Ciro.prefab" Type="GameObject" Url="Prefabs/Ciro" AutoLoad="false" />
+    <Asset Name="Credits" Path="Assets/Prefabs/Credits.prefab" Type="GameObject" Url="Prefabs/Credits" AutoLoad="false" />
+    <Asset Name="Eta" Path="Assets/Prefabs/Eta.prefab" Type="GameObject" Url="Prefabs/Eta" AutoLoad="false" />
+    <Asset Name="Flags (1)" Path="Assets/Prefabs/Flags (1).prefab" Type="GameObject" Url="Prefabs/Flags (1)" AutoLoad="false" />
+    <Asset Name="Flags (2)" Path="Assets/Prefabs/Flags (2).prefab" Type="GameObject" Url="Prefabs/Flags (2)" AutoLoad="false" />
+    <Asset Name="Gael" Path="Assets/Prefabs/Gael.prefab" Type="GameObject" Url="Prefabs/Gael" AutoLoad="false" />
+    <Asset Name="Gauss" Path="Assets/Prefabs/Gauss.prefab" Type="GameObject" Url="Prefabs/Gauss" AutoLoad="false" />
+    <Asset Name="Geminus" Path="Assets/Prefabs/Geminus.prefab" Type="GameObject" Url="Prefabs/Geminus" AutoLoad="false" />
+    <Asset Name="Grannus" Path="Assets/Prefabs/Grannus.prefab" Type="GameObject" Url="Prefabs/Grannus" AutoLoad="false" />
+    <Asset Name="Gratian" Path="Assets/Prefabs/Gratian.prefab" Type="GameObject" Url="Prefabs/Gratian" AutoLoad="false" />
+    <Asset Name="Hadrian" Path="Assets/Prefabs/Hadrian.prefab" Type="GameObject" Url="Prefabs/Hadrian" AutoLoad="false" />
+    <Asset Name="Hephaestus" Path="Assets/Prefabs/Hephaestus.prefab" Type="GameObject" Url="Prefabs/Hephaestus" AutoLoad="false" />
+    <Asset Name="Hox" Path="Assets/Prefabs/Hox.prefab" Type="GameObject" Url="Prefabs/Hox" AutoLoad="false" />
+    <Asset Name="Icarus" Path="Assets/Prefabs/Icarus.prefab" Type="GameObject" Url="Prefabs/Icarus" AutoLoad="false" />
+    <Asset Name="Information" Path="Assets/Prefabs/Information.prefab" Type="GameObject" Url="Prefabs/Information" AutoLoad="false" />
+    <Asset Name="Iota" Path="Assets/Prefabs/Iota.prefab" Type="GameObject" Url="Prefabs/Iota" AutoLoad="false" />
+    <Asset Name="Jannah" Path="Assets/Prefabs/Jannah.prefab" Type="GameObject" Url="Prefabs/Jannah" AutoLoad="false" />
+    <Asset Name="Julia" Path="Assets/Prefabs/Julia.prefab" Type="GameObject" Url="Prefabs/Julia" AutoLoad="false" />
+    <Asset Name="Leto" Path="Assets/Prefabs/Leto.prefab" Type="GameObject" Url="Prefabs/Leto" AutoLoad="false" />
+    <Asset Name="Loki" Path="Assets/Prefabs/Loki.prefab" Type="GameObject" Url="Prefabs/Loki" AutoLoad="false" />
+    <Asset Name="Minona" Path="Assets/Prefabs/Minona.prefab" Type="GameObject" Url="Prefabs/Minona" AutoLoad="false" />
+    <Asset Name="Muse" Path="Assets/Prefabs/Muse.prefab" Type="GameObject" Url="Prefabs/Muse" AutoLoad="false" />
+    <Asset Name="Narisse" Path="Assets/Prefabs/Narisse.prefab" Type="GameObject" Url="Prefabs/Narisse" AutoLoad="false" />
+    <Asset Name="Nero" Path="Assets/Prefabs/Nero.prefab" Type="GameObject" Url="Prefabs/Nero" AutoLoad="false" />
+    <Asset Name="Niven" Path="Assets/Prefabs/Niven.prefab" Type="GameObject" Url="Prefabs/Niven" AutoLoad="false" />
+    <Asset Name="Otho" Path="Assets/Prefabs/Otho.prefab" Type="GameObject" Url="Prefabs/Otho" AutoLoad="false" />
+    <Asset Name="Resources &amp; Materials" Path="Assets/Prefabs/Resources &amp; Materials.prefab" Type="GameObject" Url="Prefabs/Resources &amp; Materials" AutoLoad="false" />
+    <Asset Name="Splash" Path="Assets/Prefabs/Splash.prefab" Type="GameObject" Url="Prefabs/Splash" AutoLoad="false" />
+    <Asset Name="Tarsiss" Path="Assets/Prefabs/Tarsiss.prefab" Type="GameObject" Url="Prefabs/Tarsiss" AutoLoad="false" />
+    <Asset Name="Tellumo" Path="Assets/Prefabs/Tellumo.prefab" Type="GameObject" Url="Prefabs/Tellumo" AutoLoad="false" />
+    <Asset Name="Thalia" Path="Assets/Prefabs/Thalia.prefab" Type="GameObject" Url="Prefabs/Thalia" AutoLoad="false" />
+    <Asset Name="dV Gael" Path="Assets/Prefabs/dV Gael.prefab" Type="GameObject" Url="Prefabs/dV Gael" AutoLoad="false" />
+    <Asset Name="dV Gauss" Path="Assets/Prefabs/dV Gauss.prefab" Type="GameObject" Url="Prefabs/dV Gauss" AutoLoad="false" />
+    <Asset Name="dV Ice" Path="Assets/Prefabs/dV Ice.prefab" Type="GameObject" Url="Prefabs/dV Ice" AutoLoad="false" />
+    <Asset Name="dV Inner Rockies" Path="Assets/Prefabs/dV Inner Rockies.prefab" Type="GameObject" Url="Prefabs/dV Inner Rockies" AutoLoad="false" />
+    <Asset Name="dV Nero" Path="Assets/Prefabs/dV Nero.prefab" Type="GameObject" Url="Prefabs/dV Nero" AutoLoad="false" />
+    <Asset Name="dV Otho" Path="Assets/Prefabs/dV Otho.prefab" Type="GameObject" Url="Prefabs/dV Otho" AutoLoad="false" />
+    <Asset Name="dV Outer Rockies" Path="Assets/Prefabs/dV Outer Rockies.prefab" Type="GameObject" Url="Prefabs/dV Outer Rockies" AutoLoad="false" />
+    <Asset Name="dV Splash Page" Path="Assets/Prefabs/dV Splash Page.prefab" Type="GameObject" Url="Prefabs/dV Splash Page" AutoLoad="false" />
+    <Asset Name="gpp_kspedia" Path="Assets/XML/gpp_kspedia.xml" Type="TextAsset" Url="XML/gpp_kspedia" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>

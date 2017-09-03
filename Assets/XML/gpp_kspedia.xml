@@ -1,0 +1,4372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="gpp" CreatedTime="-8586971672684084040">
+  <Categories>
+    <Category Name="Galileo's Planet Pack">
+      <Title>Galileo's Planet Pack</Title>
+      <TitleScreen>Splash</TitleScreen>
+      <Screens />
+      <Subcategories>
+        <Subcategory Name="Information">
+          <Title>Information</Title>
+          <TitleScreen>Information</TitleScreen>
+          <Screens>
+            <Screen>Challenges</Screen>
+            <Screen>Resources &amp; Materials</Screen>
+            <Screen>Flags (1)</Screen>
+            <Screen>Flags (2)</Screen>
+            <Screen>Credits</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Ciro">
+          <Title>Ciro</Title>
+          <TitleScreen>Ciro</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Icarus">
+          <Title>Icarus</Title>
+          <TitleScreen>Icarus</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Thalia">
+          <Title>Thalia</Title>
+          <TitleScreen>Thalia</TitleScreen>
+          <Screens>
+            <Screen>Eta</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Niven">
+          <Title>Niven</Title>
+          <TitleScreen>Niven</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Gael">
+          <Title>Gael</Title>
+          <TitleScreen>Gael</TitleScreen>
+          <Screens>
+            <Screen>Iota</Screen>
+            <Screen>Ceti</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Tellumo">
+          <Title>Tellumo</Title>
+          <TitleScreen>Tellumo</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Gratian">
+          <Title>Gratian</Title>
+          <TitleScreen>Gratian</TitleScreen>
+          <Screens>
+            <Screen>Geminus</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Otho">
+          <Title>Otho</Title>
+          <TitleScreen>Otho</TitleScreen>
+          <Screens>
+            <Screen>Augustus</Screen>
+            <Screen>Hephaestus</Screen>
+            <Screen>Jannah</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Gauss">
+          <Title>Gauss</Title>
+          <TitleScreen>Gauss</TitleScreen>
+          <Screens>
+            <Screen>Loki</Screen>
+            <Screen>Catullus</Screen>
+            <Screen>Tarsiss</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Nero">
+          <Title>Nero</Title>
+          <TitleScreen>Nero</TitleScreen>
+          <Screens>
+            <Screen>Hadrian</Screen>
+            <Screen>Narisse</Screen>
+            <Screen>Muse</Screen>
+            <Screen>Minona</Screen>
+            <Screen>Agrippina</Screen>
+            <Screen>Julia</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Hox">
+          <Title>Hox</Title>
+          <TitleScreen>Hox</TitleScreen>
+          <Screens>
+            <Screen>Argo</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Leto">
+          <Title>Leto</Title>
+          <TitleScreen>Leto</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Grannus">
+          <Title>Grannus</Title>
+          <TitleScreen>Grannus</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Delta-V Maps">
+          <Title>Delta-V Maps</Title>
+          <TitleScreen>dV Splash Page</TitleScreen>
+          <Screens>
+            <Screen>dV Gael</Screen>
+            <Screen>dV Inner Rockies</Screen>
+            <Screen>dV Outer Rockies</Screen>
+            <Screen>dV Otho</Screen>
+            <Screen>dV Gauss</Screen>
+            <Screen>dV Nero</Screen>
+            <Screen>dV Ice</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+      </Subcategories>
+    </Category>
+  </Categories>
+  <Screens>
+    <Screen Name="Thalia">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Thalia.prefab</AssetPath>
+      <Title>Thalia</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>THALIA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The cursed planet. After first tracking her as a red glimmer some Kerbal scientists pointed a larger telescope her way and quickly considered early retirement. Although she lacks considerably in gravity, her looks, among other things, will effectively repel passing landers. 
+
+It is believed she may have had an atmosphere rich in combustible materials but a massive impact ignited it and disfigured her.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.061
+270 km
+0.3
+7
+H
+NONE
+1,395 m/s [+645]
+1,570 m/s
+138 DAYS
+1,010 m/s
+150.6 DAYS
+6,992,180 km
+13,646 km
+0.01
+3°
+20 HOURS
+2,772,460 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>7
+135 km
+8
+10
+7
+
+5,440 W/m²
+
+
+6,921 Mm
+21,045 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Tellumo">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Tellumo.prefab</AssetPath>
+      <Title>Tellumo</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>TELLUMO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The concepts of identical and binary twins are far from foreign to Kerbalkind. But to find this in Gael's shadow!
+
+Nothing could accelerate a space program more than the dream to land on a second planet where it is safe to take off your helmet and grill food for the crew. The one big problem, however, is all the gravioli.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>5.276
+1,000 km
+1.9
+273 K
+10 ATMOSPHERES
+EVE
+45 km
+74% NITROGEN
+16% OXYGEN
+5% KARBONITE
+3% ARGON
+2% XENON
+1% CARBON DIOXIDE
+13
+L
+NONE
+1,115 m/s [+235]
+1,820 m/s
+316 DAYS
+7,050 m/s
+2 YEARS + 10 DAYS
+22,375,000 km
+260,440 km
+0.02
+1.5°
+16 HOURS
+10,612,342 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>6
+500 km
+7
+7
+11 km
+7
+9
+9
+6
+
+531.2 W/m²
+
+
+7,946 Mm
+36,805 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Tarsiss">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Tarsiss.prefab</AssetPath>
+      <Title>Tarsiss</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>TARSISS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>That's right. Tarsiss is a moon of a moon. But that's only just the bottom of the grocery list of awesome things about it. Hopefully said list includes many edibles.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.048
+320 km
+0.17
+92 K
+1.4 ATMOSPHERES
+KERBIN
+130 km
+65% NITROGEN
+16% KARBONITE
+10% METHANE
+3% AMMONIA
+2% ARGON
+1% XENON
+11
+K
+NONE
+335 m/s [+0]
+410 m/s
+2,045 m/s
+1.2 DAYS
+6,000 km
+1,070 km
+0
+0°
+1.2 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>12
+160 km
+13
+13
+33 km
+13
+15
+15
+12
+
+13.6 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Splash">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Splash.prefab</AssetPath>
+      <Title>Galileo's Planet Pack</Title>
+      <Background />
+      <Text>
+        <Text Name="Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Resources &amp; Materials">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Resources &amp; Materials.prefab</AssetPath>
+      <Title>Resources &amp; Materials</Title>
+      <Background />
+      <Text>
+        <Text Name="Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>RESOURCES &amp; MATERIALS</Text>
+        </Text>
+        <Text Name="Panel Body/Description Left">
+          <Text>GPP throws spanners and wrenches into the typical ISRU experience, semi-realistically, making your favorite resources and other select resources scarce on certain worlds and always abundant on others; or exclusively present or absent at certain worlds or biomes. Hunting for them whilst using USI MKS and SCANsat just got better (or worse depending on your outlook) and omnipresent Stock Ore is no longer ubiquitous.
+
+For a little guidance on what may be present in a body's atmosphere check out the planetary/munar pages for the elemental breakdowns. You may just find that resource you're looking for. 
+
+For added ISRU fun and new design opportunities along with the challenge, install the Karbonite mod by USI. Karbonite's massive presence in this system enables you to do previously impossible things like deploy on-ocean mining bases, make VTOLs and other aircraft that work in any atmosphere, refill tanks faster than they empty in flight, refuel while in space or entering/leaving atmosphere, and refine not only into LFO and Monopropellant but also into LqdHydrogen, Oxygen and gain Monopropellant via Karbonite's rocket alternators.
+
+There are 4 hard-to-find places that house Karborundum. Additional resources featured are MetalOre for Extraplanetary Launchpads and the essentials for Kerbalism. The planet [REDACTED] has Oxygen and Water oceans making it the next level of testing ground for hypersonic and/or over-engineered aircraft.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Otho">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Otho.prefab</AssetPath>
+      <Title>Otho</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>OTHO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The first of the gas giants is a very mellow and very yellow entity. The sight of him and his fellow amber moons is breathtaking. Even the rowdiest individual quietens down when they catch Otho staring back at them.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>31.295
+3,500 km
+0.92
+237 K
+15 ATMOSPHERES
+JOOL
+600 km
+84% HYDROGEN
+5% HELIUM
+4% KARBONITE
+4% XENON
+1% ARGON
+5
+J
+N/A
+2,015 m/s [+235]
+2,370 m/s
+2 YEARS + 311 DAYS
+11 YEARS + 366 DAYS
+72,718,700 km
+1,725,278 km
+0.04
+1.5°
+14 HOURS
+15,730,119 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>10
+1,750 km
+11
+12
+300 km
+13
+10
+
+50.3 W/m²
+
+
+55,830 Mm
+89,609 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Niven">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Niven.prefab</AssetPath>
+      <Title>Niven</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>NIVEN</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The beautiful orange skies on Niven made mouths water on first observation. Kerbalkind now knows that since it's closer to the star it's going to be a little warmer outdoors than anyone is accustomed to on Gael.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.222
+400 km
+0.5
+325 K
+0.12 ATMOSPHERES
+DUNA
+65 km
+84% CARBON DIOXIDE
+6% NITROGEN
+4.5% KARBONITE
+2.5% XENON
+1.2% HELIUM
+0.5% ARGON
+10
+N
+NONE
+1,025 m/s [+185]
+715 m/s
+174 DAYS
+2,015 m/s
+276.7 DAYS
+10,488,300 km
+34,386 km
+0.03
+1°
+12 HOURS
+2,934,823 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>5
+200 km
+6
+6
+16 km
+6
+8
+N/A
+5
+
+2,418 W/m²
+
+
+3,180 Mm
+24,786 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Nero">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Nero.prefab</AssetPath>
+      <Title>Nero</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>NERO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Rightfully named, this planet kommands the stellar kourt and wears his rings oblique for all to behold. Some Kerbals have gathered under a belief that a Heaven exists in his domain, filled with snacks that no corporeal Kerbal can reach or fathom.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+AXIAL TILT:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>67.338
+5,000 km
+0.97
+272 K
+15 ATMOSPHERES
+JOOL
+560 km
+81% HYDROGEN
+9% HELIUM
+4% KARBONITE
+3% XENON
+1% ARGON
+5
+J
+N/A
+2,575 m/s [+165]
+2,835 m/s
+16 YEARS + 226 DAYS
+86 YEARS + 335 DAYS
+274,093,000 km
+8,835,395 km
+0.05
+1°
+10° (SIMULATED)***
+11 HOURS
+16,139,158 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>12
+2,500 km
+13
+14
+280 km
+15
+12
+
+3.5 W/m²
+
+
+246,408 Mm
+301,779 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>**   TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO
+       PLANE CHANGE. [VALUE] IS MAX PLANE CHANGE ΔV
+*** 10° AXIAL TILT REQUIRES THE USE OF THE ENVIRONMENTAL VISUAL ENHANCEMENTS MOD</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Narisse">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Narisse.prefab</AssetPath>
+      <Title>Narisse</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>NARISSE</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>This moon has been politely described as a malformed peanut butter cup by the scientist who found it... and who happened to be munching on one at the same time of the declaration. Given its sheer lack of size how did that Kerbal even notice?</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.001
+90 km
+0.04
+12
+D
+NONE
+495 m/s [+110]
+1,060 m/s
+230 m/s
+6.27 DAYS
+48,000 km
+539 km
+0.015
+10.85° (ECLIPTICAL)
+1.01° (REL. TO NERO)
+6.27 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+45 km
+14
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Muse">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Muse.prefab</AssetPath>
+      <Title>Muse</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>MUSE</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The topography of this moon is among the most intriguing or muse-inducing ever seen. Conventional Geo-science cannot explain how Muse got his enormous swept gorges and wheat or cauliflower-like patches.
+
+Perhaps he made a grave misdeed and invoked Nero's wrath.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.004
+130 km
+0.08
+10
+D
+NONE
+305 m/s [+0]
+880 m/s
+385 m/s
+13.5 DAYS
+80,000 km
+1,591 km
+0.005
+10.25° (ECLIPTICAL)
+0.25° (REL. TO NERO)
+13.5 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+65 km
+14
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Minona">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Minona.prefab</AssetPath>
+      <Title>Minona</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>MINONA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Another rather gorgeous moon, although one that looks roughed up on one side like that ice cream scoop back at the KSC that was dropped on the floor. 
+
+Nonetheless, sightseeing trips here may prove quite fulfilling.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.002
+120 km
+0.06
+10
+D
+NONE
+185 m/s [+170]
+770 m/s
+330 m/s
+29.59 DAYS
+135,000 km
+2,244 km
+0.02
+11° (ECLIPTICAL)
+1.48° (REL. TO NERO)
+29.59 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+60 km
+14
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Loki">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Loki.prefab</AssetPath>
+      <Title>Loki</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>LOKI</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Like everything else in Gauss' SOI this celestial body has amazing qualities. Hmmm... maybe the amazing part is that they lack nothing? ...Eh, Loki is a defiant moon in any case.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.009
+180 km
+0.1
+7
+D
+NONE
+460 m/s [+310]
+650 m/s
+480 m/s
+2.91 DAYS
+18,500 km
+887 km
+0.02
+4°
+2.91 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>12
+90 km
+13
+15
+12
+
+13.6 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Leto">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Leto.prefab</AssetPath>
+      <Title>Leto</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>LETO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The recognised border world. The least amount of information is known about this rogue scoop of snowcone. The only sure fire thought is that its orbital properties render it a very un-affordable snowcone to visit.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.015
+210 km
+0.12
+10
+D
+NONE
+2,705 m/s [+1,650]
+890 m/s
+44 YEARS + 168 DAYS
+515 m/s
+241 YEARS + 309 DAYS
+542,593,000 km
+600,296 km
+0.1
+10°
+6 HOURS
+639,629 km</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>14
+105 km
+15
+17
+14
+
+0.9 W/m²
+
+
+474,564 Mm
+610,632 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Julia">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Julia.prefab</AssetPath>
+      <Title>Julia</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>JULIA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>A 'Nereid', also a very different flavor of planetoid. This maiden clearly wandered by and paid more than one visit to Nero's kourt in her lifetime.
+
+Julia found herself invited to hang around but not worthy to be in very close proximity.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.00004
+30 km
+0.015
+5
+D
+NONE
+15 m/s [+1,140]
+305 m/s
+85 m/s
+2 YEARS + 384 DAYS
+1,625 Mm
+5,118 km
+0.28
+170° (ECLIPTICAL)
+160° (REL. TO NERO)
+10 HOURS
+133,192 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+15 km
+14
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH
+    PARENT AND GOOD TIMING. [VALUE] IS MAX PLANE CHANGE ΔV
+    ADDITIONAL ΔV IS REQUIRED FOR ORBITAL DIRECTION REVERSAL. NO ESTIMATE POSSIBLE.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Jannah">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Jannah.prefab</AssetPath>
+      <Title>Jannah</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>JANNAH</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Jannah seems analogous to that one kid in the class who nobody ever minded, or who always avoided everyone. Either way, if she senses that a landing party has pity on her she may just get a bit touchy and threaten to raise her orbit or inclination.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.002
+105 km
+0.065
+12
+D
+NONE
+215 m/s [+530]
+680 m/s
+320 m/s
+14.5 DAYS
+65,000 km
+1,362 km
+0.075
+6°
+14.5 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>11
+52.5 km
+12
+14
+11
+
+50.3 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Iota">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Iota.prefab</AssetPath>
+      <Title>Iota</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>IOTA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The easiest thing to spot in the sky; its smooth yet gritty textures and neutral colors may have made it the first celestial body to be associated with snacks.
+
+For many years Gaeleans have reached up towards Iota and stretched their fingertips ever closer.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.002
+100 km
+0.085
+5
+D
+NONE
+905 m/s [+345]
+195 m/s
+4 DAYS
+355 m/s
+22.94 DAYS
+28,000 km
+2,491 km
+0
+0°
+22.94 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>2
+50 km
+3
+4
+2
+
+1,360 W/m²</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** [VALUE] IS MAX PLANE CHANGE ΔV FROM KSC DIRECT ORB. INSERTION ON IOTA'S ASC. NODE</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Information">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Information.prefab</AssetPath>
+      <Title>Information</Title>
+      <Background />
+      <Text>
+        <Text Name="Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>INFORMATION</Text>
+        </Text>
+        <Text Name="Panel Body/Description Left">
+          <Text>A solar system mod unlike any other. Kerbals, effectively Gaeleans, arise on the 4th planet, Gael. Kerbin and the rest of the stock solar system do/did not exist and with 27 celestial bodies orbiting Ciro "the Sun" this system is as large by count and orbital radii as Stock + the Outer Planets Mod (OPM). This mod exists to make KSP feel new again to long-time players who have grown tired of launching from Kerbin, tired of stock or stockalike planets* in general and tired of meeting the same suite of challenges they know in the stock system.
+
+Unique patterns occurred during the formation of Ciro and the planets from their circumstellar disc, leading to meticulous, almost deliberate allocations of precious resources with the leftovers forming into an organic, combustible system with strangely allocated abundances compared to other solar systems. The Ciro system itself develops a collection of stories and is of many special attractions as gameplay matures such as the daunting Icarus, the curse of Thalia and the configurations of Gauss and its moons.
+
+Every world is named after Graeco-Roman culture and each has a story to tell, whether by in-game descriptions, the challenges they pose to players, the names of their biomes or merely their looks. Gael and her moons present custom science statements to provide additional exposition.
+
+* The upmost respect is intended towards stockalike planets and their makers. OPM is honored wholeheartedly for setting the bar for solar system mods and its bodies are used as references within this pack.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Icarus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Icarus.prefab</AssetPath>
+      <Title>Icarus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>ICARUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>It took a long time to discover this gem due to its size and its proximity to the inferno. Its appearance strongly inspires thoughts of seafood and a visit would be as exquisite. The ability to get here and back without bankrupting KSC, melting or upsetting Gael's biosphere would be treated with great prestige.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.011
+160 km
+0.16
+11
+D
+NONE
+2,495 m/s [+1,850]
+4,985 m/s
+105 DAYS
+590 m/s
+53.3 DAYS
+3,496,090 km
+3,491 km
+0.1
+6°
+213 HOURS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>9
+80 km
+10
+18
+9
+
+21,760 W/m²
+
+
+10,140 Mm
+17,827 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Hox">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Hox.prefab</AssetPath>
+      <Title>Hox</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>HOX</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Whilst Leto is the officially recognised border world, Hox may prove to be a much more desirable place to settle down at and open a restaurant, or visit one. Posessing an incredibly thin atmosphere though, it may be hard to get that slice of Kerbal Krunch past your helmet visor.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.024
+250 km
+0.14
+46 K
+0.01 ATMOSPHERES
+THATMO
+40 km
+91% NITROGEN
+6% KARBONITE
+1% ARGON
+10
+D
+NONE
+2,665 m/s [+820]
+980 m/s
+30 YEARS + 220 DAYS
+710 m/s
+164 YEARS + 147 DAYS
+419,531,000 km
+567,558 km
+0.15
+5°
+18 HOURS
+1,839,808 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+125 km
+14
+14
+10 km
+14
+16
+N/A
+13
+
+1.5 W/m²
+
+
+342,675 Mm
+496,391 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Hephaestus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Hephaestus.prefab</AssetPath>
+      <Title>Hephaestus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>HEPHAESTUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The name of this moon invokes thoughts and connotations of smithing and construction. Evidently it sure seems to be the workplace of higher beings, looking like it its own self burst open and bled under unfathomable workloads.
+
+Given the aesthetics of the other planets they did quite the job.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.003
+125 km
+0.08
+8
+D
+NONE
+425 m/s [+45]
+765 m/s
+370 m/s
+5.01 DAYS
+32,000 km
+838 km
+0.01
+0.5°
+5.01 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>11
+62.5 km
+12
+14
+11
+
+50.3 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Hadrian">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Hadrian.prefab</AssetPath>
+      <Title>Hadrian</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>HADRIAN</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The only world bearing oceans between Gratian and Leto, Hadrian wears the mantle of King of the Moons and offers royal frozen treats to explorers. It may just be that Nero's incorporeal edible treasures lay here.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.045
+300 km
+0.18
+65 K
+0.4 ATMOSPHERES
+DUNA
+80 km
+88% NITROGEN
+5% KARBONITE
+2% ARGON
+1% XENON
+0.8% AMMONIA
+0.6% HYDROGEN
+11
+K
+NONE
+755 m/s [+55]
+900 m/s
+1,245 m/s
+3.10 DAYS
+30,000 km
+1,611 km
+0.010
+10° (ECLIPTICAL)
+0.52° (REL. TO NERO)
+3.10 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+150 km
+14
+14
+20 km
+14
+16
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Gratian">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Gratian.prefab</AssetPath>
+      <Title>Gratian</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>GRATIAN</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>In decades past a poetically inclined Kerbal, being close friends with a chef, often had dreams of a world filled with spicy food. They inspired highly eccentric stories that were hidden until his passing. One of these stories even went as far as to say something about controlling this spice and the universe. Maybe he was onto something...</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.63
+550 km
+0.75
+157 K
+0.5 ATMOSPHERES
+LAYTHE
+50 km
+88% NITROGEN
+7% KARBONITE
+2% ARGON
+1.5% XENON
+0.8% HELIUM
+0.25% METHANE
+9
+K
+NONE
+1,545 m/s [+305]
+1,230 m/s
+1 YEAR + 132 DAYS
+2,570 m/s
+4 YEARS + 292 DAYS
+39,156,200 km
+194,786 km
+0.06
+2°
+38.7 HOURS
+9,750,000 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>8
+275 km
+9
+9
+13 km
+9
+11
+N/A
+8
+
+173.5 W/m²
+
+
+22,832 Mm
+55,485 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Grannus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Grannus.prefab</AssetPath>
+      <Title>Grannus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>GRANNUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>As long as Kerbalkind has known the light they have known about a little red glimmer that hung in the sky and to this day dances with Ciro and Gael. 
+
+Always finding it irresistible to point lenses at, Kerbals have referenced Grannus in stories new and long forgotten but its proximity and lack of planets have made it a none too great travel destination.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>STOCK SUN MASSES:
+RADIUS:
+STOCK SUN RADII:
+SPECTRAL CLASS:
+STOCK SUN LUMINOSITIES:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+BIOME COUNT:
+ELLIPTICAL INS ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.544
+30,170 km
+0.115
+M2
+
+0.033
+71.4
+3,550 K
+0.1 ATMOSPHERES
+SUN
+400 km
+HYDROGEN
+HELIUM
+9
+[REDACTED]
+1,710 YR + 267 DAYS
+2,000 Gm
+500 Gm
+0.4
+7°
+60 DAYS
+2,974.11 Mm</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>25
+21,375 Mm
+100
+25
+200 km
+25
+N/A
+N/A
+25
+
+
+1,186 Gm
+2,814 Gm</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Geminus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Geminus.prefab</AssetPath>
+      <Title>Geminus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>GEMINUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Ignoring its incline, this curious black pearl occupies its parent's geo-synchronous altitude, causing the moon to appear tidally locked to it!
+
+If Geminus was a little better fed in the proto-days it would be as wide as Gratian! Aha, Geminus is almost Gemini!</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.032
+230 km
+0.22
+7
+D
+NONE
+75 m/s [+100]
+335 m/s
+795 m/s
+6.45 DAYS
+10,300 km
+3,140 km
+0.025
+3°
+6.45 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>9
+115 km
+10
+12
+9
+
+173.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Gauss">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Gauss.prefab</AssetPath>
+      <Title>Gauss</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>GAUSS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The most trivial of the gas giants... or is he? This particularly restless blue world is home to more than one superstorm and regularly exercises immense electromagnetic powers of RUD!
+
+Beware, for all is not as it seems in Gauss' SOI.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+TRANSFER ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>17.876
+2,500 km
+1.03
+209 K
+15 ATMOSPHERES
+JOOL
+400 km
+81% HYDROGEN
+11% HELIUM
+3% XENON
+2% KARBONITE
+2% ARGON
+7
+J
+N/A
+2,365 m/s [+320]
+2,160 m/s
+6 YEARS + 192 DAYS
+31 YEARS + 268 DAYS
+139,844,000 km
+2,652,003 km
+0.03
+2°
+17 HOURS
+15,660,467 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+
+DISTANCE TO GAEL
+NEAREST:
+FARTHEST:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>11
+1,250 km
+12
+13
+200 km
+14
+11
+
+13.6 W/m²
+
+
+121,667 Mm
+158,021 Mm</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** TRANSFER ΔV ASSUMES HOHMANN TRANSFER ORBIT WITH ZERO PLANE CHANGE
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Gael">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Gael.prefab</AssetPath>
+      <Title>Gael</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>GAEL</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>A terrestrial planet, Homeworld of the Kerbals. Despite their penchant for mega-structures, Kerbals make every effort to ensure that the ecological balance of their world is not disturbed and much of the planet remains an untouched wilderness.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+LAUNCH ΔV:
+EQUATOR MATCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>1.0
+600 km
+1.0
+288 K
+1 ATMOSPHERES
+KERBIN
+70 km
+71% NITROGEN
+20% OXYGEN
+3% KARBONITE
+1.5% ARGON
+1% HYDROGEN
+1% CARBON DIOXIDE
+16 + 28 (KSC)
+M
+NONE
+3,200 m/s
+345 m/s
+426 DAYS EXACT
+13,982,767 km
+83,668 km
+0
+0°
+5.98595 HOURS
+2,862,939 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>1.5
+300 km
+1
+0.9
+18 km
+0.7
+0.3
+0.4
+1
+
+1,360 W/m²</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Flags (2)">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Flags (2).prefab</AssetPath>
+      <Title>Flags (2)</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>FLAGS (2)</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (1)/Flag Desc. (1)">
+          <Text>"Purple Moons" Catullus and Tarsiss look alike and are uniquely exceptional, deserving their own flag.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (2)/Flag Desc. (2)">
+          <Text>"House of Nero" The most fabulous of flags for the most fabulous of planets.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (3)/Flag Desc. (3)">
+          <Text>An inverse version in case the first one doesn't show well on some parts of a craft.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (4)/Flag Desc. (4)">
+          <Text>"Hox" The first of the ice planets and border-world of the ice worlds region.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (5)/Flag Desc. (5)">
+          <Text>"The Ice Life" Flag for any and all of the ice worlds.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (6)/Flag Desc. (6)">
+          <Text>"The Three Kings" A challenge flag to be used on vessels that transit soley to the gas planets, and all of them, and no other planet except Gael.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (7)/Flag Desc. (7)">
+          <Text>"Grand Tour Gold" What it says on the tin.</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (8)/Flag Desc. (8)">
+          <Text>"Grand Tour Silver" This flag pardons players who can do the grand tour excepting Catullus but no other world.</Text>
+        </Text>
+        <Text Name="Panel Body/Description Right">
+          <Text>It can be a bit cumbersome to manage the additional GPP flags alongside the array of stock flags but by using the Decal Stickers mod you can get the best of both worlds where craft compatibilities are concerned.
+
+Utilising 'decals' for your flags, crafts shared outside of GPP will only break if the Decal Stickers mod is absent. They will not require Galileo's Planet Pack itself in order to stay valid.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Flags (1)">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Flags (1).prefab</AssetPath>
+      <Title>Flags (1)</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>FLAGS (1)</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (1)/Flag Desc. (1)">
+          <Text>"Isle of Ciro" associated with Icarus which orbits the star more closely than Moho does.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (2)/Flag Desc. (2)">
+          <Text>"Oh Thalia" associated with the badlands-esque planet Thalia.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (3)/Flag Desc. (3)">
+          <Text>"Jolly Thalia" for any hardcore pirate faction.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (4)/Flag Desc. (4)">
+          <Text>"Gaeo Tao" the default and all-purpose flag. Associated mainly with Gael but can include Niven.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (5)/Flag Desc. (5)">
+          <Text>"Republica Gaelia" The flag of organizational regimes and anything on the grand scale.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (6)/Flag Desc. (6)">
+          <Text>"Al Tellum" Tellumo is a sacred place among planets, deadly to approach for the common Kerbal.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (7)/Flag Desc. (7)">
+          <Text>"Grat and Gem" of Gratian, the red planet, and its swirling dry seas.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (8)/Flag Desc. (8)">
+          <Text>"The Oth" flag of Otho, the first gas giant and its Hallowed Space and the fellow yellow moons.
+</Text>
+        </Text>
+        <Text Name="Panel Body/Flags/Flag (9)/Flag Desc. (9)">
+          <Text>"Max Gauss" associated with Gauss and the Moons in Mischief.</Text>
+        </Text>
+        <Text Name="Panel Body/Description Right">
+          <Text>Over a dozen flags are provided for the Galileo's Planet Pack mod to show off on your crafts wherever in the Ciro system you’re taking care of business or whatever major feat you’re attempting for your playthrough.
+
+These flags will appear near the top of the flag selection window in-game, so ensure you scroll right to the top.
+
+If you wish to install the Decal Stickers mod, GPP will enable these decal parts to be placed and tiled anywhere about your craft. You can do this when constructing your craft within the VAB/SPH.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Eta">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Eta.prefab</AssetPath>
+      <Title>Eta</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>ETA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>As far as Kerbalkind knows, this is the most petite body around. Her relationship with Thalia is akin to Sleeping Beauty and Maleficent.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.0005
+60 km
+0.05
+6
+D
+NONE
+5 m/s [+30]
+90 m/s
+225 m/s
+23.86 DAYS
+11,300 km
+1,657 km
+0.06
+2°
+23.86 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>8
+80 km
+9
+11
+8
+
+5,440 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Splash Page">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Splash Page.prefab</AssetPath>
+      <Title>Delta-V Maps</Title>
+      <Background />
+      <Text>
+        <Text Name="Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>DELTA-V MAPS</Text>
+        </Text>
+        <Text Name="Panel Body/Description Left">
+          <Text>Included in the following pages are complete Delta-V maps for the GPP system which use values derived from the following: minimum transfer Δv is by simple Hohmann Transfer with zero plane change with bodies at their mean distance from Ciro, plane change Δv is as a mid-course correction (90° from intercept) at the target planet's maximum displacement from the ecliptic plane. Please let it be noted that the user should never assume that numbers in any Delta-V map are exactly accurate as small orbital differences can affect flight paths greatly over large distances. Elliptical orbits are listed with maximum eccentricity without SOI escape and with periapsis at 10 km above atmosphere edge or highest point on terrain. Ciro's elliptical orbit apogee is Gael's SMA.
+
+For upscaled solar systems, multiply any Delta-V value by the square root of the rescale value. Numbers coloured white in square brackets, [], are maximum amounts required via a plane-change. Numbers coloured orange are the total Delta-V required to approach that point [+ any plane change]; for parent planets these values show the total Delta-V required to land on that body. Atmospheric bodies assume that no fuel is spent during the landing phase i.e. parachute landing (excepting Hox).
+
+For those who like to refer to a Delta-V map outside of the game please direct your attention to the root folder of the Galileo's Planet Pack download archive. A full Delta-V Map in the traditional, sub-way map, style is included for your reference.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Outer Rockies">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Outer Rockies.prefab</AssetPath>
+      <Title>Outer Rocky Planets</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus">
+          <Text>TELLUMO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Tot dV">
+          <Text>6,480 m/s [6,715]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Intercept">
+          <Text>Tellumo Intercept
+(316 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Intercept/Intercept dV">
+          <Text>180 m/s [+ 235]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit">
+          <Text>Elliptical Orbit
+259.4 Mm - 55 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit/Intercept dV">
+          <Text>90 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Low Orbit">
+          <Text>Low Orbit
+55 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Low Orbit/Intercept dV">
+          <Text>1,730 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Land Takoff">
+          <Text>Takeoff: 7,050 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia">
+          <Text>GRATIAN</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Tot dV">
+          <Text>6,320 m/s [6,625]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Intercept">
+          <Text>Gratian Intercept
+(1 year, 132 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Intercept/Intercept dV">
+          <Text>610 m/s [+ 305]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit">
+          <Text>Elliptical Orbit
+194.2 Mm - 60 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit/Intercept dV">
+          <Text>440 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Low Orbit">
+          <Text>Low Orbit
+60 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Low Orbit/Intercept dV">
+          <Text>790 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Land Takoff">
+          <Text>Takeoff: 2,570 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta">
+          <Text>GEMINUS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Elliptical Orbit">
+          <Text>Geminus Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Elliptical Orbit/Intercept dV">
+          <Text>75 m/s [+ 100]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Low Orbit">
+          <Text>Low Orbit
+13.7 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Low Orbit/Intercept dV">
+          <Text>335 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Land Takoff">
+          <Text>Land/Takeoff: 795 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Otho">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Otho.prefab</AssetPath>
+      <Title>Otho System</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho">
+          <Text>OTHO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Tot dV">
+          <Text>7,930 m/s [8,165]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Intercept">
+          <Text>Otho Intercept
+(2 years, 311 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Intercept/Intercept dV">
+          <Text>1,080 m/s [+ 235]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Elliptical Orbit">
+          <Text>Elliptical Orbit
+1,722 Mm - 610 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Elliptical Orbit/Intercept dV">
+          <Text>230 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Low Orbit">
+          <Text>Low Orbit
+610 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Otho/Low Orbit/Intercept dV">
+          <Text>2,140 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus">
+          <Text>AUGUSTUS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus/Elliptical Orbit">
+          <Text>Augustus Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus/Elliptical Orbit/Intercept dV">
+          <Text>650 m/s [+ 85]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus/Low Orbit">
+          <Text>Low Orbit
+70 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus/Low Orbit/Intercept dV">
+          <Text>720 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Augustus/Land Takoff">
+          <Text>Takeoff: 1,575 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus">
+          <Text>HEPHAESTUS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus/Elliptical Orbit">
+          <Text>Hephaestus Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus/Elliptical Orbit/Intercept dV">
+          <Text>425 m/s [+ 45]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus/Low Orbit">
+          <Text>Low Orbit
+13.3 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus/Low Orbit/Intercept dV">
+          <Text>765 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hephaestus/Land Takoff">
+          <Text>Land/Takeoff: 370 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah">
+          <Text>JANNAH</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah/Elliptical Orbit">
+          <Text>Jannah Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah/Elliptical Orbit/Intercept dV">
+          <Text>215 m/s [+ 530]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah/Low Orbit">
+          <Text>Low Orbit
+12.8 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah/Low Orbit/Intercept dV">
+          <Text>680 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Jannah/Land Takoff">
+          <Text>Land/Takeoff: 320 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Nero">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Nero.prefab</AssetPath>
+      <Title>Nero System</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero">
+          <Text>NERO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Tot dV">
+          <Text>8,955 m/s [9,120]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Intercept">
+          <Text>Nero Intercept
+(16 years, 226 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Intercept/Intercept dV">
+          <Text>1,640 m/s [+ 165]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Elliptical Orbit">
+          <Text>Elliptical Orbit
+8,830 Mm - 570 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Elliptical Orbit/Intercept dV">
+          <Text>125 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Low Orbit">
+          <Text>Low Orbit
+570 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Nero/Low Orbit/Intercept dV">
+          <Text>2,710 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian">
+          <Text>HADRIAN</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian/Elliptical Orbit">
+          <Text>Hadrian Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian/Elliptical Orbit/Intercept dV">
+          <Text>755 m/s [+ 55]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian/Low Orbit">
+          <Text>Low Orbit
+90 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian/Low Orbit/Intercept dV">
+          <Text>900 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hadrian/Land Takoff">
+          <Text>Takeoff: 1,245 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse">
+          <Text>NARISSE</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse/Elliptical Orbit">
+          <Text>Narisse Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse/Elliptical Orbit/Intercept dV">
+          <Text>495 m/s [+ 110]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse/Low Orbit">
+          <Text>Low Orbit
+11.9 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse/Low Orbit/Intercept dV">
+          <Text>1,060 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Narisse/Land Takoff">
+          <Text>Land/Takeoff: 230 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse">
+          <Text>MUSE</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse/Elliptical Orbit">
+          <Text>Muse Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse/Elliptical Orbit/Intercept dV">
+          <Text>305 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse/Low Orbit">
+          <Text>Low Orbit
+13.4 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse/Low Orbit/Intercept dV">
+          <Text>880 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Muse/Land Takoff">
+          <Text>Land/Takeoff: 385 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona">
+          <Text>MINONA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona/Elliptical Orbit">
+          <Text>Minona Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona/Elliptical Orbit/Intercept dV">
+          <Text>185 m/s [+ 170]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona/Low Orbit">
+          <Text>Low Orbit
+13.8 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona/Low Orbit/Intercept dV">
+          <Text>770 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Minona/Land Takoff">
+          <Text>Land/Takeoff: 330 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina">
+          <Text>AGRIPPINA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina/Elliptical Orbit">
+          <Text>Agrippina Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina/Elliptical Orbit/Intercept dV">
+          <Text>30 m/s [+ 2,040]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina/Low Orbit">
+          <Text>Low Orbit
+15 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina/Low Orbit/Intercept dV">
+          <Text>400 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Agrippina/Land Takoff">
+          <Text>Land/Takeoff: 145 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia">
+          <Text>JULIA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia/Elliptical Orbit">
+          <Text>Julia Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia/Elliptical Orbit/Intercept dV">
+          <Text>15 m/s [+ 1,140] *</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia/Low Orbit">
+          <Text>Low Orbit
+15 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia/Low Orbit/Intercept dV">
+          <Text>305 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Julia/Land Takoff">
+          <Text>Land/Takeoff: 85 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+        <Text Name="Note (1)">
+          <Text>* ADDITIONAL ΔV MAY BE REQUIRED TO
+  REVERSE DIRECTION OF ORBIT.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Inner Rockies">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Inner Rockies.prefab</AssetPath>
+      <Title>Inner Rocky Planets</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus">
+          <Text>ICARUS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Tot dV">
+          <Text>11,615 m/s [13,465]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Intercept">
+          <Text>Icarus Intercept
+(105 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Intercept/Intercept dV">
+          <Text>1,560 m/s [+ 1,850]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit">
+          <Text>Elliptical Orbit
+3.331 Mm - 15.1 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit/Intercept dV">
+          <Text>4,800 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Low Orbit">
+          <Text>Low Orbit
+15.1 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Low Orbit/Intercept dV">
+          <Text>185 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Icarus/Land Takoff">
+          <Text>Land/Takeoff: 590 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia">
+          <Text>THALIA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Tot dV">
+          <Text>7,520 m/s [8,165]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Intercept">
+          <Text>Thalia Intercept
+(138 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Intercept/Intercept dV">
+          <Text>460 m/s [+ 645]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit">
+          <Text>Elliptical Orbit
+13.37 Mm - 16.1 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit/Intercept dV">
+          <Text>1,220 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Low Orbit">
+          <Text>Low Orbit
+16.1 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Low Orbit/Intercept dV">
+          <Text>350 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Thalia/Land Takoff">
+          <Text>Land/Takeoff: 1,010 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta">
+          <Text>ETA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Elliptical Orbit">
+          <Text>Eta Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Elliptical Orbit/Intercept dV">
+          <Text>5 m/s [+ 30]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Low Orbit">
+          <Text>Low Orbit
+14.8 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Low Orbit/Intercept dV">
+          <Text>90 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Eta/Land Takoff">
+          <Text>Land/Takeoff: 225 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven">
+          <Text>NIVEN</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Tot dV">
+          <Text>5,285 m/s [5,470]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Intercept">
+          <Text>Niven Intercept
+(174 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Intercept/Intercept dV">
+          <Text>90 m/s [+ 185]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Elliptical Orbit">
+          <Text>Elliptical Orbit
+33.9 Mm - 75 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Elliptical Orbit/Intercept dV">
+          <Text>195 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Low Orbit">
+          <Text>Low Orbit
+75 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Low Orbit/Intercept dV">
+          <Text>520 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Niven/Land Takoff">
+          <Text>Takeoff: 2,015 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Ice">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Ice.prefab</AssetPath>
+      <Title>Outer Ice Worlds</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox">
+          <Text>HOX</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Tot dV">
+          <Text>7,900 m/s [8,720]*</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Intercept">
+          <Text>Hox Intercept
+(30 years, 220 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Intercept/Intercept dV">
+          <Text>1,730 m/s [+ 820]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Elliptical Orbit">
+          <Text>Elliptical Orbit
+567.3 Mm - 50 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Elliptical Orbit/Intercept dV">
+          <Text>755 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Low Orbit">
+          <Text>Low Orbit
+50 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Low Orbit/Intercept dV">
+          <Text>225 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Hox/Land Takoff">
+          <Text>Land/Takeoff: 710 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo">
+          <Text>ARGO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo/Intercept">
+          <Text>Argo Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo/Intercept/Intercept dV">
+          <Text>10 m/s [+ 365]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo/Low Orbit">
+          <Text>Low Orbit
+13.3 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo/Low Orbit/Intercept dV">
+          <Text>75 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Argo/Land Takoff">
+          <Text>Land/Takeoff: 210 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto">
+          <Text>LETO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Tot dV">
+          <Text>7,655 m/s [9,305]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Intercept">
+          <Text>Leto Intercept
+(44 years, 168 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Intercept/Intercept dV">
+          <Text>1,770 m/s [+ 1,650]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Elliptical Orbit">
+          <Text>Elliptical Orbit
+600.1 Mm - 12.4 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Elliptical Orbit/Intercept dV">
+          <Text>690 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Low Orbit">
+          <Text>Low Orbit
+12.4 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Low Orbit/Intercept dV">
+          <Text>200 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Leto/Land Takoff">
+          <Text>Land/Takeoff: 515 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Note">
+          <Text>* Hox's 'Landed' total ΔV requirements shown do not factor in aerobraking/
+   aerocapture as Hox exhibits an extremely low density atmosphere.</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Gauss">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Gauss.prefab</AssetPath>
+      <Title>Gauss System</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL SOI LIMIT</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss">
+          <Text>GAUSS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Tot dV">
+          <Text>8,070 m/s [8,390]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Intercept">
+          <Text>Gauss Intercept
+(6 years, 192 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Intercept/Intercept dV">
+          <Text>1,430 m/s [+ 320]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Elliptical Orbit">
+          <Text>Elliptical Orbit
+2,649 Mm - 410 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Elliptical Orbit/Intercept dV">
+          <Text>230 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Low Orbit">
+          <Text>Low Orbit
+410 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Gauss/Low Orbit/Intercept dV">
+          <Text>1,930 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki">
+          <Text>LOKI</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki/Elliptical Orbit">
+          <Text>Loki Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki/Elliptical Orbit/Intercept dV">
+          <Text>460 m/s [+ 310]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki/Low Orbit">
+          <Text>Low Orbit
+13.6 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki/Low Orbit/Intercept dV">
+          <Text>650 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Loki/Land Takoff">
+          <Text>Land/Takeoff: 480 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus">
+          <Text>CATULLUS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Intercept">
+          <Text>Catullus Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Intercept/Intercept dV">
+          <Text>160 m/s [+ 80]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Elliptical Orbit">
+          <Text>Elliptical Orbit
+28.82 Mm - 290 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Elliptical Orbit/Intercept dV">
+          <Text>1,280 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Low Orbit">
+          <Text>Low Orbit
+290 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Low Orbit/Intercept dV">
+          <Text>1,110 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Catallus/Land Takoff">
+          <Text>Takeoff: 6,750 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss">
+          <Text>TARSISS</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss/Elliptical Orbit">
+          <Text>Tarsiss Intercept
+</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss/Elliptical Orbit/Intercept dV">
+          <Text>335 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss/Low Orbit">
+          <Text>Low Orbit
+140 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss/Low Orbit/Intercept dV">
+          <Text>410 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Tarsiss/Land Takoff">
+          <Text>Takeoff: 2,045 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="dV Gael">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/dV Gael.prefab</AssetPath>
+      <Title>Homeworld System</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Parent Body">
+          <Text>GAEL</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Low Gael Orbit">
+          <Text>Low Gael Orbit
+3,200 m/s @ 80 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Geosync Orbit">
+          <Text>Geosynchronous Orbit (83 min)
+1,100 m/s [+ 155] @ 2,862.939 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota">
+          <Text>IOTA</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Tot dV">
+          <Text>4,655 m/s [5,010]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Intercept">
+          <Text>Iota Intercept
+(4 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Intercept/Intercept dV">
+          <Text>905 m/s [+ 345]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Low Orbit">
+          <Text>Low Orbit
+13 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Low Orbit/Intercept dV">
+          <Text>195 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Iota/Land Takoff">
+          <Text>Land/Takeoff: 355 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti">
+          <Text>CETI</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Tot dV">
+          <Text>4,875 m/s [5,575]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Intercept">
+          <Text>Ceti Intercept
+(11 days)</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Intercept/Intercept dV">
+          <Text>925 m/s [+ 700]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Low Orbit">
+          <Text>Low Orbit
+14 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Low Orbit/Intercept dV">
+          <Text>220 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ceti/Land Takoff">
+          <Text>Land/Takeoff: 530 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/SOI Edge">
+          <Text>SOI Limit
+935 m/s [+ 345] @ 83.07 Mm</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/SOI Edge/Tot dV">
+          <Text>4,135 m/s [4,480]</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro">
+          <Text>CIRO</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro/Tot dV">
+          <Text>64,940 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro/Intercept">
+          <Text>Elliptical Orbit
+(76 days)
+13.96 Gm - 1.61 Mm</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro/Intercept/Intercept dV">
+          <Text>5,960 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro/Low Orbit">
+          <Text>Low Orbit
+1,610 km</Text>
+        </Text>
+        <Text Name="Panel Body/dV Map/Ciro/Low Orbit/Intercept dV">
+          <Text>54,500 m/s</Text>
+        </Text>
+        <Text Name="Panel Body/Key">
+          <Text>KEY:</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Aerobrake/Desc">
+          <Text>- Inbound Aerobraking possible</Text>
+        </Text>
+        <Text Name="Panel Body/Key/Airbreathing/Desc">
+          <Text>- Air-breathing engines usable</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Credits">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Credits.prefab</AssetPath>
+      <Title>Credits</Title>
+      <Background />
+      <Text>
+        <Text Name="Panel Body/Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>CREDITS</Text>
+        </Text>
+        <Text Name="Panel Body/Description Left">
+          <Text>MAIN DEVELOPERS
+
+Galileo - Foundation, main conceptualization of bodies, major support for career mode and contract mods.
+
+JadeOfMaar - Resource configs, documentation, storytelling, perf. testing, supporting graphics.
+
+OhioBob - Documentation, atmospheric configs, everything else involving Math/Science, perf. testing.
+
+Nhawks17 - Kerbal Konstructs.
+
+Poodmund - Tools and tutorials, optimizations, initial biome work, KSPedia implementation.
+
+rasta013 - Biome descriptions
+
+TheRagingIrishman - Renamer &amp; Install Plugins, Localization
+
+
+3RD PARTY MOD SUPPORT
+
+Chimer4, CatastrophicFailure - Kerbalism
+
+Chase842 - KSP Interstellar Extended (not included)</Text>
+        </Text>
+        <Text Name="Panel Body/Description Right">
+          <Text>SCREENSHOTS FOR PLANETS &amp; LOADING SCREEN
+
+- Kamuchi
+
+- eddiew
+
+- Norcalplanner
+
+- astroheiko
+
+- GPP Devs</Text>
+        </Text>
+        <Text Name="Panel Body/Quote">
+          <Text>"Ciro, with all those planets revolving around it and dependent on it, can still munch a bunch of snacks as if it had nothing else in the universe to do."
+
+"The laws of nature are written by the hand of the Kraken in the language of mathematics."
+
+"You cannot teach Kerbals anything; you can only help them find it within themselves."
+
+- Galileo Kerman</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Ciro">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Ciro.prefab</AssetPath>
+      <Title>Ciro</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>CIRO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Among trillions of other G-Type stars Ciro is nothing special but is smaller and dimmer than the typical Kerbal star, making Gael seem a little far and cold. Many of those other stars undoubtedly hold celestial bodies very similar and different to the ones here... 
+
+How many of them have perfect planets like Gael and Tellumo, to play and snack outside without spacesuits? This is why we have space programs.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>STOCK SUN MASSES:
+RADIUS:
+STOCK SUN RADII:
+SPECTRAL CLASS:
+STOCK SUN LUMINOSITIES:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+BIOME COUNT:
+ELLIPTICAL INS ΔV*:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>1.087
+70,980 km
+0.27
+G6
+
+1.057
+25.8
+5,524 K
+0.1 ATMOSPHERES
+SUN
+1,600 km
+HYDROGEN
+HELIUM
+9
+6,895 m/s
+25 DAYS
+2,040,628,419 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>2
+1,000 Mm
+16
+16
+800 km
+16
+N/A
+N/A
+4</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>* ELLIPTICAL ORBIT WITH GAEL AT APOAPSIS AND
+  PERIAPSIS 10KM ABOVE ATMOSPHERE LIMIT</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Challenges">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Challenges.prefab</AssetPath>
+      <Title>Challenges</Title>
+      <Background />
+      <Text>
+        <Text Name="Title">
+          <Text>GALILEO'S PLANET PACK</Text>
+        </Text>
+        <Text Name="Panel Body/Sub-Title">
+          <Text>CHALLENGES</Text>
+        </Text>
+        <Text Name="Panel Body/Description Left">
+          <Text>This solar system provides a very wide array of challenges, some of which are rather classical but occur sooner or later relative to the Kerbin system; others are completely new.
+
+* Firstly, the Kerbal Space Center is not on the equator. This adds difficulty to the beginning and the end of absolutely every mission. Be prepared to spend 345m/s every time after orbital insertion to get equatorial.
+
+* There are four deadly non-gas bodies to visit, two of which have extreme atmospheres but all feature splendour and wonder making it worth your time to visit them all.
+
+* Ore is not omnipresent. One or more planets will have a nearly zero abundance of materials. Certain other resources are completely absent on specific worlds too.
+
+* Colonization, the grand tour and general use of life support mods need extra, extra planning with regards to the previous points and the sheer size of this solar system.
+
+* Gael's moons have just 5 biomes which delivers, or helps to deliver, the long-awaited challenge and thrill of going far beyond Gael's SOI edge before your Tech Tree is completely unlocked.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Ceti">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Ceti.prefab</AssetPath>
+      <Title>Ceti</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>CETI</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>This is another unique but somewhat unpalatable entry on the list of local bodies. The revelation of its higher mass and gravity than Iota is a turning point in astronomy, meanwhile its visuals are a turning point for some to the SPH's barf bag shelf.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+TRANSFER TIME:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.008
+150 km
+0.135
+5
+D
+NONE
+925 m/s [+700]
+220 m/s
+11 DAYS
+530 m/s
+63.15 DAYS
+55,000 km
+8,144 km
+0.05
+9°
+63.15 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>3
+75 km
+4
+5
+3
+
+1,360 W/m²</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** [VALUE] IS MAX PLANE CHANGE ΔV FROM KSC DIRECT ORB. INSERTION ON CETI'S ASC. NODE</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Catullus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Catullus.prefab</AssetPath>
+      <Title>Catallus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>CATULLUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>The discovery of this double-natured body came as nothing short of perplexing. It displays properties of both a super-Gael and a gas giant; even orbiting the latter! 
+
+Whilst the science community butts heads about the matter, the aviation community has found one mind and declared that the rite of passage leads through Catullus.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>3.599
+1,200 km
+0.9
+95 K
+5 ATMOSPHERES
+TEKTO
+280 km
+51% HYDROGEN
+28% KARBONITE
+8% HELIUM
+5% XENON
+3% ARGON
+2% NITROGEN
+1.2% AMMONIA
+11
+H
+NONE
+160 m/s [+80]
+2,390 m/s
+6,750 m/s
+15.76 DAYS
+57,000 km
+30,021 km
+0
+1°
+15.76 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>12
+600 km
+13
+13
+70 km
+13
+15
+N/A
+12
+
+13.6 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Augustus">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Augustus.prefab</AssetPath>
+      <Title>Augustus</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>AUGUSTUS</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>Augustus is an obedient follower of the giant Otho and is the best place to visit whilst gazing back into space with a parent body in view.
+
+Everything is bathed in its wonderful tangerine color and his skies are friendlier to non-space planes than those of Niven.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
+
+
+
+
+
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.119
+350 km
+0.35
+113 K
+0.1 ATMOSPHERES
+DUNA
+60 km
+91% NITROGEN
+5% KARBONITE
+1.2% HYDROGEN
+1% ARGON
+1% XENON
+0.6% HELIUM
+9
+K
+NONE
+650 m/s [+85]
+720 m/s
+1,575 m/s
+2.47 DAYS
+20,000 km
+2,153 km
+0.005
+1°
+2.47 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
+LANDED:
+SPLASHED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>11
+175 km
+12
+12
+15 km
+12
+14
+N/A
+11
+
+50.3 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Argo">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Argo.prefab</AssetPath>
+      <Title>Argo</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>ARGO</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>A curious and entertaining little thing, Argo is a siren amongst moons. Pilots en route to Hox may find themselves teased and promised by the thoughts of pleasant times there but do not worry about its appearance, Argo is a peaceful and tranquil, albeit lively, rock.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.001
+80 km
+0.035
+8
+D
+CRYOVOLCANISM
+10 m/s [+365]
+75 m/s
+210 m/s
+43.89 DAYS
+12,500 km
+2,885 km
+0
+40°
+43.89 DAYS
+N/A</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>14
+40 km
+15
+17
+14
+
+1.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="Agrippina">
+      <BundleName>gpp</BundleName>
+      <AssetPath>Assets/Prefabs/Agrippina.prefab</AssetPath>
+      <Title>Agrippina</Title>
+      <Background />
+      <Text>
+        <Text Name="Left Panel/Info Arrow/Info Header">
+          <Text>INFO</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header">
+          <Text>S.C.A.N.</Text>
+        </Text>
+        <Text Name="Left Panel/SCAN Logo/SCAN Header/SCAN Text">
+          <Text>Scientific Committee
+on Advanced Navigation</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name">
+          <Text>AGRIPPINA</Text>
+        </Text>
+        <Text Name="Left Panel/Body Name/Description">
+          <Text>A 'Nereid', a beautiful green and gray planetoid which lurks near the outer reaches of Nero's influence. Given Agrippina's size, Gaelean Science has not yet confirmed whether she was captured or formed locally being kicked out to her current high orbit.
+
+Nero must have gotten very upset at her for some reason.</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH">
+          <Text>KERBIN MASSES:
+RADIUS:
+SURFACE G:
+BIOME COUNT:
+PLANET CLASS:
+VOLCANISM:
+INTERCEPT ΔV**:
+LOW ORBIT INS ΔV:
+RE-LAUNCH ΔV:
+ORBITAL PERIOD:
+SEMI MAJOR AXIS:
+SOI RANGE:
+ORB. ECCENTRICITY:
+ORBITAL INCLINATION:
+
+ROTATIONAL PERIOD:
+SYNC ORBIT ALT:</Text>
+        </Text>
+        <Text Name="Left Panel/Spec TH/Spec TD">
+          <Text>0.0002
+50 km
+0.03
+4
+D
+NONE
+30 m/s [+2,040]
+400 m/s
+145 m/s
+8 HOURS
+800,000 km
+5,003 km
+0.16
+18° (ECLIPTICAL)
+27.1° (REL. TO NERO)
+8 HOURS
+199,078 m</Text>
+        </Text>
+        <Text Name="Right Panel/Science Header">
+          <Text>SCIENCE!</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH">
+          <Text>IN SPACE HIGH:
+THRESHOLD:
+IN SPACE LOW:
+LANDED:
+RECOVERY VALUE:
+
+SOLAR FLUX:
+</Text>
+        </Text>
+        <Text Name="Right Panel/Spec TH/Spec TD">
+          <Text>13
+25 km
+14
+16
+13
+
+3.5 W/m²
+</Text>
+        </Text>
+        <Text Name="Note">
+          <Text>** INTERCEPT ΔV ASSUMES MAXIMUM ELLIPTICAL ORBIT WITH PARENT AND GOOD TIMING
+    [VALUE] IS MAX PLANE CHANGE ΔV</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+  </Screens>
+</KSPedia>
