@@ -1,3 +1,0 @@
-Choose either the High-res or Low-res clouds for the required performance for your system. Navigate inside that selected folder and copy the GameData folder into your KSP install.
-
-ONLY CHOOSE ONE!
