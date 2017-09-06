@@ -119,6 +119,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 * Updated KSPedia.
 
+* Kerbalism support has been dropped from GPP. It will return natively in Kerbalism in a future update.
+
 * GPP now alerts the player if GPP_Textures are misplaced or missing.
 
 * Preliminary support (Planet Challenge settings) for Station Science Continued.
