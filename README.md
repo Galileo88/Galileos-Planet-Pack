@@ -98,7 +98,6 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * MechJeb
   * Airline Kuisine
   * RemoteTech
-  * Kerbalism
   * Tarsier Space Technologies
   * ResearchBodies
   * Waypoint Manager
@@ -108,6 +107,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 # Changelog:
 ## v1.5.0
+
+* The starting positions of most planets have been changed to provide better launch windows in years 1 and 2. This could be game-breaking for current saves.
 
 * The new sun curves have been added to Ciro and Grannus, curing the infinite multiple starlight problem. (Bodies get darker the further away they are)
 
@@ -154,8 +155,6 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 * Running game in dx11 causes terrain textures to be pinstriped.
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more noticeable by Kopernicus
-
-* Kerbalism does not support multiple stars. Solar panels will not work around Grannus. It is not up to us to fix that.
 
 ## Bundled Licenses
 
