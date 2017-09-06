@@ -159,7 +159,7 @@ namespace gpp
 						}
 						if (origKerbal.name == "Bill Kerman")
 						{
-							origKerbal.ChangeName("Jade Maar Gaelan");
+							origKerbal.ChangeName("Jade Gaelan");
 						}
 						if (origKerbal.name == "Bob Kerman")
 						{
@@ -167,7 +167,7 @@ namespace gpp
 						}
 						if (origKerbal.name == "Valentina Kerman")
 						{
-							origKerbal.ChangeName("Poodmund Gaelan");
+							origKerbal.ChangeName("Poody Gaelan");
 						}
 					}
 				}
