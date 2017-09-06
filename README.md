@@ -112,7 +112,7 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 * The new sun curves have been added to Ciro and Grannus, curing the infinite multiple starlight problem. (Bodies get darker the further away they are)
 
-* Nero's precession has been removed. There's no more perciveable wobble in the planet.
+* Nero's precession has been fixed when using Environmental Visual Enhancements will appear to have a 10° axial tilt (no more perciveable wobble).
 
   * Nero's four moons are all now inclined in concert with the rings. See updated dV map in the download.
   
@@ -147,6 +147,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * Augustus and Gratian have an alternate particle effect in lieu.
 
 * Clouds do not show up in main menu. Just a small bug with EVE and Kopernicus. Not a big deal. Nothing is broken.
+
+* When not using Environmental Visual Enhancements, Nero will display axial precession. In future updates we may detect if EVE is installed and fix accordingly.
 
 * Scatterer does not show in main menu. Again, normal. Nothing is broken.
 
