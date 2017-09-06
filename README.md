@@ -11,18 +11,18 @@ TO INSTALL:
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0.
+3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0-x
 
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.4.0.
+5. Download Galileo’s Planet Pack 1.5.0
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/2.0.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/3.0.0).
 
 8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
@@ -64,7 +64,7 @@ This new addon mod makes GPP into a distant non-primary system, allowing users t
 
 2. If the other planet pack only adds planets, the option exists to place itself around Grannus and be mindful of its asteroid field. [Ciro orbit] realistically is already well occupied by GPP's own planets.
 
-Kerbol Star System is not fully supported as it is currently known to have a colliding GPP compatibility ptch. Do not use GPP Secondary with Galactic Neighborhood.
+Kerbol Star System is not fully supported as it is currently known to have a colliding GPP compatibility patch. Do not use GPP Secondary with Galactic Neighborhood.
 
 To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP\
@@ -73,9 +73,9 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * ModularFlightIntegrator\
   * ModuleManager.2.8.1.dll
 
-## Kerbal Renamer
+## Kerbal Renamer (WIP)
 
-Kerbal Renamer is a new feature that renames all new and existing kerbals from "Kerman" to "Gaelan." It has a toggle (the first line) within GPP\GPP_Renamer\Renamer.cfg that can be set to keep Jebediah and company (the original 4) or to replace them with GPP's developers. It is best to change the setting before starting a save.
+Kerbal Renamer is a new feature that renames all new and existing kerbals from "Kerman" to "Gaelan." It has a toggle (the first line) within GPP\GPP_Renamer\Renamer.cfg that can be set to keep Jebediah and company (the original 4) or to replace them with GPP's developers. It is best to change the setting before starting a save. It is a WIP and will likely have a few bugs. 
 
 To toggle, change the following setting *preserveOriginals = true* to *false.*
 
@@ -85,8 +85,8 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 
 **Recommended mods with support for or by GPP**
-  * Environmental Visual Enhancements - min-version: 1.2-2
-  * Scatterer - min-version: 0.0320
+  * Environmental Visual Enhancements - min-version: 1.2.2-1
+  * Scatterer - min-version: 0.0320b
   * TextureReplacer _GPP still uses the original TextureReplacer. Use RangeMachines verion_
   * Distant Object Enhancement
   * PlanetShine
@@ -109,50 +109,51 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 # Changelog:
 ## v1.5.0
 
-* The new sun curves (introduced in Kopernicus 1.3.0-5) have been added to Ciro and Grannus, curing the infinite multiple starlight problem.
+* The new sun curves have been added to Ciro and Grannus, curing the infinite multiple starlight problem. (Bodies get darker the further away they are)
 
 * Nero's precession has been removed. There's no more perciveable wobble in the planet.
 
-  * Nero's four moons are all now inclined in concert with the rings. See updated dV map in the download. KSPedia has not been updated.
+  * Nero's four moons are all now inclined in concert with the rings. See updated dV map in the download.
   
   * Nero has two new moonlets: Agrippina and Julia. This could be game-breaking.
 
-* GPP now alerts the player if GPP_Textures is misplaced or missing.
+* Updated KSPedia.
+
+* GPP now alerts the player if GPP_Textures are misplaced or missing.
 
 * Preliminary support (Planet Challenge settings) for Station Science Continued.
 
-* Planet texture updates.
+* Planet texture updates. Be sure to download the latest.
 
 * GPP Secondary now handles visual packs. At minimum, SVE, GPP_Clouds, and sunflares for Stock + GPP work seamlessly.
 
-* Reduced settings in Strategia. (Needs clarification)
+* Strategia "Private Sector" strategy is less cheaty, but still plentyful in rewards.
 
-* (WIP) OPM_Galileo will populate Grannus SOI.
+* OPM_Galileo can populate Grannus SOI. (https://github.com/Galileo88/OPM_Galileo/releases)
 
 * Added resource setup for Far Future Technologies.
+
+* Rescale! now properly places Kerbal Konstructs statics when using Sigma Dimensions to.
 
 
 
 ## Known Issues
 * The following bodies no longer have volumetric clouds (including sand storms) due to a bug with scatterer causing them to turn black. They will return:
 
-  * Catullus, Gratian and Augustus.
+  * Catullus
+  * Augustus and Gratian have an alternate particle effect in lieu.
 
-* Clouds do not show up in main menu. Just a small bug with Kopernicus. not a big deal. Nothing is broken.
+* Clouds do not show up in main menu. Just a small bug with EVE and Kopernicus. Not a big deal. Nothing is broken.
 
 * Scatterer does not show in main menu. Again, normal. Nothing is broken.
 
-* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken.
+* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this.
 
 * Running game in dx11 causes terrain textures to be pinstriped.
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more noticeable by Kopernicus
 
-* Kerbal Konstructs/KSC++ do not scale with Sigma Dimensions. Statics spread apart. A fix is coming.
-
 * Kerbalism does not support multiple stars. Solar panels will not work around Grannus. It is not up to us to fix that.
-
-* All terrain scatter (scenery like trees and rocks) is not working due to a bug in Kopernicus. When the next version of Kopernicus is released, it will fix this issue.
 
 ## Bundled Licenses
 
