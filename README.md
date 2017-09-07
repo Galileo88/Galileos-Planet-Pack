@@ -18,7 +18,7 @@ TO INSTALL:
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.0
+5. Download Galileo’s Planet Pack 1.5.1
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
