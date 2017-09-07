@@ -104,6 +104,10 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * Decal Stickers
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
+# Changelog:
+## v1.5.1
+
+* Patch for OPM_Galileo to not move current orbiting vessels upon load.
 
 # Changelog:
 ## v1.5.0
