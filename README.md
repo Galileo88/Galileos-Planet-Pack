@@ -4,6 +4,7 @@
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
 CC BY-NC-ND
 
+# Now on CKAN!
 
 TO INSTALL:
 
