@@ -19,7 +19,7 @@ TO INSTALL:
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.1
+5. Download Galileo’s Planet Pack 1.5.2
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -88,7 +88,7 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 **Recommended mods with support for or by GPP**
   * Environmental Visual Enhancements - min-version: 1.2.2-1
   * Scatterer - min-version: 0.0320b
-  * TextureReplacer _GPP still uses the original TextureReplacer. Use RangeMachines verion_
+  * TextureReplacer _GPP still uses the original TextureReplacer. Use RangeMachines version linked in the TextureReplacer OP_
   * Distant Object Enhancement
   * PlanetShine
   * JX2 Large Antenna
@@ -106,43 +106,14 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
 # Changelog:
-## v1.5.1
+## v1.5.2
 
-* Patch for OPM_Galileo to not move current orbiting vessels upon load.
-
-# Changelog:
-## v1.5.0
-
-* The starting positions of most planets have been changed to provide better launch windows in years 1 and 2. This could be game-breaking for current saves.
-
-* The new sun curves have been added to Ciro and Grannus, curing the infinite multiple starlight problem. (Bodies get darker the further away they are)
-
-* Nero's precession has been fixed when using Environmental Visual Enhancements will appear to have a 10° axial tilt (no more perciveable wobble).
-
-  * Nero's four moons are all now inclined in concert with the rings. See updated dV map in the download.
-  
-  * Nero has two new moonlets: Agrippina and Julia. This could be game-breaking.
-
-* Updated KSPedia.
-
-* Kerbalism support has been dropped from GPP. It will return natively in Kerbalism in a future update.
-
-* GPP now alerts the player if GPP_Textures are misplaced or missing.
-
-* Preliminary support (Planet Challenge settings) for Station Science Continued.
-
-* Planet texture updates. Be sure to download the latest.
-
-* GPP Secondary now handles visual packs. At minimum, SVE, GPP_Clouds, and sunflares for Stock + GPP work seamlessly.
-
-* Strategia "Private Sector" strategy is less cheaty, but still plentyful in rewards.
-
-* OPM_Galileo can populate Grannus SOI. (https://github.com/Galileo88/OPM_Galileo/releases)
-
-* Added resource setup for Far Future Technologies.
-
-* Rescale! now properly places Kerbal Konstructs statics when using Sigma Dimensions to.
-
+* Update to keep in accord with Kopernicus 1.3.0-8
+  * Solar panels will auto track the correct star!
+* Disbaled contracts for Ciro and Grannus to _hopefully_ avoid the infamous "Collect Ore" contracts
+* Adjusted ring colors for Nero and Tellumo since kopernicus fixed the ring color parameter
+* Revised light intensity curves better lighting around Grannus
+* Aligned Nero's rings with Nero's texture when EVE is not installed (wobble effect is back but it looks more aesthetically pleasing with than without)
 
 
 ## Known Issues
