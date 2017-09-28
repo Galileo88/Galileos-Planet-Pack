@@ -134,7 +134,6 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more noticeable by Kopernicus.
 
-* Solar panels may track a less optimal star causing your vessels to generate almost nil EC. This is an issue with Kopernicus' solar panel tracking behaviour and is a known issue. Kopernicus development is ongoing to resolve this issue, however, to play around this keep a small locked battery on your vessel at all times to allow you to spin your vessel around in an emergency to force refresh your solar panel tracking.
 
 ## Bundled Licenses
 
