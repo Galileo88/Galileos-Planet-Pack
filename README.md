@@ -108,6 +108,11 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 # Changelog:
 ## v1.5.2
 
+* GPP_Secondary optimization
+  * GPP no longer steals OPM if secondary is active.
+  * Reduced the need for GPP_Secondary itself when GPP is installed with KSS or GN.
+  * Ensured that actual Gael will appear for KSS or GN, and not a Kerbin clone.
+  
 * Update to keep in accord with Kopernicus 1.3.0-8
   * Solar panels will auto track the correct star!
 * Disbaled contracts for Ciro and Grannus to _hopefully_ avoid the infamous "Collect Ore" contracts
