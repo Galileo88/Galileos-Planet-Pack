@@ -6,6 +6,16 @@ CC BY-NC-ND
 
 # Now on CKAN!
 
+# Changelog:
+## v1.5.3
+
+* Update for 1.3.1
+* GPP_Secondary optimization
+  * GPP no longer steals OPM if secondary is active.
+  * Reduced the need for GPP_Secondary itself when GPP is installed with KSS or GN.
+  * Ensured that actual Gael will appear for KSS or GN, and not a Kerbin clone.
+  * Grannus looks more like a star.
+
 TO INSTALL:
 
 1. Begin with an installation of KSP version 1.3.1, running in 64-bit.
@@ -43,7 +53,7 @@ TO INSTALL:
 
 ## KSC ++
 
-1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed.
+1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
 
 ## Clouds, Aurorae and Shadows
 
@@ -104,16 +114,6 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * Waypoint Manager
   * Decal Stickers
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
-
-# Changelog:
-## v1.5.3
-
-* Update for 1.3
-* GPP_Secondary optimization
-  * GPP no longer steals OPM if secondary is active.
-  * Reduced the need for GPP_Secondary itself when GPP is installed with KSS or GN.
-  * Ensured that actual Gael will appear for KSS or GN, and not a Kerbin clone.
-  * Grannus looks more like a star.
 
 ## Known Issues
 * The following bodies no longer have volumetric clouds (including sand storms) due to a bug with scatterer causing them to turn black. They will return:
