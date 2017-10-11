@@ -8,18 +8,18 @@ CC BY-NC-ND
 
 TO INSTALL:
 
-1. Begin with an installation of KSP version 1.3.0, running in 64-bit.
+1. Begin with an installation of KSP version 1.3.1, running in 64-bit.
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.0-x
+3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
 
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.2
+5. Download Galileo’s Planet Pack 1.5.3
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -106,20 +106,14 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
 # Changelog:
-## v1.5.2
+## v1.5.3
 
+* Update for 1.3
 * GPP_Secondary optimization
   * GPP no longer steals OPM if secondary is active.
   * Reduced the need for GPP_Secondary itself when GPP is installed with KSS or GN.
   * Ensured that actual Gael will appear for KSS or GN, and not a Kerbin clone.
-  
-* Update to keep in accord with Kopernicus 1.3.0-8
-  * Solar panels will auto track the correct star!
-* Disbaled contracts for Ciro and Grannus to _hopefully_ avoid the infamous "Collect Ore" contracts
-* Adjusted ring colors for Nero and Tellumo since kopernicus fixed the ring color parameter
-* Revised light intensity curves better lighting around Grannus
-* Aligned Nero's rings with Nero's texture when EVE is not installed (wobble effect is back but it looks more aesthetically pleasing with than without)
-
+  * Grannus looks more like a star.
 
 ## Known Issues
 * The following bodies no longer have volumetric clouds (including sand storms) due to a bug with scatterer causing them to turn black. They will return:
