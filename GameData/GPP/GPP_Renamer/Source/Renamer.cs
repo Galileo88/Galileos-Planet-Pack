@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 
 namespace gpp
 {
-
     /// <summary>
     /// Loads and stores the settings for the GPP Kerbal Renamer
     /// </summary>
