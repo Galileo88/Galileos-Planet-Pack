@@ -132,6 +132,9 @@ namespace gpp
 
         void OnKerbalAdded(ProtoCrewMember kerbal)
         {
+            // Don't change custom kerbals
+            if (!kerbal.name.EndsWith("Kerman")) return;
+
             // Don't change the 4 original veterans stats, just rename them.
             if (originalNames.Contains(kerbal.name))
             {
@@ -144,8 +147,18 @@ namespace gpp
 
             if (KerbalRenamerSettings.generateNewStats)
             {
-                if (kerbal.type == ProtoCrewMember.KerbalType.Crew || kerbal.type == ProtoCrewMember.KerbalType.Applicant)
+                if (kerbal.type == ProtoCrewMember.KerbalType.Applicant)
                 {
+                    // Make sure all custom kerbals exist
+                    for (int i = 0; i < KerbalCrewFixer.customKerbals.Length; i++)
+                    {
+                        if (HighLogic.CurrentGame.CrewRoster[KerbalCrewFixer.customKerbals[i]] == null)
+                        {
+                            KerbalCrewFixer.SetCustomKerbal(kerbal, KerbalCrewFixer.customKerbals[i]);
+                            return;
+                        }
+                    }
+
                     // generate some new stats
                     kerbal.stupidity = rollStupidity();
                     kerbal.courage = rollCourage();
@@ -355,6 +368,8 @@ namespace gpp
     [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
     class KerbalCrewFixer : MonoBehaviour
     {
+        internal static string[] customKerbals = new string[] { "Galileo Gaelan", "Bobert Gaelan", "Jade Gaelan", "Poody Gaelan", "Sigma Gaelan", "Raging Gaelan", "Jebediah Gaelan", "Bill Gaelan", "Bob Gaelan", "Valentina Gaelan" };
+
         void Start()
         {
             List<ProtoCrewMember> roster = HighLogic.CurrentGame.CrewRoster.ToList();
@@ -382,38 +397,108 @@ namespace gpp
                 }
             }
 
-            AddCustomVet("Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", false, 0, 0);
-            AddCustomVet("Raging Gaelan", ProtoCrewMember.Gender.Male, "Engineer", false, 0.25f, 0.5f);
+            // Add new Kerbals
+            AddCustomKerbal("Galileo Gaelan", !KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Bobert Gaelan", !KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Jade Gaelan", !KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Poody Gaelan", !KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Sigma Gaelan", !KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Raging Gaelan", !KerbalRenamerSettings.preserveOriginals);
+
+            // Add old Kerbals
+            AddCustomKerbal("Jebediah Gaelan", KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Bill Gaelan", KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Bob Gaelan", KerbalRenamerSettings.preserveOriginals);
+            AddCustomKerbal("Valentina Gaelan", KerbalRenamerSettings.preserveOriginals);
 
             OrderCrew();
         }
 
-        void AddCustomVet(string name, ProtoCrewMember.Gender gender, string trait, bool isBadass, float courage, float stupidity)
+        void AddCustomKerbal(string name, bool veteran)
         {
-            if (HighLogic.CurrentGame.CrewRoster[name]?.veteran == true) return;
+            ProtoCrewMember.KerbalType type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
 
-            ProtoCrewMember customVet = HighLogic.CurrentGame.CrewRoster[name] ?? new ProtoCrewMember(ProtoCrewMember.KerbalType.Crew, name);
+            ProtoCrewMember customVet = HighLogic.CurrentGame.CrewRoster[name] ?? new ProtoCrewMember(type, name);
+
+            SetCustomKerbal(customVet, name);
 
             if (!HighLogic.CurrentGame.CrewRoster.Exists(name))
                 HighLogic.CurrentGame.CrewRoster.AddCrewMember(customVet);
+        }
 
-            customVet.ChangeName(name);
-            customVet.gender = gender;
-            customVet.trait = trait;
-            customVet.veteran = true;
-            customVet.isBadass = isBadass;
-            customVet.courage = courage;
-            customVet.stupidity = stupidity;
+        internal static void SetCustomKerbal(ProtoCrewMember kerbal, string name)
+        {
+            switch (name)
+            {
+                case "Galileo Gaelan":
+                    SetCustomKerbal(kerbal, "Galileo Gaelan", ProtoCrewMember.Gender.Male, "Pilot", !KerbalRenamerSettings.preserveOriginals, true, 0.5f, 0.5f);
+                    break;
+                case "Bobert Gaelan":
+                    SetCustomKerbal(kerbal, "Bobert Gaelan", ProtoCrewMember.Gender.Male, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
+                    break;
+                case "Jade Gaelan":
+                    SetCustomKerbal(kerbal, "Jade Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
+                    break;
+                case "Poody Gaelan":
+                    SetCustomKerbal(kerbal, "Poody Gaelan", ProtoCrewMember.Gender.Female, "Pilot", !KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
+                    break;
+                case "Sigma Gaelan":
+                    SetCustomKerbal(kerbal, "Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.0f, 0.0f);
+                    break;
+                case "Raging Gaelan":
+                    SetCustomKerbal(kerbal, "Raging Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !KerbalRenamerSettings.preserveOriginals, false, 0.25f, 0.5f);
+                    break;
+                case "Jebediah Gaelan":
+                    SetCustomKerbal(kerbal, "Jebediah Gaelan", ProtoCrewMember.Gender.Male, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.5f, 0.5f);
+                    break;
+                case "Bill Gaelan":
+                    SetCustomKerbal(kerbal, "Bill Gaelan", ProtoCrewMember.Gender.Male, "Scientist", KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
+                    break;
+                case "Bob Gaelan":
+                    SetCustomKerbal(kerbal, "Bob Gaelan", ProtoCrewMember.Gender.Male, "Engineer", KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
+                    break;
+                case "Valentina Gaelan":
+                    SetCustomKerbal(kerbal, "Valentina Gaelan", ProtoCrewMember.Gender.Female, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
+                    break;
+                default:
+                    return;
+            }
+        }
+
+        static void SetCustomKerbal(ProtoCrewMember kerbal, string name, ProtoCrewMember.Gender gender, string trait, bool veteran, bool isBadass, float courage, float stupidity)
+        {
+            kerbal.ChangeName(name);
+            kerbal.gender = gender;
+            KerbalRoster.SetExperienceTrait(kerbal, trait);
+            kerbal.veteran = veteran;
+            kerbal.isBadass = isBadass;
+            kerbal.courage = courage;
+            kerbal.stupidity = stupidity;
+            if (HighLogic.CurrentGame.Mode != Game.Modes.CAREER)
+            {
+                kerbal.experienceLevel = 5;
+                kerbal.experience = 99999;
+            }
         }
 
         void OrderCrew()
         {
             List<ProtoCrewMember> roster = HighLogic.CurrentGame.CrewRoster.ToList();
 
+            for (int i = 0; i < customKerbals.Length; i++)
+            {
+                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]] != null)
+                {
+                    HighLogic.CurrentGame.CrewRoster[customKerbals[i]].ChangeName(customKerbals[i]);
+                }
+            }
+
             for (int i = 0; i < roster?.Count; i++)
             {
-                if (!roster[i].veteran)
+                if (!customKerbals.Contains(roster[i].name))
+                {
                     roster[i].ChangeName(roster[i].name);
+                }
             }
         }
     }
