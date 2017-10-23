@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 
 namespace gpp
 {
+
     /// <summary>
     /// Loads and stores the settings for the GPP Kerbal Renamer
     /// </summary>
@@ -418,7 +419,20 @@ namespace gpp
         {
             ProtoCrewMember.KerbalType type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
 
-            ProtoCrewMember customVet = HighLogic.CurrentGame.CrewRoster[name] ?? new ProtoCrewMember(type, name);
+            ProtoCrewMember customVet = HighLogic.CurrentGame.CrewRoster[name];
+
+            if (customVet == null)
+            {
+                if (type == ProtoCrewMember.KerbalType.Applicant)
+                {
+                    customVet = HighLogic.CurrentGame.CrewRoster?.Applicants?.ToList()?.FirstOrDefault(k => !customKerbals.Contains(k.name));
+                }
+            }
+
+            if (customVet == null)
+            {
+                customVet = new ProtoCrewMember(type, name);
+            }
 
             SetCustomKerbal(customVet, name);
 
