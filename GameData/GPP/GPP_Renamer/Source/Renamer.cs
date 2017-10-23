@@ -500,7 +500,15 @@ namespace gpp
 
             for (int i = 0; i < customKerbals.Length; i++)
             {
-                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]] != null)
+                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]]?.veteran == true)
+                {
+                    HighLogic.CurrentGame.CrewRoster[customKerbals[i]].ChangeName(customKerbals[i]);
+                }
+            }
+
+            for (int i = 0; i < customKerbals.Length; i++)
+            {
+                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]]?.veteran == false)
                 {
                     HighLogic.CurrentGame.CrewRoster[customKerbals[i]].ChangeName(customKerbals[i]);
                 }
