@@ -464,11 +464,11 @@ namespace gpp
                 case "Jebediah Gaelan":
                     SetCustomKerbal(kerbal, "Jebediah Gaelan", ProtoCrewMember.Gender.Male, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.5f, 0.5f);
                     break;
-                case "Bill Gaelan":
-                    SetCustomKerbal(kerbal, "Bill Gaelan", ProtoCrewMember.Gender.Male, "Scientist", KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
-                    break;
                 case "Bob Gaelan":
-                    SetCustomKerbal(kerbal, "Bob Gaelan", ProtoCrewMember.Gender.Male, "Engineer", KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
+                    SetCustomKerbal(kerbal, "Bob Gaelan", ProtoCrewMember.Gender.Male, "Scientist", KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
+                    break;
+                case "Bill Gaelan":
+                    SetCustomKerbal(kerbal, "Bill Gaelan", ProtoCrewMember.Gender.Male, "Engineer", KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
                     break;
                 case "Valentina Gaelan":
                     SetCustomKerbal(kerbal, "Valentina Gaelan", ProtoCrewMember.Gender.Female, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
