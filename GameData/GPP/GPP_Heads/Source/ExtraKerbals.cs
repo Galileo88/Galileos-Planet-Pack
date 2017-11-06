@@ -4,16 +4,11 @@ using UnityEngine;
 
 namespace ExtraKerbals
 {
-    [KSPAddon(KSPAddon.Startup.MainMenu, true)]
+    [KSPAddon(KSPAddon.Startup.MainMenu, false)]
     public class ExtraKerbals : MonoBehaviour
     {
         public static GameObject sigma = null;
         public static GameObject raging = null;
-
-        void Awake()
-        {
-            DontDestroyOnLoad(this);
-        }
 
         void Start()
         {
