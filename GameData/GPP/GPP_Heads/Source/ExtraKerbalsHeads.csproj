@@ -37,14 +37,14 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\[References]\KerbalSpaceProgram\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\[References]\KerbalSpaceProgram\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="SigmaReplacementsHeads">
       <HintPath>..\..\..\..\..\Sigma-Replacements\[Source]\Distribution\SigmaReplacementsHeads.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\[References]\KerbalSpaceProgram\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\[References]\KerbalSpaceProgram\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

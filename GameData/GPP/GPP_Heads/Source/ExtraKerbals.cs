@@ -35,7 +35,7 @@ namespace ExtraKerbals
             // Raging Gaelan
             raging = Instantiate(bob?.gameObject);
             raging.transform.SetParent(val.parent);
-            raging.transform.localPosition = (Quaternion.AngleAxis(-10f, Vector3.up) * val.localPosition) * 0.7f;
+            raging.transform.localPosition = (Quaternion.AngleAxis(-10f, Vector3.up) * val.localPosition) * 0.73f;
             raging.transform.localScale = val.localScale;
             raging.transform.Rotate(Vector3.up, 280);
             raging.transform.localScale *= 0.8f;

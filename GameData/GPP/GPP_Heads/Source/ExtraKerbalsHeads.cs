@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using SigmaReplacements;
 using SigmaReplacements.Heads;
 using Gender = ProtoCrewMember.Gender;
 using Type = ProtoCrewMember.KerbalType;
