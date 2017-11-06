@@ -53,6 +53,3 @@ GameData/GPP/GPP_Heads/*.pdb
 GameData/GPP/GPP_Heads/Source/obj
 GameData/GPP/GPP_Heads/Source/bin
 GameData/GPP/GPP_Heads/Source/.vs
-
-#ExtraKerbals.dll
-#ExtraKerbalsHeads.dll
