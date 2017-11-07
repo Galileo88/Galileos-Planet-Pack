@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraKerbals", "ExtraKerbal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraKerbalsHeads", "ExtraKerbalsHeads.csproj", "{FB361FBD-D4BE-49AF-9626-05E8AB9B9B39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraKerbalsSuits", "ExtraKerbalsSuits.csproj", "{60DFC6DB-49B6-4FF6-92E8-37CA77FC462B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB361FBD-D4BE-49AF-9626-05E8AB9B9B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB361FBD-D4BE-49AF-9626-05E8AB9B9B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB361FBD-D4BE-49AF-9626-05E8AB9B9B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DFC6DB-49B6-4FF6-92E8-37CA77FC462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DFC6DB-49B6-4FF6-92E8-37CA77FC462B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DFC6DB-49B6-4FF6-92E8-37CA77FC462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DFC6DB-49B6-4FF6-92E8-37CA77FC462B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
