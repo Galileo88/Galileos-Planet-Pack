@@ -5,7 +5,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 
-namespace gpp
+namespace KerbalRenamer
 {
     /// <summary>
     /// Loads and stores the settings for the GPP Kerbal Renamer
@@ -456,7 +456,7 @@ namespace gpp
                     SetCustomKerbal(kerbal, "Poody Gaelan", ProtoCrewMember.Gender.Female, "Pilot", !KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
                     break;
                 case "Sigma Gaelan":
-                    SetCustomKerbal(kerbal, "Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.0f, 0.0f);
+                    SetCustomKerbal(kerbal, "Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.1f, 0.1f);
                     break;
                 case "Raging Gaelan":
                     SetCustomKerbal(kerbal, "Raging Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !KerbalRenamerSettings.preserveOriginals, false, 0.25f, 0.5f);
