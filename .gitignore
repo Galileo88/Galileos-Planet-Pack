@@ -48,8 +48,22 @@ Temporary Items
 *.psd
 *.zip
 
-GameData/GPP/GPP_Heads/*.dll
-GameData/GPP/GPP_Heads/*.pdb
-GameData/GPP/GPP_Heads/Source/obj
-GameData/GPP/GPP_Heads/Source/bin
-GameData/GPP/GPP_Heads/Source/.vs
+
+# GPP_Replacements
+
+GameData/GPP/GPP_Replacements/ExtraKerbals/*.dll
+GameData/GPP/GPP_Replacements/ExtraKerbals/*.pdb
+GameData/GPP/GPP_Replacements/ExtraKerbals/Source/obj
+GameData/GPP/GPP_Replacements/ExtraKerbals/Source/bin
+GameData/GPP/GPP_Replacements/ExtraKerbals/Source/.vs
+!GameData/GPP/GPP_Replacements/ExtraKerbals/Extra*.dll
+
+
+# GPP_Renamer
+GameData/GPP/GPP_Renamer/*.dll
+GameData/GPP/GPP_Renamer/*.pdb
+GameData/GPP/GPP_Renamer/*.xml
+GameData/GPP/GPP_Renamer/Source/obj
+GameData/GPP/GPP_Renamer/Source/bin
+GameData/GPP/GPP_Renamer/Source/.vs
+!KerbalRenamer.dll
