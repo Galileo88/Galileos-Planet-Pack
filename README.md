@@ -7,14 +7,22 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.3
+## v1.5.4
 
-* Update for 1.3.1
-* GPP_Secondary optimization
-  * GPP no longer steals OPM if secondary is active.
-  * Reduced the need for GPP_Secondary itself when GPP is installed with KSS or GN.
-  * Ensured that actual Gael will appear for KSS or GN, and not a Kerbin clone.
-  * Grannus looks more like a star.
+* Introduces Sigma Loading Screens as builtin/replacement loading screen provider
+* Introduces Sigma Replacements, replaces TextureReplacer for reskinning Kerbals/Gaeleans
+  * New heads and suits for all Gaeleans, with improved normals
+  * Took all the Administration guys to the Hair Salon
+* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods.
+* Added Sigma Gaelan to veteran roster
+* Added atmosphere to Leto
+* Even more Kerbal Konstructs goodies
+  * Gulls on Gael
+  * Water launch sites in accordance with KSC Switcher
+  * Other winged creatures on Tellumo
+* Fixed ResearchBodies LOC tag issue(s)
+* Updated GPP_Renamer
+
 
 TO INSTALL:
 
@@ -29,7 +37,7 @@ TO INSTALL:
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.3
+5. Download Galileo’s Planet Pack 1.5.4
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
