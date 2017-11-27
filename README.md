@@ -11,9 +11,11 @@ CC BY-NC-ND
 
 * Introduces Sigma Loading Screens as builtin/replacement loading screen provider
 * Introduces Sigma Replacements, replaces TextureReplacer for reskinning Kerbals/Gaeleans
+  * New default Skybox included
   * New heads and suits for all Gaeleans, with improved normals
   * Took all the Administration guys to the Hair Salon
 * Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods.
+* Fixed broken localization at Lili.
 * Added Sigma Gaelan to veteran roster
 * Added atmosphere to Leto
 * Even more Kerbal Konstructs goodies
