@@ -9,21 +9,27 @@ CC BY-NC-ND
 # Changelog:
 ## v1.5.4
 
-* Introduces Sigma Loading Screens as builtin/replacement loading screen provider
-* Introduces Sigma Replacements, replaces TextureReplacer for reskinning Kerbals/Gaeleans
+* Introduces Sigma Loading Screens
+* Introduces Sigma Replacements:
   * New default Skybox included
-  * New heads and suits for all Gaeleans, with improved normals
-  * Took all the Administration guys to the Hair Salon
-* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods.
-* Fixed broken localization at Lili.
-* Added Sigma Gaelan to veteran roster
-* Added atmosphere to Leto
+    * With the start of each new game, the skybox rotates.
+  * High quality heads
+  * High quality suits
+  * High quality navball
+  * Custom admin heads
+* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods.
+* Added Sigma Gaelan and Raging Gaelan to veteran roster
+ * All 6 devs are available by default at the start of a game
+* Added slight atmosphere to Leto
 * Even more Kerbal Konstructs goodies
   * Gulls on Gael
   * Water launch sites in accordance with KSC Switcher
   * Other winged creatures on Tellumo
 * Fixed ResearchBodies LOC tag issue(s)
-* Updated GPP_Renamer
+* Fixed broken localization at Lili.
+* Fixed GPP_Renamer
+* Adjusted gas giant Scatterer cfgs
+* Fixed contracts for Strategia.
 
 
 TO INSTALL:
@@ -32,7 +38,7 @@ TO INSTALL:
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third-party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
+3. Download the third party mod[Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
 
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
@@ -49,21 +55,23 @@ TO INSTALL:
 
 9. This completes the basic installation.  If you want to, you can verify the installation by launching KSP.
 
-## __All terrain scatter (scenery like trees and rocks) is not working due to a bug in Kopernicus. When the next version of Kopernicus is released, it will fix this issue.__
-
 ## Optional Mods
 
 1. Install the optional mods of your choice by copying or merging [GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name] to [KSP]\GameData\.
 
 2. KSC Switcher and Loading Screen are the complete mod, no other action beyond step 1 is required.
 
-3. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier) and [Texture Replacer](https://github.com/RangeMachine/TextureReplacer/releases/) must be downloaded and installed separately, and merged with the GPP-specific elements.
+3. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier) must be downloaded and installed separately
 
 4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
 ## KSC ++
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
+
+##Sigma Replacements
+
+1. For high quality Gaelan heads, suits, navballs and Skyboxes install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/)
 
 ## Clouds, Aurorae and Shadows
 
@@ -79,7 +87,7 @@ TO INSTALL:
 
 ## GPP Secondary
 
-This new addon mod makes GPP into a distant non-primary system, allowing users to keep Kerbin and the stock planets, and set the Ciro system (GPP's main star) and Gael (not a Kerbin clone named Gael) as the mid-game or end-game. To be fully compatible with GPP one of the following must occur:
+This addon mod makes GPP into a distant non-primary system, allowing users to keep Kerbin and the stock planets, and set the Ciro system (GPP's main star) and Gael (not a Kerbin clone named Gael) as the mid-game or end-game. To be fully compatible with GPP one of the following must occur:
 
 1. If the other planet pack is large and also replaces the stock solar system it must include a patch to reposition Ciro.
 
@@ -94,9 +102,9 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * ModularFlightIntegrator\
   * ModuleManager.2.8.1.dll
 
-## Kerbal Renamer (WIP)
+## Kerbal Renamer
 
-Kerbal Renamer is a new feature that renames all new and existing kerbals from "Kerman" to "Gaelan." It has a toggle (the first line) within GPP\GPP_Renamer\Renamer.cfg that can be set to keep Jebediah and company (the original 4) or to replace them with GPP's developers. It is best to change the setting before starting a save. It is a WIP and will likely have a few bugs. 
+Kerbal Renamer is a new feature that renames all new and existing kerbals from "Kerman" to "Gaelan." It has a toggle (the first line) within GPP\GPP_Renamer\Renamer.cfg that can be set to keep Jebediah and company (the original 4) or to replace them with GPP's developers.
 
 To toggle, change the following setting *preserveOriginals = true* to *false.*
 
@@ -106,9 +114,14 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 
 **Recommended mods with support for or by GPP**
+  * Sigma Replacements
+    * Heads
+    * Suits
+    * Skybox
+    * Navigation
+  * Sigma Descriptions
   * Environmental Visual Enhancements - min-version: 1.2.2-1
   * Scatterer - min-version: 0.0320b
-  * TextureReplacer _GPP still uses the original TextureReplacer. Use RangeMachines version linked in the TextureReplacer OP_
   * Distant Object Enhancement
   * PlanetShine
   * JX2 Large Antenna
@@ -141,7 +154,9 @@ GPP's own configs for Sigma Dimensions have been discontinued and removed. To up
 
 * Running game in dx11 causes terrain textures to be pinstriped.
 
-* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more noticeable by Kopernicus.
+* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more apparent by placing bodies beyond Eeloo SMA.
+
+* KSPedia is missing a little information. This will be fixed at a later time.
 
 
 ## Bundled Licenses
@@ -159,5 +174,3 @@ Attribution-NonCommercial-ShareAlike 3.0 International (CC BY-NC-SA 3.0)
 
 "GPP_Renamer"
 Simplified BSD License (BSD 2-clause)
-
-//test for webhook//
