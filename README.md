@@ -113,7 +113,7 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 GPP's own configs for Sigma Dimensions have been discontinued and removed. To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
 
-**Recommended mods with support for or by GPP**
+## Recommended mods with support for or by GPP
   * Sigma Replacements
     * Heads
     * Suits
