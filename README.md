@@ -17,7 +17,7 @@ CC BY-NC-ND
   * Custom admin heads
   * New default skybox included
     * The skybox will rotate at the start of each new game and will remain persistent within that save
-* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods
+* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored profession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods
 * Added Sigma Gaelan and Raging Gaelan to veteran roster
  * All 6 devs are available by default at the start of a game
 * Added slight atmosphere to Leto
