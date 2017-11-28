@@ -7,7 +7,7 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.4
+## v1.5.88 Sigma Edition
 
 * Introduces Sigma Loading Screens
 * Introduces Sigma Replacements:
@@ -45,7 +45,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.4
+5. Download Galileo’s Planet Pack 1.5.88
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
