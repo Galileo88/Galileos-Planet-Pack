@@ -11,13 +11,13 @@ CC BY-NC-ND
 
 * Introduces Sigma Loading Screens
 * Introduces Sigma Replacements:
-  * New default Skybox included
-    * With the start of each new game, the skybox rotates.
   * High quality heads
   * High quality suits
   * High quality navball
   * Custom admin heads
-* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods.
+  * New default skybox included
+    * The skybox will rotate at the start of each new game and will remain persistent within that save
+* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored pofession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods
 * Added Sigma Gaelan and Raging Gaelan to veteran roster
  * All 6 devs are available by default at the start of a game
 * Added slight atmosphere to Leto
@@ -26,19 +26,19 @@ CC BY-NC-ND
   * Water launch sites in accordance with KSC Switcher
   * Other winged creatures on Tellumo
 * Fixed ResearchBodies LOC tag issue(s)
-* Fixed broken localization at Lili.
+* Fixed broken localization at Lili
 * Fixed GPP_Renamer
-* Adjusted gas giant Scatterer cfgs
 * Fixed contracts for Strategia.
+* Adjusted gas giant Scatterer cfgs
 
 
-TO INSTALL:
+## TO INSTALL:
 
 1. Begin with an installation of KSP version 1.3.1, running in 64-bit.
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third party mod[Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
+3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
 
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
@@ -59,9 +59,9 @@ TO INSTALL:
 
 1. Install the optional mods of your choice by copying or merging [GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name] to [KSP]\GameData\.
 
-2. KSC Switcher and Loading Screen are the complete mod, no other action beyond step 1 is required.
+2. KSC Switcher is the complete mod, no other action beyond step 1 is required.
 
-3. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier) must be downloaded and installed separately
+3. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier) must be downloaded and installed separately.
 
 4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
@@ -69,9 +69,9 @@ TO INSTALL:
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
 
-##Sigma Replacements
+## Sigma Replacements
 
-1. For high quality Gaelan heads, suits, navballs and Skyboxes install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/)
+1. For high quality Gaelan heads, suits, navballs and Skyboxes install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/).
 
 ## Clouds, Aurorae and Shadows
 
