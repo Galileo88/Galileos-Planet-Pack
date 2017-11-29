@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GPPTextureChecker
 {
-    [KSPAddon(KSPAddon.Startup.Instantly, false)]
+    [KSPAddon(KSPAddon.Startup.MainMenu, false)]
     public class TextureChecker : MonoBehaviour
     {
         bool installed = true;
