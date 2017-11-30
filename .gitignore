@@ -67,3 +67,10 @@ GameData/GPP/GPP_Renamer/Source/obj
 GameData/GPP/GPP_Renamer/Source/bin
 GameData/GPP/GPP_Renamer/Source/.vs
 !KerbalRenamer.dll
+
+
+# GPP_InstallationChecker
+GameData/GPP/GPP_InstallationChecker/Distribution/
+GameData/GPP/GPP_InstallationChecker/Source/.vs/
+GameData/GPP/GPP_InstallationChecker/Source/bin/
+GameData/GPP/GPP_InstallationChecker/Source/obj/
