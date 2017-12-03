@@ -365,7 +365,7 @@ namespace KerbalRenamer
     /// <summary>
     /// Changes the names of the four stock veterans if they are already in the roster
     /// </summary>
-    [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
+    //[KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
     class KerbalCrewFixer : MonoBehaviour
     {
         internal static string[] customKerbals = new string[] { "Galileo Gaelan", "Bobert Gaelan", "Jade Gaelan", "Poody Gaelan", "Sigma Gaelan", "Raging Gaelan", "Jebediah Gaelan", "Bill Gaelan", "Bob Gaelan", "Valentina Gaelan" };
