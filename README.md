@@ -7,7 +7,7 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.88.8 Sigma Edition: Dos
+## v1.5.88.1 Sigma Edition: Dos
 
 * Fixes the renamer and enables it to work with career saves again.
 
@@ -24,7 +24,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.88.8
+5. Download Galileo’s Planet Pack 1.5.88.1
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
