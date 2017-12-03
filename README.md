@@ -7,30 +7,9 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.88 Sigma Edition
+## v1.5.88.8 Sigma Edition: Dos
 
-* Introduces Sigma Loading Screens
-* Introduces Sigma Replacements:
-  * High quality heads
-  * High quality suits
-  * High quality navball
-  * Custom admin heads
-  * New default skybox included
-    * The skybox will rotate at the start of each new game and will remain persistent within that save
-* Introduces Sigma Kerbal Descriptions: Adds fanciful semi-random quirks, descriptions, places of study, and colored profession labels to Gaeleans. Supports extra traits added by Colonists!, MKS and other mods
-* Added Sigma Gaelan and Raging Gaelan to veteran roster
- * All 6 devs are available by default at the start of a game
-* Added slight atmosphere to Leto
-* Even more Kerbal Konstructs goodies
-  * Gulls on Gael
-  * Water launch sites in accordance with KSC Switcher
-  * Other winged creatures on Tellumo
-* Fixed ResearchBodies LOC tag issue(s)
-* Fixed broken localization at Lili
-* Fixed GPP_Renamer
-* Fixed contracts for Strategia.
-* Adjusted gas giant Scatterer cfgs
-
+* Fixes the renamer and enables it to work with career saves again.
 
 ## TO INSTALL:
 
@@ -45,7 +24,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll
 
-5. Download Galileo’s Planet Pack 1.5.88
+5. Download Galileo’s Planet Pack 1.5.88.8
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
