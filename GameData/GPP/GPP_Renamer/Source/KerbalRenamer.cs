@@ -136,13 +136,15 @@ namespace KerbalRenamer
             // Make sure all custom kerbals exist
             for (int i = 0; i < KerbalCrewFixer.customKerbals.Length; i++)
             {
-                if (HighLogic.CurrentGame.CrewRoster[KerbalCrewFixer.customKerbals[i]] == null)
+                int custom = (i + (KerbalRenamerSettings.preserveOriginals ? 6 : 0)) % 10;
+
+                if (HighLogic.CurrentGame.CrewRoster[KerbalCrewFixer.customKerbals[custom]] == null)
                 {
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, KerbalCrewFixer.customKerbals[i]);
+                    KerbalCrewFixer.SetCustomKerbal(kerbal, KerbalCrewFixer.customKerbals[custom]);
                     return;
                 }
             }
-            
+
             // This Part will generate a new Kerbal followint the defined KerbalRenamerSettings
             Random.InitState(DateTime.Now.Millisecond * kerbal.name.GetHashCode());
 
@@ -333,7 +335,7 @@ namespace KerbalRenamer
     class KerbalCrewFixer : MonoBehaviour
     {
         internal static string[] customKerbals = new string[] { "Galileo Gaelan", "Bobert Gaelan", "Jade Gaelan", "Poody Gaelan", "Sigma Gaelan", "Raging Gaelan", "Jebediah Gaelan", "Bill Gaelan", "Bob Gaelan", "Valentina Gaelan" };
-        
+
         void AddCustomKerbal(string name, bool veteran)
         {
             ProtoCrewMember.KerbalType type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
@@ -412,35 +414,6 @@ namespace KerbalRenamer
             {
                 kerbal.experienceLevel = 5;
                 kerbal.experience = 99999;
-            }
-        }
-
-        void OrderCrew()
-        {
-            List<ProtoCrewMember> roster = HighLogic.CurrentGame.CrewRoster.ToList();
-
-            for (int i = 0; i < customKerbals.Length; i++)
-            {
-                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]]?.veteran == true)
-                {
-                    HighLogic.CurrentGame.CrewRoster[customKerbals[i]].ChangeName(customKerbals[i]);
-                }
-            }
-
-            for (int i = 0; i < customKerbals.Length; i++)
-            {
-                if (HighLogic.CurrentGame.CrewRoster[customKerbals[i]]?.veteran == false)
-                {
-                    HighLogic.CurrentGame.CrewRoster[customKerbals[i]].ChangeName(customKerbals[i]);
-                }
-            }
-
-            for (int i = 0; i < roster?.Count; i++)
-            {
-                if (!customKerbals.Contains(roster[i].name))
-                {
-                    roster[i].ChangeName(roster[i].name);
-                }
             }
         }
     }
