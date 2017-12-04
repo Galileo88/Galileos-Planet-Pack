@@ -60,13 +60,9 @@ GameData/GPP/GPP_Replacements/ExtraKerbals/Source/.vs
 
 
 # GPP_Renamer
-GameData/GPP/GPP_Renamer/*.dll
-GameData/GPP/GPP_Renamer/*.pdb
-GameData/GPP/GPP_Renamer/*.xml
-GameData/GPP/GPP_Renamer/Source/obj
-GameData/GPP/GPP_Renamer/Source/bin
-GameData/GPP/GPP_Renamer/Source/.vs
-!KerbalRenamer.dll
+GameData/GPP/GPP_Renamer/Distribution/
+GameData/GPP/GPP_Renamer/Source/.vs/
+GameData/GPP/GPP_Renamer/Source/obj/
 
 
 # GPP_InstallationChecker
