@@ -48,6 +48,8 @@ CC BY-NC-ND
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
 
+2. If KSC++ in used combination with a one of the scaled versions of GPP, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+
 ## Sigma Replacements
 
 1. For high quality Gaelan heads, suits, navballs and Skyboxes install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/).
@@ -90,6 +92,8 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 ## Scaled Versions
 
 GPP's own configs for Sigma Dimensions have been discontinued and removed. To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
+
+If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
 
 
 ## Recommended mods with support for or by GPP
