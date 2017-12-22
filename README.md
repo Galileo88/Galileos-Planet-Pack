@@ -7,8 +7,9 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.88.1 Sigma Edition: Dos
+## v1.5.9 -forced-to-make-d3d11-work
 
+* Small changes to make DirectX 11 work. PBR users rejoice!
 * Fixes the renamer and enables it to work with career saves again.
 
 ## TO INSTALL:
@@ -22,9 +23,9 @@ CC BY-NC-ND
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
-   * ModuleManager.2.8.1.dll
+   * ModuleManager.2.8.1.dll - latest MM works too.
 
-5. Download Galileo’s Planet Pack 1.5.88.1
+5. Download Galileo’s Planet Pack 1.5.9
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
