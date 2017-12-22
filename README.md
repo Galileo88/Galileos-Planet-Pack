@@ -7,7 +7,7 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.9 -forced-to-make-d3d11-work
+## v1.5.99 -forced-to-make-d3d11-work
 
 * Small changes to make DirectX 11 work. TU users rejoice!
 * Fixes the renamer and enables it to work with career saves again.
@@ -25,7 +25,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll - latest MM works too.
 
-5. Download Galileo’s Planet Pack 1.5.9
+5. Download Galileo’s Planet Pack 1.5.99
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
