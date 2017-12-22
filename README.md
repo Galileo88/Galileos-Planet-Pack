@@ -103,7 +103,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
     * Suits
     * Skybox
     * Navigation
-  * Sigma Descriptions
+    * Descriptions
   * Environmental Visual Enhancements - min-version: 1.2.2-1
   * Scatterer - min-version: 0.0320b
   * Distant Object Enhancement
