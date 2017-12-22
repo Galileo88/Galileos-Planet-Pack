@@ -9,7 +9,7 @@ CC BY-NC-ND
 # Changelog:
 ## v1.5.9 -forced-to-make-d3d11-work
 
-* Small changes to make DirectX 11 work. PBR users rejoice!
+* Small changes to make DirectX 11 work. TU users rejoice!
 * Fixes the renamer and enables it to work with career saves again.
 
 ## TO INSTALL:
