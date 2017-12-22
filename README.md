@@ -136,8 +136,6 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 * Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this.
 
-* Running game in dx11 causes terrain textures to be pinstriped.
-
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more apparent by placing bodies beyond Eeloo SMA.
 
 * KSPedia is missing a little information. This will be fixed at a later time.
