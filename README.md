@@ -7,6 +7,21 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
+### v1.6.0 WIP
+* New looks for Eta, Lili, Gratian, Geminus, Otho, Gauss, Nero, Hox, Leto, Grannus
+* Provide/contain support for GEP
+* ResearchBodies config updated
+  * Split into two part-upgrades which are closer to the telescope part in the tech tree
+  * Second upgrade allows telescope range up to 9 Tm distance
+* (WIP) Revise biome maps
+* (WIP) Update KSPedia and dV map PNG
+* (WIP) Adjusted resource system configs
+* Updated GPP_Clouds
+  * Gratian
+  * New gas planet aurorae
+  * Only Nero retains animated bands
+  * (WIP) Gauss animated polar storms
+
 ## v1.5.99 -forced-to-make-d3d11-work
 
 * Small changes to make DirectX 11 work. TU users rejoice!
