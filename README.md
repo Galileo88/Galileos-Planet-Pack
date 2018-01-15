@@ -170,7 +170,9 @@ All Rights Reserved (ARR)
 * (WIP) Update KSPedia and dV map PNG
 * (WIP) Adjusted resource system configs
 * Updated GPP_Clouds
-  * Gratian
-  * New gas planet aurorae
+  * New cloud sets on solid planets
+  * New aurorae on all planets that have it
   * Only Nero retains animated bands
-  * (WIP) Gauss animated polar storms
+  * Subtle noise animation on Gauss
+  * Catullus is so fluffy! (Fluffier maybe?)
+  * Colored fog and sandstorms are back! Like the Terminator T-1
