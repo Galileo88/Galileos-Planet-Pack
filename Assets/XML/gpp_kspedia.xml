@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="gpp" CreatedTime="-8586971458523424751">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="gpp" CreatedTime="-8586855588560316088">
   <Categories>
     <Category Name="Galileo's Planet Pack">
       <Title>Galileo's Planet Pack</Title>
@@ -509,7 +509,7 @@ For a little guidance on what may be present in a body's atmosphere check out th
 
 For added ISRU fun and new design opportunities along with the challenge, install the Karbonite mod by USI. Karbonite's massive presence in this system enables you to do previously impossible things like deploy on-ocean mining bases, make VTOLs and other aircraft that work in any atmosphere, refill tanks faster than they empty in flight, refuel while in space or entering/leaving atmosphere, and refine not only into LFO and Monopropellant but also into LqdHydrogen, Oxygen and gain Monopropellant via Karbonite's rocket alternators.
 
-There are 4 hard-to-find places that house Karborundum. Additional resources featured are MetalOre for Extraplanetary Launchpads and the essentials for Kerbalism. The planet [REDACTED] has Oxygen and Water oceans making it the next level of testing ground for hypersonic and/or over-engineered aircraft.</Text>
+There are 4 hard-to-find places that house Karborundum. Additional resources configs can be acquired separately featuring MetalOre for Extraplanetary Launchpads and the essentials for Kerbalism. The planet [REDACTED] has Oxygen and Water oceans making it the next level of testing ground for hypersonic and/or over-engineered aircraft.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -921,9 +921,9 @@ SYNC ORBIT ALT:</Text>
 12
 D
 NONE
-495 m/s [+110]
-1,060 m/s
-230 m/s
+495 m/s [+1,180]
+1,070 m/s
+235 m/s
 6.27 DAYS
 48,000 km
 539 km
@@ -1013,7 +1013,7 @@ SYNC ORBIT ALT:</Text>
 10
 D
 NONE
-305 m/s [+0]
+305 m/s [+1,130]
 880 m/s
 385 m/s
 13.5 DAYS
@@ -1105,7 +1105,7 @@ SYNC ORBIT ALT:</Text>
 10
 D
 NONE
-185 m/s [+170]
+185 m/s [+1,230]
 770 m/s
 330 m/s
 29.59 DAYS
@@ -1196,7 +1196,7 @@ D
 NONE
 460 m/s [+310]
 650 m/s
-480 m/s
+475 m/s
 2.91 DAYS
 18,500 km
 887 km
@@ -1261,6 +1261,11 @@ on Advanced Navigation</Text>
           <Text>KERBIN MASSES:
 RADIUS:
 SURFACE G:
+SURFACE TEMP:
+SURFACE PRESSURE:
+ATMOSPHERE CLASS:
+ATMOSPHERE HEIGHT:
+ATMOSPHERE:
 BIOME COUNT:
 PLANET CLASS:
 VOLCANISM:
@@ -1280,13 +1285,18 @@ SYNC ORBIT ALT:</Text>
           <Text>0.015
 210 km
 0.12
+36 K
+0.005 ATMOSPHERES
+THATMO
+35 km
+100% NITROGEN
 10
 D
 NONE
 2,705 m/s [+1,650]
-890 m/s
+905 m/s
 44 YEARS + 168 DAYS
-515 m/s
+560 m/s
 241 YEARS + 309 DAYS
 542,593,000 km
 600,296 km
@@ -1302,7 +1312,11 @@ NONE
           <Text>IN SPACE HIGH:
 THRESHOLD:
 IN SPACE LOW:
+FLYING HIGH:
+THRESHOLD:
+FLYING LOW:
 LANDED:
+SPLASHED:
 RECOVERY VALUE:
 
 SOLAR FLUX:
@@ -1315,7 +1329,11 @@ FARTHEST:</Text>
           <Text>14
 105 km
 15
+15
+9 km
+15
 17
+N/A
 14
 
 0.9 W/m²
@@ -1473,7 +1491,7 @@ D
 NONE
 215 m/s [+530]
 680 m/s
-320 m/s
+315 m/s
 14.5 DAYS
 65,000 km
 1,362 km
@@ -1615,7 +1633,7 @@ SOLAR FLUX:
           <Text>INFORMATION</Text>
         </Text>
         <Text Name="Panel Body/Description Left">
-          <Text>A solar system mod unlike any other. Kerbals, effectively Gaeleans, arise on the 4th planet, Gael. Kerbin and the rest of the stock solar system do/did not exist and with 27 celestial bodies orbiting Ciro "the Sun" this system is as large by count and orbital radii as Stock + the Outer Planets Mod (OPM). This mod exists to make KSP feel new again to long-time players who have grown tired of launching from Kerbin, tired of stock or stockalike planets* in general and tired of meeting the same suite of challenges they know in the stock system.
+          <Text>A solar system mod unlike any other. Kerbals, effectively Gaeleans, arise on the 4th planet, Gael. Kerbin and the rest of the stock solar system do/did not exist and with 29 celestial bodies orbiting Ciro "the Sun" this system is as large by count and orbital radii as Stock + the Outer Planets Mod (OPM). This mod exists to make KSP feel new again to long-time players who have grown tired of launching from Kerbin, tired of stock or stockalike planets* in general and tired of meeting the same suite of challenges they know in the stock system.
 
 Unique patterns occurred during the formation of Ciro and the planets from their circumstellar disc, leading to meticulous, almost deliberate allocations of precious resources with the leftovers forming into an organic, combustible system with strangely allocated abundances compared to other solar systems. The Ciro system itself develops a collection of stories and is of many special attractions as gameplay matures such as the daunting Icarus, the curse of Thalia and the configurations of Gauss and its moons.
 
@@ -1891,7 +1909,7 @@ D
 NONE
 425 m/s [+45]
 765 m/s
-370 m/s
+375 m/s
 5.01 DAYS
 32,000 km
 838 km
@@ -1998,7 +2016,7 @@ DUNA
 11
 K
 NONE
-755 m/s [+55]
+755 m/s [+1,070]
 900 m/s
 1,245 m/s
 3.10 DAYS
@@ -2263,7 +2281,7 @@ FARTHEST:</Text>
         </Text>
         <Text Name="Right Panel/Spec TH/Spec TD">
           <Text>25
-21,375 Mm
+50 Gm
 100
 25
 200 km
@@ -2330,7 +2348,7 @@ D
 NONE
 75 m/s [+100]
 335 m/s
-795 m/s
+800 m/s
 6.45 DAYS
 10,300 km
 3,140 km
@@ -2769,7 +2787,7 @@ SOLAR FLUX:
         </Text>
         <Text Name="Right Panel/Spec TH/Spec TD">
           <Text>8
-80 km
+30 km
 9
 11
 8
@@ -2893,13 +2911,13 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Eta/Low Orbit">
           <Text>Low Orbit
-13.7 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Eta/Low Orbit/Intercept dV">
           <Text>335 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Eta/Land Takoff">
-          <Text>Land/Takeoff: 795 m/s</Text>
+          <Text>Land/Takeoff: 800 m/s</Text>
         </Text>
         <Text Name="Panel Body/Key">
           <Text>KEY:</Text>
@@ -2987,13 +3005,13 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Hephaestus/Low Orbit">
           <Text>Low Orbit
-13.3 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Hephaestus/Low Orbit/Intercept dV">
           <Text>765 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Hephaestus/Land Takoff">
-          <Text>Land/Takeoff: 370 m/s</Text>
+          <Text>Land/Takeoff: 375 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Jannah">
           <Text>JANNAH</Text>
@@ -3007,13 +3025,13 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Jannah/Low Orbit">
           <Text>Low Orbit
-12.8 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Jannah/Low Orbit/Intercept dV">
           <Text>680 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Jannah/Land Takoff">
-          <Text>Land/Takeoff: 320 m/s</Text>
+          <Text>Land/Takeoff: 315 m/s</Text>
         </Text>
         <Text Name="Panel Body/Key">
           <Text>KEY:</Text>
@@ -3077,7 +3095,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
 </Text>
         </Text>
         <Text Name="Panel Body/dV Map/Hadrian/Elliptical Orbit/Intercept dV">
-          <Text>755 m/s [+ 55]</Text>
+          <Text>755 m/s [+ 1,070]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Hadrian/Low Orbit">
           <Text>Low Orbit
@@ -3097,17 +3115,17 @@ For those who like to refer to a Delta-V map outside of the game please direct y
 </Text>
         </Text>
         <Text Name="Panel Body/dV Map/Narisse/Elliptical Orbit/Intercept dV">
-          <Text>495 m/s [+ 110]</Text>
+          <Text>495 m/s [+ 1,180]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Narisse/Low Orbit">
           <Text>Low Orbit
-11.9 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Narisse/Low Orbit/Intercept dV">
-          <Text>1,060 m/s</Text>
+          <Text>1,070 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Narisse/Land Takoff">
-          <Text>Land/Takeoff: 230 m/s</Text>
+          <Text>Land/Takeoff: 235 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Muse">
           <Text>MUSE</Text>
@@ -3117,11 +3135,11 @@ For those who like to refer to a Delta-V map outside of the game please direct y
 </Text>
         </Text>
         <Text Name="Panel Body/dV Map/Muse/Elliptical Orbit/Intercept dV">
-          <Text>305 m/s</Text>
+          <Text>305 m/s [+ 1,130]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Muse/Low Orbit">
           <Text>Low Orbit
-13.4 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Muse/Low Orbit/Intercept dV">
           <Text>880 m/s</Text>
@@ -3137,11 +3155,11 @@ For those who like to refer to a Delta-V map outside of the game please direct y
 </Text>
         </Text>
         <Text Name="Panel Body/dV Map/Minona/Elliptical Orbit/Intercept dV">
-          <Text>185 m/s [+ 170]</Text>
+          <Text>185 m/s [+ 1,230]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Minona/Low Orbit">
           <Text>Low Orbit
-13.8 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Minona/Low Orbit/Intercept dV">
           <Text>770 m/s</Text>
@@ -3235,14 +3253,14 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit">
           <Text>Elliptical Orbit
-3.331 Mm - 15.1 km</Text>
+3.331 Mm - 15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Icarus/Elliptical Orbit/Intercept dV">
           <Text>4,800 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Icarus/Low Orbit">
           <Text>Low Orbit
-15.1 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Icarus/Low Orbit/Intercept dV">
           <Text>185 m/s</Text>
@@ -3265,14 +3283,14 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit">
           <Text>Elliptical Orbit
-13.37 Mm - 16.1 km</Text>
+13.37 Mm - 15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Thalia/Elliptical Orbit/Intercept dV">
           <Text>1,220 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Thalia/Low Orbit">
           <Text>Low Orbit
-16.1 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Thalia/Low Orbit/Intercept dV">
           <Text>350 m/s</Text>
@@ -3292,7 +3310,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Eta/Low Orbit">
           <Text>Low Orbit
-14.8 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Eta/Low Orbit/Intercept dV">
           <Text>90 m/s</Text>
@@ -3399,19 +3417,19 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Argo/Low Orbit">
           <Text>Low Orbit
-13.3 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Argo/Low Orbit/Intercept dV">
           <Text>75 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Argo/Land Takoff">
-          <Text>Land/Takeoff: 210 m/s</Text>
+          <Text>Land/Takeoff: 205 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto">
           <Text>LETO</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Tot dV">
-          <Text>7,655 m/s [9,305]</Text>
+          <Text>7,715 m/s [9,365]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Intercept">
           <Text>Leto Intercept
@@ -3422,23 +3440,23 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Elliptical Orbit">
           <Text>Elliptical Orbit
-600.1 Mm - 12.4 km</Text>
+600.1 Mm - 45 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Elliptical Orbit/Intercept dV">
-          <Text>690 m/s</Text>
+          <Text>715 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Low Orbit">
           <Text>Low Orbit
-12.4 km</Text>
+45 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Low Orbit/Intercept dV">
-          <Text>200 m/s</Text>
+          <Text>190 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Leto/Land Takoff">
-          <Text>Land/Takeoff: 515 m/s</Text>
+          <Text>Land/Takeoff: 560 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Note">
-          <Text>* Hox's 'Landed' total ΔV requirements shown do not factor in aerobraking/
+          <Text>* Hox &amp; Leto's 'Landed' total ΔV requirements shown do not factor in aerobraking/
    aerocapture as Hox exhibits an extremely low density atmosphere.</Text>
         </Text>
         <Text Name="Panel Body/Key">
@@ -3507,13 +3525,13 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Loki/Low Orbit">
           <Text>Low Orbit
-13.6 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Loki/Low Orbit/Intercept dV">
           <Text>650 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Loki/Land Takoff">
-          <Text>Land/Takeoff: 480 m/s</Text>
+          <Text>Land/Takeoff: 475 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Catallus">
           <Text>CATULLUS</Text>
@@ -3530,7 +3548,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
 28.82 Mm - 290 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Catallus/Elliptical Orbit/Intercept dV">
-          <Text>1,280 m/s</Text>
+          <Text>165 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Catallus/Low Orbit">
           <Text>Low Orbit
@@ -3598,7 +3616,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
           <Text>IOTA</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Iota/Tot dV">
-          <Text>4,655 m/s [5,010]</Text>
+          <Text>4,655 m/s [5,000]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Iota/Intercept">
           <Text>Iota Intercept
@@ -3609,7 +3627,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Iota/Low Orbit">
           <Text>Low Orbit
-13 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Iota/Low Orbit/Intercept dV">
           <Text>195 m/s</Text>
@@ -3621,7 +3639,7 @@ For those who like to refer to a Delta-V map outside of the game please direct y
           <Text>CETI</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Ceti/Tot dV">
-          <Text>4,875 m/s [5,575]</Text>
+          <Text>4,880 m/s [5,580]</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Ceti/Intercept">
           <Text>Ceti Intercept
@@ -3632,10 +3650,10 @@ For those who like to refer to a Delta-V map outside of the game please direct y
         </Text>
         <Text Name="Panel Body/dV Map/Ceti/Low Orbit">
           <Text>Low Orbit
-14 km</Text>
+15 km</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Ceti/Low Orbit/Intercept dV">
-          <Text>220 m/s</Text>
+          <Text>225 m/s</Text>
         </Text>
         <Text Name="Panel Body/dV Map/Ceti/Land Takoff">
           <Text>Land/Takeoff: 530 m/s</Text>
@@ -3701,13 +3719,18 @@ JadeOfMaar - Resource configs, documentation, storytelling, perf. testing, suppo
 
 OhioBob - Documentation, atmospheric configs, everything else involving Math/Science, perf. testing.
 
+Poodmund - Tools and tutorials, optimizations, biome work, KSPedia implementation.
+
+Sigma88 - Plugin coding, mod dependency &amp; config support.
+
+
+CONTRIBUTORS
+
+TheRagingIrishman - Plugin coding, localization.
+
 Nhawks17 - Kerbal Konstructs.
 
-Poodmund - Tools and tutorials, optimizations, initial biome work, KSPedia implementation.
-
-rasta013 - Biome descriptions
-
-TheRagingIrishman - Renamer &amp; Install Plugins, Localization
+rasta013 - Biome descriptions.
 
 
 3RD PARTY MOD SUPPORT
@@ -3911,7 +3934,7 @@ SYNC ORBIT ALT:</Text>
 D
 NONE
 925 m/s [+700]
-220 m/s
+225 m/s
 11 DAYS
 530 m/s
 63.15 DAYS
@@ -3953,7 +3976,7 @@ SOLAR FLUX:
     <Screen Name="Catullus">
       <BundleName>gpp</BundleName>
       <AssetPath>Assets/Prefabs/Catullus.prefab</AssetPath>
-      <Title>Catallus</Title>
+      <Title>Catullus</Title>
       <Background />
       <Text>
         <Text Name="Left Panel/Info Arrow/Info Header">
@@ -4022,7 +4045,7 @@ TEKTO
 H
 NONE
 160 m/s [+80]
-2,390 m/s
+1,275 m/s
 6,750 m/s
 15.76 DAYS
 57,000 km
@@ -4237,7 +4260,7 @@ D
 CRYOVOLCANISM
 10 m/s [+365]
 75 m/s
-210 m/s
+205 m/s
 43.89 DAYS
 12,500 km
 2,885 km
