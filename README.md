@@ -7,10 +7,33 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.5.99 -forced-to-make-d3d11-work
+## v1.6.0 WIP REQUIRES GPP_TEXTURES 4.0.0
+* **New textures!**
+  * Ciro
+  * Grannus
+  * Eta
+  * Lili
+  * Gratian 
+  * Geminus
+  * Otho
+  * Gauss
+  * Nero
+  * Hox
+  * Leto
+* Provide/contain support for GEP
+* ResearchBodies config updated
+  * Split into two part-upgrades which are closer to the telescope part in the tech tree
+  * Second upgrade allows telescope range up to 9 Tm distance
+* Revised biome maps
+* Update KSPedia and dV map PNG
+* Adjusted resource system configs
+* Updated GPP_Clouds
+  * New clouds on some bodies
+  * New aurorae for all planets with them
+  * Subtle gas giant cloud noise
+  * Catullus is so fluffy! (Fluffier maybe?)
+  * Dust and sandstorms are back! Like the Terminator T-1
 
-* Small changes to make DirectX 11 work. TU users rejoice!
-* Fixes the renamer and enables it to work with career saves again.
 
 ## TO INSTALL:
 
@@ -25,7 +48,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.2.8.1.dll - latest MM works too.
 
-5. Download Galileo’s Planet Pack 1.5.99
+5. Download Galileo’s Planet Pack 1.6
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -83,6 +106,17 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * Kopernicus\
   * ModularFlightIntegrator\
   * ModuleManager.2.8.1.dll
+  
+## Grannus Expansion Pack (GEP)
+
+Grannus Expansion Pack (GEP) is an expansion to Galileo’s Planet Pack (GPP) that adds planets and moons around the red dwarf star Grannus.  GEP is designed to work only when installed with GPP, it is not a standalone planet pack.
+
+The current version of GEP is not yet complete, but most of the essential game elements are present.  It should be fully playable in its current state, though some mods may not yet be supported.
+
+While GEP is separate from GPP, it has been developed with the endorsement and cooperation of the GPP team.  Special care has been taken to ensure that GEP integrates seamlessly with GPP.
+
+For more information, download links and install instructions, look here: (OhioBob's forum link goes here)
+
 
 ## Kerbal Renamer
 
@@ -98,6 +132,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 
 ## Recommended mods with support for or by GPP
+  * Grannus Expansion Pack (GEP)
   * Sigma Replacements
     * Heads
     * Suits
@@ -123,10 +158,6 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * BlueDog Design Bureau (balanced optimally at 2.5x scale)
 
 ## Known Issues
-* The following bodies no longer have volumetric clouds (including sand storms) due to a bug with scatterer causing them to turn black. They will return:
-
-  * Catullus
-  * Augustus and Gratian have an alternate particle effect in lieu.
 
 * Clouds do not show up in main menu. Just a small bug with EVE and Kopernicus. Not a big deal. Nothing is broken.
 
@@ -137,9 +168,6 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 * Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this.
 
 * Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more apparent by placing bodies beyond Eeloo SMA.
-
-* KSPedia is missing a little information. This will be fixed at a later time.
-
 
 ## Bundled Licenses
 
@@ -159,20 +187,3 @@ Simplified BSD License (BSD 2-clause)
 
 "Sigma LoadingScreens"
 All Rights Reserved (ARR)
-
-### v1.6.0 WIP
-* New looks for Eta, Lili, Gratian, Geminus, Otho, Gauss, Nero, Hox, Leto, Grannus
-* Provide/contain support for GEP
-* ResearchBodies config updated
-  * Split into two part-upgrades which are closer to the telescope part in the tech tree
-  * Second upgrade allows telescope range up to 9 Tm distance
-* (WIP) Revise biome maps
-* (WIP) Update KSPedia and dV map PNG
-* (WIP) Adjusted resource system configs
-* Updated GPP_Clouds
-  * New cloud sets on solid planets
-  * New aurorae on all planets that have it
-  * Only Nero retains animated bands
-  * Subtle noise animation on Gauss
-  * Catullus is so fluffy! (Fluffier maybe?)
-  * Colored fog and sandstorms are back! Like the Terminator T-1
