@@ -47,13 +47,13 @@ CC BY-NC-ND
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
-   * ModuleManager.2.8.1.dll - latest MM works too.
+   * ModuleManager.3.0.1.dll
 
 5. Download Galileo’s Planet Pack 1.6
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/3.0.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.0.0).
 
 8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
@@ -106,7 +106,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP_Secondary\
   * Kopernicus\
   * ModularFlightIntegrator\
-  * ModuleManager.2.8.1.dll
+  * ModuleManager.3.0.1.dll
   
 ## Grannus Expansion Pack (GEP)
 
