@@ -116,7 +116,7 @@ The current version of GEP is not yet complete, but most of the essential game e
 
 While GEP is separate from GPP, it has been developed with the endorsement and cooperation of the GPP team.  Special care has been taken to ensure that GEP integrates seamlessly with GPP.
 
-For more information, download links and install instructions, look here: (OhioBob's forum link goes here)
+For more information, download links and install instructions, see the info/install instructions in the GPP thread.
 
 
 ## Kerbal Renamer
