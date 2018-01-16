@@ -162,13 +162,14 @@ All Rights Reserved (ARR)
 
 ### v1.6.0 WIP
 * New looks for Eta, Lili, Gratian, Geminus, Otho, Gauss, Nero, Hox, Leto, Grannus
+* Removed obsolete loading screen images
 * Provide/contain support for GEP
 * ResearchBodies config updated
   * Split into two part-upgrades which are closer to the telescope part in the tech tree
   * Second upgrade allows telescope range up to 9 Tm distance
-* (WIP) Revise biome maps
-* (WIP) Update KSPedia and dV map PNG
-* (WIP) Adjusted resource system configs
+* Revised biome maps
+* Updated KSPedia and dV map PNG
+* Adjusted resource system configs
 * Updated GPP_Clouds
   * New cloud sets on solid planets
   * New aurorae on all planets that have it
