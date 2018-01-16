@@ -7,7 +7,8 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.0 WIP REQUIRES GPP_TEXTURES 4.0.0
+## v1.6.0 
+**REQUIRES GPP_TEXTURES 4.0.0**
 * **New textures!**
   * Ciro
   * Grannus
