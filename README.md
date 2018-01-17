@@ -10,6 +10,8 @@ CC BY-NC-ND
 ## v1.6.0.1
 * Fixed a null spam problem caused by Sigma Loading Screens
 
+Rather than download GPP again, download Sigma LoadingScreens [from right here](https://github.com/Sigma88/Sigma-LoadingScreens/releases/tag/v0.3.3) and copy the LoadingScreens folder into your GPP folder. Allow file overwrites.
+
 ## v1.6.0 
 **REQUIRES GPP_TEXTURES 4.0.0**
 * **New textures!**
