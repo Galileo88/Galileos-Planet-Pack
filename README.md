@@ -7,6 +7,9 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
+## v1.6.0.1
+* Fixed a null spam problem caused by Sigma Loading Screens
+
 ## v1.6.0 
 **REQUIRES GPP_TEXTURES 4.0.0**
 * **New textures!**
@@ -116,7 +119,7 @@ The current version of GEP is not yet complete, but most of the essential game e
 
 While GEP is separate from GPP, it has been developed with the endorsement and cooperation of the GPP team.  Special care has been taken to ensure that GEP integrates seamlessly with GPP.
 
-For more information, download links and install instructions, see the info/install instructions in the GPP thread.
+For more information, download links and install instructions, visit the [GEP thread](https://forum.kerbalspaceprogram.com/index.php?/topic/169664-ksp-131-grannus-expansion-pack-v0800-16-jan-2018/).
 
 
 ## Kerbal Renamer
