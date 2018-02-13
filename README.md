@@ -9,9 +9,6 @@ CC BY-NC-ND
 # Changelog:
 ## v1.6.1.0 
 ## REQUIRES GPP_TEXTURES 4.1.0
-* Fixed a null spam problem caused by Sigma Loading Screens when KSP-AVC not installed.
-
-Rather than download GPP again, download Sigma LoadingScreens [from right here](https://github.com/Sigma88/Sigma-LoadingScreens/releases/tag/v0.3.3) and copy the LoadingScreens folder into your GPP folder. Allow file overwrites.
 
 * Update for Kopernicus 1.3.1-5
 * File structures have changed to take full advantage of On Demand Loading in Kopernicus
