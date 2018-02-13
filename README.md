@@ -7,38 +7,17 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.0.1
-* Fixed a null spam problem caused by Sigma Loading Screens
+## v1.6.1.0
+* Fixed a null spam problem caused by Sigma Loading Screens when KSP-AVC not installed.
 
 Rather than download GPP again, download Sigma LoadingScreens [from right here](https://github.com/Sigma88/Sigma-LoadingScreens/releases/tag/v0.3.3) and copy the LoadingScreens folder into your GPP folder. Allow file overwrites.
 
-## v1.6.0 
-**REQUIRES GPP_TEXTURES 4.0.0**
-* **New textures!**
-  * Ciro
-  * Grannus
-  * Eta
-  * Lili
-  * Gratian 
-  * Geminus
-  * Otho
-  * Gauss
-  * Nero
-  * Hox
-  * Leto
-* Provide/contain support for GEP
-* ResearchBodies config updated
-  * Split into two part-upgrades which are closer to the telescope part in the tech tree
-  * Second upgrade allows telescope range up to 9 Tm distance
-* Revised biome maps
-* Update KSPedia and dV map PNG
-* Adjusted resource system configs
-* Updated GPP_Clouds
-  * New clouds on some bodies
-  * New aurorae for all planets with them
-  * Subtle gas giant cloud noise
-  * Catullus is so fluffy! (Fluffier maybe?)
-  * Dust and sandstorms are back! Like the Terminator T-1
+## v1.6.1.0 
+**REQUIRES GPP_TEXTURES 4.1.0**
+* Update for Kopernicus 1.3.1-5
+* File structures have changed to take full advantage of On Demand Loading in Kopernicus
+  * Speeds up loading time and saves ram during gameplay. 
+* Terrain scatter is easily disabled and enabled by the EnableColliders.cfg in the GPP/GPP_Configs
 
 
 ## TO INSTALL:
@@ -54,11 +33,11 @@ Rather than download GPP again, download Sigma LoadingScreens [from right here](
    * ModularFlightIntergrator\
    * ModuleManager.3.0.1.dll
 
-5. Download Galileo’s Planet Pack 1.6
+5. Download Galileo’s Planet Pack 1.6.1.0
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.0.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.0).
 
 8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
