@@ -9,7 +9,6 @@ CC BY-NC-ND
 # Changelog:
 ## v1.6.1.0 
 ## REQUIRES GPP_TEXTURES 4.1.0
-
 * Update for Kopernicus 1.3.1-5
 * File structures have changed to take full advantage of On Demand Loading in Kopernicus
   * Speeds up loading time and saves RAM during gameplay. 
