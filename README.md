@@ -53,7 +53,7 @@ CC BY-NC-ND
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
 
-2. If KSC++ in used combination with a one of the scaled versions of GPP, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
 
 ## Sigma Replacements
 
@@ -148,8 +148,6 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 * Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this.
 
-* Orbit lines jump around when zoomed out to outer planets in map view and tracking station. It's stock bug made more apparent by placing bodies beyond Eeloo SMA.
-
 ## Bundled Licenses
 
 **These mods and/or assets are distributed by their own license terms, included in each mod's folder**
@@ -160,8 +158,6 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-N
 "KSC++"
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-"SuitProgression"
-Attribution-NonCommercial-ShareAlike 3.0 International (CC BY-NC-SA 3.0)
 
 "GPP_Renamer"
 Simplified BSD License (BSD 2-clause)
