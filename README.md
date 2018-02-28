@@ -7,13 +7,15 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.1.0 
+## v1.6.1.1 
 ## REQUIRES GPP_TEXTURES 4.1.0
-* Update for Kopernicus 1.3.1-6
-* File structures have changed to take full advantage of On Demand Loading in Kopernicus
-  * Speeds up loading time and saves RAM during gameplay. 
-* Terrain scatter is easily disabled and enabled by the EnableColliders.cfg in the GPP/GPP_Configs
-* Fixed error with Eta biome map
+* Update for Kopernicus 1.3.1-7
+* Julia's Greater Pigments biome localization fixed.
+* useManualMemoryManagement has been implemented.
+* Included celestial body cache files to speed up initial load time.
+* Fixed the Gael anomolies.
+* Only apply the Sigma Replacements: Navigation patch to command modules if said mod is installed.
+* Poodmund re-wrote the above patch note line, like, 5 times due to being a derp at language and things.
 
 ## TO INSTALL:
 
@@ -26,9 +28,9 @@ CC BY-NC-ND
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
-   * ModuleManager.3.0.1.dll
+   * ModuleManager.3.0.4.dll
 
-5. Download Galileo’s Planet Pack 1.6.1.0
+5. Download Galileo’s Planet Pack 1.6.1.1
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -85,7 +87,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP_Secondary\
   * Kopernicus\
   * ModularFlightIntegrator\
-  * ModuleManager.3.0.1.dll
+  * ModuleManager.3.0.4.dll
   
 ## Grannus Expansion Pack (GEP)
 
