@@ -7,8 +7,9 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.1.1 
+## v1.6.1.2 
 ## REQUIRES GPP_TEXTURES 4.1.0
+* Fixes CKAN issues (sorry)
 * Update for Kopernicus 1.3.1-7
 * Julia's Greater Pigments biome localization fixed.
 * useManualMemoryManagement has been implemented.
@@ -30,7 +31,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.3.0.4.dll
 
-5. Download Galileo’s Planet Pack 1.6.1.1
+5. Download Galileo’s Planet Pack 1.6.1.2
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
