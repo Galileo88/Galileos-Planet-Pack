@@ -1,0 +1,759 @@
+//
+//	Galileo's Planet Pack
+//	Resource: GrayWater
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Gauss
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Nero
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Icarus
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Thalia
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Niven
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 3
+		MaxAbundance = 8
+		Variance = 40
+		Dispersal = 3
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 1
+	PlanetName = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 80
+		MaxAbundance = 90
+		Variance = 10
+		Dispersal = 3
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 2
+	PlanetName = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 3
+		MaxAbundance = 4
+		Variance = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 8
+		MaxAbundance = 16
+		Variance = 20
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 1
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 80
+		MaxAbundance = 90
+		Variance = 5
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 1
+	PlanetName = Hadrian
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 1
+	PlanetName = Tarsiss
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 2
+	PlanetName = Hadrian
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 2
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 8
+		Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Agrippina
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 30
+		MaxAbundance = 70
+		Variance = 50
+		Dispersal = 20
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Julia
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 65
+		Variance = 50
+		Dispersal = 20
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Hox
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 10
+		MaxAbundance = 15
+		Variance = 20
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Argo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 40
+		MaxAbundance = 70
+		Variance = 30
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Leto
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 40
+		MaxAbundance = 70
+		Variance = 30
+		Dispersal = 50
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Gael
+	BiomeName = Ice Caps
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 80
+		MaxAbundance = 90
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Water
+	ResourceType = 0
+	PlanetName = Gael
+	BiomeName = Inland Water
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 8
+		MaxAbundance = 12
+		Variance = 10
+		Dispersal = 0
+	}
+}
+
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Iota
+	BiomeName = Droops
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 10
+		Variance = 40
+		Dispersal = 10
+	}
+}
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Ceti
+	BiomeName = Poles
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 10
+		Variance = 40
+		Dispersal = 10
+	}
+}
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Ice Caps
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 80
+		MaxAbundance = 90
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Water
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Inland Water
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 8
+		MaxAbundance = 12
+		Variance = 10
+		Dispersal = 0
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Sarawak White
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 45
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Muntok White
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 10
+		MaxAbundance = 35
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Julia
+	BiomeName = Pink Ice
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 12
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Geminus
+	BiomeName = Craters
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 5
+		Variance = 40
+		Dispersal = 40
+	}
+}
+
+// Exosphere Edge
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Niven
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.3
+        MaxAltitude = 0.3
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Gael
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.22
+        MaxAltitude = 0.22
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Tellumo
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 30
+        MaxAbundance = 50
+        MinAltitude = 1.4
+        MaxAltitude = 1.4
+        MinRange = 1.7
+        MaxRange = 1.7
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Gratian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 5
+        MinAltitude = 0.18
+        MaxAltitude = 0.18
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 3
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Augustus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Gauss
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 3
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Catullus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 5
+        MinAltitude = 0.46
+        MaxAltitude = 0.46
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Tarsiss
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 5
+        MinAltitude = 0.81
+        MaxAltitude = 0.81
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Nero
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 30
+        MaxAbundance = 60
+        MinAltitude = 1.4
+        MaxAltitude = 1.4
+        MinRange = 1.7
+        MaxRange = 1.7
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Hadrian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 1
+        MaxAbundance = 5
+        MinAltitude = 0.53
+        MaxAltitude = 0.53
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Hox
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 20
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Argo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 20
+        MaxAbundance = 60
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.8
+        MaxRange = 1.7
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = GrayWater
+	ResourceType = 3
+	PlanetName = Leto
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 50
+        MinAltitude = 0.33
+        MaxAltitude = 0.33
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}

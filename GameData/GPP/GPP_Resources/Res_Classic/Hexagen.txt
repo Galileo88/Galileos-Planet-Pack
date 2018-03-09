@@ -1,0 +1,469 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Hexagen
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+    ResourceName = Hexagen
+    ResourceType = 3
+    PlanetName = Ciro
+	
+    Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 5000
+        MaxAbundance = 5000
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
+}
+PLANETARY_RESOURCE
+{
+    ResourceName = Hexagen
+    ResourceType = 3
+    PlanetName = Grannus
+	
+    Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 5000
+        MaxAbundance = 5000
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.001
+		MaxAbundance = 0.0015
+		Variance = 10
+		Dispersal = 1
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Gael
+	BiomeName = Water
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.001
+		MaxAbundance = 0.0035
+		Variance = 10
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Iota
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.001
+		MaxAbundance = 0.004
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Ceti
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.003
+		MaxAbundance = 0.006
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+
+BIOME_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Ceti
+	BiomeName = Poles
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.003
+		MaxAbundance = 0.009
+		Variance = 10
+		Dispersal = 10
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Thalia
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.003
+		MaxAbundance = 0.012
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Eta
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.002
+		MaxAbundance = 0.006
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 0
+	PlanetName = Icarus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.006
+		MaxAbundance = 0.018
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 6
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Gauss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 11
+		MaxAbundance = 13
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 8
+		MaxAbundance = 8.9
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Nero
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 9
+		MaxAbundance = 9.9
+		Variance = 0
+		Dispersal = 1
+	}
+}
+
+// Exosphere Edge
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Niven
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 2
+        MaxAbundance = 9
+        MinAltitude = 0.3
+        MaxAltitude = 0.3
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Gael
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.22
+        MaxAltitude = 0.22
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Tellumo
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.09
+        MaxAltitude = 0.09
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Gratian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.18
+        MaxAltitude = 0.18
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Augustus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Gauss
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 11
+        MaxAbundance = 12
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Catullus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 8
+        MaxAbundance = 8
+        MinAltitude = 0.46
+        MaxAltitude = 0.46
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Nero
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 9
+        MaxAbundance = 9
+        MinAltitude = 0.22
+        MaxAltitude = 0.22
+        MinRange = 0.8
+        MaxRange = 0.8
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Hadrian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.53
+        MaxAltitude = 0.53
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Hox
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = Leto
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 0.1
+        MaxAbundance = 5
+        MinAltitude = 0.33
+        MaxAltitude = 0.33
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}

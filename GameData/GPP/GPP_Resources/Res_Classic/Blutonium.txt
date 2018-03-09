@@ -1,0 +1,321 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Blutonium
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Gauss
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Nero
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Lili
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Thalia
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 7
+		MaxAbundance = 25
+		Variance = 80
+		Dispersal = 80
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Niven
+	
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 0.1
+		MaxAbundance = 4
+		Variance = 50
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Gael
+	
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 0.1
+		MaxAbundance = 4
+		Variance = 50
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Tarsiss
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Agrippina
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Julia
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Hox
+	
+	Distribution
+	{
+		PresenceChance = 80
+		MinAbundance = 1
+		MaxAbundance = 3
+		Variance = 80
+		Dispersal = 50
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Argo
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Leto
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+//Ice Caps
+BIOME_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Gael
+	BiomeName = Ice Caps
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Ice Caps
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Sarawak White
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+BIOME_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Muntok White
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Blutonium
+	ResourceType = 0
+	PlanetName = Jannah
+	BiomeName = Abyss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 12
+		Variance = 80
+		Dispersal = 20
+	}
+}

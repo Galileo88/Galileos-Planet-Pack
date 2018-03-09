@@ -1,0 +1,294 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Atmosphere (Exosphere Edge)
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Ciro
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.1
+        MaxAltitude = 0.1
+        MinRange = 2
+        MaxRange = 2
+        Variance = 0
+    }
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Grannus
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.1
+        MaxAltitude = 0.1
+        MinRange = 2
+        MaxRange = 2
+        Variance = 0
+    }
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Niven
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.3
+        MaxAltitude = 0.3
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Gael
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.22
+        MaxAltitude = 0.22
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Tellumo
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.09
+        MaxAltitude = 0.09
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Gratian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.18
+        MaxAltitude = 0.18
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Augustus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.34
+        MaxAltitude = 0.34
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Gauss
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Catullus
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.46
+        MaxAltitude = 0.46
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Tarsiss
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.81
+        MaxAltitude = 0.81
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Nero
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.22
+        MaxAltitude = 0.22
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Hadrian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.53
+        MaxAltitude = 0.53
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Hox
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.32
+        MaxAltitude = 0.32
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Leto
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.33
+        MaxAltitude = 0.33
+        MinRange = 0.2
+        MaxRange = 0.2
+        Variance = 0
+	}
+}
