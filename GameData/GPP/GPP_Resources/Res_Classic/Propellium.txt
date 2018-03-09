@@ -1,0 +1,262 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Propellium
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Ciro
+	
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 80
+		MaxAbundance = 80
+		Variance = 50
+		Dispersal = 50
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Ciro
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 15000
+        MaxAbundance = 15000
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Grannus
+	
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 80
+		MaxAbundance = 80
+		Variance = 50
+		Dispersal = 50
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Grannus
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 15000
+        MaxAbundance = 15000
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
+}
+
+PLANETARY_RESOURCE:NEEDS[GEP,OPM]
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Sun
+	
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 80
+		MaxAbundance = 80
+		Variance = 50
+		Dispersal = 50
+	}
+}
+PLANETARY_RESOURCE:NEEDS[GEP,OPM]
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Sun
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 15000
+        MaxAbundance = 15000
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
+}
+
+//Gael
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Gael
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 40
+		MaxAbundance = 80
+		MinAltitude = 0.1
+		MaxAltitude = 25
+		MinRange = 25
+		MaxRange = 25
+		Variance = 0
+	}
+}
+
+//Otho
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 82
+		MaxAbundance = 84
+		Variance = 20
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Otho
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 60
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}
+
+//Gauss
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Gauss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 75
+		MaxAbundance = 87
+		Variance = 20
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Gauss
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 60
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}
+
+//Catullus
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 51
+		MaxAbundance = 51
+		Variance = 0
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Catullus
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 60
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}
+//Nero
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 2
+	PlanetName = Nero
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 75
+		MaxAbundance = 88
+		Variance = 20
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = Nero
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 20
+		MaxAbundance = 60
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}

@@ -1,0 +1,43 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Explodium
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Explodium
+	ResourceType = 1
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 10
+		Variance = 10
+		Dispersal = 0
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Explodium
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Gulf of Pood
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 40
+		MaxAbundance = 80
+		Variance = 0
+		Dispersal = 0
+	}
+}
