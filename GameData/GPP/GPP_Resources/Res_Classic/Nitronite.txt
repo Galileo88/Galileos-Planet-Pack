@@ -23,7 +23,6 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-
 PLANETARY_RESOURCE
 {
 	ResourceName = Nitronite
@@ -38,7 +37,6 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-
 PLANETARY_RESOURCE
 {
 	ResourceName = Nitronite
@@ -53,7 +51,6 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-
 PLANETARY_RESOURCE
 {
 	ResourceName = Nitronite
@@ -100,7 +97,6 @@ PLANETARY_RESOURCE
 		Dispersal = 40
 	}
 }
-
 PLANETARY_RESOURCE
 {
 	ResourceName = Nitronite
@@ -110,8 +106,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 5
-		MaxAbundance = 20
+		MinAbundance = 10
+		MaxAbundance = 30
 		Variance = 40
 		Dispersal = 20
 	}
@@ -140,8 +136,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 5
-		MaxAbundance = 12
+		MinAbundance = 50
+		MaxAbundance = 80
 		Variance = 40
 		Dispersal = 20
 	}

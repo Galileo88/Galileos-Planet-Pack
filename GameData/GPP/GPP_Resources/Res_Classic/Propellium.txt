@@ -17,7 +17,7 @@ PLANETARY_RESOURCE
 	
 	Distribution
 	{
-		PresenceChance = 70
+		PresenceChance = 100
 		MinAbundance = 80
 		MaxAbundance = 80
 		Variance = 50
@@ -33,8 +33,8 @@ PLANETARY_RESOURCE
 	Distribution
     {
         PresenceChance = 1000
-        MinAbundance = 15000
-        MaxAbundance = 15000
+        MinAbundance = 150
+        MaxAbundance = 150
         MinAltitude = 10
         MaxAltitude = 10
         MinRange = 20
@@ -51,7 +51,7 @@ PLANETARY_RESOURCE
 	
 	Distribution
 	{
-		PresenceChance = 70
+		PresenceChance = 1000
 		MinAbundance = 80
 		MaxAbundance = 80
 		Variance = 50
@@ -67,8 +67,8 @@ PLANETARY_RESOURCE
 	Distribution
     {
         PresenceChance = 1000
-        MinAbundance = 15000
-        MaxAbundance = 15000
+        MinAbundance = 90
+        MaxAbundance = 90
         MinAltitude = 10
         MaxAltitude = 10
         MinRange = 20
@@ -76,16 +76,15 @@ PLANETARY_RESOURCE
         Variance = 0
     }
 }
-
 PLANETARY_RESOURCE:NEEDS[GEP,OPM]
 {
 	ResourceName = Propellium
 	ResourceType = 2
-	PlanetName = Sun
+	PlanetName = Robau
 	
 	Distribution
 	{
-		PresenceChance = 70
+		PresenceChance = 1000
 		MinAbundance = 80
 		MaxAbundance = 80
 		Variance = 50
@@ -96,13 +95,13 @@ PLANETARY_RESOURCE:NEEDS[GEP,OPM]
 {
 	ResourceName = Propellium
 	ResourceType = 3
-	PlanetName = Sun
+	PlanetName = Robau
 	
 	Distribution
     {
         PresenceChance = 1000
-        MinAbundance = 15000
-        MaxAbundance = 15000
+        MinAbundance = 120
+        MaxAbundance = 120
         MinAltitude = 10
         MaxAltitude = 10
         MinRange = 20

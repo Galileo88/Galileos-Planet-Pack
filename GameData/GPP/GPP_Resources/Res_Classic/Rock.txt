@@ -9,6 +9,117 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Agrippina
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 25
+        MinAltitude = 0.3
+        Variance = 50
+		Dispersal = 15
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Julia
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 25
+        MinAltitude = 0.3
+        Variance = 50
+		Dispersal = 15
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Hadrian
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 25
+        Variance = 50
+		Dispersal = 15
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Hox
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 25
+        Variance = 50
+		Dispersal = 15
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Argo
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 10
+        Variance = 50
+		Dispersal = 15
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Leto
+		
+	Distribution
+	{
+		PresenceChance = 1000
+        MinAbundance = 4
+        MaxAbundance = 25
+        Variance = 50
+		Dispersal = 15
+	}
+}
+
+//Biome
+BIOME_RESOURCE
+{
+	ResourceName = Rock
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Gulf of Pood
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 20
+		Variance = 0
+		Dispersal = 0
+	}
+}
+
 // Exosphere Edge
 PLANETARY_RESOURCE
 {
