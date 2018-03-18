@@ -13,7 +13,7 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Blutonium
 	ResourceType = 0
-	PlanetName = Gauss
+	PlanetName = Otho
 	
 	Distribution
 	{
@@ -30,7 +30,7 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Blutonium
 	ResourceType = 0
-	PlanetName = Otho
+	PlanetName = Gauss
 	
 	Distribution
 	{

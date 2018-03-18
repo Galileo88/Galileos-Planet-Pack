@@ -79,8 +79,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 70
-		MinAbundance = 0.1
-		MaxAbundance = 4
+		MinAbundance = 0.5
+		MaxAbundance = 15
 		Variance = 50
 		Dispersal = 10
 	}
@@ -97,7 +97,7 @@ PLANETARY_RESOURCE
 	{
 		PresenceChance = 70
 		MinAbundance = 0.1
-		MaxAbundance = 2
+		MaxAbundance = 4
 		Variance = 50
 		Dispersal = 10
 	}
@@ -156,27 +156,11 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Gemstones
 	ResourceType = 0
-	PlanetName = Niven
-	
-	Distribution
-	{
-		PresenceChance = 1000
-		MinAbundance = 2
-		MaxAbundance = 7
-		Variance = 40
-		Dispersal = 15
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Gemstones
-	ResourceType = 0
 	PlanetName = Iota
 	
 	Distribution
 	{
-		PresenceChance = 1000
+		PresenceChance = 70
 		MinAbundance = 1
 		MaxAbundance = 5
 		Variance = 80
@@ -242,9 +226,9 @@ PLANETARY_RESOURCE
 	
 	Distribution
 	{
-		PresenceChance = 1000
-		MinAbundance = 5
-		MaxAbundance = 10
+		PresenceChance = 90
+		MinAbundance = 1
+		MaxAbundance = 5
 		Variance = 70
 		Dispersal = 15
 	}
@@ -258,9 +242,9 @@ PLANETARY_RESOURCE
 	
 	Distribution
 	{
-		PresenceChance = 1000
-		MinAbundance = 4
-		MaxAbundance = 12
+		PresenceChance = 90
+		MinAbundance = 2
+		MaxAbundance = 10
 		Variance = 90
 		Dispersal = 15
 	}
@@ -387,7 +371,7 @@ BIOME_RESOURCE
 	ResourceName = Gemstones
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = White Spice
+	BiomeName = Sarawak White
 	
 	Distribution
 	{
@@ -409,7 +393,7 @@ BIOME_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 8
+		MinAbundance = 3
 		MaxAbundance = 16
 		Variance = 20
 		Dispersal = 20

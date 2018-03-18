@@ -45,6 +45,24 @@ PLANETARY_RESOURCE
         Variance = 0
     }
 }
+PLANETARY_RESOURCE:NEEDS[GEP,OPM]
+{
+	ResourceName = Atmosphere
+	ResourceType = 3
+	PlanetName = Robau
+	
+	Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 10
+        MaxAbundance = 10
+        MinAltitude = 0.1
+        MaxAltitude = 0.1
+        MinRange = 2
+        MaxRange = 2
+        Variance = 0
+    }
+}
 
 PLANETARY_RESOURCE
 {

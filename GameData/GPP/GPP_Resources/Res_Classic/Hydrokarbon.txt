@@ -177,6 +177,21 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Hydrokarbon
 	ResourceType = 2
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 9
+		Variance = 10
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hydrokarbon
+	ResourceType = 2
 	PlanetName = Tarsiss
 	
 	Distribution

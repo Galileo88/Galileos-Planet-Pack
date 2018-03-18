@@ -9,6 +9,52 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Otho
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Gauss
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = Hexagen
+	ResourceType = 2
+	PlanetName = Nero
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 0
+		Dispersal = 0
+	}
+}
 PLANETARY_RESOURCE
 {
     ResourceName = Hexagen
@@ -18,8 +64,8 @@ PLANETARY_RESOURCE
     Distribution
     {
         PresenceChance = 1000
-        MinAbundance = 5000
-        MaxAbundance = 5000
+        MinAbundance = 50
+        MaxAbundance = 50
         MinAltitude = 10
         MaxAltitude = 10
         MinRange = 20
@@ -36,8 +82,8 @@ PLANETARY_RESOURCE
     Distribution
     {
         PresenceChance = 1000
-        MinAbundance = 5000
-        MaxAbundance = 5000
+        MinAbundance = 200
+        MaxAbundance = 200
         MinAltitude = 10
         MaxAltitude = 10
         MinRange = 20
@@ -45,20 +91,23 @@ PLANETARY_RESOURCE
         Variance = 0
     }
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[GEP,OPM]
 {
-	ResourceName = Hexagen
-	ResourceType = 0
-	PlanetName = Gael
+    ResourceName = Hexagen
+    ResourceType = 3
+    PlanetName = Robau
 	
-	Distribution
-	{
-		PresenceChance = 1000
-		MinAbundance = 0.001
-		MaxAbundance = 0.0015
-		Variance = 10
-		Dispersal = 1
-	}
+    Distribution
+    {
+        PresenceChance = 1000
+        MinAbundance = 80
+        MaxAbundance = 80
+        MinAltitude = 10
+        MaxAltitude = 10
+        MinRange = 20
+        MaxRange = 20
+        Variance = 0
+    }
 }
 
 BIOME_RESOURCE
@@ -78,39 +127,6 @@ BIOME_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
-{
-	ResourceName = Hexagen
-	ResourceType = 0
-	PlanetName = Iota
-	
-	Distribution
-	{
-		PresenceChance = 1000
-		MinAbundance = 0.001
-		MaxAbundance = 0.004
-		Variance = 0
-		Dispersal = 1
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Hexagen
-	ResourceType = 0
-	PlanetName = Ceti
-	
-	Distribution
-	{
-		PresenceChance = 1000
-		MinAbundance = 0.003
-		MaxAbundance = 0.006
-		Variance = 0
-		Dispersal = 1
-	}
-}
-
-
 BIOME_RESOURCE
 {
 	ResourceName = Hexagen
@@ -121,8 +137,8 @@ BIOME_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 0.003
-		MaxAbundance = 0.009
+		MinAbundance = 0.03
+		MaxAbundance = 0.09
 		Variance = 10
 		Dispersal = 10
 	}
@@ -136,8 +152,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 0.003
-		MaxAbundance = 0.012
+		MinAbundance = 0.3
+		MaxAbundance = 9
 		Variance = 0
 		Dispersal = 1
 	}
@@ -152,8 +168,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 0.002
-		MaxAbundance = 0.006
+		MinAbundance = 0.2
+		MaxAbundance = 6
 		Variance = 0
 		Dispersal = 1
 	}
@@ -168,8 +184,8 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 0.006
-		MaxAbundance = 0.018
+		MinAbundance = 0.06
+		MaxAbundance = 0.18
 		Variance = 0
 		Dispersal = 1
 	}
@@ -329,8 +345,9 @@ PLANETARY_RESOURCE
         MaxAbundance = 10
         MinAltitude = 0.34
         MaxAltitude = 0.34
-        MinRange = 0.8
-        MaxRange = 0.8
+        MinRange = 500
+        MaxRange = 500
+        Variance = 20
         Variance = 0
 	}
 }
@@ -367,8 +384,9 @@ PLANETARY_RESOURCE
         MaxAbundance = 12
         MinAltitude = 0.32
         MaxAltitude = 0.32
-        MinRange = 0.8
-        MaxRange = 0.8
+        MinRange = 500
+        MaxRange = 500
+        Variance = 20
         Variance = 0
 	}
 }
@@ -405,8 +423,9 @@ PLANETARY_RESOURCE
         MaxAbundance = 9
         MinAltitude = 0.22
         MaxAltitude = 0.22
-        MinRange = 0.8
-        MaxRange = 0.8
+        MinRange = 500
+        MaxRange = 500
+        Variance = 20
         Variance = 0
 	}
 }
