@@ -308,7 +308,7 @@ BIOME_RESOURCE
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Jannah
-	BiomeName = Abyss
+	BiomeName = Gound Zero
 	
 	Distribution
 	{
