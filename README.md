@@ -63,7 +63,7 @@ CC BY-NC-ND
 
 ## Sigma Replacements
 
-1. For high quality Gaelan heads, suits, navballs and Skyboxes install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/).
+1. To use GPP's high quality Gaelan heads, suits, navball and Skybox install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/).
 
 ## Clouds, Aurorae and Shadows
 
