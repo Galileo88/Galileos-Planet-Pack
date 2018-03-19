@@ -79,15 +79,18 @@ CC BY-NC-ND
 
 ## Optional High(er) Performance Visuals
 
-If your computer can't handle the performance hit of scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and sun flares all without Scatterer, and with great performance. With these 4 mods, you can make your game look as good as if you had Scatterer installed.
+If your computer can't handle the performance hit of scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and sun flares all without Scatterer, and with great performance. Following these 5 steps, you can make your game look as good as if you had Scatterer installed.
 
-1. [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) provides a good, high performance alternate to Scatterer's ocean shader.
+1. Download and install [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) provides a good, high performance alternate to Scatterer's ocean shader, and cover all bodies with oceans in GPP/GEP/OPM.
 
-2. [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock sun flare a higher quality sun flare.
+2. Download and install [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock sun flare a higher quality sun flare.
 
-3. [KS3P](https://spacedock.info/mod/1618/KS3P) can provide some post processing effects that look great.
+3. Download and install [KS3P](https://spacedock.info/mod/1618/KS3P) can provide some post processing effects that look great. A custom cfg for GPP is included in GPP.
 
-4. [Minimum Ambient Lighting](https://spacedock.info/mod/448/Minimum%20Ambient%20Lighting) can make the dark side of the planets as dark or as light as you would like with the ease of a slider in game.
+4. Download and install [Minimum Ambient Lighting](https://spacedock.info/mod/448/Minimum%20Ambient%20Lighting) can make the dark side of the planets in flight as dark or as light as you would like with the ease of a slider in game.
+
+5. Turn your [Ambient Light Boost: Map](https://i.imgur.com/jSIXpMO.jpg) down to about 90% or to your liking. [HERE](https://i.imgur.com/6IHAxwA.png) is an example.
+
 
 ## Classic Stock Resource System
 
