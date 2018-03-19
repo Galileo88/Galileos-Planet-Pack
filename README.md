@@ -16,7 +16,11 @@ CC BY-NC-ND
 * Updated Scatterer for softer edges of atmospheres
 * Fixed squiggly line in the sky due to Aurora texture gaffe
 * Better noise of gas giants, bring the textures to life
-* Added cloud support for OPM when OPMVO is not installed
+* Added GPP Clouds support for OPM when OPMVO is not installed
+* Fixed erroneous biome entries in body and resource configs
+* GPP KSC Switcher no longer activates if GPP Secondary is installed
+* Classic Stock resource system
+
 
 ## TO INSTALL:
 
@@ -85,6 +89,11 @@ If your computer can't handle the performance hit of scatterer, GPP is fully set
 
 4. [Minimum Ambient Lighting](https://spacedock.info/mod/448/Minimum%20Ambient%20Lighting) can make the dark side of the planets as dark or as light as you would like with the ease of a slider in game.
 
+## Classic Stock Resource System
+
+This is an implementation of the unreleased stock resource library devised by **NovaSilisko, HarvesteR** and other early KSP developers, and delivered by Angel-125 and his Wild Blue Industries (WBI) mod suite. [Read about it here](https://github.com/Angel-125/Pathfinder/wiki/Classic-Stock-Play-Mode). It is an alternative to Community Resource Pack (CRP) and only activates if Classic Stock mode is selected at the WBI first run window in-game following a fresh install of the Pathfinder mod.
+
+Mod compatibility with Classic Stock is entirely opt-in and is not to be expected to be readily available and provided by Wild Blue Industries.
 
 ## GPP Secondary
 
@@ -122,7 +131,7 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 ## Scaled Versions
 
-To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
+:triangular_ruler: To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
 If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
 
@@ -142,6 +151,9 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/scatterer/download/0.0324)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
   * [PlanetShine](https://www.curseforge.com/kerbal/ksp-mods/planetshine/download)
+  * Wild Blue Industries
+    * [Pathfinder](https://github.com/Angel-125/Pathfinder/releases)
+    * [DSEV (Deep Space Exploration Vessels)](https://github.com/Angel-125/DSEV/releases)
   * [JX2 Large Antenna](https://spacedock.info/mod/1107/JX2Antenna/download/2.0.2)
   * [Strategia](https://github.com/jrossignol/Strategia/releases/download/1.6.0/Strategia_1.6.0.zip)
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
