@@ -79,7 +79,7 @@ CC BY-NC-ND
 
 ## Optional High(er) Performance Visuals
 
-If your computer can't handle the performance hit of scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and sun flares all without Scatterer, and with great performance. Following these 5 steps, you can make your game look as good as if you had Scatterer installed.
+If your computer can't handle the performance hit of Scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and sun flares all without Scatterer, and with great performance. Following these 5 steps, you can make your game look as good as if you had Scatterer installed.
 
 1. Download and install [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) provides a good, high performance alternate to Scatterer's ocean shader, and cover all bodies with oceans in GPP/GEP/OPM.
 
@@ -89,7 +89,7 @@ If your computer can't handle the performance hit of scatterer, GPP is fully set
 
 4. Download and install [Minimum Ambient Lighting](https://spacedock.info/mod/448/Minimum%20Ambient%20Lighting) can make the dark side of the planets in flight as dark or as light as you would like with the ease of a slider in game.
 
-5. Turn your [Ambient Light Boost: Map](https://i.imgur.com/jSIXpMO.jpg) down to about 90% or to your liking. [HERE](https://i.imgur.com/6IHAxwA.png) is an example.
+5. Turn your [Ambient Light Boost: Map](https://i.imgur.com/vQK1aOW.jpg) down to about 90% or to your liking. [HERE](https://i.imgur.com/6IHAxwA.png) is an example.
 
 
 ## Classic Stock Resource System
