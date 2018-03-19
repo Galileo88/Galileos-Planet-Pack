@@ -83,7 +83,7 @@ If your computer can't handle the performance hit of Scatterer, GPP is fully set
 
 1. Download and install [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) provides a good, high performance alternate to Scatterer's ocean shader, and cover all bodies with oceans in GPP/GEP/OPM.
 
-2. Download and install [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock sun flare a higher quality sun flare.
+2. Download and install [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock sun flare a higher quality sun flare. 15 different flares to choose from!
 
 3. Download and install [KS3P](https://spacedock.info/mod/1618/KS3P) can provide some post processing effects that look great. A custom cfg for GPP is included in the GPP download.
 
