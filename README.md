@@ -63,7 +63,7 @@ CC BY-NC-ND
 
 ## Sigma Replacements
 
-1. To use GPP's high quality Gaelan heads, suits, navball and Skybox install [Sigma Replacements](https://forum.kerbalspaceprogram.com/index.php?/topic/167233-wip131-sigma-replacements/).
+1. To use GPP's high quality Gaelan heads, suits, navball and Skybox install Sigma Replacements [Links Here](https://github.com/Galileo88/Galileos-Planet-Pack#recommended-mods-with-support-for-or-by-gpp).
 
 ## Clouds, Aurorae and Shadows
 
