@@ -20,6 +20,7 @@ CC BY-NC-ND
 * Fixed erroneous biome entries in body and resource configs
 * GPP KSC Switcher no longer activates if GPP Secondary is installed
 * Classic Stock resource system
+* Added location for KrakenJuice for users of v0.8 or higher of the KrakenScience mod
 
 
 ## TO INSTALL:
