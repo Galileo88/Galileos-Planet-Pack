@@ -134,6 +134,22 @@ namespace KerbalRenamer
             if (!kerbal.name.EndsWith("Kerman")) return;
 
             // Make sure all custom kerbals exist
+            switch (kerbal.name)
+            {
+                case "Jebediah Kerman":
+                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Jebediah" : "Galileo") + " Gaelan");
+                    return;
+                case "Bill Kerman":
+                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Bill" : "Jade") + " Gaelan");
+                    return;
+                case "Bob Kerman":
+                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Bob" : "Bobert") + " Gaelan");
+                    return;
+                case "Valentina Kerman":
+                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Valentina" : "Poody") + " Gaelan");
+                    return;
+            }
+
             for (int i = 0; i < KerbalCrewFixer.customKerbals.Length; i++)
             {
                 int custom = (i + (KerbalRenamerSettings.preserveOriginals ? 6 : 0)) % 10;
