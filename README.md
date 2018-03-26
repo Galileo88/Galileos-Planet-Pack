@@ -11,6 +11,7 @@ CC BY-NC-ND
 ## REQUIRES GPP_TEXTURES 4.1.1
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
+* Scatterer is not required for atmospheric effects
 * Added Custom KS3P configuration
 * Added artistic twist to loading screens
 * Updated Scatterer for softer edges of atmospheres
