@@ -7,7 +7,7 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.0 Aesthetic Pass
+## v1.6.2.0 
 ## REQUIRES GPP_TEXTURES 4.1.0
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
@@ -23,8 +23,6 @@ CC BY-NC-ND
 * GPP KSCSwitcher has been removed
 * All KSCSwitcher sites have been recreated with Kerbal Konstructs
 * Added additional runway and launch pads to GSC with Kerbal Konstructs
-* 
-
 
 ## TO INSTALL:
 
@@ -43,7 +41,7 @@ CC BY-NC-ND
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.1).
 
 8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
@@ -146,11 +144,11 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 ## Recommended mods with support for or by GPP
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
   * Sigma Replacements
-    * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/download/H_v0.2.1/Sigma-Replacements_Heads.v0.2.1.zip)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/download/S_v0.2.1/Sigma-Replacements_Suits.v0.2.1.zip)
-    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/download/B_v0.2.1/Sigma-Replacements_SkyBox.v0.2.1.zip)
-    * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/download/N_v0.2.1/Sigma-Replacements_Navigation.v0.2.1.zip)
-    * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/download/D_v0.2.4/Sigma-Replacements_Descriptions.v0.2.4.zip)
+    * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases)
   * [Environmental Visual Enhancements - min-version: 1.2.2-1](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1)
   * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases)
   * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/)
@@ -176,8 +174,6 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 ## Known Issues
 
-* Clouds do not show up in main menu. Just a small bug with EVE and Kopernicus. Not a big deal. Nothing is broken.
-
 * When not using Environmental Visual Enhancements, Nero will display axial precession. In future updates we may detect if EVE is installed and fix accordingly.
 
 * Scatterer's effects do not show in main menu. Again, normal. Nothing is broken.
@@ -193,7 +189,6 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-N
 
 "KSC++"
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-
 
 "GPP_Renamer"
 Simplified BSD License (BSD 2-clause)
