@@ -22,6 +22,7 @@ CC BY-NC-ND
 * Added location for KrakenJuice for users of v0.8 or higher of the KrakenScience mod
 * GPP KSCSwitcher has been removed
 * All KSCSwitcher sites have been recreated with Kerbal Konstructs
+  * Now you can fly from one site to the next.
 * Added additional runway and launch pads to GSC with Kerbal Konstructs
 
 ## TO INSTALL:
