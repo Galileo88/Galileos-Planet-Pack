@@ -8,7 +8,7 @@ CC BY-NC-ND
 
 # Changelog:
 ## v1.6.2.0 
-## REQUIRES GPP_TEXTURES 4.1.0
+## REQUIRES GPP_TEXTURES 4.1.1
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
 * Added Custom KS3P configuration
