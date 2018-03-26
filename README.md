@@ -145,11 +145,12 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 ## Recommended mods with support for or by GPP
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
   * Sigma Replacements
-    * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases)
-    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases)
-    * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases)
-    * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.2.4)
+    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.2.2)
+    * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/tag/N_v0.2.2)
+    * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/tag/D_v0.2.5)
+    * [Menu Scenes](https://github.com/Sigma88/Sigma-Replacements/releases/tag/K_v0.1.0)
   * [Environmental Visual Enhancements - min-version: 1.2.2-1](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1)
   * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases)
   * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/)
@@ -190,6 +191,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-N
 
 "KSC++"
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
 
 "GPP_Renamer"
 Simplified BSD License (BSD 2-clause)
