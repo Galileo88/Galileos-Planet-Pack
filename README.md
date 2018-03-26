@@ -12,9 +12,10 @@ CC BY-NC-ND
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
 * Scatterer is not required for atmospheric effects
+* Updated Scatterer for softer edges of atmospheres
+* Custom/random start menu and exit menus with SigmeReplacments: MenuScenes
 * Added Custom KS3P configuration
 * Added artistic twist to loading screens
-* Updated Scatterer for softer edges of atmospheres
 * Fixed squiggly line in the sky due to Aurora texture gaffe
 * Better noise of gas giants, bring the textures to life
 * Added GPP Clouds support for OPM when OPMVO is not installed
