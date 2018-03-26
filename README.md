@@ -165,7 +165,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [Strategia](https://github.com/jrossignol/Strategia/releases/download/1.6.0/Strategia_1.6.0.zip)
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
   * [USI Constellation](https://github.com/BobPalmer/USI_Constellation/releases)
-  * [MechJeb](https://www.curseforge.com/kerbal/ksp-mods/mechjeb/download)
+  * [MechJeb](https://www.curseforge.com/kerbal/ksp-mods/mechjeb/download/2518230)
   * [Airline Kuisine](https://forum.kerbalspaceprogram.com/index.php?/topic/156475-131-airline-kuisine-v161-~-jan-8-2018/)
   * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/download/1.8.9)
   * [Tarsier Space Technologies](https://github.com/JPLRepo/TarsierSpaceTechnology/releases/tag/v7.2)
