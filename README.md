@@ -18,9 +18,12 @@ CC BY-NC-ND
 * Better noise of gas giants, bring the textures to life
 * Added GPP Clouds support for OPM when OPMVO is not installed
 * Fixed erroneous biome entries in body and resource configs
-* GPP KSC Switcher no longer activates if GPP Secondary is installed
 * Classic Stock resource system
 * Added location for KrakenJuice for users of v0.8 or higher of the KrakenScience mod
+* GPP KSCSwitcher has been removed
+* All KSCSwitcher sites have been recreated with Kerbal Konstructs
+* Added additional runway and launch pads to GSC with Kerbal Konstructs
+* 
 
 
 ## TO INSTALL:
