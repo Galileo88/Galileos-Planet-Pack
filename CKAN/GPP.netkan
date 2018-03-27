@@ -78,6 +78,9 @@
         },
         {
             "name": "SigmaReplacements-Navigation"
+        },
+        {
+            "name": "SigmaReplacements-MenuScenes"
         }
     ],
     "suggests": [
