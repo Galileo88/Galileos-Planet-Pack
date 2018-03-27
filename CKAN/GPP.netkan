@@ -101,6 +101,15 @@
             "name": "Rescale-10"
         },
         {
+            "name": "BetterLookingOceans-HighRes"
+        },
+        {
+            "name": "BetterLookingOceans-MedRes"
+        },
+        {
+            "name": "BetterLookingOceans-LowRes"
+        },
+        {
             "name": "Rescale-10625"
         }
     ],
