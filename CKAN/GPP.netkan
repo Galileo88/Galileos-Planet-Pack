@@ -17,11 +17,6 @@
             "comment": "This is the main install for GPP"
         },
         {
-            "find": "Optional Mods/GPP_KSCSwitcher/GameData/KSCSwitcher",
-            "install_to": "GameData",
-            "comment": "This correctly installs KSCSwitcher for GPP"
-        },
-        {
             "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
             "install_to": "GameData",
             "comment": "This correctly installs Final Frontier for GPP"
