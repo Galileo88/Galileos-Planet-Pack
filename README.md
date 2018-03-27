@@ -8,6 +8,7 @@ CC BY-NC-ND
 
 # Changelog:
 ## v1.6.2.1 
+## REQUIRES GPP_TEXTURES 4.1.1
 * Fixed some Scatterer issues
 * Scatterer compatibility is back for GPP_Secondary
 * Added clouds for stock bodies when using GPP_Secondary
