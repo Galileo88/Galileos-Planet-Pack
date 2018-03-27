@@ -7,8 +7,9 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.0 
+## v1.6.2.1 
 ## REQUIRES GPP_TEXTURES 4.1.1
+* Fixed Scatterer issue
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
 * Scatterer is not required for atmospheric effects
@@ -24,7 +25,7 @@ CC BY-NC-ND
 * Added location for KrakenJuice for users of v0.8 or higher of the KrakenScience mod
 * GPP KSCSwitcher has been removed
 * All KSCSwitcher sites have been recreated with Kerbal Konstructs
-  * Now you can fly from one site to the next.
+  * Now you can fly from one site to the next
 * Added additional runway and launch pads to GSC with Kerbal Konstructs
 
 ## TO INSTALL:
@@ -40,7 +41,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.3.0.4.dll
 
-5. Download Galileo’s Planet Pack 1.6.2.0
+5. Download Galileo’s Planet Pack 1.6.2.1
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
