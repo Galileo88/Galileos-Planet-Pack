@@ -91,7 +91,7 @@ namespace GPPTextureChecker
             {
                 open = false;
                 if (HighLogic.LoadedScene == GameScenes.MAINMENU)
-                    Application.OpenURL("https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.0.0");
+                    Application.OpenURL("https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.1");
             }
         }
     }
