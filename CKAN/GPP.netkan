@@ -31,12 +31,6 @@
             "name": "Kopernicus"
         },
         {
-            "name": "Scatterer"
-        },
-        {
-            "name": "Scatterer-config"
-        },
-        {
             "name": "GPPTextures"
         }
     ],
@@ -112,8 +106,5 @@
         {
             "name": "Rescale-10625"
         }
-    ],
-    "provides": [
-        "Scatterer-sunflare"
     ]
 }
