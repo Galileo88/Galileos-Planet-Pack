@@ -34,18 +34,17 @@
             "name": "GPPTextures"
         }
     ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
     "recommends": [
         {
             "name": "Strategia"
         },
         {
             "name": "FinalFrontier"
-        },
-        {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "DistantObject"
         },
         {
             "name": "OPM-Galileo"
@@ -95,6 +94,9 @@
             "name": "Rescale-10"
         },
         {
+            "name": "Rescale-10625"
+        },
+        {
             "name": "BetterLookingOceans-HighRes"
         },
         {
@@ -102,9 +104,6 @@
         },
         {
             "name": "BetterLookingOceans-LowRes"
-        },
-        {
-            "name": "Rescale-10625"
         }
     ]
 }
