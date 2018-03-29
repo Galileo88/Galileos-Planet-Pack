@@ -7,14 +7,14 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.1 
+## v1.6.2.2 
 ## REQUIRES GPP_TEXTURES 4.1.1
 * Fixed some Scatterer issues
 * Scatterer compatibility is back for GPP_Secondary
 * Added clouds for stock bodies when using GPP_Secondary
 * Other small miscellaneous fixes
 
-## v1.6.2.0 
+## v1.6.2.2 
 ## REQUIRES GPP_TEXTURES 4.1.1
 * Adds support for FlareReplacer
 * Implememts EVE atmospheres when Scatterer is not installed
@@ -47,7 +47,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.3.0.4.dll
 
-5. Download Galileo’s Planet Pack 1.6.2.1
+5. Download Galileo’s Planet Pack 1.6.2.2
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
