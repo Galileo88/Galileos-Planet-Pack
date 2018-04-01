@@ -9,11 +9,15 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Atmosphere],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Atmosphere],#PlanetName[Sun]] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Atmosphere],#PlanetName[Kerbin]] {}
+
 PLANETARY_RESOURCE
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
-	PlanetName = Ciro
+	PlanetName = Sun
 	
 	Distribution
     {

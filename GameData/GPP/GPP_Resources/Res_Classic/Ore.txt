@@ -24,6 +24,9 @@
 	}
 }
 
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Ore],#PlanetName[Kerbin]] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Ore],#PlanetName[Kerbin]] {}
+
 PLANETARY_RESOURCE
 {
 	ResourceName = Ore

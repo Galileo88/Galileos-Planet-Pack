@@ -9,6 +9,9 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]] {}
+
 PLANETARY_RESOURCE
 {
 	ResourceName = Gemstones

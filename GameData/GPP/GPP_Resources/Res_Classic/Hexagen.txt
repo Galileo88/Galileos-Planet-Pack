@@ -9,11 +9,15 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Sun]] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]] {}
+
 PLANETARY_RESOURCE
 {
 	ResourceName = Hexagen
 	ResourceType = 2
-	PlanetName = Ciro
+	PlanetName = Sun
 	
 	Distribution
 	{
@@ -57,7 +61,7 @@ PLANETARY_RESOURCE
 {
     ResourceName = Hexagen
     ResourceType = 3
-    PlanetName = Ciro
+    PlanetName = Sun
 	
     Distribution
     {

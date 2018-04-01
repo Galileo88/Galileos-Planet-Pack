@@ -9,11 +9,15 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Sun]] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]] {}
+
 PLANETARY_RESOURCE
 {
 	ResourceName = Propellium
 	ResourceType = 2
-	PlanetName = Ciro
+	PlanetName = Sun
 	
 	Distribution
 	{
@@ -28,7 +32,7 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Propellium
 	ResourceType = 3
-	PlanetName = Ciro
+	PlanetName = Sun
 	
 	Distribution
     {
