@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using System.Reflection;
+
 using Random = UnityEngine.Random;
 
 
@@ -207,7 +209,7 @@ namespace KerbalRenamer
                 index++; if (index > 50) return;
             }
 
-            kerbal.ChangeName(name);
+            ChangeName(kerbal, name);
         }
 
         internal static string getName(ProtoCrewMember c)
@@ -304,6 +306,12 @@ namespace KerbalRenamer
                 // 0 length names should be handled elsewhere.
                 return firstName;
             }
+        }
+
+        internal static void ChangeName(ProtoCrewMember kerbal, string newName)
+        {
+            FieldInfo _name = typeof(ProtoCrewMember).GetFields(BindingFlags.NonPublic | BindingFlags.Instance).FirstOrDefault();
+            _name.SetValue(kerbal, newName);
         }
 
         float rollCourage()
@@ -418,7 +426,7 @@ namespace KerbalRenamer
 
         static void SetCustomKerbal(ProtoCrewMember kerbal, string name, ProtoCrewMember.Gender gender, string trait, bool veteran, bool isBadass, float courage, float stupidity)
         {
-            kerbal.ChangeName(name);
+            KerbalRenamer.ChangeName(kerbal, name);
             kerbal.gender = gender;
             kerbal.type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
             KerbalRoster.SetExperienceTrait(kerbal, trait);
