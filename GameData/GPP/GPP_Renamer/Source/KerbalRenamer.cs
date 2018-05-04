@@ -434,7 +434,7 @@ namespace KerbalRenamer
             kerbal.isBadass = isBadass;
             kerbal.courage = courage;
             kerbal.stupidity = stupidity;
-            if (HighLogic.CurrentGame.Mode != Game.Modes.CAREER)
+            if (HighLogic.CurrentGame != null && HighLogic.CurrentGame.Mode != Game.Modes.CAREER)
             {
                 kerbal.experienceLevel = 5;
                 kerbal.experience = 99999;
