@@ -13,7 +13,7 @@ CC BY-NC-ND
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
 * Prevent these launch sites from appearing on Gael in GPP Scondary
 * Added KK launch sites for testing ~~Duna~~ Niven rovers
-* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
+* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any pack by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
 * Accommodations for new features in GEP 1.0
 * Updated EVE configs for GPP + OPM installations
 * Minor fixes to Gael in GPP Secondary
@@ -48,11 +48,9 @@ CC BY-NC-ND
 
 ## Optional Mods
 
-1. Install the optional mods of your choice by copying or merging [GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name] to [KSP]\GameData\.
+1. Install the optional mods of your choice by copying or merging *<GPP Download>\Optional Mods\GPP_<mod name>\GameData\<mod name>* to <KSP>\GameData\.
 
-2. KSC Switcher is the complete mod, no other action beyond step 1 is required.
-
-3. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier/download/1.3.6-3189) must be downloaded and installed separately.
+2. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier/download/1.3.6-3189) must be downloaded and installed separately.
 
 4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
@@ -68,7 +66,7 @@ CC BY-NC-ND
 
 ## Clouds, Aurorae and Shadows
 
-1. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to [KSP]\GameData\GPP\.
+1. For clouds, aurorae and shadows, go to [GPP Download]\Optional Mods\GPP_Clouds\ and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to <KSP>\GameData\GPP\.
 
 2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
@@ -76,7 +74,7 @@ CC BY-NC-ND
 
 1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer/download/0.0324).
 
-2. If you want to change the Ciroflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Ciroflares\ [Star]\.
+2. If you want to change the *Ciroflare* for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Ciroflares\<Star>\ or, you can easily install one of the [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) GPP packs.
 
 ## Optional High(er) Performance Visuals
 
@@ -141,36 +139,62 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 
 ## Recommended mods with support for or by GPP
+  ### OhioBob's mod
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
+  
+  ### Sigma88's Mods
+  * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
   * Sigma Replacements
     * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.2.4)
-    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.2.2)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.3.0)
+    * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.3.0)
     * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/tag/N_v0.2.2)
     * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/tag/D_v0.2.5)
     * [Menu Scenes](https://github.com/Sigma88/Sigma-Replacements/releases/tag/K_v0.1.0)
-  * [Environmental Visual Enhancements - min-version: 1.2.2-1](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1)
+  
+  ### General visual mods
+  * [Environmental Visual Enhancements](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/)
   * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases)
   * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/)
   * [KS3P](https://spacedock.info/mod/1618/KS3P)
-  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/scatterer/download/0.0324)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
-  * [PlanetShine](https://www.curseforge.com/kerbal/ksp-mods/planetshine/download)
+  * [PlanetShine](https://github.com/PapaJoesSoup/ksp-planetshine/releases)
+  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/)
+  
+  ### Angel-125's mods
   * Wild Blue Industries
     * [Pathfinder](https://github.com/Angel-125/Pathfinder/releases)
     * [DSEV (Deep Space Exploration Vessels)](https://github.com/Angel-125/DSEV/releases)
-  * [JX2 Large Antenna](https://spacedock.info/mod/1107/JX2Antenna/download/2.0.2)
-  * [Strategia](https://github.com/jrossignol/Strategia/releases/download/1.6.0/Strategia_1.6.0.zip)
+	* [MOLE (Mark One Laboratory Extensions)](https://github.com/Angel-125/MOLE/releases)
+	* [Kerbal Komets](https://github.com/Angel-125/KerbalKomets/releases)
+	
+  ### JadeOfMaar's mods
+  * Deep Sky
+    * [Thor Tech](https://forum.kerbalspaceprogram.com/index.php?/topic/168326-131-143-thor-tech-v096-~-may-7-2018/)
+	* [The Spice](https://forum.kerbalspaceprogram.com/index.php?/topic/167366-131-143-the-spice-v081-may-7-2018/)
+	* [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) (needs scatterer)
+
+  ### Rocketry mods
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
-  * [USI Constellation](https://github.com/BobPalmer/USI_Constellation/releases)
+  * [BlueDog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases)
+  
+  ### Quality of life mods
+  * [SCANsat](https://spacedock.info/mod/129/SCANsat)
+  * [JX2 Large Antenna](https://spacedock.info/mod/1107/JX2Antenna/)
+  * [Strategia](https://github.com/jrossignol/Strategia/releases)
   * [MechJeb](https://www.curseforge.com/kerbal/ksp-mods/mechjeb/download/2518230)
-  * [Airline Kuisine](https://forum.kerbalspaceprogram.com/index.php?/topic/156475-131-airline-kuisine-v161-~-jan-8-2018/)
+  * [Tarsier Space Technologies](https://github.com/JPLRepo/TarsierSpaceTechnology/releases)
+  * [ResearchBodies](https://github.com/JPLRepo/ResearchBodies/releases)
+  * [Waypoint Manager](https://github.com/jrossignol/WaypointManager/releases)
+  
+  ### RoverDude's mods
+  * [Karbonite (with Karborundum)](https://github.com/BobPalmer/Karbonite/releases)
+  * [Asteroid Recycling Technologies](https://github.com/BobPalmer/ART/releases)
+  * [USI Alcubierre Drive](https://github.com/BobPalmer/WarpDrive/releases)
+  
+  ### Other mods
   * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/download/1.8.9)
-  * [Tarsier Space Technologies](https://github.com/JPLRepo/TarsierSpaceTechnology/releases/tag/v7.2)
-  * [ResearchBodies](https://github.com/JPLRepo/ResearchBodies/releases/download/V1.9.6/ResearchBodies_V1.9.6.0.zip)
-  * [Waypoint Manager](https://github.com/jrossignol/WaypointManager/releases/download/2.7.0/WaypointManager_2.7.0.zip)
-  * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/download/1.5)
-  * [BlueDog Design Bureau (balanced optimally at 2.5x scale)](https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases)
+  * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
 
 ## Known Issues
 
@@ -178,7 +202,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 * Scatterer's effects do not show in main menu. Again, normal. Nothing is broken.
 
-* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this.
+* Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this. Or you can go to the main menu and turn off the ocean shader. At this point you regain a remarkable amount of PC performance and [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) can be installed for, clearly, better looking oceans.
 
 ## Bundled Licenses
 
