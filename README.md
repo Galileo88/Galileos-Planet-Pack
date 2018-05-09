@@ -7,47 +7,36 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.2 
+## v1.6.2.3
 ## REQUIRES GPP_TEXTURES 4.1.1
-* Fixed some Scatterer issues
-* Scatterer compatibility is back for GPP_Secondary
-* Added clouds for stock bodies when using GPP_Secondary
-* Other small miscellaneous fixes
+* Fixes to KK sites
+* Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
+* Prevent these launch sites from appearing on Gael in GPP Scondary
+* Added KK launch sites for testing ~~Duna~~ Niven rovers
+* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
+* Accommodations for new features in GEP 1.0
+* updated EVE configs for GPP + OPM installations
+* Minor fixes to Gael in GPP Secondary
+* Renamed Sigma skybox files for Sigma Replacements/Texture Replacer compatibility
+* Fixed some scatterer issues
+* Made Lili 20% more awesome
+* Improved detection in resource configs for Kerbin vs Gael for GPP Secondary
 
-## v1.6.2.2 
-## REQUIRES GPP_TEXTURES 4.1.1
-* Adds support for FlareReplacer
-* Implememts EVE atmospheres when Scatterer is not installed
-* Scatterer is not required for atmospheric effects
-* Updated Scatterer for softer edges of atmospheres
-* Custom/random start menu and exit menus with SigmeReplacments: MenuScenes
-* Added Custom KS3P configuration
-* Added artistic twist to loading screens
-* Fixed squiggly line in the sky due to Aurora texture gaffe
-* Better noise of gas giants, bring the textures to life
-* Added GPP Clouds support for OPM when OPMVO is not installed
-* Fixed erroneous biome entries in body and resource configs
-* Classic Stock resource system
-* Added location for KrakenJuice for users of v0.8 or higher of the KrakenScience mod
-* GPP KSCSwitcher has been removed
-* All KSCSwitcher sites have been recreated with Kerbal Konstructs
-  * Now you can fly from one site to the next
-* Added additional runway and launch pads to GSC with Kerbal Konstructs
 
 ## TO INSTALL:
 
-1. Begin with an installation of KSP version 1.3.1, running in 64-bit.
+1. Begin with an installation of KSP version 1.4.3, running in 64-bit.
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.3.1-x
+3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.4.3-x
 
 4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
-   * ModuleManager.3.0.4.dll
+   * ModuleManager.3.0.7.dll
 
-5. Download Galileo’s Planet Pack 1.6.2.2
+5. Download Galileo’s Planet Pack 1.6.2.3
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -69,7 +58,7 @@ CC BY-NC-ND
 
 ## KSC ++
 
-1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.3.1.
+1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.4.x.
 
 2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
 
@@ -87,15 +76,15 @@ CC BY-NC-ND
 
 1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer/download/0.0324).
 
-2. If you want to change the sunflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Sunflares\ [Star]\.
+2. If you want to change the Ciroflare for either or both stars in GPP, the images and .cfg files are in the folder,  GPP\GPP_Scatterer\Ciroflares\ [Star]\.
 
 ## Optional High(er) Performance Visuals
 
-If your computer can't handle the performance hit of Scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and sun flares all without Scatterer, and with great performance. Following these 5 steps, you can make your game look as good as if you had Scatterer installed.
+If your computer can't handle the performance hit of Scatterer, GPP is fully set up to work without it, using EVE to simulate the atmosphere effect. In addition to this, there are a few other mods that can give you nice looking oceans and Ciro flares all without Scatterer, and with great performance. Following these 5 steps, you can make your game look as good as if you had Scatterer installed.
 
 1. Download and install [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) provides a good, high performance alternate to Scatterer's ocean shader, and cover all bodies with oceans in GPP/GEP/OPM.
 
-2. Download and install [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock sun flare a higher quality sun flare. 15 different flares to choose from!
+2. Download and install [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) replaces the stock Ciro flare a higher quality Ciro flare. 15 different flares to choose from!
 
 3. Download and install [KS3P](https://spacedock.info/mod/1618/KS3P) can provide some post processing effects that look great. A custom cfg for GPP is included in the GPP download.
 
@@ -112,7 +101,7 @@ Mod compatibility with Classic Stock is entirely opt-in and is not to be expecte
 
 ## GPP Secondary
 
-This addon mod makes GPP into a distant non-primary system, allowing users to keep Kerbin and the stock planets, and set the Ciro system (GPP's main star) and Gael (not a Kerbin clone named Gael) as the mid-game or end-game. To be fully compatible with GPP one of the following must occur:
+This addon mod makes GPP into a distant non-primary system, allowing users to keep Gael and the stock planets, and set the Ciro system (GPP's main star) and Gael (not a Gael clone named Gael) as the mid-game or end-game. To be fully compatible with GPP one of the following must occur:
 
 1. If the other planet pack is large and also replaces the stock solar system it must include a patch to reposition Ciro.
 
@@ -125,7 +114,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP_Secondary\
   * Kopernicus\
   * ModularFlightIntegrator\
-  * ModuleManager.3.0.4.dll
+  * ModuleManager.3.0.7.dll
   
 ## Grannus Expansion Pack (GEP)
 
