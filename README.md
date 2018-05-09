@@ -7,7 +7,7 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.3
+## v1.6.3.0
 ## REQUIRES GPP_TEXTURES 4.1.1
 * Fixes to KK sites
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
@@ -36,7 +36,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager.3.0.7.dll
 
-5. Download Galileo’s Planet Pack 1.6.2.3
+5. Download Galileo’s Planet Pack 1.6.3.0
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
@@ -140,7 +140,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   ### OhioBob's mod
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
   
-  ### Sigma88's Mods
+  ### Sigma88's mods
   * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
   * Sigma Replacements
     * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
@@ -152,12 +152,12 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   
   ### General visual mods
   * [Environmental Visual Enhancements](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/)
-  * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases)
-  * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/)
+  * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) (overrides scatterer)
+  * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) (overrides scatterer)
   * [KS3P](https://spacedock.info/mod/1618/KS3P)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
   * [PlanetShine](https://github.com/PapaJoesSoup/ksp-planetshine/releases)
-  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/)
+  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/scatterer)
   
   ### Angel-125's mods
   * Wild Blue Industries
@@ -170,11 +170,11 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * Deep Sky
     * [Thor Tech](https://forum.kerbalspaceprogram.com/index.php?/topic/168326-131-143-thor-tech-v096-~-may-7-2018/)
 	* [The Spice](https://forum.kerbalspaceprogram.com/index.php?/topic/167366-131-143-the-spice-v081-may-7-2018/)
-	* [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) (needs scatterer)
+    * [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) (needs scatterer)
 
   ### Rocketry mods
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
-  * [BlueDog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases)
+  * [BlueDog Design Bureau](https://forum.kerbalspaceprogram.com/index.php?/topic/122020-14x-bluedog-design-bureau-stockalike-saturn-apollo-and-more-v142-i-numbered-this-update-before-ksp-updated-1feb2018/)
   
   ### Quality of life mods
   * [SCANsat](https://spacedock.info/mod/129/SCANsat)
@@ -191,7 +191,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [USI Alcubierre Drive](https://github.com/BobPalmer/WarpDrive/releases)
   
   ### Other mods
-  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/download/1.8.9)
+  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/)
   * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
 
 ## Known Issues
