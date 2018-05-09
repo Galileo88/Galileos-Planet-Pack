@@ -13,6 +13,7 @@ CC BY-NC-ND
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
 * Prevent these launch sites from appearing on Gael in GPP Scondary
 * Added KK launch site for testing rovers
+* Kerbinside is now compatible while playing with GPP_Secondary installed
 * GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as After Kerbin, Before Kerbin, Extrasolar, and even GEP, will remain loaded without having to perform MM voodoo
 * Accommodations for new features in GEP 1.0
 * Updated EVE configs for GPP + OPM installations
@@ -21,7 +22,6 @@ CC BY-NC-ND
 * Fixed some scatterer issues
 * Made Lili 20% more awesome
 * Added detection in resource configs for Kerbin vs Gael for GPP Secondary
-* Kerbinside is now compatible while playing with GPP_Secondary installed
 
 
 ## TO INSTALL:
