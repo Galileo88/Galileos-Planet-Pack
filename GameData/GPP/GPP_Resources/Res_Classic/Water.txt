@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
@@ -63,7 +63,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Water
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	
 	Distribution
 	{
@@ -79,7 +80,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Water
 	ResourceType = 2
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	
 	Distribution
 	{
@@ -155,7 +157,8 @@ BIOME_RESOURCE
 {
 	ResourceName = Water
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	BiomeName = Inland Water
 	
 	Distribution

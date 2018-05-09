@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
@@ -60,7 +60,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = XenonGas
 	ResourceType = 2
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	
 	Distribution
 	{

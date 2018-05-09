@@ -9,15 +9,16 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]] {}
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Sun]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
 	ResourceName = Propellium
 	ResourceType = 2
-	PlanetName = Sun
+	PlanetName:NEEDS[!GPP_Secondary] = Sun
+	PlanetName:NEEDS[GPP_Secondary] = Ciro
 	
 	Distribution
 	{
@@ -32,7 +33,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Propellium
 	ResourceType = 3
-	PlanetName = Sun
+	PlanetName:NEEDS[!GPP_Secondary] = Sun
+	PlanetName:NEEDS[GPP_Secondary] = Ciro
 	
 	Distribution
     {
@@ -119,7 +121,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Propellium
 	ResourceType = 3
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	Distribution
 	{
 		PresenceChance = 1000
