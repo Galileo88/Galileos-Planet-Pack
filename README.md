@@ -27,22 +27,22 @@ CC BY-NC-ND
 
 1. Begin with an installation of KSP version 1.4.3, running in 64-bit.
 
-2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
+2. If reusing an existing install, empty the GameData folder of all contents but for the folder `<KSP>\GameData\Squad\`.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
 3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.4.3-x
 
-4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
+4. Install by copying from `<Kopernicus Download>\GameData\` to `<KSP>\GameData\` the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager.3.0.7.dll
 
 5. Download Galileo’s Planet Pack 1.6.3.0
 
-6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
+6. Copy from `<GPP Download>\GameData\` to `<KSP>\GameData\>` the folder `GPP\` and all its contents.
 
 7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.0).
 
-8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
+8. Copy from `<Textures Download>\GameData\GPP\` to `<KSP>\GameData\GPP\` the folder `GPP_Textures\`.
 
 9. This completes the basic installation.  If you want to, you can verify the installation by launching KSP.
 
@@ -193,6 +193,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   ### Other mods
   * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/)
   * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
+  * [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases)
 
 ## Known Issues
 
