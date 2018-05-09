@@ -144,7 +144,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
   * Sigma Replacements
     * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.3.0)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases)
     * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.3.0)
     * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/tag/N_v0.2.2)
     * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/tag/D_v0.2.5)
