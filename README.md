@@ -116,11 +116,9 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   
 ## Grannus Expansion Pack (GEP)
 
-Grannus Expansion Pack (GEP) is an expansion to Galileo’s Planet Pack (GPP) that adds planets and moons around the red dwarf star Grannus.  GEP is designed to work only when installed with GPP, it is not a standalone planet pack.
+Grannus Expansion Pack (GEP) is an expansion that adds planets and moons around the red dwarf star Grannus. GEP is designed to work in a variety of installation modes - as a GPP expansion, a stock expansion, or as a independent primary system.
 
-The current version of GEP is not yet complete, but most of the essential game elements are present.  It should be fully playable in its current state, though some mods may not yet be supported.
-
-While GEP is separate from GPP, it has been developed with the endorsement and cooperation of the GPP team.  Special care has been taken to ensure that GEP integrates seamlessly with GPP.
+While GEP is standalone mod, it has been developed with the full cooperation of the GPP team.  Special care has been taken to ensure that GEP integrates seamlessly with GPP.
 
 For more information, download links and install instructions, visit the [GEP thread](https://forum.kerbalspaceprogram.com/index.php?/topic/169664-ksp-131-grannus-expansion-pack-v0800-16-jan-2018/).
 
