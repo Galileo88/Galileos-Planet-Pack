@@ -8,7 +8,7 @@ CC BY-NC-ND
 
 # Changelog:
 ## v1.6.3.0
-## REQUIRES GPP_TEXTURES 4.1.1
+## REQUIRES GPP_TEXTURES 4.2.0
 * Fixes to KK sites
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
 * Prevent these launch sites from appearing on Gael in GPP Scondary
@@ -40,7 +40,7 @@ CC BY-NC-ND
 
 6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.1).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.0).
 
 8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
 
