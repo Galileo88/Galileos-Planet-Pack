@@ -157,7 +157,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [KS3P](https://spacedock.info/mod/1618/KS3P)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
   * [PlanetShine](https://github.com/PapaJoesSoup/ksp-planetshine/releases)
-  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/)
+  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/scatterer)
   
   ### Angel-125's mods
   * Wild Blue Industries
@@ -174,7 +174,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
   ### Rocketry mods
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
-  * [BlueDog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases)
+  * [BlueDog Design Bureau](https://forum.kerbalspaceprogram.com/index.php?/topic/122020-14x-bluedog-design-bureau-stockalike-saturn-apollo-and-more-v142-i-numbered-this-update-before-ksp-updated-1feb2018/)
   
   ### Quality of life mods
   * [SCANsat](https://spacedock.info/mod/129/SCANsat)
@@ -191,7 +191,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [USI Alcubierre Drive](https://github.com/BobPalmer/WarpDrive/releases)
   
   ### Other mods
-  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/download/1.8.9)
+  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/)
   * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
 
 ## Known Issues
