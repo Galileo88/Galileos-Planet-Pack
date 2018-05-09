@@ -13,7 +13,7 @@ CC BY-NC-ND
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
 * Prevent these launch sites from appearing on Gael in GPP Scondary
 * Added KK launch sites for testing ~~Duna~~ Niven rovers
-* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any pack by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
+* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as After Kerbin, Before Kerbin, Extrasolar, and even GEP, will remain loaded without having to perform MM voodoo
 * Accommodations for new features in GEP 1.0
 * Updated EVE configs for GPP + OPM installations
 * Minor fixes to Gael in GPP Secondary
