@@ -9,15 +9,16 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]] {}
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Sun]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Hexagen],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
 	ResourceName = Hexagen
 	ResourceType = 2
-	PlanetName = Sun
+	PlanetName:NEEDS[!GPP_Secondary] = Sun
+	PlanetName:NEEDS[GPP_Secondary] = Ciro
 	
 	Distribution
 	{
@@ -61,7 +62,8 @@ PLANETARY_RESOURCE
 {
     ResourceName = Hexagen
     ResourceType = 3
-    PlanetName = Sun
+    PlanetName:NEEDS[!GPP_Secondary] = Sun
+	PlanetName:NEEDS[GPP_Secondary] = Ciro
 	
     Distribution
     {
@@ -116,7 +118,8 @@ BIOME_RESOURCE
 {
 	ResourceName = Hexagen
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	BiomeName = Water
 	
 	Distribution
@@ -281,7 +284,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Hexagen
 	ResourceType = 3
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 		
 	Distribution
 	{

@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Gemstones],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
@@ -94,7 +94,8 @@ PLANETARY_RESOURCE
 {
 	ResourceName = Gemstones
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	
 	Distribution
 	{
@@ -339,7 +340,8 @@ BIOME_RESOURCE
 {
 	ResourceName = Gemstones
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	BiomeName = Ice Caps
 	
 	Distribution

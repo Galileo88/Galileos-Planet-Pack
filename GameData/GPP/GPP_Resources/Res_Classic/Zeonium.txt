@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Zeonium],#PlanetName[Kerbin]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Zeonium],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Zeonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Zeonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {

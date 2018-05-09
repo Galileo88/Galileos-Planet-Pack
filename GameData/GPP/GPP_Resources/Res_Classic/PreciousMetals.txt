@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]] {}
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE
 {
@@ -237,7 +237,8 @@ BIOME_RESOURCE
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
-	PlanetName = Gael
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
 	BiomeName = Ice Caps
 	
 	Distribution
