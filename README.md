@@ -157,7 +157,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [KS3P](https://spacedock.info/mod/1618/KS3P)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
   * [PlanetShine](https://github.com/PapaJoesSoup/ksp-planetshine/releases)
-  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/scatterer)
+  * [Scatterer](https://spacedock.info/mod/141/scatterer)
   
   ### Angel-125's mods
   * Wild Blue Industries
