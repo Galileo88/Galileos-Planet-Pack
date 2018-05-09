@@ -38,7 +38,7 @@ CC BY-NC-ND
 
 5. Download Galileo’s Planet Pack 1.6.3.0
 
-6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\]` the folder `GPP\` and all its contents.
+6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
 7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.0).
 
