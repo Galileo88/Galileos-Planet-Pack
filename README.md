@@ -15,12 +15,12 @@ CC BY-NC-ND
 * Added KK launch sites for testing ~~Duna~~ Niven rovers
 * GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
 * Accommodations for new features in GEP 1.0
-* updated EVE configs for GPP + OPM installations
+* Updated EVE configs for GPP + OPM installations
 * Minor fixes to Gael in GPP Secondary
 * Renamed Sigma skybox files for Sigma Replacements/Texture Replacer compatibility
 * Fixed some scatterer issues
 * Made Lili 20% more awesome
-* Improved detection in resource configs for Kerbin vs Gael for GPP Secondary
+* Added detection in resource configs for Kerbin vs Gael for GPP Secondary
 
 
 ## TO INSTALL:
