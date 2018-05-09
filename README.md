@@ -21,6 +21,7 @@ CC BY-NC-ND
 * Fixed some scatterer issues
 * Made Lili 20% more awesome
 * Added detection in resource configs for Kerbin vs Gael for GPP Secondary
+* Kerbinside is now compatible while playing with GPP_Secondary installed
 
 
 ## TO INSTALL:
