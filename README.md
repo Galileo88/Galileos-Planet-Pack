@@ -1,5 +1,4 @@
-﻿
-# Galileos-Planet-Pack
+﻿# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
 CC BY-NC-ND
@@ -51,7 +50,7 @@ CC BY-NC-ND
 
 1. Install the optional mods of your choice by copying or merging `[GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name]` to `[KSP]\GameData\`.
 
-2. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier/download/1.3.6-3189) must be downloaded and installed separately.
+2. [Final Frontier](https://forum.kerbalspaceprogram.com/index.php?/topic/61065-142-final-frontier-kerbal-individual-merits-142-3375/) must be downloaded and installed separately.
 
 4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
@@ -59,7 +58,7 @@ CC BY-NC-ND
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.4.x.
 
-2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://github.com/Sigma88/KKtoSD/releases) must be downloaded and installed.
 
 ## Sigma Replacements
 
@@ -69,11 +68,11 @@ CC BY-NC-ND
 
 1. For clouds, aurorae and shadows, go to `[GPP Download]\Optional Mods\GPP_Clouds\` and select either High-res or Low-res.  Drill down further until you get to a second `GPP_Clouds\` folder.  Copy this folder to `[KSP]\GameData\GPP\`.
 
-2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
+2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
 ## Scatterer
 
-1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer/download/0.0324).
+1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://github.com/LGhassen/Scatterer/releases).
 
 2. If you want to change the *Ciroflare* for either or both stars in GPP, the images and .cfg files are in the folder,  `GPP\GPP_Scatterer\Ciroflares\[Star]\` or, you can easily install one of the [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) GPP packs.
 
@@ -134,7 +133,7 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 :triangular_ruler: To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
-If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://github.com/Sigma88/KKtoSD/releases) must be downloaded and installed.
 
 
 ## Recommended mods with support for or by GPP
@@ -145,7 +144,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
   * Sigma Replacements
     * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.3.1)
     * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.3.0)
     * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/tag/N_v0.2.2)
     * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/tag/D_v0.2.5)
