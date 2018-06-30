@@ -1,5 +1,4 @@
-﻿
-# Galileos-Planet-Pack
+﻿# Galileos-Planet-Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
 CC BY-NC-ND
@@ -7,13 +6,14 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.2.3
-## REQUIRES GPP_TEXTURES 4.1.1
+## v1.6.3.0
+## REQUIRES GPP_TEXTURES 4.2.0
 * Fixes to KK sites
 * Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
 * Prevent these launch sites from appearing on Gael in GPP Scondary
-* Added KK launch sites for testing ~~Duna~~ Niven rovers
-* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as Extrasolar, any pack by Gameslinx, and even GEP, will remain loaded without having to perform MM voodoo
+* Added KK launch site for testing rovers
+* Kerbinside is now compatible while playing with GPP_Secondary installed
+* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as After Kerbin, Before Kerbin, Extrasolar, and even GEP, will remain loaded without having to perform MM voodoo
 * Accommodations for new features in GEP 1.0
 * Updated EVE configs for GPP + OPM installations
 * Minor fixes to Gael in GPP Secondary
@@ -27,30 +27,30 @@ CC BY-NC-ND
 
 1. Begin with an installation of KSP version 1.4.3, running in 64-bit.
 
-2. If reusing an existing install, empty the GameData folder of all contents but for the folder [KSP]\GameData\Squad\.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
+2. If reusing an existing install, empty the GameData folder of all contents but for the folder `[KSP]\GameData\Squad\`.  If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
 3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/).  The Kopernicus version number must match the KSP version number, i.e. 1.4.3-x
 
-4. Install by copying from [Kopernicus Download]\GameData\ to [KSP]\GameData\ the following folders and files:  
+4. Install by copying from `[Kopernicus Download]\GameData\` to `[KSP]\GameData\` the following folders and files:  
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager.3.0.7.dll
 
-5. Download Galileo’s Planet Pack 1.6.2.3
+5. Download Galileo’s Planet Pack 1.6.3.0
 
-6. Copy from [GPP Download]\GameData\ to [KSP]\GameData\ the folder GPP\ and all its contents.
+6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.1.1).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.0).
 
-8. Copy from [Textures Download]\GameData\GPP\ to [KSP]\GameData\GPP\ the folder GPP_Textures\.
+8. Copy from `[Textures Download]\GameData\GPP\` to `[KSP]\GameData\GPP\` the folder `GPP_Textures\`.
 
 9. This completes the basic installation.  If you want to, you can verify the installation by launching KSP.
 
 ## Optional Mods
 
-1. Install the optional mods of your choice by copying or merging `<GPP Download>\Optional Mods\GPP_<mod name>\GameData\<mod name>` to `<KSP>\GameData\`.
+1. Install the optional mods of your choice by copying or merging `[GPP Download]\Optional Mods\GPP_[mod name]\GameData\[mod name]` to `[KSP]\GameData\`.
 
-2. [Final Frontier](https://spacedock.info/mod/580/Final%20Frontier/download/1.3.6-3189) must be downloaded and installed separately.
+2. [Final Frontier](https://forum.kerbalspaceprogram.com/index.php?/topic/61065-142-final-frontier-kerbal-individual-merits-142-3375/) must be downloaded and installed separately.
 
 4. For GPP_Clouds and GPP_Secondary, see separate instructions below.
 
@@ -58,7 +58,7 @@ CC BY-NC-ND
 
 1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.4.x.
 
-2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://github.com/Sigma88/KKtoSD/releases) must be downloaded and installed.
 
 ## Sigma Replacements
 
@@ -66,15 +66,15 @@ CC BY-NC-ND
 
 ## Clouds, Aurorae and Shadows
 
-1. For clouds, aurorae and shadows, go to `<GPP Download>\Optional Mods\GPP_Clouds\` and select either High-res or Low-res.  Drill down further until you get to a second GPP_Clouds\ folder.  Copy this folder to `<KSP>\GameData\GPP\`.
+1. For clouds, aurorae and shadows, go to `[GPP Download]\Optional Mods\GPP_Clouds\` and select either High-res or Low-res.  Drill down further until you get to a second `GPP_Clouds\` folder.  Copy this folder to `[KSP]\GameData\GPP\`.
 
-2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/tag/EVE-1.2.2-1) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
+2. To enable the visual effects, the third-party mod [EVE (Environmental Visual Enhancements)](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases) must be downloaded and installed.  You require only the small file, not the large one with “Configs” in its name (GPP comes with its own configs).
 
 ## Scatterer
 
-1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://spacedock.info/mod/141/scatterer/download/0.0324).
+1. GPP is configured to provide atmospheric scattering effects using the third-party mod Scatterer.  To enable these effects, download and install [Scatterer](https://github.com/LGhassen/Scatterer/releases).
 
-2. If you want to change the *Ciroflare* for either or both stars in GPP, the images and .cfg files are in the folder,  `GPP\GPP_Scatterer\Ciroflares\<Star>\` or, you can easily install one of the [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) GPP packs.
+2. If you want to change the *Ciroflare* for either or both stars in GPP, the images and .cfg files are in the folder,  `GPP\GPP_Scatterer\Ciroflares\[Star]\` or, you can easily install one of the [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) GPP packs.
 
 ## Optional High(er) Performance Visuals
 
@@ -133,18 +133,18 @@ To toggle, change the following setting *preserveOriginals = true* to *false.*
 
 :triangular_ruler: To upscale GPP, see [Rescale! Comprehensive SD Configs](http://forum.kerbalspaceprogram.com/index.php?/topic/163965-13-rescale-comprehensive-sd-configs-1021/).
 
-If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://forum.kerbalspaceprogram.com/index.php?/topic/162782-wip130-kktosd/) must be downloaded and installed.
+If one of the scaled versions of GPP is used in combinations with KSC++, the third-party mod [KKtoSD](https://github.com/Sigma88/KKtoSD/releases) must be downloaded and installed.
 
 
 ## Recommended mods with support for or by GPP
   ### OhioBob's mod
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
   
-  ### Sigma88's Mods
+  ### Sigma88's mods
   * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
   * Sigma Replacements
     * [Heads](https://github.com/Sigma88/Sigma-Replacements/releases/tag/H_v0.2.4)
-    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.3.0)
+    * [Suits](https://github.com/Sigma88/Sigma-Replacements/releases/tag/S_v0.3.1)
     * [Skybox](https://github.com/Sigma88/Sigma-Replacements/releases/tag/B_v0.3.0)
     * [Navigation](https://github.com/Sigma88/Sigma-Replacements/releases/tag/N_v0.2.2)
     * [Descriptions](https://github.com/Sigma88/Sigma-Replacements/releases/tag/D_v0.2.5)
@@ -152,12 +152,12 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   
   ### General visual mods
   * [Environmental Visual Enhancements](https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/)
-  * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases)
-  * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/)
+  * [Flare Replacer](https://forum.kerbalspaceprogram.com/index.php?/topic/171820-ksp-131-flare-replacer-v102-09-mar-2018/) (overrides scatterer)
+  * [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) (overrides scatterer)
   * [KS3P](https://spacedock.info/mod/1618/KS3P)
   * [Distant Object Enhancement](https://github.com/MOARdV/DistantObject/releases/)
   * [PlanetShine](https://github.com/PapaJoesSoup/ksp-planetshine/releases)
-  * [Scatterer - min-version: 0.0320b](https://spacedock.info/mod/141/)
+  * [Scatterer](https://spacedock.info/mod/141/scatterer)
   
   ### Angel-125's mods
   * Wild Blue Industries
@@ -170,11 +170,11 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * Deep Sky
     * [Thor Tech](https://forum.kerbalspaceprogram.com/index.php?/topic/168326-131-143-thor-tech-v096-~-may-7-2018/)
 	* [The Spice](https://forum.kerbalspaceprogram.com/index.php?/topic/167366-131-143-the-spice-v081-may-7-2018/)
-	* [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) (needs scatterer)
+    * [Sunflares Of Maar](https://github.com/JadeOfMaar/sandbox/releases/tag/som.1.2) (needs scatterer)
 
   ### Rocketry mods
   * [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-131-near-future-technologies-bugfix-updates-march-2/)
-  * [BlueDog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases)
+  * [BlueDog Design Bureau](https://forum.kerbalspaceprogram.com/index.php?/topic/122020-14x-bluedog-design-bureau-stockalike-saturn-apollo-and-more-v142-i-numbered-this-update-before-ksp-updated-1feb2018/)
   
   ### Quality of life mods
   * [SCANsat](https://spacedock.info/mod/129/SCANsat)
@@ -191,8 +191,9 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [USI Alcubierre Drive](https://github.com/BobPalmer/WarpDrive/releases)
   
   ### Other mods
-  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/download/1.8.9)
+  * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/)
   * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
+  * [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases)
 
 ## Known Issues
 
