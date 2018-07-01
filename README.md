@@ -6,22 +6,15 @@ CC BY-NC-ND
 # Now on CKAN!
 
 # Changelog:
-## v1.6.3.0
+## v1.6.3.1
 ## REQUIRES GPP_TEXTURES 4.2.0
-* Fixes to KK sites
-* Added isles for KSP 1.4 launch sites (Larkes and Woomerang)
-* Prevent these launch sites from appearing on Gael in GPP Scondary
-* Added KK launch site for testing rovers
-* Kerbinside is now compatible while playing with GPP_Secondary installed
-* GPP no longer indiscriminately deletes/unloads planets and planet packs that have loaded before itself. It specifically deletes only the stock bodies so planet packs such as After Kerbin, Before Kerbin, Extrasolar, and even GEP, will remain loaded without having to perform MM voodoo
-* Accommodations for new features in GEP 1.0
-* Updated EVE configs for GPP + OPM installations
-* Minor fixes to Gael in GPP Secondary
-* Renamed Sigma skybox files for Sigma Replacements/Texture Replacer compatibility
-* Fixed some scatterer issues
-* Made Lili 20% more awesome
-* Added detection in resource configs for Kerbin vs Gael for GPP Secondary
-
+* Fixed incorrect body name in Asteroids config.
+* Fixed incorrect body name in MechJeb config.
+* Fixed incorrect texture name in OPMClouds and StockClouds.
+* Fixed error in scatterer planet list (cause of 'black sky' bug).
+* Rewrote several scatterer configs to improve compatibility with Module Manager.
+* Increased Lili's surface gravity (can now land on most of its surface).
+* Updated CelestialBodies.pdf.
 
 ## TO INSTALL:
 
