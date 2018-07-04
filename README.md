@@ -14,6 +14,7 @@ CC BY-NC-ND
 * Fixed error in scatterer planet list (cause of 'black sky' bug).
 * Rewrote several scatterer configs to improve compatibility with Module Manager.
 * Increased Lili's surface gravity (can now land on most of its surface).
+* Deleted Lili's orbit line from tracking station/map view.
 * Updated CelestialBodies.pdf.
 
 ## TO INSTALL:
