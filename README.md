@@ -198,7 +198,7 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases)
   * [KrakenScience](https://forum.kerbalspaceprogram.com/index.php?/topic/146110-12-krakenscience-05-2016-11-02/)
   * [Contract Reward Modifier](https://forum.kerbalspaceprogram.com/index.php?/topic/102079-13x-contract-reward-modifier-v25-5312017/)
-  * [Surface Experiment Pack] (https://forum.kerbalspaceprogram.com/index.php?/topic/155382-131-surface-experiment-pack-deployable-science-for-kiskas-v24-10oct17/)
+  * [Surface Experiment Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/155382-131-surface-experiment-pack-deployable-science-for-kiskas-v24-10oct17/)
 
 ## Known Issues
 
