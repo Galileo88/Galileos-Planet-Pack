@@ -132,8 +132,15 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
 
 
 ## Recommended mods with support for or by GPP
+  ## Galileo's other mods
+  * [Play Your Way](https://forum.kerbalspaceprogram.com/index.php?/topic/152877-play-your-way-122/#comment-2871751)
+  * [Ship Effects Continued](https://forum.kerbalspaceprogram.com/index.php?/topic/161673-ksp-130-122-shipeffects-continued-1081/)
+  * [Outer Planets Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/)
+  
+  
   ### OhioBob's mod
   * [Grannus Expansion Pack (GEP)](https://github.com/OhioBob/Grannus-Expansion-Pack/releases)
+  * [Better SRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-ksp-14x-bettersrbs-v101-30-july-2018/)
   
   ### Sigma88's mods
   * [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions/releases)
@@ -189,6 +196,9 @@ If one of the scaled versions of GPP is used in combinations with KSC++, the thi
   * [RemoteTech](https://spacedock.info/mod/520/RemoteTech/)
   * [Decal Stickers](https://spacedock.info/mod/1108/Decal%20Stickers/)
   * [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases)
+  * [KrakenScience](https://forum.kerbalspaceprogram.com/index.php?/topic/146110-12-krakenscience-05-2016-11-02/)
+  * [Contract Reward Modifier](https://forum.kerbalspaceprogram.com/index.php?/topic/102079-13x-contract-reward-modifier-v25-5312017/)
+  * [Surface Experiment Pack] (https://forum.kerbalspaceprogram.com/index.php?/topic/155382-131-surface-experiment-pack-deployable-science-for-kiskas-v24-10oct17/)
 
 ## Known Issues
 
