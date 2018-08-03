@@ -24,7 +24,7 @@
         }
     ],
     "$vref": "#/ckan/ksp-avc",
-    "ksp_version": "1.4.3",
+    "ksp_version": "1.4.5",
     "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
     "identifier": "GPPCloudsLowRes",
     "name": "GPP LowRes clouds",
