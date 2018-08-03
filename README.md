@@ -7,7 +7,7 @@ CC BY-NC-ND
 
 # Changelog:
 ## v1.6.3.1
-## REQUIRES GPP_TEXTURES 4.2.0
+## REQUIRES GPP_TEXTURES 4.2.1
 * Fixed incorrect body name in Asteroids config.
 * Fixed incorrect body name in MechJeb config.
 * Fixed incorrect texture name in OPMClouds and StockClouds.
@@ -35,7 +35,7 @@ CC BY-NC-ND
 
 6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
-7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.0).
+7. Download [GPP_Textures](https://github.com/Galileo88/Galileos-Planet-Pack/releases/tag/4.2.1).
 
 8. Copy from `[Textures Download]\GameData\GPP\` to `[KSP]\GameData\GPP\` the folder `GPP_Textures\`.
 
