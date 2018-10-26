@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -27,7 +27,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -42,7 +42,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -57,7 +57,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -73,7 +73,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -89,7 +89,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -105,7 +105,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -120,7 +120,7 @@ PLANETARY_RESOURCE
 		Dispersal = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -135,7 +135,7 @@ PLANETARY_RESOURCE
 		Dispersal = 10
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -150,7 +150,7 @@ PLANETARY_RESOURCE
 		Dispersal = 10
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -166,7 +166,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -182,7 +182,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -199,7 +199,7 @@ PLANETARY_RESOURCE
 }
 
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -215,7 +215,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -233,7 +233,7 @@ BIOME_RESOURCE
 }
 
 //Ice Caps
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -251,7 +251,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0
@@ -268,7 +268,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = PreciousMetals
 	ResourceType = 0

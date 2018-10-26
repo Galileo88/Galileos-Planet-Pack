@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -28,7 +28,7 @@ PLANETARY_RESOURCE
 		Dispersal = 15
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -44,7 +44,7 @@ PLANETARY_RESOURCE
 		Dispersal = 15
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -59,7 +59,7 @@ PLANETARY_RESOURCE
 		Dispersal = 15
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -74,7 +74,7 @@ PLANETARY_RESOURCE
 		Dispersal = 15
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -89,7 +89,7 @@ PLANETARY_RESOURCE
 		Dispersal = 15
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -106,7 +106,7 @@ PLANETARY_RESOURCE
 }
 
 //Biome
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 0
@@ -124,7 +124,7 @@ BIOME_RESOURCE
 }
 
 // Exosphere Edge
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -143,7 +143,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -163,7 +163,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -182,7 +182,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -201,7 +201,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -220,7 +220,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -239,7 +239,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -258,7 +258,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -277,7 +277,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -296,7 +296,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -315,7 +315,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -334,7 +334,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3
@@ -353,7 +353,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Rock
 	ResourceType = 3

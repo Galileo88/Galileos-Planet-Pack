@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -29,7 +29,7 @@ PLANETARY_RESOURCE
 }
 
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -46,7 +46,7 @@ PLANETARY_RESOURCE
 }
 
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -62,7 +62,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -78,7 +78,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -87,14 +87,14 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 7
-		MaxAbundance = 25
+		MinAbundance = 4
+		MaxAbundance = 10
 		Variance = 80
 		Dispersal = 80
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -110,7 +110,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -121,13 +121,13 @@ PLANETARY_RESOURCE
 	{
 		PresenceChance = 70
 		MinAbundance = 0.1
-		MaxAbundance = 4
+		MaxAbundance = 3
 		Variance = 50
 		Dispersal = 10
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -143,7 +143,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -159,7 +159,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -175,7 +175,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -191,7 +191,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -207,7 +207,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -223,7 +223,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -240,7 +240,7 @@ PLANETARY_RESOURCE
 }
 
 //Ice Caps
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -258,7 +258,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -275,7 +275,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -291,7 +291,7 @@ BIOME_RESOURCE
 		Dispersal = 0
 	}
 }
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -308,7 +308,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Blutonium
 	ResourceType = 0
@@ -319,7 +319,7 @@ BIOME_RESOURCE
 	{
 		PresenceChance = 1000
 		MinAbundance = 5
-		MaxAbundance = 12
+		MaxAbundance = 10
 		Variance = 80
 		Dispersal = 20
 	}

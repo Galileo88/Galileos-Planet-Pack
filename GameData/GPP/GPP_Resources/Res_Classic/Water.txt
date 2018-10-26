@@ -12,54 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Water],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 0
-	PlanetName = Icarus
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-		Dispersal = 0
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 0
-	PlanetName = Thalia
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-		Dispersal = 0
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 0
-	PlanetName = Niven
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -76,7 +29,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 2
@@ -92,52 +45,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 1
-	PlanetName = Hadrian
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 1
-	PlanetName = Tarsiss
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE
-{
-	ResourceName = Water
-	ResourceType = 2
-	PlanetName = Hadrian
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 2
@@ -153,7 +61,7 @@ PLANETARY_RESOURCE
 }
 
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -164,14 +72,14 @@ BIOME_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 30
-		MaxAbundance = 60
+		MinAbundance = 5
+		MaxAbundance = 10
 		Variance = 40
 		Dispersal = 10
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -181,14 +89,14 @@ BIOME_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 30
-		MaxAbundance = 60
+		MinAbundance = 5
+		MaxAbundance = 10
 		Variance = 40
 		Dispersal = 10
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -205,7 +113,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0

@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[XenonGas],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -26,7 +26,7 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -41,7 +41,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -56,7 +56,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -72,7 +72,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -87,7 +87,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -102,7 +102,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2
@@ -117,7 +117,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = XenonGas
 	ResourceType = 2

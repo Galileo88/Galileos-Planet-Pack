@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Explodium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Explodium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Explodium
 	ResourceType = 1
@@ -21,14 +21,14 @@ PLANETARY_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 4
-		MaxAbundance = 10
+		MinAbundance = 2
+		MaxAbundance = 3
 		Variance = 10
 		Dispersal = 0
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Explodium
 	ResourceType = 0
@@ -38,8 +38,8 @@ BIOME_RESOURCE
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 40
-		MaxAbundance = 80
+		MinAbundance = 6
+		MaxAbundance = 12
 		Variance = 0
 		Dispersal = 0
 	}

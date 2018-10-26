@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Nitronite],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Nitronite],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -26,7 +26,7 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -40,7 +40,7 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -54,7 +54,7 @@ PLANETARY_RESOURCE
 		Variance = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -71,7 +71,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -86,7 +86,7 @@ PLANETARY_RESOURCE
 		Dispersal = 40
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -101,7 +101,7 @@ PLANETARY_RESOURCE
 		Dispersal = 40
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -116,7 +116,7 @@ PLANETARY_RESOURCE
 		Dispersal = 20
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 1
@@ -131,7 +131,7 @@ PLANETARY_RESOURCE
 		Dispersal = 0
 	}
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 2
@@ -147,7 +147,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -164,7 +164,7 @@ BIOME_RESOURCE
 		Dispersal = 20
 	}
 }
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -182,7 +182,7 @@ BIOME_RESOURCE
 }
 
 // Rather rich for an arid planet. There must be/have been something quite alive here...
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -198,7 +198,7 @@ BIOME_RESOURCE
 		Dispersal = 20
 	}
 }
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 0
@@ -216,7 +216,7 @@ BIOME_RESOURCE
 }
 
 // Exosphere Edge
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -235,7 +235,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -255,7 +255,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -274,7 +274,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -293,7 +293,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -312,7 +312,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -331,7 +331,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -350,7 +350,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -369,7 +369,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -388,7 +388,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -407,7 +407,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -426,7 +426,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3
@@ -445,7 +445,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Nitronite
 	ResourceType = 3

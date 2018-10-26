@@ -1,0 +1,294 @@
+//
+//	Galileo's Planet Pack
+//	Resource: Hydrokerbon
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+
+!PLANETARY_RESOURCE,*:HAS[#ResourceName[Hydrokerbon],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE,*:HAS[#ResourceName[Hydrokerbon],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName = Icarus
+	
+	Distribution
+	{
+		PresenceChance = 90
+		MinAbundance = 1
+		MaxAbundance = 8
+		Variance = 40
+		Dispersal = 20
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName = Thalia
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 40
+		Dispersal = 20
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 2
+	PlanetName = Niven
+	
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 3
+	PlanetName = Niven
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 6
+		MinAltitude = 4
+		MaxAltitude = 4
+		MinRange = 4
+		MaxRange = 4
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.1
+		MaxAbundance = 4
+		Variance = 40
+		Dispersal = 3
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 2
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 0.5
+		MaxAbundance = 1.5
+		Variance = 40
+		Dispersal = 30
+	}
+}
+
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 1
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 9
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 2
+	PlanetName = Tellumo
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 4
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 2
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 7
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 3
+	PlanetName = Catullus
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 6
+		MinAltitude = 0.46
+		MaxAltitude = 0.46
+		MinRange = 1
+		MaxRange = 2
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 1
+	PlanetName = Tarsiss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 40
+		MaxAbundance = 80
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 2
+	PlanetName = Tarsiss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 30
+		MaxAbundance = 50
+		Variance = 40
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 3
+	PlanetName = Tarsiss
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 10
+		MinAltitude = 0.81
+		MaxAltitude = 0.81
+		MinRange = 2
+		MaxRange = 3
+	}
+}
+
+
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
+	PlanetName:NEEDS[GPP_Secondary] = Gael
+	BiomeName = Inland Water
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 5
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName = Tellumo
+	BiomeName = Inland Water
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 3
+		MaxAbundance = 6.5
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Sarawak White
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 8
+		Variance = 40
+		Dispersal = 10
+	}
+}
+
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 0
+	PlanetName = Gratian
+	BiomeName = Muntok White
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 8
+		Variance = 40
+		Dispersal = 10
+	}
+}

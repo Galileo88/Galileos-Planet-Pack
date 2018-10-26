@@ -13,7 +13,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[Atmosphere],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[Atmosphere],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -32,7 +32,7 @@ PLANETARY_RESOURCE
         Variance = 0
     }
 }
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -50,7 +50,7 @@ PLANETARY_RESOURCE
         Variance = 0
     }
 }
-PLANETARY_RESOURCE:NEEDS[GEP,OPM]
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,GEP,OPM]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -69,7 +69,7 @@ PLANETARY_RESOURCE:NEEDS[GEP,OPM]
     }
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -88,7 +88,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -108,7 +108,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -127,7 +127,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -146,7 +146,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -165,7 +165,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -184,7 +184,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -203,7 +203,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -222,7 +222,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -241,7 +241,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -260,7 +260,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -279,7 +279,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3
@@ -298,7 +298,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Atmosphere
 	ResourceType = 3

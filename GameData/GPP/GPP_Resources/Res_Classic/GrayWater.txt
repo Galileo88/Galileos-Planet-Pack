@@ -12,7 +12,7 @@
 !PLANETARY_RESOURCE,*:HAS[#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 !BIOME_RESOURCE,*:HAS[#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -28,7 +28,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -44,7 +44,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -60,7 +60,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -76,7 +76,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -92,7 +92,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -107,7 +107,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -124,7 +124,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 1
@@ -141,7 +141,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 2
@@ -157,7 +157,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -173,7 +173,23 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = GrayWater
+	ResourceType = 0
+	PlanetName = Lili
+	
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 12
+		MaxAbundance = 16
+		Variance = 20
+		Dispersal = 10
+	}
+}
+
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 1
@@ -188,7 +204,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 1
@@ -203,7 +219,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 1
@@ -218,7 +234,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 2
@@ -233,7 +249,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 2
@@ -248,7 +264,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -264,7 +280,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -280,7 +296,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -296,7 +312,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -312,7 +328,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -328,7 +344,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -346,7 +362,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -365,7 +381,7 @@ BIOME_RESOURCE
 }
 
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -381,7 +397,7 @@ BIOME_RESOURCE
 		Dispersal = 10
 	}
 }
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -397,7 +413,7 @@ BIOME_RESOURCE
 		Dispersal = 10
 	}
 }
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -414,7 +430,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Water
 	ResourceType = 0
@@ -431,7 +447,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -448,7 +464,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -465,7 +481,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -482,7 +498,7 @@ BIOME_RESOURCE
 	}
 }
 
-BIOME_RESOURCE
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 0
@@ -500,7 +516,7 @@ BIOME_RESOURCE
 }
 
 // Exosphere Edge
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -519,7 +535,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -539,7 +555,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -558,7 +574,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -577,7 +593,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -596,7 +612,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -615,7 +631,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -634,7 +650,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -653,7 +669,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -672,7 +688,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -691,7 +707,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -710,7 +726,7 @@ PLANETARY_RESOURCE
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -723,13 +739,13 @@ PLANETARY_RESOURCE
         MaxAbundance = 20
         MinAltitude = 0.32
         MaxAltitude = 0.32
-        MinRange = 0.8
-        MaxRange = 0.8
+        MinRange = 2
+        MaxRange = 2
         Variance = 0
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -740,15 +756,15 @@ PLANETARY_RESOURCE
 		PresenceChance = 1000
         MinAbundance = 20
         MaxAbundance = 60
-        MinAltitude = 0.34
-        MaxAltitude = 0.34
-        MinRange = 0.8
-        MaxRange = 1.7
+        MinAltitude = 1
+        MaxAltitude = 1
+        MinRange = 3
+        MaxRange = 4
         Variance = 0
 	}
 }
 
-PLANETARY_RESOURCE
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
 	ResourceType = 3
@@ -761,8 +777,8 @@ PLANETARY_RESOURCE
         MaxAbundance = 50
         MinAltitude = 0.33
         MaxAltitude = 0.33
-        MinRange = 0.8
-        MaxRange = 0.8
+        MinRange = 2
+        MaxRange = 2
         Variance = 0
 	}
 }
