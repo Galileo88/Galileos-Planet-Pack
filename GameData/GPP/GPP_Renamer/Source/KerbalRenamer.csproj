@@ -31,8 +31,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="KerbalRenamer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\Culture.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="Settings\SettingsLoader.cs" />
+    <Compile Include="Settings\UserSettings.cs" />
+    <Compile Include="Utility\DebugLogger.cs" />
+    <Compile Include="Utility\Extensions.cs" />
+    <Compile Include="Utility\Random.cs" />
+    <Compile Include="Utility\Version.cs" />
+    <Compile Include="CustomKerbals.cs" />
+    <Compile Include="EventTracker.cs" />
+    <Compile Include="KerbalRenamer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
