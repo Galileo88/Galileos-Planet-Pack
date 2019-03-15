@@ -67,7 +67,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Inland Water
+	BiomeName = InlandWater
 	
 	Distribution
 	{
@@ -84,7 +84,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Water
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Inland Water
+	BiomeName = InlandWater
 	
 	Distribution
 	{
@@ -101,7 +101,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Water
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Sarawak White
+	BiomeName = SarawakWhite
 	
 	Distribution
 	{
@@ -118,7 +118,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Water
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Muntok White
+	BiomeName = MuntokWhite
 	
 	Distribution
 	{

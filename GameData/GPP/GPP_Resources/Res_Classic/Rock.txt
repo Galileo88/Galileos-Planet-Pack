@@ -111,7 +111,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Rock
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Gulf of Pood
+	BiomeName = GulfofPood
 	
 	Distribution
 	{

@@ -246,7 +246,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
 	
 	Distribution
 	{
@@ -263,7 +263,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
 	
 	Distribution
 	{
@@ -280,7 +280,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Sarawak White
+	BiomeName = SarawakWhite
 	
 	Distribution
 	{
@@ -296,7 +296,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Muntok White
+	BiomeName = MuntokWhite
 	
 	Distribution
 	{
@@ -313,7 +313,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Jannah
-	BiomeName = Gound Zero
+	BiomeName = GoundZero
 	
 	Distribution
 	{
