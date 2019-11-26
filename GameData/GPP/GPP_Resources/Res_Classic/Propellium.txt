@@ -9,9 +9,9 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[#ResourceName[Propellium],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
