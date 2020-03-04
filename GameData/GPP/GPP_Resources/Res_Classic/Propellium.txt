@@ -9,9 +9,9 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Ciro]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[Propellium],#PlanetName[Sun]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[~GPPTag,#ResourceName[Propellium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
@@ -19,6 +19,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 2
 	PlanetName:NEEDS[!GPP_Secondary] = Sun
 	PlanetName:NEEDS[GPP_Secondary] = Ciro
+	GPPTag = True
 	
 	Distribution
 	{
@@ -35,6 +36,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 3
 	PlanetName:NEEDS[!GPP_Secondary] = Sun
 	PlanetName:NEEDS[GPP_Secondary] = Ciro
+	GPPTag = True
 	
 	Distribution
     {
@@ -123,6 +125,8 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 3
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
+	
 	Distribution
 	{
 		PresenceChance = 1000

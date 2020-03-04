@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[~GPPTag,#ResourceName[Blutonium],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
@@ -116,6 +116,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 	
 	Distribution
 	{
@@ -246,7 +247,8 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
+	GPPTag = True
 	
 	Distribution
 	{
@@ -263,7 +265,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
 	
 	Distribution
 	{
@@ -280,7 +282,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Sarawak White
+	BiomeName = SarawakWhite
 	
 	Distribution
 	{
@@ -296,7 +298,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Muntok White
+	BiomeName = MuntokWhite
 	
 	Distribution
 	{
@@ -313,7 +315,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Blutonium
 	ResourceType = 0
 	PlanetName = Jannah
-	BiomeName = Gound Zero
+	BiomeName = GoundZero
 	
 	Distribution
 	{

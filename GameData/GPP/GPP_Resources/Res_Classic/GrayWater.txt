@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[~GPPTag,#ResourceName[GrayWater],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
@@ -113,6 +113,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 	
 	Distribution
 	{
@@ -130,6 +131,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 1
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 	
 	Distribution
 	{
@@ -147,6 +149,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 2
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 	
 	Distribution
 	{
@@ -204,6 +207,21 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	}
 }
 
+PLANETARY_RESOURCE:NEEDS[CommunityResourcePack]
+{
+	ResourceName = Water
+	ResourceType = 0
+	PlanetName = Hadrian
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 2
+		MaxAbundance = 8
+		Variance = 0
+	}
+}
+
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = GrayWater
@@ -212,9 +230,9 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	
 	Distribution
 	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
+		PresenceChance = 100
+		MinAbundance = 12
+		MaxAbundance = 20
 		Variance = 0
 	}
 }
@@ -230,36 +248,6 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		PresenceChance = 0
 		MinAbundance = 0
 		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
-{
-	ResourceName = GrayWater
-	ResourceType = 2
-	PlanetName = Hadrian
-	
-	Distribution
-	{
-		PresenceChance = 0
-		MinAbundance = 0
-		MaxAbundance = 0
-		Variance = 0
-	}
-}
-
-PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
-{
-	ResourceName = GrayWater
-	ResourceType = 2
-	PlanetName = Tellumo
-	
-	Distribution
-	{
-		PresenceChance = 1000
-		MinAbundance = 5
-		MaxAbundance = 8
 		Variance = 0
 	}
 }
@@ -350,7 +338,8 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
+	GPPTag = True
 	
 	Distribution
 	{
@@ -368,7 +357,8 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Inland Water
+	BiomeName = InlandWater
+	GPPTag = True
 	
 	Distribution
 	{
@@ -418,7 +408,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = GrayWater
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
 	
 	Distribution
 	{
@@ -435,7 +425,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Water
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Inland Water
+	BiomeName = InlandWater
 	
 	Distribution
 	{
@@ -452,7 +442,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = GrayWater
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Sarawak White
+	BiomeName = SarawakWhite
 	
 	Distribution
 	{
@@ -469,7 +459,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = GrayWater
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Muntok White
+	BiomeName = MuntokWhite
 	
 	Distribution
 	{
@@ -486,7 +476,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = GrayWater
 	ResourceType = 0
 	PlanetName = Julia
-	BiomeName = Pink Ice
+	BiomeName = PinkIce
 	
 	Distribution
 	{
@@ -541,6 +531,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 3
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 		
 	Distribution
 	{

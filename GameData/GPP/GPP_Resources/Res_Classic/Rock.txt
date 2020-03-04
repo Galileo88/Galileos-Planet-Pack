@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[~GPPTag,#ResourceName[Rock],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
@@ -111,7 +111,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = Rock
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Gulf of Pood
+	BiomeName = GulfofPood
 	
 	Distribution
 	{
@@ -149,6 +149,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 3
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
+	GPPTag = True
 		
 	Distribution
 	{

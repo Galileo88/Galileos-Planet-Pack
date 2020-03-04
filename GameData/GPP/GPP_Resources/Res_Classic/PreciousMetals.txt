@@ -9,8 +9,8 @@
 //	3 = Interplanetary	(Stuff you find between planets)
 //
 
-!PLANETARY_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
-!BIOME_RESOURCE,*:HAS[#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!PLANETARY_RESOURCE:HAS[~GPPTag,#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
+!BIOME_RESOURCE:HAS[~GPPTag,#ResourceName[PreciousMetals],#PlanetName[Kerbin]]:NEEDS[!GPP_Secondary] {}
 
 PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
@@ -239,7 +239,8 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceType = 0
 	PlanetName:NEEDS[!GPP_Secondary] = Kerbin
 	PlanetName:NEEDS[GPP_Secondary] = Gael
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
+	GPPTag = True
 	
 	Distribution
 	{
@@ -256,7 +257,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = PreciousMetals
 	ResourceType = 0
 	PlanetName = Tellumo
-	BiomeName = Ice Caps
+	BiomeName = IceCaps
 	
 	Distribution
 	{
@@ -273,7 +274,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	ResourceName = PreciousMetals
 	ResourceType = 0
 	PlanetName = Gratian
-	BiomeName = Sarawak White
+	BiomeName = SarawakWhite
 	
 	Distribution
 	{
