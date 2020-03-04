@@ -9,7 +9,7 @@ namespace KerbalRenamer
         void Awake()
         {
             DontDestroyOnLoad(this);
-            GameEvents.onKerbalAdded.Add(new EventData<ProtoCrewMember>.OnEvent(OnKerbalAdded));
+            GameEvents.onKerbalAdded.Add(OnKerbalAdded);
         }
 
         void OnKerbalAdded(ProtoCrewMember kerbal)

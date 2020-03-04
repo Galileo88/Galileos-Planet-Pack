@@ -137,5 +137,49 @@
                 }
             }
         }
+
+        public string DefaultLastName(ProtoCrewMember.Gender gender)
+        {
+            if (!Settings.generateLastNames)
+                return "Kerman";
+
+            string lastName = "";
+
+            if (femaleSurnamesExist && gender == ProtoCrewMember.Gender.Female)
+            {
+                if (flnames1.Length > 0)
+                {
+                    lastName += flnames1[0];
+                }
+                if (flnames2.Length > 0)
+                {
+                    lastName += flnames2[0];
+                }
+                if (flnames3.Length > 0)
+                {
+                    lastName += flnames3[0];
+                }
+            }
+            else
+            {
+                if (lnames1.Length > 0)
+                {
+                    lastName += lnames1[0];
+                }
+                if (lnames2.Length > 0)
+                {
+                    lastName += lnames2[0];
+                }
+                if (lnames3.Length > 0)
+                {
+                    lastName += lnames3[0];
+                }
+            }
+
+            if (string.IsNullOrEmpty(lastName))
+                return "Kerman";
+
+            return lastName;
+        }
     }
 }

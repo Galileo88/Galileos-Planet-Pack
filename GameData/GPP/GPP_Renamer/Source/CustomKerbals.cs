@@ -1,5 +1,25 @@
 ﻿namespace KerbalRenamer
 {
+    internal class ProtoCustomVeteran
+    {
+        internal string name;
+        internal ProtoCrewMember.Gender gender;
+        internal string trait = "Pilot";
+        internal bool isBadass;
+        internal float courage;
+        internal float stupidity;
+
+        internal ProtoCustomVeteran(ConfigNode config)
+        {
+            name = config.GetValue("name");
+            gender = (ProtoCrewMember.Gender)ConfigNode.ParseEnum(typeof(ProtoCrewMember.Gender), config.GetValue("gender"));
+            trait = config.GetValue("trait");
+            isBadass = bool.Parse(config.GetValue("isBadass"));
+            courage = float.Parse(config.GetValue("courage"));
+            stupidity = float.Parse(config.GetValue("stupidity"));
+        }
+    }
+
     internal static class CustomKerbals
     {
         // First 4 Veteran Names
@@ -39,16 +59,16 @@
             switch (index)
             {
                 case 0:
-                    kerbal.UpdateTo("Jebediah Gaelan", ProtoCrewMember.Gender.Male, "Pilot", Settings.preserveOriginals, true, 0.5f, 0.5f);
+                    kerbal.UpdateTo("Jebediah " + Settings.cultures[0].DefaultLastName(ProtoCrewMember.Gender.Male), ProtoCrewMember.Gender.Male, "Pilot", Settings.preserveOriginals, true, 0.5f, 0.5f);
                     return true;
                 case 1:
-                    kerbal.UpdateTo("Bob Gaelan", ProtoCrewMember.Gender.Male, "Scientist", Settings.preserveOriginals, false, 0.3f, 0.1f);
+                    kerbal.UpdateTo("Bob " + Settings.cultures[0].DefaultLastName(ProtoCrewMember.Gender.Male), ProtoCrewMember.Gender.Male, "Scientist", Settings.preserveOriginals, false, 0.3f, 0.1f);
                     return true;
                 case 2:
-                    kerbal.UpdateTo("Bill Gaelan", ProtoCrewMember.Gender.Male, "Engineer", Settings.preserveOriginals, false, 0.5f, 0.8f);
+                    kerbal.UpdateTo("Bill " + Settings.cultures[0].DefaultLastName(ProtoCrewMember.Gender.Male), ProtoCrewMember.Gender.Male, "Engineer", Settings.preserveOriginals, false, 0.5f, 0.8f);
                     return true;
                 case 3:
-                    kerbal.UpdateTo("Valentina Gaelan", ProtoCrewMember.Gender.Female, "Pilot", Settings.preserveOriginals, true, 0.55f, 0.4f);
+                    kerbal.UpdateTo("Valentina " + Settings.cultures[0].DefaultLastName(ProtoCrewMember.Gender.Female), ProtoCrewMember.Gender.Female, "Pilot", Settings.preserveOriginals, true, 0.55f, 0.4f);
                     return true;
             }
 
@@ -61,30 +81,16 @@
         // GPP Developers
         internal static bool Custom(ProtoCrewMember kerbal, int index)
         {
-            switch (index)
+            if (Settings.CustomVeterans.Count > index)
             {
-                case 0:
-                    kerbal.UpdateTo("Galileo Gaelan", ProtoCrewMember.Gender.Male, "Pilot", !Settings.preserveOriginals, true, 0.5f, 0.5f);
-                    return true;
-                case 1:
-                    kerbal.UpdateTo("Bobert Gaelan", ProtoCrewMember.Gender.Male, "Scientist", !Settings.preserveOriginals, false, 0.3f, 0.1f);
-                    return true;
-                case 2:
-                    kerbal.UpdateTo("Jade Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !Settings.preserveOriginals, false, 0.5f, 0.8f);
-                    return true;
-                case 3:
-                    kerbal.UpdateTo("Poody Gaelan", ProtoCrewMember.Gender.Female, "Pilot", !Settings.preserveOriginals, true, 0.55f, 0.4f);
-                    return true;
-                case 4:
-                    kerbal.UpdateTo("Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", !Settings.preserveOriginals, false, 0.1f, 0.1f);
-                    return true;
-                case 5:
-                    kerbal.UpdateTo("Raging Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !Settings.preserveOriginals, false, 0.25f, 0.5f);
-                    return true;
+                ProtoCustomVeteran custom = Settings.CustomVeterans[index];
+
+                kerbal.UpdateTo(custom.name, custom.gender, custom.trait, !Settings.preserveOriginals, custom.isBadass, custom.courage, custom.stupidity);
+                return true;
             }
 
             if (!Settings.preserveOriginals)
-                return Original(kerbal, index - 6);
+                return Original(kerbal, index - Settings.CustomVeterans.Count);
 
             return false;
         }

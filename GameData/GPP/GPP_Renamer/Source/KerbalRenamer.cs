@@ -1,3 +1,8 @@
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+
 namespace KerbalRenamer
 {
     internal static class KerbalRenamer
@@ -22,9 +27,6 @@ namespace KerbalRenamer
 
         internal static void Rename(ProtoCrewMember kerbal)
         {
-            // Don't change custom kerbals
-            if (!kerbal.name.EndsWith(" Kerman")) return;
-
             // First 4 Veterans
             if (CustomKerbals.Veteran(kerbal)) return;
 
@@ -32,13 +34,13 @@ namespace KerbalRenamer
 
             if (Settings.preserveOriginals)
             {
-                // Developers First
-                if (CustomKerbals.Custom(kerbal, index - 4)) return;
+                // Originals First
+                if (CustomKerbals.Original(kerbal, index)) return;
             }
             else
             {
-                // Originals First
-                if (CustomKerbals.Original(kerbal, index - 4)) return;
+                // Developers First
+                if (CustomKerbals.Custom(kerbal, index)) return;
             }
 
             // GENERATE RANDOM KERBAL
@@ -98,7 +100,7 @@ namespace KerbalRenamer
 
                     Debug.Log("KerbalRenamer.Rename", "Generated Full Name = " + fullName);
 
-                    kerbal.ChangeName(fullName);
+                    kerbal.NewName(fullName);
                 }
             }
         }
@@ -227,6 +229,23 @@ namespace KerbalRenamer
             }
 
             return fullName;
+        }
+    }
+
+    [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
+    internal class VeteranRenamer : MonoBehaviour
+    {
+        internal static Dictionary<ProtoCrewMember, string> veteransToRename;
+
+        void Start()
+        {
+            for (int i = 0; i < veteransToRename?.Count; i++)
+            {
+                KeyValuePair<ProtoCrewMember, string> pair = veteransToRename.ElementAt(i);
+                pair.Key.ChangeName(pair.Value);
+            }
+
+            veteransToRename.Clear();
         }
     }
 }

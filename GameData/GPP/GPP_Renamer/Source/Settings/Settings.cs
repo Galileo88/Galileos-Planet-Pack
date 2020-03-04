@@ -1,4 +1,7 @@
-﻿namespace KerbalRenamer
+﻿using System.Collections.Generic;
+
+
+namespace KerbalRenamer
 {
     internal static class Settings
     {
@@ -11,11 +14,11 @@
         internal static bool generateFirstNames = true;
         internal static bool generateLastNames = true;
         internal static bool useSuffixes = true;
-        internal static string[] suffixes = new[] { " Jr", " III", " IV", " V" };
+        internal static string[] suffixes;
         
         // Culture
         internal static string cultureDescriptor = "";
-        internal static Culture[] cultures = new Culture[] { };
+        internal static Culture[] cultures;
 
         // Stats
         internal static bool generateStats = true;
@@ -23,5 +26,8 @@
         internal static bool dontInsultMe = true;
         internal static float femalePercent = 0.5f;
         internal static float badassPercent = 0.05f;
+
+        // CustomVeterans
+        internal static List<ProtoCustomVeteran> CustomVeterans;
     }
 }

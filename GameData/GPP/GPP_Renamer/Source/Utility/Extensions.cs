@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Collections.Generic;
 
 
 namespace KerbalRenamer
@@ -30,8 +31,19 @@ namespace KerbalRenamer
             return array;
         }
 
-        static void ChangeName(this ProtoCrewMember kerbal, string newName)
+        internal static void NewName(this ProtoCrewMember kerbal, string newName)
         {
+            switch (kerbal.name)
+            {
+                case "Jebediah Kerman":
+                case "Bill Kerman":
+                case "Bob Kerman":
+                case "Valentina Kerman":
+                    VeteranRenamer.veteransToRename = VeteranRenamer.veteransToRename ?? new Dictionary<ProtoCrewMember, string>();
+                    VeteranRenamer.veteransToRename.Add(kerbal, newName);
+                    return;
+            }
+
             FieldInfo _name = typeof(ProtoCrewMember).GetFields(BindingFlags.NonPublic | BindingFlags.Instance)?[0];
 
             if (_name != null)
@@ -42,7 +54,7 @@ namespace KerbalRenamer
 
         internal static void UpdateTo(this ProtoCrewMember kerbal, string name, ProtoCrewMember.Gender gender, string trait, bool veteran, bool isBadass, float courage, float stupidity)
         {
-            kerbal.ChangeName(name);
+            kerbal.NewName(name);
             kerbal.gender = gender;
             kerbal.type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
             KerbalRoster.SetExperienceTrait(kerbal, trait);
