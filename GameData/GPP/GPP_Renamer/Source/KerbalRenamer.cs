@@ -1,186 +1,70 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using System.Reflection;
-
-using Random = UnityEngine.Random;
 
 
 namespace KerbalRenamer
 {
-    /// <summary>
-    /// Loads and stores the settings for the GPP Kerbal Renamer
-    /// </summary>
-    [KSPAddon(KSPAddon.Startup.MainMenu, true)]
-    internal class KerbalRenamerSettings : MonoBehaviour
+    internal static class KerbalRenamer
     {
-        internal static float badassPercent = 0.05f;
-        internal static float femalePercent = 0.5f;
-        internal static bool useBellCurveMethod = true;
-        internal static bool dontInsultMe = true;
-        internal static bool preserveOriginals = true;
-        internal static bool generateNewStats = true;
-        internal static string cultureDescriptor = "";
-        internal static Culture[] cultures = { };
+        static Random hash;
 
-        void Start()
+        static string seed
         {
-            // Load all KERBALRENAMER nodes
-            ConfigNode data = null;
-            foreach (ConfigNode node in GameDatabase.Instance.GetConfigNodes("KERBALRENAMER"))
+            get
             {
-                data = node;
-            }
-            if (data == null)
-            {
-                Debug.Log("KerbalRenamer: No config file found, thanks for playing.");
-                return;
-            }
+                string s = "CrewCount: " + HighLogic.CurrentGame?.CrewRoster?.Count;
 
-            // Set badassPercent
-            if (data.HasValue("badassPercent"))
-            {
-                float ftemp = 0.0f;
-                if (float.TryParse(data.GetValue("badassPercent"), out ftemp))
-                {
-                    badassPercent = ftemp;
-                }
+                if (Settings.useGameSeed)
+                    s += "GameSeed: " + HighLogic.CurrentGame?.Seed;
+
+                if (Settings.useGameMode)
+                    s += "GameMode: " + HighLogic.CurrentGame?.Mode;
+
+                return s;
             }
-
-            // Set femalePercent
-            if (data.HasValue("femalePercent"))
-            {
-                float ftemp = 0.0f;
-                if (float.TryParse(data.GetValue("femalePercent"), out ftemp))
-                {
-                    femalePercent = ftemp;
-                }
-            }
-
-            // Set useBellCurveMethod
-            if (data.HasValue("useBellCurveMethod"))
-            {
-                bool btemp = true;
-                if (bool.TryParse(data.GetValue("useBellCurveMethod"), out btemp))
-                {
-                    useBellCurveMethod = btemp;
-                }
-            }
-
-            // Set dontInsultMe
-            if (data.HasValue("dontInsultMe"))
-            {
-                bool btemp = true;
-                if (bool.TryParse(data.GetValue("dontInsultMe"), out btemp))
-                {
-                    dontInsultMe = btemp;
-                }
-            }
-
-            // Set preserveOriginals
-            if (data.HasValue("preserveOriginals"))
-            {
-                bool btemp = true;
-                if (bool.TryParse(data.GetValue("preserveOriginals"), out btemp))
-                {
-                    preserveOriginals = btemp;
-                }
-            }
-
-            // Set generateNewStats
-            if (data.HasValue("generateNewStats"))
-            {
-                bool btemp = true;
-                if (bool.TryParse(data.GetValue("generateNewStats"), out btemp))
-                {
-                    generateNewStats = btemp;
-                }
-            }
-
-            // Set culture stuff
-            if (data.HasValue("cultureDescriptor"))
-            {
-                cultureDescriptor = data.GetValue("cultureDescriptor");
-            }
-            ConfigNode[] cultureclub = data.GetNodes("Culture");
-
-            List<Culture> ctemp = new List<Culture>();
-            for (int i = 0; i < cultureclub.Length; i++)
-            {
-                Culture c = new Culture(cultureclub[i]);
-                ctemp.Add(c);
-            }
-            cultures = ctemp.ToArray();
-        }
-    }
-
-    /// <summary>
-    /// GPP Kerbal Renamer
-    /// <para>Changes the names of all Kerbals following the settings found in "KERBALRENAMER" nodes.</para>
-    /// </summary>
-    [KSPAddon(KSPAddon.Startup.MainMenu, true)]
-    public class KerbalRenamer : MonoBehaviour
-    {
-        void Awake()
-        {
-            DontDestroyOnLoad(this);
-
-            // Add the custom OnKerbalAdded to the stock one
-            GameEvents.onKerbalAdded.Add(new EventData<ProtoCrewMember>.OnEvent(OnKerbalAdded));
         }
 
-        void OnKerbalAdded(ProtoCrewMember kerbal)
+        internal static void Rename(ProtoCrewMember kerbal)
         {
-            // Don't change custom kerbals
-            if (!kerbal.name.EndsWith("Kerman")) return;
+            // First 4 Veterans
+            if (CustomKerbals.Veteran(kerbal)) return;
 
-            // Make sure all custom kerbals exist
-            switch (kerbal.name)
+            int index = HighLogic.CurrentGame.CrewRoster.Count;
+
+            if (Settings.preserveOriginals)
             {
-                case "Jebediah Kerman":
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Jebediah" : "Galileo") + " Gaelan");
-                    return;
-                case "Bill Kerman":
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Bill" : "Jade") + " Gaelan");
-                    return;
-                case "Bob Kerman":
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Bob" : "Bobert") + " Gaelan");
-                    return;
-                case "Valentina Kerman":
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, (KerbalRenamerSettings.preserveOriginals ? "Valentina" : "Poody") + " Gaelan");
-                    return;
+                // Originals First
+                if (CustomKerbals.Original(kerbal, index)) return;
+            }
+            else
+            {
+                // Developers First
+                if (CustomKerbals.Custom(kerbal, index)) return;
             }
 
-            for (int i = 0; i < KerbalCrewFixer.customKerbals.Length; i++)
+            // GENERATE RANDOM KERBAL
+            if (Settings.generateStats || Settings.generateFirstNames || Settings.generateLastNames)
             {
-                int custom = (i + (KerbalRenamerSettings.preserveOriginals ? 6 : 0)) % 10;
+                // Get the hash for this Kerbal
+                hash = new Random(seed);
 
-                if (HighLogic.CurrentGame.CrewRoster[KerbalCrewFixer.customKerbals[custom]] == null)
+                // GENERATE STATS
+                if (Settings.generateStats && kerbal?.type == ProtoCrewMember.KerbalType.Applicant)
                 {
-                    KerbalCrewFixer.SetCustomKerbal(kerbal, KerbalCrewFixer.customKerbals[custom]);
-                    return;
-                }
-            }
+                    Debug.Log("KerbalRenamer.Rename", "Generating Stats");
 
-            // This Part will generate a new Kerbal followint the defined KerbalRenamerSettings
-            Random.InitState(DateTime.Now.Millisecond * kerbal.name.GetHashCode());
-
-            if (KerbalRenamerSettings.generateNewStats)
-            {
-                if (kerbal.type == ProtoCrewMember.KerbalType.Applicant)
-                {
                     // generate some new stats
-                    kerbal.stupidity = rollStupidity();
-                    kerbal.courage = rollCourage();
-                    kerbal.isBadass = (Random.Range(0.0f, 1.0f) < KerbalRenamerSettings.badassPercent);
+                    kerbal.stupidity = 1 - hash.Get(useBellCurveMethod: Settings.useBellCurveMethod);
+                    kerbal.courage = hash.Get(useBellCurveMethod: Settings.useBellCurveMethod);
+                    kerbal.isBadass = (hash.Get() < Settings.badassPercent);
 
-                    float rand = Random.Range(0.0f, 1.0f);
-                    if (rand < 0.33f)
+                    float rand = hash.Get(to: 3);
+                    if (rand < 1)
                     {
                         KerbalRoster.SetExperienceTrait(kerbal, "Pilot");
                     }
-                    else if (rand < 0.66f)
+                    else if (rand < 2)
                     {
                         KerbalRoster.SetExperienceTrait(kerbal, "Engineer");
                     }
@@ -189,7 +73,7 @@ namespace KerbalRenamer
                         KerbalRoster.SetExperienceTrait(kerbal, "Scientist");
                     }
 
-                    if (Random.Range(0.0f, 1.0f) < KerbalRenamerSettings.femalePercent)
+                    if (hash.Get() < Settings.femalePercent)
                     {
                         kerbal.gender = ProtoCrewMember.Gender.Female;
                     }
@@ -198,403 +82,170 @@ namespace KerbalRenamer
                         kerbal.gender = ProtoCrewMember.Gender.Male;
                     }
                 }
+
+                // GENERATE NAME
+                if (Settings.generateFirstNames || Settings.generateLastNames)
+                {
+                    Debug.Log("KerbalRenamer.Rename", "Generating Full Name");
+
+                    string fullName = "";
+                    int count = 0;
+
+                    while (fullName.Length == 0 || HighLogic.CurrentGame.CrewRoster[fullName] != null)
+                    {
+                        fullName = getFullName(kerbal);
+
+                        if (count++ > 50) return;
+                    }
+
+                    Debug.Log("KerbalRenamer.Rename", "Generated Full Name = " + fullName);
+
+                    kerbal.NewName(fullName);
+                }
             }
-
-            string name = "";
-            int index = 0;
-            while (name.Length == 0 || HighLogic.CurrentGame.CrewRoster[name] != null)
-            {
-                name = getName(kerbal);
-
-                index++; if (index > 50) return;
-            }
-
-            ChangeName(kerbal, name);
         }
 
-        internal static string getName(ProtoCrewMember c)
+        static string getFullName(ProtoCrewMember c)
         {
             string firstName = "";
             string lastName = "";
-            Culture parent = KerbalRenamerSettings.cultures[1];
-            int cultureRand = Random.Range(0, 19);
+            Culture parent = Settings.cultures[1];
+            int cultureRand = hash % 20;
             if (cultureRand == 0)
             {
-                parent = KerbalRenamerSettings.cultures[0];
+                parent = Settings.cultures[0];
             }
-            if (c.gender == ProtoCrewMember.Gender.Female)
+
+
+            // First Name
+            Debug.Log("KerbalRenamer.Rename", "Generating First Name");
+
+            if (Settings.generateFirstNames)
             {
-                if (parent.fnames1.Length > 0)
+                if (c.gender == ProtoCrewMember.Gender.Female)
                 {
-                    firstName += parent.fnames1[Random.Range(0, parent.fnames1.Length)];
-                }
-                if (parent.fnames2.Length > 0)
-                {
-                    firstName += parent.fnames2[Random.Range(0, parent.fnames2.Length)];
-                }
-                if (parent.fnames3.Length > 0)
-                {
-                    firstName += parent.fnames3[Random.Range(0, parent.fnames3.Length)];
-                }
-            }
-            else
-            {
-                if (parent.mnames1.Length > 0)
-                {
-                    firstName += parent.mnames1[Random.Range(0, parent.mnames1.Length)];
-                }
-                if (parent.mnames2.Length > 0)
-                {
-                    firstName += parent.mnames2[Random.Range(0, parent.mnames2.Length)];
-                }
-                if (parent.mnames3.Length > 0)
-                {
-                    firstName += parent.mnames3[Random.Range(0, parent.mnames3.Length)];
-                }
-            }
-            if (parent.femaleSurnamesExist && c.gender == ProtoCrewMember.Gender.Female)
-            {
-                if (parent.flnames1.Length > 0)
-                {
-                    lastName += parent.flnames1[Random.Range(0, parent.flnames1.Length)];
-                }
-                if (parent.flnames2.Length > 0)
-                {
-                    lastName += parent.flnames2[Random.Range(0, parent.flnames2.Length)];
-                }
-                if (parent.flnames3.Length > 0)
-                {
-                    lastName += parent.flnames3[Random.Range(0, parent.flnames3.Length)];
-                }
-            }
-            else
-            {
-                if (parent.lnames1.Length > 0)
-                {
-                    lastName += parent.lnames1[Random.Range(0, parent.lnames1.Length)];
-                }
-                if (parent.lnames2.Length > 0)
-                {
-                    lastName += parent.lnames2[Random.Range(0, parent.lnames2.Length)];
-                }
-                if (parent.lnames3.Length > 0)
-                {
-                    lastName += parent.lnames3[Random.Range(0, parent.lnames3.Length)];
-                }
-            }
-            if (lastName.Length > 0)
-            {
-                if (firstName.Length > 0)
-                {
-                    if (parent.cultureName.Length > 0)
+                    if (parent.fnames1.Length > 0)
                     {
-                        c.flightLog.AddEntryUnique(new FlightLog.Entry(0, KerbalRenamerSettings.cultureDescriptor, parent.cultureName));
+                        firstName += parent.fnames1[hash % parent.fnames1.Length];
                     }
-                    return firstName + " " + lastName;
+                    if (parent.fnames2.Length > 0)
+                    {
+                        firstName += parent.fnames2[hash % parent.fnames2.Length];
+                    }
+                    if (parent.fnames3.Length > 0)
+                    {
+                        firstName += parent.fnames3[hash % parent.fnames3.Length];
+                    }
                 }
                 else
                 {
-                    if (parent.cultureName.Length > 0)
+                    if (parent.mnames1.Length > 0)
                     {
-                        c.flightLog.AddEntryUnique(new FlightLog.Entry(0, KerbalRenamerSettings.cultureDescriptor, parent.cultureName));
+                        firstName += parent.mnames1[hash % parent.mnames1.Length];
                     }
-                    return lastName;
+                    if (parent.mnames2.Length > 0)
+                    {
+                        firstName += parent.mnames2[hash % parent.mnames2.Length];
+                    }
+                    if (parent.mnames3.Length > 0)
+                    {
+                        firstName += parent.mnames3[hash % parent.mnames3.Length];
+                    }
                 }
             }
             else
             {
-                // 0 length names should be handled elsewhere.
-                return firstName;
+                firstName = c.name.Replace(" Kerman", "");
             }
-        }
 
-        internal static void ChangeName(ProtoCrewMember kerbal, string newName)
-        {
-            FieldInfo _name = typeof(ProtoCrewMember).GetFields(BindingFlags.NonPublic | BindingFlags.Instance).FirstOrDefault();
-            _name.SetValue(kerbal, newName);
-        }
+            Debug.Log("KerbalRenamer.Rename", "Generated First Name = " + firstName);
 
-        float rollCourage()
-        {
-            if (KerbalRenamerSettings.useBellCurveMethod)
+
+            // Last Name
+            Debug.Log("KerbalRenamer.Rename", "Generating Last Name");
+
+            if (Settings.generateLastNames)
             {
-                float retval = -0.05f;
-                for (int i = 0; i < 6; i++)
+                if (parent.femaleSurnamesExist && c.gender == ProtoCrewMember.Gender.Female)
                 {
-                    retval += Random.Range(0.01f, 0.21f);
+                    if (parent.flnames1.Length > 0)
+                    {
+                        lastName += parent.flnames1[hash % parent.flnames1.Length];
+                    }
+                    if (parent.flnames2.Length > 0)
+                    {
+                        lastName += parent.flnames2[hash % parent.flnames2.Length];
+                    }
+                    if (parent.flnames3.Length > 0)
+                    {
+                        lastName += parent.flnames3[hash % parent.flnames3.Length];
+                    }
                 }
-                return retval;
+                else
+                {
+                    if (parent.lnames1.Length > 0)
+                    {
+                        lastName += parent.lnames1[hash % parent.lnames1.Length];
+                    }
+                    if (parent.lnames2.Length > 0)
+                    {
+                        lastName += parent.lnames2[hash % parent.lnames2.Length];
+                    }
+                    if (parent.lnames3.Length > 0)
+                    {
+                        lastName += parent.lnames3[hash % parent.lnames3.Length];
+                    }
+                }
             }
             else
             {
-                return Random.Range(0.0f, 1.0f);
+                lastName = "Kerman";
             }
-        }
 
-        float rollStupidity()
-        {
-            if (KerbalRenamerSettings.useBellCurveMethod)
+            Debug.Log("KerbalRenamer.Rename", "Generated First Name = " + firstName);
+
+            if (parent.cultureName.Length > 0)
             {
-                float retval = -0.05f;
-                int end = 6;
-                if (KerbalRenamerSettings.dontInsultMe) { end = 4; }
-                for (int i = 0; i < end; i++)
+                c.flightLog.AddEntryUnique(new FlightLog.Entry(0, Settings.cultureDescriptor, parent.cultureName));
+            }
+
+
+            // Suffixes
+            string fullName = firstName + " " + lastName;
+
+            if (Settings.useSuffixes && HighLogic.CurrentGame.CrewRoster[fullName] != null)
+            {
+                Debug.Log("KerbalRenamer.Rename", "Adding Suffix");
+
+                int? n = Settings.suffixes?.Length;
+
+                for (int i = 0; i < n; i++)
                 {
-                    retval += Random.Range(0.01f, 0.21f);
-                }
-                if (retval < 0.001f) { retval = 0.001f; }
-                return retval;
-            }
-            else
-            {
-                return Random.Range(0.0f, 1.0f);
-            }
-        }
-    }
+                    string finalName = fullName + Settings.suffixes[i];
 
-    /// <summary>
-    /// Changes the names of the four stock veterans if they are already in the roster
-    /// </summary>
-    //[KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
-    class KerbalCrewFixer : MonoBehaviour
-    {
-        internal static string[] customKerbals = new string[] { "Galileo Gaelan", "Bobert Gaelan", "Jade Gaelan", "Poody Gaelan", "Sigma Gaelan", "Raging Gaelan", "Jebediah Gaelan", "Bill Gaelan", "Bob Gaelan", "Valentina Gaelan" };
-
-        void AddCustomKerbal(string name, bool veteran)
-        {
-            ProtoCrewMember.KerbalType type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
-
-            ProtoCrewMember customVet = HighLogic.CurrentGame.CrewRoster[name];
-
-            if (customVet == null)
-            {
-                if (type == ProtoCrewMember.KerbalType.Applicant)
-                {
-                    customVet = HighLogic.CurrentGame.CrewRoster?.Applicants?.ToList()?.FirstOrDefault(k => !customKerbals.Contains(k.name));
+                    if (HighLogic.CurrentGame.CrewRoster[finalName] == null)
+                        return finalName;
                 }
             }
 
-            if (customVet == null)
-            {
-                customVet = new ProtoCrewMember(type, name);
-            }
-
-            SetCustomKerbal(customVet, name);
-
-            if (!HighLogic.CurrentGame.CrewRoster.Exists(name))
-                HighLogic.CurrentGame.CrewRoster.AddCrewMember(customVet);
-        }
-
-        internal static void SetCustomKerbal(ProtoCrewMember kerbal, string name)
-        {
-            switch (name)
-            {
-                case "Galileo Gaelan":
-                    SetCustomKerbal(kerbal, "Galileo Gaelan", ProtoCrewMember.Gender.Male, "Pilot", !KerbalRenamerSettings.preserveOriginals, true, 0.5f, 0.5f);
-                    break;
-                case "Bobert Gaelan":
-                    SetCustomKerbal(kerbal, "Bobert Gaelan", ProtoCrewMember.Gender.Male, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
-                    break;
-                case "Jade Gaelan":
-                    SetCustomKerbal(kerbal, "Jade Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
-                    break;
-                case "Poody Gaelan":
-                    SetCustomKerbal(kerbal, "Poody Gaelan", ProtoCrewMember.Gender.Female, "Pilot", !KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
-                    break;
-                case "Sigma Gaelan":
-                    SetCustomKerbal(kerbal, "Sigma Gaelan", ProtoCrewMember.Gender.Female, "Scientist", !KerbalRenamerSettings.preserveOriginals, false, 0.1f, 0.1f);
-                    break;
-                case "Raging Gaelan":
-                    SetCustomKerbal(kerbal, "Raging Gaelan", ProtoCrewMember.Gender.Male, "Engineer", !KerbalRenamerSettings.preserveOriginals, false, 0.25f, 0.5f);
-                    break;
-                case "Jebediah Gaelan":
-                    SetCustomKerbal(kerbal, "Jebediah Gaelan", ProtoCrewMember.Gender.Male, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.5f, 0.5f);
-                    break;
-                case "Bob Gaelan":
-                    SetCustomKerbal(kerbal, "Bob Gaelan", ProtoCrewMember.Gender.Male, "Scientist", KerbalRenamerSettings.preserveOriginals, false, 0.3f, 0.1f);
-                    break;
-                case "Bill Gaelan":
-                    SetCustomKerbal(kerbal, "Bill Gaelan", ProtoCrewMember.Gender.Male, "Engineer", KerbalRenamerSettings.preserveOriginals, false, 0.5f, 0.8f);
-                    break;
-                case "Valentina Gaelan":
-                    SetCustomKerbal(kerbal, "Valentina Gaelan", ProtoCrewMember.Gender.Female, "Pilot", KerbalRenamerSettings.preserveOriginals, true, 0.55f, 0.4f);
-                    break;
-                default:
-                    return;
-            }
-        }
-
-        static void SetCustomKerbal(ProtoCrewMember kerbal, string name, ProtoCrewMember.Gender gender, string trait, bool veteran, bool isBadass, float courage, float stupidity)
-        {
-            KerbalRenamer.ChangeName(kerbal, name);
-            kerbal.gender = gender;
-            kerbal.type = veteran ? ProtoCrewMember.KerbalType.Crew : ProtoCrewMember.KerbalType.Applicant;
-            KerbalRoster.SetExperienceTrait(kerbal, trait);
-            kerbal.veteran = veteran;
-            kerbal.isBadass = isBadass;
-            kerbal.courage = courage;
-            kerbal.stupidity = stupidity;
-            if (HighLogic.CurrentGame != null && HighLogic.CurrentGame.Mode != Game.Modes.CAREER)
-            {
-                kerbal.experienceLevel = 5;
-                kerbal.experience = 99999;
-            }
+            return fullName;
         }
     }
 
-    internal static class Extensions
+    [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
+    internal class VeteranRenamer : MonoBehaviour
     {
-        internal static List<ProtoCrewMember> ToList(this KerbalRoster roster)
+        internal static Dictionary<ProtoCrewMember, string> veteransToRename;
+
+        void Start()
         {
-            if (roster == null) return null;
-
-            List<ProtoCrewMember> list = new List<ProtoCrewMember>();
-
-            for (int i = 0; i < roster?.Count; i++)
+            for (int i = 0; i < veteransToRename?.Count; i++)
             {
-                list.Add(roster[i]);
+                KeyValuePair<ProtoCrewMember, string> pair = veteransToRename.ElementAt(i);
+                pair.Key.ChangeName(pair.Value);
             }
 
-            return list;
-        }
-    }
-
-    internal class Culture
-    {
-        public bool femaleSurnamesExist;
-        public string cultureName = "";
-        public string[] fnames1 = { };
-        public string[] fnames2 = { };
-        public string[] fnames3 = { };
-        public string[] mnames1 = { };
-        public string[] mnames2 = { };
-        public string[] mnames3 = { };
-        public string[] lnames1 = { };
-        public string[] lnames2 = { };
-        public string[] lnames3 = { };
-        public string[] flnames1 = { };
-        public string[] flnames2 = { };
-        public string[] flnames3 = { };
-
-        public Culture(ConfigNode node)
-        {
-            ConfigNode temp;
-            string[] vals;
-            if (node.HasValue("name"))
-            {
-                cultureName = node.GetValue("name");
-            }
-            if (node.HasNode("FFIRSTNAME1"))
-            {
-                temp = node.GetNode("FFIRSTNAME1");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    fnames1 = vals;
-                }
-            }
-            if (node.HasNode("FFIRSTNAME2"))
-            {
-                temp = node.GetNode("FFIRSTNAME2");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    fnames2 = vals;
-                }
-            }
-            if (node.HasNode("FFIRSTNAME3"))
-            {
-                temp = node.GetNode("FFIRSTNAME3");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    fnames3 = vals;
-                }
-            }
-            if (node.HasNode("MFIRSTNAME1"))
-            {
-                temp = node.GetNode("MFIRSTNAME1");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    mnames1 = vals;
-                }
-            }
-            if (node.HasNode("MFIRSTNAME2"))
-            {
-                temp = node.GetNode("MFIRSTNAME2");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    mnames2 = vals;
-                }
-            }
-            if (node.HasNode("MFIRSTNAME3"))
-            {
-                temp = node.GetNode("MFIRSTNAME3");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    mnames3 = vals;
-                }
-            }
-            if (node.HasNode("LASTNAME1"))
-            {
-                temp = node.GetNode("LASTNAME1");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    lnames1 = vals;
-                }
-            }
-            if (node.HasNode("LASTNAME2"))
-            {
-                temp = node.GetNode("LASTNAME2");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    lnames2 = vals;
-                }
-            }
-            if (node.HasNode("LASTNAME3"))
-            {
-                temp = node.GetNode("LASTNAME3");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    lnames3 = vals;
-                }
-            }
-            if (node.HasNode("FLASTNAME1"))
-            {
-                temp = node.GetNode("FLASTNAME1");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    flnames1 = vals;
-                    femaleSurnamesExist = true;
-                }
-            }
-            if (node.HasNode("FLASTNAME2"))
-            {
-                temp = node.GetNode("FLASTNAME2");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    flnames2 = vals;
-                    femaleSurnamesExist = true;
-                }
-            }
-            if (node.HasNode("FLASTNAME3"))
-            {
-                temp = node.GetNode("FLASTNAME3");
-                vals = temp.GetValues("key");
-                if (vals.Length > 0)
-                {
-                    flnames3 = vals;
-                    femaleSurnamesExist = true;
-                }
-            }
+            veteransToRename.Clear();
         }
     }
 }
