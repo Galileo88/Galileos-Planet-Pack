@@ -19,6 +19,7 @@
 * Revised internal biome names.
 * Revised Lili's albedo and emissivity.
 * Reenabled Lili's orbit icon.
+* Disabled Ciro's atmosphere to remove artifact.
 * Disabled on demand loading for biomes.
 * Replaced HazardousOcean with HazardousBody.
 * Changed Otho's semimajor axis.
