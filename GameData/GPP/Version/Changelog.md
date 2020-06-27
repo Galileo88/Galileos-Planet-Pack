@@ -1,5 +1,29 @@
 # Galileo's Planet Pack
 
+# 1.6.4.0 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.8.1  or newer*
+* Added Unity sunflares.
+* Added support for Kerbal Health.
+* Added support for Principia (deletes Lili).
+* Bundled Sigma TweakChutes.
+* Updated scatterer configs to current version.
+* Updated Kerbal Renamer.
+* Updated Agency logos.
+* Updated Strategia config.
+* Fixed OPM/scatterer compatibility problems.
+* Fixed bug MechJeb2 config.
+* Fixed bugs in science definitions.
+* Revised and fixed bugs in resource configs.
+* Revised asteroid groups (location & lifetime).
+* Revised internal biome names.
+* Revised Lili's albedo and emissivity.
+* Reenabled Lili's orbit icon.
+* Disabled on demand loading for biomes.
+* Replaced HazardousOcean with HazardousBody.
+* Changed Otho's semimajor axis.
+* Reformatted CelestialBodies.pdf
+
 # 1.6.3.1 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 * Fixed incorrect body name in Asteroids config.
