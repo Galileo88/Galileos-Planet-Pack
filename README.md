@@ -3,21 +3,6 @@
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
 CC BY-NC-ND
 
-# Now on CKAN!
-
-# Changelog:
-## v1.6.3.1
-## REQUIRES GPP_TEXTURES 4.2.1
-* Fixed incorrect body name in Asteroids config.
-* Fixed incorrect body name in MechJeb config.
-* Fixed incorrect texture name in OPMClouds and StockClouds.
-* Fixed error in scatterer planet list (cause of 'black sky' bug).
-* Rewrote several scatterer configs to improve compatibility with Module Manager.
-* Increased Lili's surface gravity (can now land on most of its surface).
-* Deleted Lili's orbit line from tracking station/map view.
-* Revised Leto's atmosphere visual settings.
-* Updated CelestialBodies.pdf.
-
 ## TO INSTALL:
 
 1. Begin with an installation of KSP version 1.4.5, running in 64-bit.
@@ -116,4 +101,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 Simplified BSD License (BSD 2-clause)
 
 "Sigma LoadingScreens"
+All Rights Reserved (ARR)
+
+"Sigma TweakChutes"
 All Rights Reserved (ARR)
