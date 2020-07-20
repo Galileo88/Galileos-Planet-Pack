@@ -1,5 +1,12 @@
 # Galileo's Planet Pack
 
+# 1.6.4.1 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.8.1  or newer*
+* Updated bundled KSC++ assets.
+* Fixed PQS color map name in Icarus.cfg.
+* Added support for Minor Planets Expansion.
+
 # 1.6.4.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.8.1  or newer*
