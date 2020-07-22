@@ -16,7 +16,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager
 
-5. Download Galileo’s Planet Pack 1.6.4.1
+5. Download Galileo’s Planet Pack 1.6.4.2
 
 6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 

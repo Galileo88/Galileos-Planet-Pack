@@ -1,5 +1,10 @@
 # Galileo's Planet Pack
 
+# 1.6.4.2 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.8.1  or newer*
+* Reverted some PQS changes that weren't suppose to be in 1.6.4.*
+
 # 1.6.4.1 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.8.1  or newer*
