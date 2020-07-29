@@ -1,5 +1,11 @@
 # Galileo's Planet Pack
 
+# 1.6.5.0 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.8.1  or newer*
+* Added new terrain textures using shader from KSP 1.8.
+* Added Breaking Ground surface features.
+
 # 1.6.4.2 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.8.1  or newer*
