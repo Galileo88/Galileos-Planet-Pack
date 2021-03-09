@@ -1,5 +1,14 @@
 {
     "spec_version": "v1.4",
+    "identifier": "GPPSecondary",
+    "name": "GPP Secondary",
+    "abstract": "GPP secondary puts Galileo's Planet Pack around the stock solar system.",
+    "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/"
+    },
     "install": [
         {
             "find": "Optional Mods/GPP_Secondary/GameData/GPP_Secondary",
@@ -7,17 +16,8 @@
             "comment": "This installs the GPP_Secondary configs for GPP"
         }
     ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/"
-    },
     "depends": [
-        { "name": "Kopernicus" }
-    ],
-    "$vref": "#/ckan/ksp-avc",
-    "ksp_version": "1.4.5",
-    "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
-    "identifier": "GPPSecondary",
-    "name": "GPP Secondary",
-    "abstract": "GPP secondary puts Galileo's Planet Pack around the stock solar system.",
-    "license": "CC-BY-NC-ND"
+        { "name": "Kopernicus" },
+        { "name": "GPP"        }
+    ]
 }
