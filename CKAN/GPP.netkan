@@ -14,6 +14,7 @@
         {
             "find": "GPP",
             "install_to": "GameData",
+            "filter": [ "Grannus" ],
             "comment": "This is the main install for GPP"
         },
         {
@@ -68,6 +69,9 @@
         },
         {
             "name": "SigmaReplacements-MenuScenes"
+        },
+        {
+            "name": "Grannus-RibbonPack"
         }
     ],
     "suggests": [
