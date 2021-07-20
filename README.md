@@ -1,37 +1,22 @@
-﻿# Galileos-Planet-Pack
+﻿# Galileo's Planet Pack
 
 This mods is licensed by Creative Commons Attribution-NonCommercial-NoDerivs
 CC BY-NC-ND
 
-# Now on CKAN!
-
-# Changelog:
-## v1.6.3.1
-## REQUIRES GPP_TEXTURES 4.2.1
-* Fixed incorrect body name in Asteroids config.
-* Fixed incorrect body name in MechJeb config.
-* Fixed incorrect texture name in OPMClouds and StockClouds.
-* Fixed error in scatterer planet list (cause of 'black sky' bug).
-* Rewrote several scatterer configs to improve compatibility with Module Manager.
-* Increased Lili's surface gravity (can now land on most of its surface).
-* Deleted Lili's orbit line from tracking station/map view.
-* Revised Leto's atmosphere visual settings.
-* Updated CelestialBodies.pdf.
-
 ## TO INSTALL:
 
-1. Begin with an installation of KSP version 1.4.5, running in 64-bit.
+1. Begin with an installation of KSP version 1.8.1 or newer, running in 64-bit.
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder `[KSP]\GameData\Squad\`. If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/). The Kopernicus version number must match the KSP version number, i.e. 1.4.5-x
+3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases). The Kopernicus version number must match the KSP version number, e.g. 1.8.1-x.
 
 4. Install by copying from `[Kopernicus Download]\GameData\` to `[KSP]\GameData\` the following folders and files: 
    * Kopernicus\
    * ModularFlightIntergrator\
-   * ModuleManager.3.0.7.dll
+   * ModuleManager
 
-5. Download Galileo’s Planet Pack 1.6.3.1
+5. Download Galileo’s Planet Pack 1.6.5.0
 
 6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
@@ -51,9 +36,7 @@ CC BY-NC-ND
 
 ## KSC ++
 
-1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed. Use the latest version developed for 1.4.x.
-
-2. If KSC++ in used combination with a one of the scaled versions of GPP, [KKtoSD](https://github.com/Sigma88/KKtoSD/releases) must be downloaded and installed.
+1. For an extension to the Kerbal Space Center (fuel tanks, roads, cars, trees, the whole shebang), the third-party mod [Kerbal Konstructs](https://github.com/GER-Space/Kerbal-Konstructs/releases) must be downloaded and installed.
 
 ## Clouds, Aurorae and Shadows
 
@@ -73,7 +56,7 @@ This addon mod makes GPP into a distant non-primary system, allowing users to ke
 
 1. If the other planet pack is large and also replaces the stock solar system it must include a patch to reposition Ciro.
 
-2. If the other planet pack only adds planets, the option exists to place itself around Grannus and be mindful of its asteroid field. [Ciro orbit] realistically is already well occupied by GPP's own planets.
+2. If the other planet pack only adds planets, the option exists to place itself around Grannus and be mindful of its asteroid field. Ciro orbit realistically is already well occupied by GPP's own planets.
 
 Kerbol Star System is not fully supported as it is currently known to have a colliding GPP compatibility patch. Do not use GPP Secondary with Galactic Neighborhood.
 
@@ -82,7 +65,7 @@ To install, just place GPP_Secondary\ into GameData\ so it looks like this:
   * GPP_Secondary\
   * Kopernicus\
   * ModularFlightIntegrator\
-  * ModuleManager.3.0.7.dll
+  * ModuleManager
  
 ## Kerbal Renamer
 
@@ -96,9 +79,7 @@ To find a list of mods that are supported by GPP or are recommended by the GPP T
 
 ## Known Issues
 
-* When not using Environmental Visual Enhancements, Nero will display axial precession. In future updates we may detect if EVE is installed and fix accordingly.
-
-* Scatterer's effects do not show in main menu or tracking station. Again, normal. Nothing is broken.
+* Scatterer's effects do not show in main menu or tracking station. This is normal, nothing is broken.
 
 * Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this. Or you can go to the main menu and turn off the ocean shader. If you are having performance trouble with Scatterer's oceans you can always try [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) for low resource usage but better than stock visuals.
 
@@ -116,4 +97,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 Simplified BSD License (BSD 2-clause)
 
 "Sigma LoadingScreens"
+All Rights Reserved (ARR)
+
+"Sigma TweakChutes"
 All Rights Reserved (ARR)

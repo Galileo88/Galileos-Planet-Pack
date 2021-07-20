@@ -1,0 +1,22 @@
+{
+    "NAME":"GalileosPlanetPack",
+    "URL":"https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/GameData/GPP/Version/GalileosPlanetPack.version",
+    "DOWNLOAD":"https://github.com/Galileo88/Galileos-Planet-Pack/releases",
+    "CHANGE_LOG_URL":"https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/GameData/GPP/Version/Changelog.md",
+    "VERSION":{
+        "MAJOR":1,
+        "MINOR":6,
+        "PATCH":5,
+        "BUILD":0
+    },
+    "KSP_VERSION":{
+        "MAJOR":1,
+        "MINOR":8,
+        "PATCH":1
+    },
+    "KSP_VERSION_MIN":{
+        "MAJOR":1,
+        "MINOR":8,
+        "PATCH":1
+    },
+}
