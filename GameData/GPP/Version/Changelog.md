@@ -1,5 +1,11 @@
 # Galileo's Planet Pack
 
+# 1.6.5.1 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.8.1  or newer*
+* Added GPP_Rescale for 2.5x and 10x versions of GPP.
+* Updated scatterer configs for GPP and GPP_Secondary.
+
 # 1.6.5.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.8.1  or newer*
