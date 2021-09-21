@@ -3,15 +3,15 @@
 # 1.6.6.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
+* Added Optional Mods: GPP_Rescale for 2.5x and 10x versions of GPP.
+* Added extra launch sites to MechJeb2 config.
+* Added HazardousBody to gas giants.
 * Updated scatterer configs and fixed bugs.
 * Updated CelestialBodies.pdf.
 * Revised atmospheres (surface pressure unchanged, heights may be different).
 * Revised rotationPeriod and/or intialRotation of many celestial bodies.
 * Revised flying altitude thresholds.
 * Revised NavBall switch radius multipliers.
-* Added GPP_Rescale for 2.5x and 10x versions of GPP.
-* Added extra launch sites to MechJeb2 config.
-* Added HazardousBody to gas giants.
 * Deleted MyRocksAreBiggerThanYours plugin (now part of Kopernicus). 
 * Deleted GPP KSPedia (doesn't work in current KSP version).
 * Deleted unused MapDecal and FlattenArea in GPP_Secondary.
