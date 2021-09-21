@@ -30,6 +30,6 @@ PartRebalancer10x is an optional mod that makes changes to the mass of parts and
 
 To install PartRebalancer10x:
 
-1. Drill down to [GPP Download]\Optional Mods\GPP_Rescale\PartRebalancer10x\.
+1. Drill down to [GPP Download]\Optional Mods\GPP_Rescale\PartRebalancer10x\ .
 
 2. Copy/merge the GameData folder into your KSP install.
