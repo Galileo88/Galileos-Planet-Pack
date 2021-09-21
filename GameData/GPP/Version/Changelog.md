@@ -1,10 +1,20 @@
 # Galileo's Planet Pack
 
-# 1.6.5.1 Changelog
+# 1.6.6.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
-:bookmark: *KSP 1.8.1  or newer*
+:bookmark: *KSP 1.12.1  or newer*
 * Added GPP_Rescale for 2.5x and 10x versions of GPP.
-* Updated scatterer configs for GPP and GPP_Secondary.
+* Revised rotationPeriod and/or intialRotation of many celestial bodies.
+* Revised atmospheres (surface pressure unchanged, heights may be different).
+* Revised flying altitude thresholds.
+* Revised NavBall switch radius multipliers.
+* Added HazardousBody to gas giants.
+* Added extra launch sites to MechJeb2 config.
+* Deleted MyRocksAreBiggerThanYours plugin (now part of Kopernicus). 
+* Deleted GPP KSPedia (doesn't work in current KSP version).
+* Updated scatterer configs and fixed bugs.
+* Updated CelestialBodies.pdf.
+* Miscellaneous other fixes and updates.
 
 # 1.6.5.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1

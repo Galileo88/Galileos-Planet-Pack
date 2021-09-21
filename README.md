@@ -5,18 +5,18 @@ CC BY-NC-ND
 
 ## TO INSTALL:
 
-1. Begin with an installation of KSP version 1.8.1 or newer, running in 64-bit.
+1. Begin with an installation of KSP version 1.12.1 or newer, running in 64-bit.
 
 2. If reusing an existing install, empty the GameData folder of all contents but for the folder `[KSP]\GameData\Squad\`. If starting with an entirely new install, is it recommended that you run once with no mods installed before proceeding.
 
-3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases). The Kopernicus version number must match the KSP version number, e.g. 1.8.1-x.
+3. Download the third party mod [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases). The Kopernicus version number must match the KSP version number, e.g. 1.12.1-x.
 
 4. Install by copying from `[Kopernicus Download]\GameData\` to `[KSP]\GameData\` the following folders and files: 
    * Kopernicus\
    * ModularFlightIntergrator\
    * ModuleManager
 
-5. Download Galileo’s Planet Pack 1.6.5.0
+5. Download Galileo’s Planet Pack 1.6.6.0
 
 6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
