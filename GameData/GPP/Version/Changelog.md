@@ -12,6 +12,7 @@
 * Revised rotationPeriod and/or intialRotation of many celestial bodies.
 * Revised flying altitude thresholds.
 * Revised NavBall switch radius multipliers.
+* Revised Lili's fade limits to fix frame rate drop.
 * Deleted MyRocksAreBiggerThanYours plugin (now part of Kopernicus). 
 * Deleted GPP KSPedia (doesn't work in current KSP version).
 * Deleted unused MapDecal and FlattenArea in GPP_Secondary.
