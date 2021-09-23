@@ -8,7 +8,7 @@
 * Added HazardousBody to gas giants.
 * Updated scatterer configs and fixed bugs.
 * Updated CelestialBodies.pdf.
-* Updated KK things to only be read when KK is installed and not when GPP_Secodnary is isntalled. (No more KSC++ on Squad Kerbin.)
+* Updated KK things to only be read when KK is installed and not when GPP_Secondary is installed. (No more KSC++ on Squad Kerbin.)
 * Revised atmospheres (surface pressure unchanged, heights may be different).
 * Revised rotationPeriod and/or intialRotation of many celestial bodies.
 * Revised flying altitude thresholds.
