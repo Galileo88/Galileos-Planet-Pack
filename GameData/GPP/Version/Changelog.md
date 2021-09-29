@@ -1,5 +1,13 @@
 # Galileo's Planet Pack
 
+# 1.6.6.1 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.12.1  or newer*
+* Added map decal for Nye Island.
+* Fixed elevations of launch pads, runways, and adjacent terrain; updated MechJeb.
+* Revised terrain detail presets; fixed conflict with JNSQ; added to localization.
+* Adjusted scatterer to reduce gas giant brightness.
+
 # 1.6.6.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
