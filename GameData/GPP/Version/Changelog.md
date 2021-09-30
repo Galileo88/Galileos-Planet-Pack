@@ -3,10 +3,18 @@
 # 1.6.6.1 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
-* Added map decal for Nye Island.
-* Fixed elevations of launch pads, runways, and adjacent terrain; updated MechJeb.
-* Revised terrain detail presets; fixed conflict with JNSQ; added to localization.
 * Adjusted scatterer to reduce gas giant brightness.
+* Fixed problems with facilities:
+  * Woomerang no longer underground.
+  * Raised GSC to unbury west end of runway.
+  * GSC no longer underground at 10x scale.
+  * Flattened area around Island Runway at 10x scale.
+  * Added map decal for Nye Island.
+  * Updated MechJeb runway elevations.
+* Revisons to terrain detail presets:
+  * Fixed typos and added missing presets.
+  * Fixed conflict with JNSQ (JNSQ now includes GPP when both installed). 
+  * Added preset names to localization.
 
 # 1.6.6.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
