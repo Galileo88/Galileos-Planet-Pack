@@ -4,6 +4,7 @@
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
 * Adjusted scatterer to reduce gas giant brightness.
+* Adjust time warp limits for new atmosphere heights.
 * Fixed problems with facilities:
   * Woomerang no longer underground.
   * Raised GSC to unbury west end of runway.
