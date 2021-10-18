@@ -6,12 +6,15 @@
 * Adjusted scatterer to reduce gas giant brightness.
 * Adjusted time warp limits for new atmosphere heights.
 * Fixed problems with facilities:
+  * Moved GSC to unbury west end of runway.
   * Woomerang no longer underground.
-  * Raised GSC to unbury west end of runway.
   * GSC no longer underground at 10x scale.
   * Flattened area around Island Runway at 10x scale.
   * Added map decal for Nye Island.
   * Updated MechJeb runway elevations.
+* Revised KerbalKonstructs objects:
+  * Removed KK launch sites, airfields and structures.
+  * Fixed anomalies; disabled for GPP_Rescale.
 * Revisons to terrain detail presets:
   * Fixed typos and added missing presets.
   * Fixed conflict with JNSQ (JNSQ now includes GPP when both installed). 
