@@ -1,20 +1,21 @@
 # Galileo's Planet Pack
 
-# 1.6.6.1 Changelog
+# 1.6.7.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
 * Adjusted scatterer to reduce gas giant brightness.
 * Adjusted time warp limits for new atmosphere heights.
-* Fixed problems with facilities:
-  * Moved GSC to unbury west end of runway.
+* Fixed problems with launch & tracking sites:
+  * Added map decal for Nye Island.
+  * Repositioned GSC map decal to unbury west end of runway.
   * Woomerang no longer underground.
   * GSC no longer underground at 10x scale.
   * Flattened area around Island Runway at 10x scale.
-  * Added map decal for Nye Island.
   * Updated MechJeb runway elevations.
-* Revised KerbalKonstructs objects:
-  * Removed KK launch sites, airfields and structures.
-  * Fixed anomalies; disabled for GPP_Rescale.
+* Revisons to KerbalKonstruts:
+  * Updated all KK configs and fixed problems.
+  * Resized & repositioned GSC map decal for KSC++.
+  * Disabled KK launch sites for GPP_Rescale.
 * Revisons to terrain detail presets:
   * Fixed typos and added missing presets.
   * Fixed conflict with JNSQ (JNSQ now includes GPP when both installed). 
