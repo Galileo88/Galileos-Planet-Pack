@@ -12,7 +12,7 @@
   * GSC no longer underground at 10x scale.
   * Flattened area around Island Runway at 10x scale.
   * Updated MechJeb runway elevations.
-* Revisons to KerbalKonstruts:
+* Revisons to KerbalKonstructs:
   * Updated all KK configs and fixed problems.
   * Resized & repositioned GSC map decal for KSC++.
   * Disabled KK launch sites for GPP_Rescale.
