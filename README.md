@@ -16,7 +16,7 @@ CC BY-NC-ND
    * ModularFlightIntergrator\
    * ModuleManager
 
-5. Download Galileo’s Planet Pack 1.6.7.0
+5. Download Galileo’s Planet Pack 1.6.8.0
 
 6. Copy from `[GPP Download]\GameData\` to `[KSP]\GameData\` the folder `GPP\` and all its contents.
 
@@ -82,6 +82,8 @@ To find a list of mods that are supported by GPP or are recommended by the GPP T
 * Scatterer's effects do not show in main menu or tracking station. This is normal, nothing is broken.
 
 * Sometimes KSC will appear flooded. This is normal and also because of Scatterer. Nothing is broken. A quick scene change will fix this. Or you can go to the main menu and turn off the ocean shader. If you are having performance trouble with Scatterer's oceans you can always try [Better Looking Oceans](https://github.com/Galileo88/Better-Looking-Oceans/releases) for low resource usage but better than stock visuals.
+
+* This planet pack is not compatible with Scatterer v0.0825b, use v0.0772.
 
 ## Bundled Licenses
 
