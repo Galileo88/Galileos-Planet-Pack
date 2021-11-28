@@ -1,5 +1,11 @@
 # Galileo's Planet Pack
 
+# 1.6.8.0 Changelog
+## REQUIRES GPP_TEXTURES 4.2.1
+:bookmark: *KSP 1.12.1  or newer*
+* Added DeployedScience config.
+* EVE fixes to improve compatibility with JNSQ.
+
 # 1.6.7.0 Changelog
 ## REQUIRES GPP_TEXTURES 4.2.1
 :bookmark: *KSP 1.12.1  or newer*
